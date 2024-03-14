@@ -8,7 +8,7 @@ System Requirements:
 Run the following command in your terminal: 
 ## Building established Docker image
 ```
-docker build -t ros_dev_image https://github.com/Charlotte-AI-Research/apollo.git/docker/
+docker build -t ros_dev_image https://github.com/Charlotte-AI-Research/apollo#environment:Docker/
 ```
 
 ## Building Docker image locally
