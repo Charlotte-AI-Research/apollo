@@ -54,29 +54,8 @@ Once run you will see the ubuntu kernal once again:
 ## Opening multiple instances of a Container:
 
 Run the following command to list all running docker instances
-
 ```
-docker ps
-```
-
-The output will resembles the results below
-
-```
-CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
-
-c72361011d19 ros_dev_image "/ros_entrypoint.sh …" 28 seconds ago Up 26 seconds ros_dev_environment
-```
-
-  
-
-```
-docker exec -it {CONTAINER ID} bash
-```
-
-  
-
-```
-docker exec -it c72361011d19 bash
+docker exec -it ros_dev_container bash
 ```
 
   ## Building Docker image locally

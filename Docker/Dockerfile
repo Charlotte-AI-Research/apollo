@@ -16,6 +16,9 @@ RUN echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/p
 RUN sudo apt-get update
 RUN sudo apt-get install -y ignition-fortress
 
+
+RUN sudo apt-get install ros-humble-ros-ign-bridge
+
 RUN echo "Gazebo Installed"
 
 RUN mkdir -p ~/catkin_ws/src && \
