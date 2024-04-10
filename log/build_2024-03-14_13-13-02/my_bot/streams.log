@@ -1,0 +1,26 @@
+[0.091s] Invoking command in '/home/reconfigure/devel_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/reconfigure/devel_ws/build/my_bot -- -j16 -l16
+[0.131s] Invoked command in '/home/reconfigure/devel_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/reconfigure/devel_ws/build/my_bot -- -j16 -l16
+[0.163s] Invoking command in '/home/reconfigure/devel_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/reconfigure/devel_ws/build/my_bot
+[0.170s] -- Install configuration: ""
+[0.171s] -- Execute custom install script
+[0.172s] -- Up-to-date symlink: /home/reconfigure/devel_ws/install/my_bot/share/my_bot/config/empty.yaml
+[0.173s] -- Up-to-date symlink: /home/reconfigure/devel_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.173s] -- Up-to-date symlink: /home/reconfigure/devel_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[0.173s] -- Up-to-date symlink: /home/reconfigure/devel_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.174s] -- Up-to-date symlink: /home/reconfigure/devel_ws/install/my_bot/share/my_bot/worlds/empty.world
+[0.174s] -- Up-to-date symlink: /home/reconfigure/devel_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.174s] -- Up-to-date symlink: /home/reconfigure/devel_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.175s] -- Up-to-date symlink: /home/reconfigure/devel_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.175s] -- Up-to-date symlink: /home/reconfigure/devel_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[0.175s] -- Up-to-date symlink: /home/reconfigure/devel_ws/install/my_bot/share/my_bot/environment/path.sh
+[0.175s] -- Up-to-date symlink: /home/reconfigure/devel_ws/install/my_bot/share/my_bot/environment/path.dsv
+[0.176s] -- Up-to-date symlink: /home/reconfigure/devel_ws/install/my_bot/share/my_bot/local_setup.bash
+[0.176s] -- Up-to-date symlink: /home/reconfigure/devel_ws/install/my_bot/share/my_bot/local_setup.sh
+[0.176s] -- Up-to-date symlink: /home/reconfigure/devel_ws/install/my_bot/share/my_bot/local_setup.zsh
+[0.177s] -- Up-to-date symlink: /home/reconfigure/devel_ws/install/my_bot/share/my_bot/local_setup.dsv
+[0.177s] -- Symlinking: /home/reconfigure/devel_ws/install/my_bot/share/my_bot/package.dsv
+[0.187s] -- Up-to-date symlink: /home/reconfigure/devel_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[0.187s] -- Up-to-date symlink: /home/reconfigure/devel_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[0.187s] -- Up-to-date symlink: /home/reconfigure/devel_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[0.187s] -- Up-to-date symlink: /home/reconfigure/devel_ws/install/my_bot/share/my_bot/package.xml
+[0.190s] Invoked command in '/home/reconfigure/devel_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/reconfigure/devel_ws/build/my_bot
