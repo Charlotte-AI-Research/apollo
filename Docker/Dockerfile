@@ -21,6 +21,8 @@ RUN echo "Gazebo Installed"
 RUN mkdir -p ~/catkin_ws/src && \
     cd ~/catkin_ws/src/
 
+RUN  sudo apt-get install ros-humble-ros-gz
+
 # Todo enable github building and repo sync-ing
 
 Run echo "Complete!"
