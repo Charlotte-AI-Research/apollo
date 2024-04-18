@@ -71,7 +71,7 @@ cd ./apollo/Docker
 ```
 Running the Docker build commmand you must be in the Docker folder with a `dockerfile` in it or else it will not find the file you are refering to
 ```
-docker build . -t ros_dev_image
+docker build -t ros_dev_image . --progress=plain --no-cache
 ```
 
 
