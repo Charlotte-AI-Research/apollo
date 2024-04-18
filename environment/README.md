@@ -56,7 +56,6 @@ Once run you will see the ubuntu kernal once again:
 Run the following command to list all running docker instances
 ```
 docker exec -it ros_dev_container bash
-source /opt/ros/$ROS_DISTRO/setup.bash
 ```
 
   ## Building Docker image locally
@@ -70,9 +69,9 @@ git clone https://github.com/Charlotte-AI-Research/apollo.git
 ```
 cd ./apollo/Docker
 ```
-
+Running the Docker build commmand you must be in the Docker folder with a `dockerfile` in it or else it will not find the file you are refering to
 ```
-docker build -t ros_dev_image
+docker build . -t ros_dev_image
 ```
 
 
