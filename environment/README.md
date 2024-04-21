@@ -28,13 +28,13 @@ docker build -t ros_dev_image https://raw.githubusercontent.com/Charlotte-AI-Res
 If you are running the docker container for the **First time** use the following command
 
 ```
-docker run  --rm --gpus=all --name ros_dev_container -e DISPLAY=host.docker.internal:0.0 -it ros_dev_image
+docker run --gpus=all --name ros_dev_container -e DISPLAY=host.docker.internal:0.0 -it ros_dev_image
 ```
 
 ## Starting the Docker Container (Linux & Mac)
 Please follow the [tutorial](https://gist.github.com/sorny/969fe55d85c9b0035b0109a31cbcb088) up until step 9 use `xhost +localhost`
 ```
-docker run --gpus=all --rm --name ros_dev_container -e DISPLAY=docker.for.mac.host.internal:0 -it ros_dev_image
+docker run --gpus=all --name ros_dev_container -e DISPLAY=docker.for.mac.host.internal:0 -it ros_dev_image
 ```
 
 *Side note -it = interactive container meaning we can update the contents inside, --name is an argument to add a name to it, Display environment variables allows us windows to talk to the virtual machine display*

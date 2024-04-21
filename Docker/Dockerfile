@@ -24,23 +24,21 @@ RUN mkdir -p ~/catkin_ws/src && \
     cd ~/catkin_ws/src/
 
 RUN  sudo apt-get install ros-humble-ros-gz
-RUN cd
+RUN sudo apt-get update
 # END ROS2 & Gazebo installation
 
-#
+
 # Intialise Turtle Bot, basis of implementation: https://github.com/gazebosim/gz-omni/blob/main/tutorials/03_ROS_simulation.md
+#enables ROS humble to allow compliation
+
+
 # Set the working directory
-
-
-# Create directories and clone repositories
 RUN mkdir -p /root/turtlebot3_ws/src
-
 WORKDIR /root/turtlebot3_ws/src
 
+# Create directories and clone repositories
 RUN git clone https://github.com/ahcorde/turtlebot3_simulations -b ahcorde/ignition_support && \
     git clone https://github.com/ignitionrobotics/ign_ros2_control -b humble
-
-
 
 # Install dependencies
 RUN rosdep install --from-paths ./ -i -y --rosdistro humble
@@ -49,11 +47,9 @@ RUN rosdep install --from-paths ./ -i -y --rosdistro humble
 ENV IGNITION_VERSION=fortress
 
 # Build the workspace
-WORKDIR /root/turtlebot3_ws/src
-RUN colcon build --merge-install --event-handlers console_direct+
-
-# Reset the working directory
-WORKDIR /
+RUN . /opt/ros/${ROS_DISTRO}/setup.sh && \
+    cd /root/turtlebot3_ws/src && \
+    colcon build --merge-install --event-handlers console_direct+
 
 # End of Intialisation of Turtle Bot 3 for ROS
 
