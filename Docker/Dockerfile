@@ -55,13 +55,13 @@ RUN . /opt/ros/${ROS_DISTRO}/setup.sh && \
 
 
 # Auto enable ROS2
-COPY ros_setup.sh
+COPY ros_setup.sh /root/
 RUN chmod +x /root/ros_setup.sh
 RUN echo "source /root/ros_setup.sh" >> /root/.bashrc
 # End of Auto enable Ros2
 
 # Auto enable Turtlebot 3
-COPY turtlebot_setup.sh
+COPY turtlebot_setup.sh /root/
 RUN chmod +x /root/turtlebot_setup.sh
 RUN echo "source /root/turtlebot_setup.sh" >> /root/.bashrc
 # End of Auto enable Turtlebot
