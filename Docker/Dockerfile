@@ -54,16 +54,16 @@ RUN . /opt/ros/${ROS_DISTRO}/setup.sh && \
 # End of Intialisation of Turtle Bot 3 for ROS
 
 
-# Auto enable ROS2
-COPY ros_setup.sh /root/
-RUN chmod +x /root/ros_setup.sh
-RUN echo "source /root/ros_setup.sh" >> /root/.bashrc
-# End of Auto enable Ros2
+# # Auto enable ROS2
+# COPY ros_setup.sh /root/
+# RUN chmod +x /root/ros_setup.sh
+# RUN echo "source /root/ros_setup.sh" >> /root/.bashrc
+# # End of Auto enable Ros2
 
-# Auto enable Turtlebot 3
-COPY turtlebot_setup.sh /root/
-RUN chmod +x /root/turtlebot_setup.sh
-RUN echo "source /root/turtlebot_setup.sh" >> /root/.bashrc
-# End of Auto enable Turtlebot
+# # Auto enable Turtlebot 3
+# COPY turtlebot_setup.sh /root/
+# RUN chmod +x /root/turtlebot_setup.sh
+# RUN echo "source /root/turtlebot_setup.sh" >> /root/.bashrc
+# # End of Auto enable Turtlebot
 
 RUN echo "\n Ensure Xlaunch with the following config Display_number = 0, and multiple window is running"
