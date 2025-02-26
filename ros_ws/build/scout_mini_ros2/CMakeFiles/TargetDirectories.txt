@@ -1,9 +1,0 @@
-/apollo/ros_ws/build/scout_mini_ros2/CMakeFiles/uninstall.dir
-/apollo/ros_ws/build/scout_mini_ros2/CMakeFiles/scout_mini_ros2_uninstall.dir
-/apollo/ros_ws/build/scout_mini_ros2/CMakeFiles/test.dir
-/apollo/ros_ws/build/scout_mini_ros2/CMakeFiles/edit_cache.dir
-/apollo/ros_ws/build/scout_mini_ros2/CMakeFiles/rebuild_cache.dir
-/apollo/ros_ws/build/scout_mini_ros2/CMakeFiles/list_install_components.dir
-/apollo/ros_ws/build/scout_mini_ros2/CMakeFiles/install.dir
-/apollo/ros_ws/build/scout_mini_ros2/CMakeFiles/install/local.dir
-/apollo/ros_ws/build/scout_mini_ros2/CMakeFiles/install/strip.dir
