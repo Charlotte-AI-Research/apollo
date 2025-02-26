@@ -1,0 +1,33 @@
+[0.562s] Invoking command in '/apollo/ros_ws/build/scout_mini_hardware': AMENT_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_msgs:/opt/ros/humble LD_LIBRARY_PATH=/apollo/ros_ws/install/scout_mini_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_hardware -- -j20 -l20
+[5.271s] [100%] Built target scout_mini_hardware
+[5.809s] Invoked command in '/apollo/ros_ws/build/scout_mini_hardware' returned '0': AMENT_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_msgs:/opt/ros/humble LD_LIBRARY_PATH=/apollo/ros_ws/install/scout_mini_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_hardware -- -j20 -l20
+[5.917s] Invoking command in '/apollo/ros_ws/build/scout_mini_hardware': AMENT_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_msgs:/opt/ros/humble LD_LIBRARY_PATH=/apollo/ros_ws/install/scout_mini_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /apollo/ros_ws/build/scout_mini_hardware
+[6.319s] -- Install configuration: ""
+[6.388s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/scout_mini_hardware.xml
+[6.474s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/lib/libscout_mini_hardware.so
+[6.617s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/include/include
+[6.712s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/include/include/scout_mini_hardware
+[6.815s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/include/include/scout_mini_hardware/scout_mini_hardware.hpp
+[6.920s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/include/include/scout_mini_hardware/visibility_control.h
+[6.976s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/environment/library_path.sh
+[7.056s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/environment/library_path.dsv
+[7.174s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/share/ament_index/resource_index/package_run_dependencies/scout_mini_hardware
+[7.307s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/share/ament_index/resource_index/parent_prefix_path/scout_mini_hardware
+[7.362s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/environment/ament_prefix_path.sh
+[7.450s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/environment/ament_prefix_path.dsv
+[7.526s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/environment/path.sh
+[7.631s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/environment/path.dsv
+[7.721s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/local_setup.bash
+[7.815s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/local_setup.sh
+[7.900s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/local_setup.zsh
+[7.981s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/local_setup.dsv
+[8.054s] -- Installing: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.dsv
+[8.378s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/share/ament_index/resource_index/packages/scout_mini_hardware
+[8.534s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/scout_mini_hardware
+[8.628s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.724s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[8.816s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.914s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/cmake/scout_mini_hardwareConfig.cmake
+[8.991s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/cmake/scout_mini_hardwareConfig-version.cmake
+[9.087s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.xml
+[9.112s] Invoked command in '/apollo/ros_ws/build/scout_mini_hardware' returned '0': AMENT_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_msgs:/opt/ros/humble LD_LIBRARY_PATH=/apollo/ros_ws/install/scout_mini_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /apollo/ros_ws/build/scout_mini_hardware
