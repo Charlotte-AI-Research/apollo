@@ -1,0 +1,30 @@
+[0.162s] Invoking command in '/apollo/ros_ws/build/scout_mini_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_description -- -j20 -l20
+[0.289s] Invoked command in '/apollo/ros_ws/build/scout_mini_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_description -- -j20 -l20
+[0.316s] Invoking command in '/apollo/ros_ws/build/scout_mini_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /apollo/ros_ws/build/scout_mini_description
+[0.324s] -- Install configuration: ""
+[0.334s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/launch
+[0.365s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/launch/description_launch.py
+[0.429s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/launch/rviz2_launch.py
+[0.494s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/meshes
+[0.614s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/meshes/body.dae
+[0.677s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/meshes/wheel.dae
+[0.740s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/rviz
+[0.857s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/rviz/scout_mini.rviz
+[0.902s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/urdf
+[0.990s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/urdf/scout_mini.urdf.xacro
+[1.105s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_description/share/ament_index/resource_index/package_run_dependencies/scout_mini_description
+[1.273s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_description/share/ament_index/resource_index/parent_prefix_path/scout_mini_description
+[1.366s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/environment/ament_prefix_path.sh
+[1.470s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/environment/ament_prefix_path.dsv
+[1.546s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/environment/path.sh
+[1.632s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/environment/path.dsv
+[1.729s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/local_setup.bash
+[1.813s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/local_setup.sh
+[1.892s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/local_setup.zsh
+[1.966s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/local_setup.dsv
+[2.034s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/package.dsv
+[2.306s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_description/share/ament_index/resource_index/packages/scout_mini_description
+[2.378s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/cmake/scout_mini_descriptionConfig.cmake
+[2.432s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/cmake/scout_mini_descriptionConfig-version.cmake
+[2.490s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/package.xml
+[4.090s] Invoked command in '/apollo/ros_ws/build/scout_mini_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /apollo/ros_ws/build/scout_mini_description
