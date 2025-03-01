@@ -37,6 +37,7 @@ RUN sudo apt update && sudo apt install -y --no-install-recommends \
     ros-humble-can-msgs \
     ros-humble-ros2-socketcan \
     ros-humble-twist-mux \
+    ros-humble-gazebo-ros-pkgs \
     && sudo rm -rf /var/lib/apt/lists/*
 
 # Update package sources and upgrade existing packages

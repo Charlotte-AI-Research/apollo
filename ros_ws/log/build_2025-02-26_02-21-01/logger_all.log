@@ -1,0 +1,414 @@
+[0.621s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.622s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f9cac573130>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9cac6bc0a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9cac6bc0a0>>, mixin_verb=('build',))
+[1.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.391s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/apollo/ros_ws'
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.401s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.520s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extensions ['ignore', 'ignore_ament_install']
+[1.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extension 'ignore'
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extension 'ignore_ament_install'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extensions ['colcon_pkg']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extension 'colcon_pkg'
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extensions ['colcon_meta']
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extension 'colcon_meta'
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extensions ['ros']
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extension 'ros'
+[1.682s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_mini_base' with type 'ros.ament_cmake' and name 'scout_mini_base'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extensions ['ignore', 'ignore_ament_install']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extension 'ignore'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extension 'ignore_ament_install'
+[1.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extensions ['colcon_pkg']
+[1.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extension 'colcon_pkg'
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extensions ['colcon_meta']
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extension 'colcon_meta'
+[1.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extensions ['ros']
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extension 'ros'
+[1.776s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_mini_description' with type 'ros.ament_cmake' and name 'scout_mini_description'
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extensions ['ignore', 'ignore_ament_install']
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extension 'ignore'
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extension 'ignore_ament_install'
+[1.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extensions ['colcon_pkg']
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extension 'colcon_pkg'
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extensions ['colcon_meta']
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extension 'colcon_meta'
+[1.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extensions ['ros']
+[1.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extension 'ros'
+[1.876s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_mini_hardware' with type 'ros.ament_cmake' and name 'scout_mini_hardware'
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extension 'ignore'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extension 'ignore_ament_install'
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extensions ['colcon_pkg']
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extension 'colcon_pkg'
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extensions ['colcon_meta']
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extension 'colcon_meta'
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extensions ['ros']
+[1.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extension 'ros'
+[1.951s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_mini_msgs' with type 'ros.ament_cmake' and name 'scout_mini_msgs'
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extension 'ignore'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extension 'ignore_ament_install'
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extensions ['colcon_pkg']
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extension 'colcon_pkg'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extensions ['colcon_meta']
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extension 'colcon_meta'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extensions ['ros']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extension 'ros'
+[2.003s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_mini_ros2' with type 'ros.ament_cmake' and name 'scout_mini_ros2'
+[2.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.005s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.005s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.006s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.178s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_base' build argument 'cmake_args' from command line to 'None'
+[2.179s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_base' build argument 'cmake_target' from command line to 'None'
+[2.180s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.180s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_base' build argument 'cmake_clean_cache' from command line to 'False'
+[2.181s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_base' build argument 'cmake_clean_first' from command line to 'False'
+[2.182s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_base' build argument 'cmake_force_configure' from command line to 'False'
+[2.182s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_base' build argument 'ament_cmake_args' from command line to 'None'
+[2.183s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_base' build argument 'catkin_cmake_args' from command line to 'None'
+[2.184s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.185s] DEBUG:colcon.colcon_core.verb:Building package 'scout_mini_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/apollo/ros_ws/build/scout_mini_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/apollo/ros_ws/install/scout_mini_base', 'merge_install': False, 'path': '/apollo/ros_ws/src/scout_mini_base', 'symlink_install': False, 'test_result_base': None}
+[2.187s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_description' build argument 'cmake_args' from command line to 'None'
+[2.187s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_description' build argument 'cmake_target' from command line to 'None'
+[2.188s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.189s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_description' build argument 'cmake_clean_cache' from command line to 'False'
+[2.190s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_description' build argument 'cmake_clean_first' from command line to 'False'
+[2.191s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_description' build argument 'cmake_force_configure' from command line to 'False'
+[2.192s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_description' build argument 'ament_cmake_args' from command line to 'None'
+[2.193s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_description' build argument 'catkin_cmake_args' from command line to 'None'
+[2.193s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.194s] DEBUG:colcon.colcon_core.verb:Building package 'scout_mini_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/apollo/ros_ws/build/scout_mini_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/apollo/ros_ws/install/scout_mini_description', 'merge_install': False, 'path': '/apollo/ros_ws/src/scout_mini_description', 'symlink_install': False, 'test_result_base': None}
+[2.195s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_msgs' build argument 'cmake_args' from command line to 'None'
+[2.196s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_msgs' build argument 'cmake_target' from command line to 'None'
+[2.196s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.197s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.198s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.198s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.199s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.199s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.200s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.201s] DEBUG:colcon.colcon_core.verb:Building package 'scout_mini_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/apollo/ros_ws/build/scout_mini_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/apollo/ros_ws/install/scout_mini_msgs', 'merge_install': False, 'path': '/apollo/ros_ws/src/scout_mini_msgs', 'symlink_install': False, 'test_result_base': None}
+[2.202s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_hardware' build argument 'cmake_args' from command line to 'None'
+[2.203s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_hardware' build argument 'cmake_target' from command line to 'None'
+[2.203s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.204s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[2.204s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[2.205s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[2.205s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[2.206s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[2.207s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.207s] DEBUG:colcon.colcon_core.verb:Building package 'scout_mini_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/apollo/ros_ws/build/scout_mini_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/apollo/ros_ws/install/scout_mini_hardware', 'merge_install': False, 'path': '/apollo/ros_ws/src/scout_mini_hardware', 'symlink_install': False, 'test_result_base': None}
+[2.208s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_ros2' build argument 'cmake_args' from command line to 'None'
+[2.209s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_ros2' build argument 'cmake_target' from command line to 'None'
+[2.210s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.210s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.211s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[2.211s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[2.212s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[2.212s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.213s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.214s] DEBUG:colcon.colcon_core.verb:Building package 'scout_mini_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/apollo/ros_ws/build/scout_mini_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/apollo/ros_ws/install/scout_mini_ros2', 'merge_install': False, 'path': '/apollo/ros_ws/src/scout_mini_ros2', 'symlink_install': False, 'test_result_base': None}
+[2.214s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.216s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.217s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/apollo/ros_ws/src/scout_mini_msgs' with build type 'ament_cmake'
+[2.218s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/apollo/ros_ws/src/scout_mini_msgs'
+[2.233s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.234s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.234s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.279s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/apollo/ros_ws/src/scout_mini_base' with build type 'ament_cmake'
+[2.280s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/apollo/ros_ws/src/scout_mini_base'
+[2.281s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.282s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.300s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/apollo/ros_ws/src/scout_mini_description' with build type 'ament_cmake'
+[2.301s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/apollo/ros_ws/src/scout_mini_description'
+[2.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.303s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/apollo/ros_ws/build/scout_mini_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /apollo/ros_ws/src/scout_mini_msgs -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/scout_mini_msgs
+[2.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/apollo/ros_ws/build/scout_mini_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /apollo/ros_ws/src/scout_mini_base -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/scout_mini_base
+[2.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/apollo/ros_ws/build/scout_mini_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /apollo/ros_ws/src/scout_mini_description -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/scout_mini_description
+[20.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/apollo/ros_ws/build/scout_mini_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /apollo/ros_ws/src/scout_mini_base -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/scout_mini_base
+[20.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/apollo/ros_ws/build/scout_mini_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_base -- -j20 -l20
+[20.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/apollo/ros_ws/build/scout_mini_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /apollo/ros_ws/src/scout_mini_description -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/scout_mini_description
+[20.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/apollo/ros_ws/build/scout_mini_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_description -- -j20 -l20
+[20.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/apollo/ros_ws/build/scout_mini_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_base -- -j20 -l20
+[20.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/apollo/ros_ws/build/scout_mini_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /apollo/ros_ws/build/scout_mini_base
+[20.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/apollo/ros_ws/build/scout_mini_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_description -- -j20 -l20
+[20.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/apollo/ros_ws/build/scout_mini_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /apollo/ros_ws/build/scout_mini_description
+[25.942s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_base)
+[25.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/apollo/ros_ws/build/scout_mini_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /apollo/ros_ws/build/scout_mini_base
+[25.966s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_base' for CMake module files
+[26.101s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_base' for CMake config files
+[26.205s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_base', 'cmake_prefix_path')
+[26.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/hook/cmake_prefix_path.ps1'
+[26.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/hook/cmake_prefix_path.dsv'
+[26.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/hook/cmake_prefix_path.sh'
+[26.344s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_base/bin'
+[26.346s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_base/lib/pkgconfig/scout_mini_base.pc'
+[26.349s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_base/lib/python3.10/site-packages'
+[26.351s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_base/bin'
+[26.354s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/package.ps1'
+[26.375s] INFO:colcon.colcon_core.shell:Creating package descriptor '/apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/package.dsv'
+[26.442s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/package.sh'
+[26.485s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/package.bash'
+[26.530s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/package.zsh'
+[26.596s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/apollo/ros_ws/install/scout_mini_base/share/colcon-core/packages/scout_mini_base)
+[26.707s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_base)
+[26.708s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_base' for CMake module files
+[27.214s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_base' for CMake config files
+[27.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_base', 'cmake_prefix_path')
+[27.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/hook/cmake_prefix_path.ps1'
+[27.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/hook/cmake_prefix_path.dsv'
+[27.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/hook/cmake_prefix_path.sh'
+[27.553s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_base/bin'
+[27.557s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_base/lib/pkgconfig/scout_mini_base.pc'
+[27.561s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_base/lib/python3.10/site-packages'
+[27.563s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_base/bin'
+[27.567s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/package.ps1'
+[27.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/package.dsv'
+[27.641s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/package.sh'
+[27.695s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/package.bash'
+[27.739s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_base/share/scout_mini_base/package.zsh'
+[27.782s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/apollo/ros_ws/install/scout_mini_base/share/colcon-core/packages/scout_mini_base)
+[31.705s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_description)
+[31.706s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_description' for CMake module files
+[31.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/apollo/ros_ws/build/scout_mini_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /apollo/ros_ws/build/scout_mini_description
+[31.964s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_description' for CMake config files
+[32.188s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_description', 'cmake_prefix_path')
+[32.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/hook/cmake_prefix_path.ps1'
+[32.242s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/hook/cmake_prefix_path.dsv'
+[32.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/hook/cmake_prefix_path.sh'
+[32.461s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_description/bin'
+[32.468s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_description/lib/pkgconfig/scout_mini_description.pc'
+[32.476s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_description/lib/python3.10/site-packages'
+[32.482s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_description/bin'
+[32.489s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/package.ps1'
+[32.562s] INFO:colcon.colcon_core.shell:Creating package descriptor '/apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/package.dsv'
+[32.658s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/package.sh'
+[32.741s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/package.bash'
+[32.805s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/package.zsh'
+[32.855s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/apollo/ros_ws/install/scout_mini_description/share/colcon-core/packages/scout_mini_description)
+[33.024s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_description)
+[33.025s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_description' for CMake module files
+[33.514s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_description' for CMake config files
+[33.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_description', 'cmake_prefix_path')
+[33.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/hook/cmake_prefix_path.ps1'
+[33.794s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/hook/cmake_prefix_path.dsv'
+[33.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/hook/cmake_prefix_path.sh'
+[33.880s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_description/bin'
+[33.884s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_description/lib/pkgconfig/scout_mini_description.pc'
+[33.888s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_description/lib/python3.10/site-packages'
+[33.891s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_description/bin'
+[33.895s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/package.ps1'
+[33.929s] INFO:colcon.colcon_core.shell:Creating package descriptor '/apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/package.dsv'
+[33.969s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/package.sh'
+[34.016s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/package.bash'
+[34.048s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/package.zsh'
+[34.090s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/apollo/ros_ws/install/scout_mini_description/share/colcon-core/packages/scout_mini_description)
+[42.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/apollo/ros_ws/build/scout_mini_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /apollo/ros_ws/src/scout_mini_msgs -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/scout_mini_msgs
+[42.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/apollo/ros_ws/build/scout_mini_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_msgs -- -j20 -l20
+[63.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/apollo/ros_ws/build/scout_mini_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_msgs -- -j20 -l20
+[63.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/apollo/ros_ws/build/scout_mini_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /apollo/ros_ws/build/scout_mini_msgs
+[137.527s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_msgs)
+[137.530s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_msgs' for CMake module files
+[137.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/apollo/ros_ws/build/scout_mini_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /apollo/ros_ws/build/scout_mini_msgs
+[138.405s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_msgs' for CMake config files
+[138.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_msgs', 'cmake_prefix_path')
+[138.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/hook/cmake_prefix_path.ps1'
+[138.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/hook/cmake_prefix_path.dsv'
+[138.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/hook/cmake_prefix_path.sh'
+[138.909s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_msgs/lib'
+[138.920s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_msgs', 'ld_library_path_lib')
+[138.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/hook/ld_library_path_lib.ps1'
+[138.946s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/hook/ld_library_path_lib.dsv'
+[138.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/hook/ld_library_path_lib.sh'
+[138.990s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_msgs/bin'
+[138.992s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_msgs/lib/pkgconfig/scout_mini_msgs.pc'
+[138.995s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_msgs/lib/python3.10/site-packages'
+[138.997s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_msgs/bin'
+[139.000s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.ps1'
+[139.024s] INFO:colcon.colcon_core.shell:Creating package descriptor '/apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.dsv'
+[139.053s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.sh'
+[139.070s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.bash'
+[139.086s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.zsh'
+[139.101s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/apollo/ros_ws/install/scout_mini_msgs/share/colcon-core/packages/scout_mini_msgs)
+[139.214s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_msgs)
+[139.215s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_msgs' for CMake module files
+[140.135s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_msgs' for CMake config files
+[140.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_msgs', 'cmake_prefix_path')
+[140.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/hook/cmake_prefix_path.ps1'
+[140.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/hook/cmake_prefix_path.dsv'
+[140.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/hook/cmake_prefix_path.sh'
+[140.663s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_msgs/lib'
+[140.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_msgs', 'ld_library_path_lib')
+[140.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/hook/ld_library_path_lib.ps1'
+[140.686s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/hook/ld_library_path_lib.dsv'
+[140.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/hook/ld_library_path_lib.sh'
+[140.736s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_msgs/bin'
+[140.742s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_msgs/lib/pkgconfig/scout_mini_msgs.pc'
+[140.749s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_msgs/lib/python3.10/site-packages'
+[140.758s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_msgs/bin'
+[140.764s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.ps1'
+[140.824s] INFO:colcon.colcon_core.shell:Creating package descriptor '/apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.dsv'
+[140.894s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.sh'
+[140.940s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.bash'
+[140.973s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.zsh'
+[141.020s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/apollo/ros_ws/install/scout_mini_msgs/share/colcon-core/packages/scout_mini_msgs)
+[141.053s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/apollo/ros_ws/src/scout_mini_hardware' with build type 'ament_cmake'
+[141.054s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/apollo/ros_ws/src/scout_mini_hardware'
+[141.056s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[141.057s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[141.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/apollo/ros_ws/build/scout_mini_hardware': AMENT_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_msgs:/opt/ros/humble LD_LIBRARY_PATH=/apollo/ros_ws/install/scout_mini_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /apollo/ros_ws/src/scout_mini_hardware -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/scout_mini_hardware
+[201.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/apollo/ros_ws/build/scout_mini_hardware' returned '0': AMENT_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_msgs:/opt/ros/humble LD_LIBRARY_PATH=/apollo/ros_ws/install/scout_mini_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /apollo/ros_ws/src/scout_mini_hardware -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/scout_mini_hardware
+[201.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/apollo/ros_ws/build/scout_mini_hardware': AMENT_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_msgs:/opt/ros/humble LD_LIBRARY_PATH=/apollo/ros_ws/install/scout_mini_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_hardware -- -j20 -l20
+[279.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/apollo/ros_ws/build/scout_mini_hardware' returned '0': AMENT_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_msgs:/opt/ros/humble LD_LIBRARY_PATH=/apollo/ros_ws/install/scout_mini_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_hardware -- -j20 -l20
+[279.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/apollo/ros_ws/build/scout_mini_hardware': AMENT_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_msgs:/opt/ros/humble LD_LIBRARY_PATH=/apollo/ros_ws/install/scout_mini_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /apollo/ros_ws/build/scout_mini_hardware
+[289.232s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_hardware)
+[289.234s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_hardware' for CMake module files
+[289.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/apollo/ros_ws/build/scout_mini_hardware' returned '0': AMENT_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_msgs:/opt/ros/humble LD_LIBRARY_PATH=/apollo/ros_ws/install/scout_mini_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /apollo/ros_ws/build/scout_mini_hardware
+[289.620s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_hardware' for CMake config files
+[289.918s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_hardware', 'cmake_prefix_path')
+[289.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/hook/cmake_prefix_path.ps1'
+[289.955s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/hook/cmake_prefix_path.dsv'
+[290.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/hook/cmake_prefix_path.sh'
+[290.089s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_hardware/lib'
+[290.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_hardware', 'ld_library_path_lib')
+[290.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/hook/ld_library_path_lib.ps1'
+[290.163s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/hook/ld_library_path_lib.dsv'
+[290.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/hook/ld_library_path_lib.sh'
+[290.288s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_hardware/bin'
+[290.294s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_hardware/lib/pkgconfig/scout_mini_hardware.pc'
+[290.301s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_hardware/lib/python3.10/site-packages'
+[290.308s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_hardware/bin'
+[290.314s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.ps1'
+[290.367s] INFO:colcon.colcon_core.shell:Creating package descriptor '/apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.dsv'
+[290.407s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.sh'
+[290.463s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.bash'
+[290.510s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.zsh'
+[290.557s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/apollo/ros_ws/install/scout_mini_hardware/share/colcon-core/packages/scout_mini_hardware)
+[290.722s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_hardware)
+[290.723s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_hardware' for CMake module files
+[291.196s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_hardware' for CMake config files
+[291.577s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_hardware', 'cmake_prefix_path')
+[291.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/hook/cmake_prefix_path.ps1'
+[291.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/hook/cmake_prefix_path.dsv'
+[291.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/hook/cmake_prefix_path.sh'
+[291.759s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_hardware/lib'
+[291.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_hardware', 'ld_library_path_lib')
+[291.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/hook/ld_library_path_lib.ps1'
+[291.846s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/hook/ld_library_path_lib.dsv'
+[291.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/hook/ld_library_path_lib.sh'
+[291.975s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_hardware/bin'
+[291.982s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_hardware/lib/pkgconfig/scout_mini_hardware.pc'
+[291.991s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_hardware/lib/python3.10/site-packages'
+[292.000s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_hardware/bin'
+[292.007s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.ps1'
+[292.064s] INFO:colcon.colcon_core.shell:Creating package descriptor '/apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.dsv'
+[292.120s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.sh'
+[292.178s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.bash'
+[292.233s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_hardware/share/scout_mini_hardware/package.zsh'
+[292.260s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/apollo/ros_ws/install/scout_mini_hardware/share/colcon-core/packages/scout_mini_hardware)
+[292.282s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/apollo/ros_ws/src/scout_mini_ros2' with build type 'ament_cmake'
+[292.283s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/apollo/ros_ws/src/scout_mini_ros2'
+[292.284s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[292.284s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[293.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/apollo/ros_ws/build/scout_mini_ros2': AMENT_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_hardware:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_hardware:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble LD_LIBRARY_PATH=/apollo/ros_ws/install/scout_mini_hardware/lib:/apollo/ros_ws/install/scout_mini_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /apollo/ros_ws/src/scout_mini_ros2 -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/scout_mini_ros2
+[339.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/apollo/ros_ws/build/scout_mini_ros2' returned '0': AMENT_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_hardware:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_hardware:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble LD_LIBRARY_PATH=/apollo/ros_ws/install/scout_mini_hardware/lib:/apollo/ros_ws/install/scout_mini_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /apollo/ros_ws/src/scout_mini_ros2 -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/scout_mini_ros2
+[339.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/apollo/ros_ws/build/scout_mini_ros2': AMENT_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_hardware:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_hardware:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble LD_LIBRARY_PATH=/apollo/ros_ws/install/scout_mini_hardware/lib:/apollo/ros_ws/install/scout_mini_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_ros2 -- -j20 -l20
+[343.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/apollo/ros_ws/build/scout_mini_ros2' returned '0': AMENT_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_hardware:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_hardware:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble LD_LIBRARY_PATH=/apollo/ros_ws/install/scout_mini_hardware/lib:/apollo/ros_ws/install/scout_mini_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_ros2 -- -j20 -l20
+[343.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/apollo/ros_ws/build/scout_mini_ros2': AMENT_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_hardware:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_hardware:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble LD_LIBRARY_PATH=/apollo/ros_ws/install/scout_mini_hardware/lib:/apollo/ros_ws/install/scout_mini_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /apollo/ros_ws/build/scout_mini_ros2
+[348.227s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_ros2)
+[348.229s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_ros2' for CMake module files
+[348.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/apollo/ros_ws/build/scout_mini_ros2' returned '0': AMENT_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_hardware:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_hardware:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/opt/ros/humble LD_LIBRARY_PATH=/apollo/ros_ws/install/scout_mini_hardware/lib:/apollo/ros_ws/install/scout_mini_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /apollo/ros_ws/build/scout_mini_ros2
+[348.448s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_ros2' for CMake config files
+[348.607s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_ros2', 'cmake_prefix_path')
+[348.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/hook/cmake_prefix_path.ps1'
+[348.653s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/hook/cmake_prefix_path.dsv'
+[348.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/hook/cmake_prefix_path.sh'
+[348.820s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_ros2/bin'
+[348.826s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_ros2/lib/pkgconfig/scout_mini_ros2.pc'
+[348.833s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_ros2/lib/python3.10/site-packages'
+[348.840s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_ros2/bin'
+[348.846s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.ps1'
+[348.895s] INFO:colcon.colcon_core.shell:Creating package descriptor '/apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.dsv'
+[348.947s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.sh'
+[348.996s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.bash'
+[349.062s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.zsh'
+[349.118s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/apollo/ros_ws/install/scout_mini_ros2/share/colcon-core/packages/scout_mini_ros2)
+[349.289s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_ros2)
+[349.290s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_ros2' for CMake module files
+[349.653s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_ros2' for CMake config files
+[349.860s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_ros2', 'cmake_prefix_path')
+[349.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/hook/cmake_prefix_path.ps1'
+[349.922s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/hook/cmake_prefix_path.dsv'
+[349.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/hook/cmake_prefix_path.sh'
+[350.061s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_ros2/bin'
+[350.066s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_ros2/lib/pkgconfig/scout_mini_ros2.pc'
+[350.072s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_ros2/lib/python3.10/site-packages'
+[350.077s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/scout_mini_ros2/bin'
+[350.083s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.ps1'
+[350.149s] INFO:colcon.colcon_core.shell:Creating package descriptor '/apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.dsv'
+[350.206s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.sh'
+[350.253s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.bash'
+[350.299s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/scout_mini_ros2/share/scout_mini_ros2/package.zsh'
+[350.351s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/apollo/ros_ws/install/scout_mini_ros2/share/colcon-core/packages/scout_mini_ros2)
+[350.390s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[350.391s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[350.392s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[350.395s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[350.700s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[350.701s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[350.701s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[350.702s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[350.706s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[350.707s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[350.708s] INFO:colcon.colcon_core.shell:Creating prefix script '/apollo/ros_ws/install/local_setup.ps1'
+[350.730s] INFO:colcon.colcon_core.shell:Creating prefix util module '/apollo/ros_ws/install/_local_setup_util_ps1.py'
+[350.760s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/apollo/ros_ws/install/setup.ps1'
+[350.779s] INFO:colcon.colcon_core.shell:Creating prefix script '/apollo/ros_ws/install/local_setup.sh'
+[350.793s] INFO:colcon.colcon_core.shell:Creating prefix util module '/apollo/ros_ws/install/_local_setup_util_sh.py'
+[350.809s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/apollo/ros_ws/install/setup.sh'
+[350.827s] INFO:colcon.colcon_core.shell:Creating prefix script '/apollo/ros_ws/install/local_setup.bash'
+[350.846s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/apollo/ros_ws/install/setup.bash'
+[350.864s] INFO:colcon.colcon_core.shell:Creating prefix script '/apollo/ros_ws/install/local_setup.zsh'
+[350.880s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/apollo/ros_ws/install/setup.zsh'

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "scout_mini_msgs__py",
+		"source" : "/apollo/ros_ws/build/scout_mini_msgs/scout_mini_msgs__py"
+	}
+}

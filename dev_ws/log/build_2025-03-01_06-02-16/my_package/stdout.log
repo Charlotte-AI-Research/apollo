@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating my_package.egg-info
+writing my_package.egg-info/PKG-INFO
+writing dependency_links to my_package.egg-info/dependency_links.txt
+writing entry points to my_package.egg-info/entry_points.txt
+writing requirements to my_package.egg-info/requires.txt
+writing top-level names to my_package.egg-info/top_level.txt
+writing manifest file 'my_package.egg-info/SOURCES.txt'
+reading manifest file 'my_package.egg-info/SOURCES.txt'
+writing manifest file 'my_package.egg-info/SOURCES.txt'
+running build_ext
+Creating /apollo/dev_ws/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)
+Installing listener script to /apollo/dev_ws/install/my_package/lib/my_package
+Installing talker script to /apollo/dev_ws/install/my_package/lib/my_package
+
+Installed /apollo/dev_ws/build/my_package
+running symlink_data
+creating /apollo/dev_ws/install/my_package/share/ament_index
+creating /apollo/dev_ws/install/my_package/share/ament_index/resource_index
+creating /apollo/dev_ws/install/my_package/share/ament_index/resource_index/packages
+symbolically linking /apollo/dev_ws/build/my_package/resource/my_package -> /apollo/dev_ws/install/my_package/share/ament_index/resource_index/packages
+symbolically linking /apollo/dev_ws/build/my_package/package.xml -> /apollo/dev_ws/install/my_package/share/my_package
+creating /apollo/dev_ws/install/my_package/share/my_package/launch
+symbolically linking /apollo/dev_ws/build/my_package/launch/listener.launch.py -> /apollo/dev_ws/install/my_package/share/my_package/launch
+symbolically linking /apollo/dev_ws/build/my_package/launch/talker.launch.py -> /apollo/dev_ws/install/my_package/share/my_package/launch

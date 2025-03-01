@@ -1,0 +1,114 @@
+[1.167s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.168s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f76d0edb280>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f76d10241f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f76d10241f0>>, mixin_verb=('build',))
+[1.907s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.908s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.909s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.909s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.909s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.910s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/apollo/dev_ws'
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.917s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.919s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.919s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.957s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.957s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extensions ['ignore', 'ignore_ament_install']
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'ignore'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'ignore_ament_install'
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extensions ['colcon_pkg']
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'colcon_pkg'
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extensions ['colcon_meta']
+[2.002s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'colcon_meta'
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extensions ['ros']
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'ros'
+[2.027s] DEBUG:colcon.colcon_core.package_identification:Package 'my_package' with type 'ros.ament_python' and name 'my_package'
+[2.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.028s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.028s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.028s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.029s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.086s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[2.086s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[2.086s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.087s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[2.087s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[2.087s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[2.088s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[2.088s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[2.088s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.089s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/apollo/dev_ws/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/apollo/dev_ws/install/my_package', 'merge_install': False, 'path': '/apollo/dev_ws/my_package', 'symlink_install': True, 'test_result_base': None}
+[2.089s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.092s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.092s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/apollo/dev_ws/my_package' with build type 'ament_python'
+[2.093s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'ament_prefix_path')
+[2.106s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/dev_ws/install/my_package/share/my_package/hook/ament_prefix_path.ps1'
+[2.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/apollo/dev_ws/install/my_package/share/my_package/hook/ament_prefix_path.dsv'
+[2.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/dev_ws/install/my_package/share/my_package/hook/ament_prefix_path.sh'
+[2.474s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.474s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.843s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/apollo/dev_ws/my_package'
+[2.844s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.844s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.719s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/apollo/dev_ws/build/my_package': PYTHONPATH=/apollo/dev_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/apollo/dev_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /apollo/dev_ws/build/my_package/build --no-deps symlink_data
+[8.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'pythonpath_develop')
+[8.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/dev_ws/build/my_package/share/my_package/hook/pythonpath_develop.ps1'
+[8.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/apollo/dev_ws/build/my_package' returned '0': PYTHONPATH=/apollo/dev_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/apollo/dev_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /apollo/dev_ws/build/my_package/build --no-deps symlink_data
+[8.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/apollo/dev_ws/build/my_package/share/my_package/hook/pythonpath_develop.dsv'
+[8.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/dev_ws/build/my_package/share/my_package/hook/pythonpath_develop.sh'
+[8.143s] Level 1:colcon.colcon_core.environment:checking '/apollo/dev_ws/install/my_package' for CMake module files
+[8.308s] Level 1:colcon.colcon_core.environment:checking '/apollo/dev_ws/install/my_package' for CMake config files
+[8.477s] Level 1:colcon.colcon_core.environment:checking '/apollo/dev_ws/install/my_package/lib'
+[8.484s] Level 1:colcon.colcon_core.environment:checking '/apollo/dev_ws/install/my_package/bin'
+[8.486s] Level 1:colcon.colcon_core.environment:checking '/apollo/dev_ws/install/my_package/lib/pkgconfig/my_package.pc'
+[8.490s] Level 1:colcon.colcon_core.environment:checking '/apollo/dev_ws/install/my_package/lib/python3.10/site-packages'
+[8.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'pythonpath')
+[8.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/dev_ws/install/my_package/share/my_package/hook/pythonpath.ps1'
+[8.527s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/apollo/dev_ws/install/my_package/share/my_package/hook/pythonpath.dsv'
+[8.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/dev_ws/install/my_package/share/my_package/hook/pythonpath.sh'
+[8.588s] Level 1:colcon.colcon_core.environment:checking '/apollo/dev_ws/install/my_package/bin'
+[8.590s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[8.591s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/dev_ws/install/my_package/share/my_package/package.ps1'
+[8.618s] INFO:colcon.colcon_core.shell:Creating package descriptor '/apollo/dev_ws/install/my_package/share/my_package/package.dsv'
+[8.646s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/dev_ws/install/my_package/share/my_package/package.sh'
+[8.675s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/dev_ws/install/my_package/share/my_package/package.bash'
+[8.708s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/dev_ws/install/my_package/share/my_package/package.zsh'
+[8.739s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/apollo/dev_ws/install/my_package/share/colcon-core/packages/my_package)
+[8.776s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.777s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.777s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.778s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.901s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[8.907s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.909s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.913s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.052s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[9.054s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.056s] INFO:colcon.colcon_core.shell:Creating prefix script '/apollo/dev_ws/install/local_setup.ps1'
+[9.080s] INFO:colcon.colcon_core.shell:Creating prefix util module '/apollo/dev_ws/install/_local_setup_util_ps1.py'
+[9.098s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/apollo/dev_ws/install/setup.ps1'
+[9.116s] INFO:colcon.colcon_core.shell:Creating prefix script '/apollo/dev_ws/install/local_setup.sh'
+[9.130s] INFO:colcon.colcon_core.shell:Creating prefix util module '/apollo/dev_ws/install/_local_setup_util_sh.py'
+[9.143s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/apollo/dev_ws/install/setup.sh'
+[9.158s] INFO:colcon.colcon_core.shell:Creating prefix script '/apollo/dev_ws/install/local_setup.bash'
+[9.169s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/apollo/dev_ws/install/setup.bash'
+[9.180s] INFO:colcon.colcon_core.shell:Creating prefix script '/apollo/dev_ws/install/local_setup.zsh'
+[9.191s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/apollo/dev_ws/install/setup.zsh'

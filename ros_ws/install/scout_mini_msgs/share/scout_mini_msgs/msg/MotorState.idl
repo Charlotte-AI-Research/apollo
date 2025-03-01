@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from scout_mini_msgs/msg/MotorState.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module scout_mini_msgs {
+  module msg {
+    typedef string string__4[4];
+    typedef double double__4[4];
+    typedef int16 int16__4[4];
+    struct MotorState {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Joint name")
+      string__4 name;
+
+      @verbatim (language="comment", text=
+        "The actual position by the encoder value (rad)")
+      double__4 position;
+
+      @verbatim (language="comment", text=
+        "The actual velocity measured by the encoder as the actual RPM value (rad/s)")
+      double__4 velocity;
+
+      @verbatim (language="comment", text=
+        "The current flowing through the motor (A)")
+      double__4 current;
+
+      @verbatim (language="comment", text=
+        "The actual temperature of motor (C)")
+      int16__4 temperature;
+    };
+  };
+};

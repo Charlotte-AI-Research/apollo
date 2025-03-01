@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000642] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.001014] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.097374] (-) TimerEvent: {}
+[0.199280] (-) TimerEvent: {}
+[0.306989] (-) TimerEvent: {}
+[0.416387] (-) TimerEvent: {}
+[0.517015] (-) TimerEvent: {}
+[0.623161] (-) TimerEvent: {}
+[0.723935] (-) TimerEvent: {}
+[0.824723] (-) TimerEvent: {}
+[0.925561] (-) TimerEvent: {}
+[1.026786] (-) TimerEvent: {}
+[1.127545] (-) TimerEvent: {}
+[1.228188] (-) TimerEvent: {}
+[1.328734] (-) TimerEvent: {}
+[1.429557] (-) TimerEvent: {}
+[1.533410] (-) TimerEvent: {}
+[1.634152] (-) TimerEvent: {}
+[1.734869] (-) TimerEvent: {}
+[1.835536] (-) TimerEvent: {}
+[1.936178] (-) TimerEvent: {}
+[2.036946] (-) TimerEvent: {}
+[2.137501] (-) TimerEvent: {}
+[2.238311] (-) TimerEvent: {}
+[2.339075] (-) TimerEvent: {}
+[2.440078] (-) TimerEvent: {}
+[2.541478] (-) TimerEvent: {}
+[2.643846] (-) TimerEvent: {}
+[2.745219] (-) TimerEvent: {}
+[2.845797] (-) TimerEvent: {}
+[2.946447] (-) TimerEvent: {}
+[3.047188] (-) TimerEvent: {}
+[3.148553] (-) TimerEvent: {}
+[3.252954] (-) TimerEvent: {}
+[3.369403] (-) TimerEvent: {}
+[3.470838] (-) TimerEvent: {}
+[3.571517] (-) TimerEvent: {}
+[3.606277] (my_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/apollo/dev_ws/build/my_package/build', '--no-deps', 'symlink_data'], 'cwd': '/apollo/dev_ws/build/my_package', 'env': {'HOSTNAME': 'docker-desktop', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.97.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-7b15ddb9-8889-4b8d-8a1d-6e07b9d91e5e.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'vscode-wayland-2042f446-e01f-4a02-987d-62feb24fbbc9.sock', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-e3884e49-8a9b-466b-a023-7f67d21acd68.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X3","/home/ubuntu/.gnupg/S.gpg-agent"]', 'DISPLAY': ':3', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/1000/vscode-git-f5d3ce93b6.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X3', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/apollo/dev_ws/build/my_package', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/apollo/dev_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/apollo/dev_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.671640] (-) TimerEvent: {}
+[3.772301] (-) TimerEvent: {}
+[3.872998] (-) TimerEvent: {}
+[3.973639] (-) TimerEvent: {}
+[4.074216] (-) TimerEvent: {}
+[4.174766] (-) TimerEvent: {}
+[4.275379] (-) TimerEvent: {}
+[4.376309] (-) TimerEvent: {}
+[4.477197] (-) TimerEvent: {}
+[4.578030] (-) TimerEvent: {}
+[4.678744] (-) TimerEvent: {}
+[4.779428] (-) TimerEvent: {}
+[4.880337] (-) TimerEvent: {}
+[4.966888] (my_package) StdoutLine: {'line': b'running develop\n'}
+[4.980500] (-) TimerEvent: {}
+[5.081337] (-) TimerEvent: {}
+[5.182139] (-) TimerEvent: {}
+[5.282864] (-) TimerEvent: {}
+[5.330152] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[5.332181] (my_package) StdoutLine: {'line': b'creating my_package.egg-info\n'}
+[5.334970] (my_package) StdoutLine: {'line': b'writing my_package.egg-info/PKG-INFO\n'}
+[5.346098] (my_package) StdoutLine: {'line': b'writing dependency_links to my_package.egg-info/dependency_links.txt\n'}
+[5.355238] (my_package) StdoutLine: {'line': b'writing entry points to my_package.egg-info/entry_points.txt\n'}
+[5.361408] (my_package) StdoutLine: {'line': b'writing requirements to my_package.egg-info/requires.txt\n'}
+[5.367496] (my_package) StdoutLine: {'line': b'writing top-level names to my_package.egg-info/top_level.txt\n'}
+[5.376385] (my_package) StdoutLine: {'line': b"writing manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[5.383011] (-) TimerEvent: {}
+[5.483818] (-) TimerEvent: {}
+[5.490070] (my_package) StdoutLine: {'line': b"reading manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[5.584023] (-) TimerEvent: {}
+[5.596595] (my_package) StdoutLine: {'line': b"writing manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[5.621075] (my_package) StdoutLine: {'line': b'running build_ext\n'}
+[5.622474] (my_package) StdoutLine: {'line': b'Creating /apollo/dev_ws/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)\n'}
+[5.666433] (my_package) StdoutLine: {'line': b'Installing listener script to /apollo/dev_ws/install/my_package/lib/my_package\n'}
+[5.684208] (-) TimerEvent: {}
+[5.696842] (my_package) StdoutLine: {'line': b'Installing talker script to /apollo/dev_ws/install/my_package/lib/my_package\n'}
+[5.737288] (my_package) StdoutLine: {'line': b'\n'}
+[5.738866] (my_package) StdoutLine: {'line': b'Installed /apollo/dev_ws/build/my_package\n'}
+[5.746202] (my_package) StdoutLine: {'line': b'running symlink_data\n'}
+[5.762345] (my_package) StdoutLine: {'line': b'creating /apollo/dev_ws/install/my_package/share/ament_index\n'}
+[5.766539] (my_package) StdoutLine: {'line': b'creating /apollo/dev_ws/install/my_package/share/ament_index/resource_index\n'}
+[5.772703] (my_package) StdoutLine: {'line': b'creating /apollo/dev_ws/install/my_package/share/ament_index/resource_index/packages\n'}
+[5.784333] (-) TimerEvent: {}
+[5.802077] (my_package) StdoutLine: {'line': b'symbolically linking /apollo/dev_ws/build/my_package/resource/my_package -> /apollo/dev_ws/install/my_package/share/ament_index/resource_index/packages\n'}
+[5.835160] (my_package) StdoutLine: {'line': b'symbolically linking /apollo/dev_ws/build/my_package/package.xml -> /apollo/dev_ws/install/my_package/share/my_package\n'}
+[5.853780] (my_package) StdoutLine: {'line': b'creating /apollo/dev_ws/install/my_package/share/my_package/launch\n'}
+[5.879220] (my_package) StdoutLine: {'line': b'symbolically linking /apollo/dev_ws/build/my_package/launch/listener.launch.py -> /apollo/dev_ws/install/my_package/share/my_package/launch\n'}
+[5.884419] (-) TimerEvent: {}
+[5.912023] (my_package) StdoutLine: {'line': b'symbolically linking /apollo/dev_ws/build/my_package/launch/talker.launch.py -> /apollo/dev_ws/install/my_package/share/my_package/launch\n'}
+[5.945295] (my_package) CommandEnded: {'returncode': 0}
+[5.984536] (-) TimerEvent: {}
+[6.085036] (-) TimerEvent: {}
+[6.186077] (-) TimerEvent: {}
+[6.287184] (-) TimerEvent: {}
+[6.387948] (-) TimerEvent: {}
+[6.488394] (-) TimerEvent: {}
+[6.589211] (-) TimerEvent: {}
+[6.681301] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[6.715050] (-) TimerEvent: {}
+[6.716248] (-) EventReactorShutdown: {}

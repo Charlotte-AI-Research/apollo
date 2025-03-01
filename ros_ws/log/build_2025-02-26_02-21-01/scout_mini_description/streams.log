@@ -1,0 +1,74 @@
+[0.406s] Invoking command in '/apollo/ros_ws/build/scout_mini_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /apollo/ros_ws/src/scout_mini_description -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/scout_mini_description
+[0.879s] -- The C compiler identification is GNU 11.4.0
+[1.309s] -- The CXX compiler identification is GNU 11.4.0
+[1.397s] -- Detecting C compiler ABI info
+[2.753s] -- Detecting C compiler ABI info - done
+[2.855s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.886s] -- Detecting C compile features
+[2.903s] -- Detecting C compile features - done
+[3.168s] -- Detecting CXX compiler ABI info
+[5.287s] -- Detecting CXX compiler ABI info - done
+[5.342s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.344s] -- Detecting CXX compile features
+[5.347s] -- Detecting CXX compile features - done
+[5.496s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.748s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.114s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[6.265s] -- Found rviz2: 11.2.16 (/opt/ros/humble/share/rviz2/cmake)
+[6.271s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[6.310s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.318s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.329s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.351s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.369s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.474s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.477s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.479s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.540s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.548s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.583s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[6.631s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.636s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[6.697s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.699s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[6.706s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[6.742s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.877s] -- Looking for pthread.h
+[9.079s] -- Looking for pthread.h - found
+[9.136s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.096s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.121s] -- Found Threads: TRUE  
+[13.158s] -- Configuring done
+[14.795s] -- Generating done
+[15.931s] -- Build files have been written to: /apollo/ros_ws/build/scout_mini_description
+[15.940s] Invoked command in '/apollo/ros_ws/build/scout_mini_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /apollo/ros_ws/src/scout_mini_description -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/scout_mini_description
+[16.026s] Invoking command in '/apollo/ros_ws/build/scout_mini_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_description -- -j20 -l20
+[16.522s] Invoked command in '/apollo/ros_ws/build/scout_mini_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_description -- -j20 -l20
+[16.583s] Invoking command in '/apollo/ros_ws/build/scout_mini_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /apollo/ros_ws/build/scout_mini_description
+[16.599s] -- Install configuration: ""
+[16.612s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/launch
+[16.780s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/launch/description_launch.py
+[17.143s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/launch/rviz2_launch.py
+[17.424s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/meshes
+[17.556s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/meshes/body.dae
+[21.771s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/meshes/wheel.dae
+[23.002s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/rviz
+[23.086s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/rviz/scout_mini.rviz
+[23.234s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/urdf
+[23.348s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/urdf/scout_mini.urdf.xacro
+[23.803s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/ament_index/resource_index/package_run_dependencies/scout_mini_description
+[24.292s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/ament_index/resource_index/parent_prefix_path/scout_mini_description
+[24.492s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/environment/ament_prefix_path.sh
+[24.588s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/environment/ament_prefix_path.dsv
+[24.699s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/environment/path.sh
+[24.935s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/environment/path.dsv
+[25.277s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/local_setup.bash
+[25.490s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/local_setup.sh
+[25.632s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/local_setup.zsh
+[25.895s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/local_setup.dsv
+[26.209s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/package.dsv
+[26.570s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/ament_index/resource_index/packages/scout_mini_description
+[26.758s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/cmake/scout_mini_descriptionConfig.cmake
+[26.959s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/cmake/scout_mini_descriptionConfig-version.cmake
+[27.176s] -- Installing: /apollo/ros_ws/install/scout_mini_description/share/scout_mini_description/package.xml
+[27.341s] Invoked command in '/apollo/ros_ws/build/scout_mini_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /apollo/ros_ws/build/scout_mini_description

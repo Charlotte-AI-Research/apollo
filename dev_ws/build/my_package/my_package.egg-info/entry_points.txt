@@ -1,0 +1,4 @@
+[console_scripts]
+listener = my_package.listener
+talker = my_package.talker
+
