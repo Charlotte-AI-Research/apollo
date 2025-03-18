@@ -43,11 +43,20 @@ RUN sudo apt update && sudo apt install -y --no-install-recommends \
 # Update package sources and upgrade existing packages
 RUN sudo apt update && sudo apt upgrade -y
 
+RUN sudo apt-get update && sudo apt-get install -y python3-pip
+
+RUN python3 -m pip install --no-cache-dir \
+    pyrealsense2 \
+    ultralytics \
+    opencv-python-headless
+
 # Rosdep update
 RUN rosdep update
 
 # Source the ROS setup file automatically in every new shell session
 RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc
+RUN echo "source dev_ws/install/setup.bash" >> ~/.bashrc
+RUN echo "source ros_ws/install/setup.bash" >> ~/.bashrc
 
 ################################
 ## ADD ANY CUSTOM SETUP BELOW ##
