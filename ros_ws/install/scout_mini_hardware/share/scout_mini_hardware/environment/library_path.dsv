@@ -1,1 +1,1 @@
-prepend-non-duplicate;LD_LIBRARY_PATH;lib
+/apollo/ros_ws/build/scout_mini_hardware/ament_cmake_environment_hooks/library_path.dsv

@@ -1,0 +1,4 @@
+Invoking command in '/apollo/ros_ws/build/scout_mini_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_msgs -- -j20 -l20
+Invoked command in '/apollo/ros_ws/build/scout_mini_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_msgs -- -j20 -l20
+Invoking command in '/apollo/ros_ws/build/scout_mini_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /apollo/ros_ws/build/scout_mini_msgs
+Invoked command in '/apollo/ros_ws/build/scout_mini_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /apollo/ros_ws/build/scout_mini_msgs

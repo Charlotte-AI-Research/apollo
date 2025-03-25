@@ -1,0 +1,205 @@
+[0.011s] Invoking command in '/apollo/ros_ws/build/scout_mini_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_msgs -- -j20 -l20
+[0.056s] [  1%] Built target scout_mini_msgs__cpp
+[0.063s] [  1%] Built target ament_cmake_python_symlink_scout_mini_msgs
+[0.064s] [ 12%] Built target scout_mini_msgs__rosidl_generator_c
+[0.085s] [ 23%] Built target scout_mini_msgs__rosidl_typesupport_fastrtps_cpp
+[0.089s] [ 35%] Built target scout_mini_msgs__rosidl_typesupport_cpp
+[0.092s] [ 46%] Built target scout_mini_msgs__rosidl_typesupport_c
+[0.094s] [ 61%] Built target scout_mini_msgs__rosidl_typesupport_introspection_c
+[0.095s] [ 69%] Built target scout_mini_msgs__rosidl_typesupport_introspection_cpp
+[0.095s] [ 80%] Built target scout_mini_msgs__rosidl_typesupport_fastrtps_c
+[0.114s] [ 80%] Built target scout_mini_msgs
+[0.134s] [ 81%] Built target scout_mini_msgs__py
+[0.154s] [ 91%] Built target scout_mini_msgs__rosidl_generator_py
+[0.175s] [ 94%] Built target scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.176s] [ 97%] Built target scout_mini_msgs__rosidl_typesupport_c__pyext
+[0.178s] [100%] Built target scout_mini_msgs__rosidl_typesupport_introspection_c__pyext
+[0.219s] running egg_info
+[0.220s] writing scout_mini_msgs.egg-info/PKG-INFO
+[0.220s] writing dependency_links to scout_mini_msgs.egg-info/dependency_links.txt
+[0.220s] writing top-level names to scout_mini_msgs.egg-info/top_level.txt
+[0.223s] reading manifest file 'scout_mini_msgs.egg-info/SOURCES.txt'
+[0.224s] writing manifest file 'scout_mini_msgs.egg-info/SOURCES.txt'
+[0.248s] [100%] Built target ament_cmake_python_build_scout_mini_msgs_egg
+[0.306s] Invoked command in '/apollo/ros_ws/build/scout_mini_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_msgs -- -j20 -l20
+[0.307s] Invoking command in '/apollo/ros_ws/build/scout_mini_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /apollo/ros_ws/build/scout_mini_msgs
+[0.312s] -- Install configuration: ""
+[0.313s] -- Execute custom install script
+[0.313s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/ament_index/resource_index/rosidl_interfaces/scout_mini_msgs
+[0.313s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__functions.h
+[0.313s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__struct.h
+[0.313s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__type_support.h
+[0.313s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__functions.h
+[0.314s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__struct.h
+[0.314s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__type_support.h
+[0.314s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__functions.h
+[0.314s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__struct.h
+[0.314s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__type_support.h
+[0.314s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__functions.h
+[0.314s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__struct.h
+[0.314s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__type_support.h
+[0.314s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__functions.h
+[0.314s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__struct.h
+[0.315s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__type_support.h
+[0.315s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__functions.h
+[0.315s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__struct.h
+[0.315s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__type_support.h
+[0.315s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/driver_state.h
+[0.315s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/fault_state.h
+[0.315s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/light_command.h
+[0.315s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/light_state.h
+[0.315s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/motor_state.h
+[0.315s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/robot_state.h
+[0.315s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.315s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/library_path.sh
+[0.315s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/library_path.dsv
+[0.315s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__rosidl_typesupport_fastrtps_c.h
+[0.315s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__rosidl_typesupport_fastrtps_c.h
+[0.315s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__rosidl_typesupport_fastrtps_c.h
+[0.315s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__rosidl_typesupport_fastrtps_c.h
+[0.315s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h
+[0.315s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__rosidl_typesupport_fastrtps_c.h
+[0.315s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.315s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__rosidl_typesupport_introspection_c.h
+[0.315s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__rosidl_typesupport_introspection_c.h
+[0.316s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__rosidl_typesupport_introspection_c.h
+[0.316s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__rosidl_typesupport_introspection_c.h
+[0.316s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__rosidl_typesupport_introspection_c.h
+[0.316s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__rosidl_typesupport_introspection_c.h
+[0.316s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.316s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__builder.hpp
+[0.316s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__struct.hpp
+[0.316s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__traits.hpp
+[0.316s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__type_support.hpp
+[0.316s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__builder.hpp
+[0.316s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__struct.hpp
+[0.316s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__traits.hpp
+[0.316s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__type_support.hpp
+[0.316s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__builder.hpp
+[0.316s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__struct.hpp
+[0.316s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__traits.hpp
+[0.316s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__type_support.hpp
+[0.316s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__builder.hpp
+[0.317s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__struct.hpp
+[0.317s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__traits.hpp
+[0.317s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__type_support.hpp
+[0.317s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__builder.hpp
+[0.317s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__struct.hpp
+[0.317s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__traits.hpp
+[0.317s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__type_support.hpp
+[0.317s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__builder.hpp
+[0.317s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__struct.hpp
+[0.317s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__traits.hpp
+[0.317s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__type_support.hpp
+[0.317s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/driver_state.hpp
+[0.317s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/fault_state.hpp
+[0.317s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/light_command.hpp
+[0.317s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/light_state.hpp
+[0.317s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/motor_state.hpp
+[0.317s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/robot_state.hpp
+[0.317s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.318s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__rosidl_typesupport_fastrtps_cpp.hpp
+[0.318s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__rosidl_typesupport_fastrtps_cpp.hpp
+[0.318s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__rosidl_typesupport_fastrtps_cpp.hpp
+[0.318s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__rosidl_typesupport_fastrtps_cpp.hpp
+[0.318s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[0.318s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__rosidl_typesupport_fastrtps_cpp.hpp
+[0.318s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.318s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__rosidl_typesupport_introspection_cpp.hpp
+[0.318s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__rosidl_typesupport_introspection_cpp.hpp
+[0.318s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__rosidl_typesupport_introspection_cpp.hpp
+[0.319s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__rosidl_typesupport_introspection_cpp.hpp
+[0.319s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp
+[0.319s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__rosidl_typesupport_introspection_cpp.hpp
+[0.319s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/pythonpath.sh
+[0.319s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/pythonpath.dsv
+[0.319s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[0.319s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[0.319s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[0.319s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[0.320s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/__init__.py
+[0.320s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/_scout_mini_msgs_s.ep.rosidl_typesupport_c.c
+[0.320s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/_scout_mini_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.320s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/_scout_mini_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.320s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/libscout_mini_msgs__rosidl_generator_py.so
+[0.320s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/__init__.py
+[0.320s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_driver_state.py
+[0.320s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_driver_state_s.c
+[0.320s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_fault_state.py
+[0.320s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_fault_state_s.c
+[0.320s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_light_command.py
+[0.320s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_light_command_s.c
+[0.320s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_light_state.py
+[0.320s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_light_state_s.c
+[0.320s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_motor_state.py
+[0.321s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_motor_state_s.c
+[0.321s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_robot_state.py
+[0.321s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_robot_state_s.c
+[0.321s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.321s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.321s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.321s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.321s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.321s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.321s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/DriverState.idl
+[0.321s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/FaultState.idl
+[0.321s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/LightCommand.idl
+[0.322s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/LightState.idl
+[0.322s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/MotorState.idl
+[0.322s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/RobotState.idl
+[0.322s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/DriverState.msg
+[0.322s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/FaultState.msg
+[0.322s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/LightCommand.msg
+[0.322s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/LightState.msg
+[0.322s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/MotorState.msg
+[0.322s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/RobotState.msg
+[0.322s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/ament_index/resource_index/package_run_dependencies/scout_mini_msgs
+[0.322s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/ament_index/resource_index/parent_prefix_path/scout_mini_msgs
+[0.323s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/ament_prefix_path.sh
+[0.323s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/ament_prefix_path.dsv
+[0.323s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/path.sh
+[0.323s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/path.dsv
+[0.323s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/local_setup.bash
+[0.323s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/local_setup.sh
+[0.323s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/local_setup.zsh
+[0.323s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/local_setup.dsv
+[0.323s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.dsv
+[0.329s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/ament_index/resource_index/packages/scout_mini_msgs
+[0.329s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/rosidl_cmake-extras.cmake
+[0.330s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.330s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.330s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.330s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.330s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.331s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.331s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgsConfig.cmake
+[0.331s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgsConfig-version.cmake
+[0.331s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.xml
+[0.331s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_generator_c.so
+[0.332s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_fastrtps_c.so
+[0.332s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_introspection_c.so
+[0.332s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_c.so
+[0.332s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.333s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_introspection_cpp.so
+[0.333s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_cpp.so
+[0.356s] Listing '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs'...
+[0.356s] Listing '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg'...
+[0.359s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_generator_py.so
+[0.359s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_generator_cExport.cmake
+[0.359s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.359s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.359s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.359s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.359s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.359s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgs__rosidl_typesupport_cExport.cmake
+[0.359s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.359s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_generator_cppExport.cmake
+[0.359s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.359s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.359s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.359s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.359s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgs__rosidl_typesupport_cppExport.cmake
+[0.359s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.359s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_generator_pyExport.cmake
+[0.359s] -- Up-to-date: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.362s] Invoked command in '/apollo/ros_ws/build/scout_mini_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /apollo/ros_ws/build/scout_mini_msgs

@@ -1,0 +1,17 @@
+running egg_info
+writing ../../build/auto_break/task1.egg-info/PKG-INFO
+writing dependency_links to ../../build/auto_break/task1.egg-info/dependency_links.txt
+writing entry points to ../../build/auto_break/task1.egg-info/entry_points.txt
+writing requirements to ../../build/auto_break/task1.egg-info/requires.txt
+writing top-level names to ../../build/auto_break/task1.egg-info/top_level.txt
+reading manifest file '../../build/auto_break/task1.egg-info/SOURCES.txt'
+writing manifest file '../../build/auto_break/task1.egg-info/SOURCES.txt'
+running build
+running build_py
+copying task1/break_if_obstacle.py -> /apollo/ros_ws/build/auto_break/build/lib/task1
+running install
+running install_lib
+copying /apollo/ros_ws/build/auto_break/build/lib/task1/break_if_obstacle.py -> /apollo/ros_ws/install/auto_break/lib/python3.10/site-packages/task1
+byte-compiling /apollo/ros_ws/install/auto_break/lib/python3.10/site-packages/task1/break_if_obstacle.py to break_if_obstacle.cpython-310.pyc
+running install_data
+error: can't copy 'resource/task1': doesn't exist or not a regular file

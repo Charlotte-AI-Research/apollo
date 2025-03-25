@@ -1,0 +1,28 @@
+[0.361s] Invoking command in '/apollo/dev_ws/build/my_package': PYTHONPATH=/apollo/dev_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/apollo/dev_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /apollo/dev_ws/build/my_package/build --no-deps symlink_data
+[0.508s] running develop
+[0.582s] running egg_info
+[0.582s] creating my_package.egg-info
+[0.582s] writing my_package.egg-info/PKG-INFO
+[0.582s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[0.582s] writing entry points to my_package.egg-info/entry_points.txt
+[0.582s] writing requirements to my_package.egg-info/requires.txt
+[0.582s] writing top-level names to my_package.egg-info/top_level.txt
+[0.582s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[0.583s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[0.583s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[0.584s] running build_ext
+[0.584s] Creating /apollo/dev_ws/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)
+[0.585s] Installing listener script to /apollo/dev_ws/install/my_package/lib/my_package
+[0.585s] Installing talker script to /apollo/dev_ws/install/my_package/lib/my_package
+[0.585s] 
+[0.585s] Installed /apollo/dev_ws/build/my_package
+[0.585s] running symlink_data
+[0.585s] creating /apollo/dev_ws/install/my_package/share/ament_index
+[0.585s] creating /apollo/dev_ws/install/my_package/share/ament_index/resource_index
+[0.585s] creating /apollo/dev_ws/install/my_package/share/ament_index/resource_index/packages
+[0.585s] symbolically linking /apollo/dev_ws/build/my_package/resource/my_package -> /apollo/dev_ws/install/my_package/share/ament_index/resource_index/packages
+[0.585s] symbolically linking /apollo/dev_ws/build/my_package/package.xml -> /apollo/dev_ws/install/my_package/share/my_package
+[0.585s] creating /apollo/dev_ws/install/my_package/share/my_package/launch
+[0.586s] symbolically linking /apollo/dev_ws/build/my_package/launch/talker.launch.py -> /apollo/dev_ws/install/my_package/share/my_package/launch
+[0.586s] symbolically linking /apollo/dev_ws/build/my_package/launch/listener.launch.py -> /apollo/dev_ws/install/my_package/share/my_package/launch
+[0.602s] Invoked command in '/apollo/dev_ws/build/my_package' returned '0': PYTHONPATH=/apollo/dev_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/apollo/dev_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /apollo/dev_ws/build/my_package/build --no-deps symlink_data

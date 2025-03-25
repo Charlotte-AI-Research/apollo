@@ -1,0 +1,1 @@
+/apollo/ros_ws/src/scout_mini_simulation/launch/simulation.launch.py

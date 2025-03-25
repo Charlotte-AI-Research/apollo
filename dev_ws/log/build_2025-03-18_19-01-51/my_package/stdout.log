@@ -1,0 +1,32 @@
+running develop
+Removing /apollo/dev_ws/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)
+running egg_info
+writing ../../build/my_package/my_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /apollo/dev_ws/build/my_package/build
+creating /apollo/dev_ws/build/my_package/build/lib
+creating /apollo/dev_ws/build/my_package/build/lib/my_package
+copying my_package/__init__.py -> /apollo/dev_ws/build/my_package/build/lib/my_package
+running install
+running install_lib
+creating /apollo/dev_ws/install/my_package/lib/python3.10/site-packages/my_package
+copying /apollo/dev_ws/build/my_package/build/lib/my_package/__init__.py -> /apollo/dev_ws/install/my_package/lib/python3.10/site-packages/my_package
+byte-compiling /apollo/dev_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/my_package -> /apollo/dev_ws/install/my_package/share/ament_index/resource_index/packages
+copying package.xml -> /apollo/dev_ws/install/my_package/share/my_package
+copying launch/talker.launch.py -> /apollo/dev_ws/install/my_package/share/my_package/launch
+copying launch/listener.launch.py -> /apollo/dev_ws/install/my_package/share/my_package/launch
+running install_egg_info
+Copying ../../build/my_package/my_package.egg-info to /apollo/dev_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /apollo/dev_ws/install/my_package/lib/my_package
+Installing talker script to /apollo/dev_ws/install/my_package/lib/my_package
+writing list of installed files to '/apollo/dev_ws/build/my_package/install.log'

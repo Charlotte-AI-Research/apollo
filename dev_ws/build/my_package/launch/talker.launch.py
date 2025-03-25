@@ -1,1 +1,1 @@
-/apollo/dev_ws/my_package/launch/talker.launch.py
+/apollo/dev_ws/src/my_package/launch/talker.launch.py

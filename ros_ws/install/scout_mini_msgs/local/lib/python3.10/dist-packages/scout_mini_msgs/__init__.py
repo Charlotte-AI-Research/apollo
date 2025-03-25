@@ -1,0 +1,1 @@
+/apollo/ros_ws/build/scout_mini_msgs/rosidl_generator_py/scout_mini_msgs/__init__.py

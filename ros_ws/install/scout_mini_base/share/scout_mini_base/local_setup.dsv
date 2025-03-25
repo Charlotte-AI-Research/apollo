@@ -1,2 +1,1 @@
-source;share/scout_mini_base/environment/ament_prefix_path.sh
-source;share/scout_mini_base/environment/path.sh
+/apollo/ros_ws/build/scout_mini_base/ament_cmake_environment_hooks/local_setup.dsv

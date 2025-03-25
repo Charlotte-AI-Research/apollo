@@ -1,1 +1,1 @@
-rclcpp;hardware_interface;pluginlib;realtime_tools;std_msgs;can_msgs;ros2_socketcan;ros2_socketcan_msgs;scout_mini_msgs
+/apollo/ros_ws/build/scout_mini_hardware/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/scout_mini_hardware

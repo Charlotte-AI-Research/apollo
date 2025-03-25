@@ -95,7 +95,7 @@ clean: CMakeFiles/scout_mini_msgs__cpp.dir/clean
 clean: CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_cpp.dir/clean
 clean: CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_cpp.dir/clean
 clean: CMakeFiles/scout_mini_msgs__rosidl_typesupport_cpp.dir/clean
-clean: CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/clean
+clean: CMakeFiles/ament_cmake_python_symlink_scout_mini_msgs.dir/clean
 clean: CMakeFiles/ament_cmake_python_build_scout_mini_msgs_egg.dir/clean
 clean: CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/clean
 clean: CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/clean
@@ -413,36 +413,36 @@ CMakeFiles/scout_mini_msgs__rosidl_typesupport_cpp.dir/clean:
 .PHONY : CMakeFiles/scout_mini_msgs__rosidl_typesupport_cpp.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir
+# Target rules for target CMakeFiles/ament_cmake_python_symlink_scout_mini_msgs.dir
 
 # All Build rule for target.
-CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/build.make CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/build.make CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/apollo/ros_ws/build/scout_mini_msgs/CMakeFiles --progress-num= "Built target ament_cmake_python_copy_scout_mini_msgs"
-.PHONY : CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/all
+CMakeFiles/ament_cmake_python_symlink_scout_mini_msgs.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_scout_mini_msgs.dir/build.make CMakeFiles/ament_cmake_python_symlink_scout_mini_msgs.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_scout_mini_msgs.dir/build.make CMakeFiles/ament_cmake_python_symlink_scout_mini_msgs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/apollo/ros_ws/build/scout_mini_msgs/CMakeFiles --progress-num= "Built target ament_cmake_python_symlink_scout_mini_msgs"
+.PHONY : CMakeFiles/ament_cmake_python_symlink_scout_mini_msgs.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/rule: cmake_check_build_system
+CMakeFiles/ament_cmake_python_symlink_scout_mini_msgs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /apollo/ros_ws/build/scout_mini_msgs/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_symlink_scout_mini_msgs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /apollo/ros_ws/build/scout_mini_msgs/CMakeFiles 0
-.PHONY : CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/rule
+.PHONY : CMakeFiles/ament_cmake_python_symlink_scout_mini_msgs.dir/rule
 
 # Convenience name for target.
-ament_cmake_python_copy_scout_mini_msgs: CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/rule
-.PHONY : ament_cmake_python_copy_scout_mini_msgs
+ament_cmake_python_symlink_scout_mini_msgs: CMakeFiles/ament_cmake_python_symlink_scout_mini_msgs.dir/rule
+.PHONY : ament_cmake_python_symlink_scout_mini_msgs
 
 # clean rule for target.
-CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/build.make CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/clean
-.PHONY : CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/clean
+CMakeFiles/ament_cmake_python_symlink_scout_mini_msgs.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_scout_mini_msgs.dir/build.make CMakeFiles/ament_cmake_python_symlink_scout_mini_msgs.dir/clean
+.PHONY : CMakeFiles/ament_cmake_python_symlink_scout_mini_msgs.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ament_cmake_python_build_scout_mini_msgs_egg.dir
 
 # All Build rule for target.
-CMakeFiles/ament_cmake_python_build_scout_mini_msgs_egg.dir/all: CMakeFiles/ament_cmake_python_copy_scout_mini_msgs.dir/all
+CMakeFiles/ament_cmake_python_build_scout_mini_msgs_egg.dir/all: CMakeFiles/ament_cmake_python_symlink_scout_mini_msgs.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_scout_mini_msgs_egg.dir/build.make CMakeFiles/ament_cmake_python_build_scout_mini_msgs_egg.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_scout_mini_msgs_egg.dir/build.make CMakeFiles/ament_cmake_python_build_scout_mini_msgs_egg.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/apollo/ros_ws/build/scout_mini_msgs/CMakeFiles --progress-num= "Built target ament_cmake_python_build_scout_mini_msgs_egg"
@@ -468,9 +468,9 @@ CMakeFiles/ament_cmake_python_build_scout_mini_msgs_egg.dir/clean:
 # Target rules for target CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir
 
 # All Build rule for target.
+CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/all: scout_mini_msgs__py/CMakeFiles/scout_mini_msgs__py.dir/all
 CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/all: CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/all
 CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/all: CMakeFiles/scout_mini_msgs__rosidl_typesupport_c.dir/all
-CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/all: scout_mini_msgs__py/CMakeFiles/scout_mini_msgs__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/build.make CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/build.make CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/apollo/ros_ws/build/scout_mini_msgs/CMakeFiles --progress-num=11,12,13,14,15,16,17 "Built target scout_mini_msgs__rosidl_generator_py"
@@ -496,11 +496,11 @@ CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/clean:
 # Target rules for target CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext.dir
 
 # All Build rule for target.
+CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: scout_mini_msgs__py/CMakeFiles/scout_mini_msgs__py.dir/all
 CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/all
 CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c.dir/all
 CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/scout_mini_msgs__rosidl_typesupport_c.dir/all
 CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/all
-CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: scout_mini_msgs__py/CMakeFiles/scout_mini_msgs__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/apollo/ros_ws/build/scout_mini_msgs/CMakeFiles --progress-num=44,45 "Built target scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext"
@@ -526,11 +526,11 @@ CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/clean:
 # Target rules for target CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c__pyext.dir
 
 # All Build rule for target.
+CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: scout_mini_msgs__py/CMakeFiles/scout_mini_msgs__py.dir/all
 CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/all
 CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/scout_mini_msgs__rosidl_typesupport_c.dir/all
 CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/all
-CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: scout_mini_msgs__py/CMakeFiles/scout_mini_msgs__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c__pyext.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/apollo/ros_ws/build/scout_mini_msgs/CMakeFiles --progress-num=62,63 "Built target scout_mini_msgs__rosidl_typesupport_introspection_c__pyext"
@@ -556,10 +556,10 @@ CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c__pyext.dir/clean:
 # Target rules for target CMakeFiles/scout_mini_msgs__rosidl_typesupport_c__pyext.dir
 
 # All Build rule for target.
+CMakeFiles/scout_mini_msgs__rosidl_typesupport_c__pyext.dir/all: scout_mini_msgs__py/CMakeFiles/scout_mini_msgs__py.dir/all
 CMakeFiles/scout_mini_msgs__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/all
 CMakeFiles/scout_mini_msgs__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/scout_mini_msgs__rosidl_typesupport_c.dir/all
 CMakeFiles/scout_mini_msgs__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/all
-CMakeFiles/scout_mini_msgs__rosidl_typesupport_c__pyext.dir/all: scout_mini_msgs__py/CMakeFiles/scout_mini_msgs__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/scout_mini_msgs__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/scout_mini_msgs__rosidl_typesupport_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/scout_mini_msgs__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/scout_mini_msgs__rosidl_typesupport_c__pyext.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/apollo/ros_ws/build/scout_mini_msgs/CMakeFiles --progress-num=26,27 "Built target scout_mini_msgs__rosidl_typesupport_c__pyext"

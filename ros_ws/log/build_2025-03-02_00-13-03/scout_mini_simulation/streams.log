@@ -1,0 +1,27 @@
+[0.543s] Invoking command in '/apollo/ros_ws/build/scout_mini_simulation': CMAKE_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_base:/apollo/ros_ws/install/scout_mini_ros2:/apollo/ros_ws/install/scout_mini_hardware:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description PYTHONPATH=/apollo/ros_ws/build/scout_mini_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/apollo/ros_ws/install/scout_mini_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /apollo/ros_ws/build/scout_mini_simulation/build --no-deps symlink_data
+[0.693s] running develop
+[0.762s] running egg_info
+[0.762s] creating scout_mini_simulation.egg-info
+[0.762s] writing scout_mini_simulation.egg-info/PKG-INFO
+[0.762s] writing dependency_links to scout_mini_simulation.egg-info/dependency_links.txt
+[0.762s] writing entry points to scout_mini_simulation.egg-info/entry_points.txt
+[0.762s] writing requirements to scout_mini_simulation.egg-info/requires.txt
+[0.762s] writing top-level names to scout_mini_simulation.egg-info/top_level.txt
+[0.762s] writing manifest file 'scout_mini_simulation.egg-info/SOURCES.txt'
+[0.763s] reading manifest file 'scout_mini_simulation.egg-info/SOURCES.txt'
+[0.763s] writing manifest file 'scout_mini_simulation.egg-info/SOURCES.txt'
+[0.764s] running build_ext
+[0.764s] Creating /apollo/ros_ws/install/scout_mini_simulation/lib/python3.10/site-packages/scout-mini-simulation.egg-link (link to .)
+[0.765s] 
+[0.765s] Installed /apollo/ros_ws/build/scout_mini_simulation
+[0.765s] running symlink_data
+[0.765s] creating /apollo/ros_ws/install/scout_mini_simulation/share/ament_index
+[0.765s] creating /apollo/ros_ws/install/scout_mini_simulation/share/ament_index/resource_index
+[0.765s] creating /apollo/ros_ws/install/scout_mini_simulation/share/ament_index/resource_index/packages
+[0.765s] symbolically linking /apollo/ros_ws/build/scout_mini_simulation/resource/scout_mini_simulation -> /apollo/ros_ws/install/scout_mini_simulation/share/ament_index/resource_index/packages
+[0.765s] symbolically linking /apollo/ros_ws/build/scout_mini_simulation/package.xml -> /apollo/ros_ws/install/scout_mini_simulation/share/scout_mini_simulation
+[0.765s] creating /apollo/ros_ws/install/scout_mini_simulation/share/scout_mini_simulation/launch
+[0.765s] symbolically linking /apollo/ros_ws/build/scout_mini_simulation/launch/simulation.launch.py -> /apollo/ros_ws/install/scout_mini_simulation/share/scout_mini_simulation/launch
+[0.765s] creating /apollo/ros_ws/install/scout_mini_simulation/share/scout_mini_simulation/config
+[0.765s] symbolically linking /apollo/ros_ws/build/scout_mini_simulation/config/scout_mini.yaml -> /apollo/ros_ws/install/scout_mini_simulation/share/scout_mini_simulation/config
+[0.780s] Invoked command in '/apollo/ros_ws/build/scout_mini_simulation' returned '0': CMAKE_PREFIX_PATH=/apollo/ros_ws/install/scout_mini_base:/apollo/ros_ws/install/scout_mini_ros2:/apollo/ros_ws/install/scout_mini_hardware:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description PYTHONPATH=/apollo/ros_ws/build/scout_mini_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/apollo/ros_ws/install/scout_mini_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /apollo/ros_ws/build/scout_mini_simulation/build --no-deps symlink_data

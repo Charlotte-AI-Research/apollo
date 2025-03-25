@@ -1,3 +1,1 @@
-bool battery_under_voltage_failure
-bool battery_under_voltage_alarm 
-bool loss_remote_control
+/apollo/ros_ws/src/scout_mini_msgs/msg/FaultState.msg

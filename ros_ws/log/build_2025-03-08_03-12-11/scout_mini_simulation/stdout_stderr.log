@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing scout_mini_simulation.egg-info/PKG-INFO
+writing dependency_links to scout_mini_simulation.egg-info/dependency_links.txt
+writing entry points to scout_mini_simulation.egg-info/entry_points.txt
+writing requirements to scout_mini_simulation.egg-info/requires.txt
+writing top-level names to scout_mini_simulation.egg-info/top_level.txt
+reading manifest file 'scout_mini_simulation.egg-info/SOURCES.txt'
+writing manifest file 'scout_mini_simulation.egg-info/SOURCES.txt'
+running build_ext
+Creating /apollo/ros_ws/install/scout_mini_simulation/lib/python3.10/site-packages/scout-mini-simulation.egg-link (link to .)
+
+Installed /apollo/ros_ws/build/scout_mini_simulation
+running symlink_data

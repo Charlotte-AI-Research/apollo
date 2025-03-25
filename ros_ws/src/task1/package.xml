@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>auto_break</name>
+  <name>task1</name>
   <version>0.1.0</version>
-  <description>Robot navigation package using depth and classification for obstacle avoidance</description>
+  <description>Move in a predetermined path and stop at stop sign</description>
   
   <maintainer email="eric@fackelman.net">eric</maintainer>
   <license>TODO: License declaration</license>

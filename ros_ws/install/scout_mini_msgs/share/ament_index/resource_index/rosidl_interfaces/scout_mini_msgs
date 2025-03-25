@@ -1,12 +1,1 @@
-msg/DriverState.idl
-msg/DriverState.msg
-msg/FaultState.idl
-msg/FaultState.msg
-msg/LightCommand.idl
-msg/LightCommand.msg
-msg/LightState.idl
-msg/LightState.msg
-msg/MotorState.idl
-msg/MotorState.msg
-msg/RobotState.idl
-msg/RobotState.msg
+/apollo/ros_ws/build/scout_mini_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/scout_mini_msgs

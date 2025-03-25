@@ -1,1 +1,10 @@
-/apollo/dev_ws/build/my_package/launch/talker.launch.py
+from launch import LaunchDescription
+from launch_ros.actions import Node
+
+def generate_launch_description():
+    return LaunchDescription([
+        Node(
+            package='demo_nodes_py',
+            executable='talker'
+        )
+    ])

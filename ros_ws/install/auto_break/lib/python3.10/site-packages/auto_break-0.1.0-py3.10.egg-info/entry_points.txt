@@ -1,0 +1,3 @@
+[console_scripts]
+auto_break = auto_break.break_if_obstacle:main
+

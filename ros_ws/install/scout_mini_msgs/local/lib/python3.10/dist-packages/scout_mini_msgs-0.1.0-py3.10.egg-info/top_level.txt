@@ -1,1 +1,1 @@
-scout_mini_msgs
+/apollo/ros_ws/build/scout_mini_msgs/ament_cmake_python/scout_mini_msgs/scout_mini_msgs.egg-info/top_level.txt

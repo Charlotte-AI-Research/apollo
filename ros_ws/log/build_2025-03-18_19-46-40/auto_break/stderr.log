@@ -1,0 +1,6 @@
+  File "/apollo/ros_ws/install/auto_break/lib/python3.10/site-packages/task1/break_if_obstacle.py", line 119
+    while (stop = False):
+           ^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+
+error: can't copy 'resource/task1': doesn't exist or not a regular file
