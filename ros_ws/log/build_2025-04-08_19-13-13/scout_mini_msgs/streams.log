@@ -1,0 +1,328 @@
+[0.613s] Invoking command in '/apollo/ros_ws/build/scout_mini_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake /apollo/ros_ws/src/scout_mini_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/scout_mini_msgs
+[1.343s] -- The C compiler identification is GNU 11.4.0
+[1.786s] -- The CXX compiler identification is GNU 11.4.0
+[1.917s] -- Detecting C compiler ABI info
+[3.331s] -- Detecting C compiler ABI info - done
+[3.372s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.373s] -- Detecting C compile features
+[3.375s] -- Detecting C compile features - done
+[3.471s] -- Detecting CXX compiler ABI info
+[5.045s] -- Detecting CXX compiler ABI info - done
+[5.083s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.084s] -- Detecting CXX compile features
+[5.085s] -- Detecting CXX compile features - done
+[5.256s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.023s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.710s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.943s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[9.033s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.264s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.945s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.523s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[10.717s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[14.875s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[18.849s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[24.013s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[24.304s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[24.436s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[24.830s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[24.831s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[24.832s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[24.833s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[25.119s] -- Found PythonExtra: .so  
+[27.544s] -- Configuring done
+[30.890s] -- Generating done
+[31.811s] -- Build files have been written to: /apollo/ros_ws/build/scout_mini_msgs
+[33.018s] Invoked command in '/apollo/ros_ws/build/scout_mini_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake /apollo/ros_ws/src/scout_mini_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/scout_mini_msgs
+[33.019s] Invoking command in '/apollo/ros_ws/build/scout_mini_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_msgs -- -j12 -l12
+[33.920s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[34.027s] [  1%] Built target ament_cmake_python_symlink_scout_mini_msgs
+[34.055s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[35.630s] running egg_info
+[35.631s] creating scout_mini_msgs.egg-info
+[35.635s] writing scout_mini_msgs.egg-info/PKG-INFO
+[35.641s] writing dependency_links to scout_mini_msgs.egg-info/dependency_links.txt
+[35.651s] writing top-level names to scout_mini_msgs.egg-info/top_level.txt
+[35.659s] writing manifest file 'scout_mini_msgs.egg-info/SOURCES.txt'
+[35.695s] reading manifest file 'scout_mini_msgs.egg-info/SOURCES.txt'
+[35.736s] writing manifest file 'scout_mini_msgs.egg-info/SOURCES.txt'
+[35.829s] [  2%] Built target ament_cmake_python_build_scout_mini_msgs_egg
+[36.323s] [  2%] Built target scout_mini_msgs__cpp
+[36.369s] gmake[2]: Warning: File 'rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c' has modification time 0.15 s in the future
+[36.444s] [  5%] [32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c.o[0m
+[36.447s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[36.461s] [  7%] [32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/fault_state__functions.c.o[0m
+[36.471s] [  9%] [32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_command__functions.c.o[0m
+[36.475s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[36.498s] [ 11%] [32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/light_state__functions.c.o[0m
+[36.504s] [ 14%] [32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/motor_state__functions.c.o[0m
+[36.507s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[36.524s] [ 15%] [32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_c.dir/rosidl_generator_c/scout_mini_msgs/msg/detail/robot_state__functions.c.o[0m
+[37.038s] [ 16%] [32m[1mLinking C shared library libscout_mini_msgs__rosidl_generator_c.so[0m
+[37.570s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[37.861s] [ 16%] Built target scout_mini_msgs__rosidl_generator_c
+[37.997s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[37.999s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[38.020s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[38.175s] gmake[2]: Warning: File 'rosidl_typesupport_cpp/scout_mini_msgs/msg/fault_state__type_support.cpp' has modification time 0.3 s in the future
+[38.246s] [ 22%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scout_mini_msgs/msg/driver_state__type_support.cpp.o[0m
+[38.288s] [ 23%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scout_mini_msgs/msg/fault_state__type_support.cpp.o[0m
+[38.336s] [ 25%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scout_mini_msgs/msg/light_command__type_support.cpp.o[0m
+[38.357s] [ 26%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scout_mini_msgs/msg/light_state__type_support.cpp.o[0m
+[38.387s] [ 29%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scout_mini_msgs/msg/motor_state__type_support.cpp.o[0m
+[38.392s] [ 29%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scout_mini_msgs/msg/robot_state__type_support.cpp.o[0m
+[38.598s] gmake[2]: Warning: File 'rosidl_typesupport_introspection_cpp/scout_mini_msgs/msg/detail/driver_state__type_support.cpp' has modification time 0.11 s in the future
+[38.729s] [ 30%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scout_mini_msgs/msg/detail/driver_state__type_support.cpp.o[0m
+[38.750s] [ 32%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scout_mini_msgs/msg/detail/fault_state__type_support.cpp.o[0m
+[38.795s] gmake[2]: Warning: File 'rosidl_typesupport_fastrtps_cpp/scout_mini_msgs/msg/detail/dds_fastrtps/fault_state__type_support.cpp' has modification time 0.053 s in the future
+[38.970s] [ 33%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scout_mini_msgs/msg/detail/dds_fastrtps/driver_state__type_support.cpp.o[0m
+[39.192s] [ 36%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scout_mini_msgs/msg/detail/light_command__type_support.cpp.o[0m
+[39.195s] [ 36%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scout_mini_msgs/msg/detail/dds_fastrtps/fault_state__type_support.cpp.o[0m
+[39.205s] [ 38%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scout_mini_msgs/msg/detail/dds_fastrtps/light_command__type_support.cpp.o[0m
+[39.217s] [ 39%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scout_mini_msgs/msg/detail/light_state__type_support.cpp.o[0m
+[39.273s] [ 40%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scout_mini_msgs/msg/detail/motor_state__type_support.cpp.o[0m
+[39.307s] [ 42%] [32m[1mLinking CXX shared library libscout_mini_msgs__rosidl_typesupport_cpp.so[0m
+[40.224s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[40.316s] [ 43%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scout_mini_msgs/msg/detail/robot_state__type_support.cpp.o[0m
+[40.383s] [ 45%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scout_mini_msgs/msg/detail/dds_fastrtps/light_state__type_support.cpp.o[0m
+[40.407s] [ 45%] Built target scout_mini_msgs__rosidl_typesupport_cpp
+[40.671s] [ 46%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scout_mini_msgs/msg/detail/dds_fastrtps/motor_state__type_support.cpp.o[0m
+[40.685s] [ 47%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scout_mini_msgs/msg/detail/dds_fastrtps/robot_state__type_support.cpp.o[0m
+[40.805s] gmake[2]: Warning: File 'rosidl_typesupport_c/scout_mini_msgs/msg/fault_state__type_support.cpp' has modification time 0.00027 s in the future
+[40.869s] [ 49%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scout_mini_msgs/msg/driver_state__type_support.cpp.o[0m
+[40.879s] [ 50%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scout_mini_msgs/msg/fault_state__type_support.cpp.o[0m
+[40.901s] [ 52%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scout_mini_msgs/msg/light_command__type_support.cpp.o[0m
+[40.912s] [ 53%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scout_mini_msgs/msg/light_state__type_support.cpp.o[0m
+[40.936s] [ 54%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scout_mini_msgs/msg/motor_state__type_support.cpp.o[0m
+[41.031s] [ 56%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scout_mini_msgs/msg/robot_state__type_support.cpp.o[0m
+[41.255s] gmake[2]: Warning: File 'rosidl_typesupport_fastrtps_c/scout_mini_msgs/msg/detail/light_state__type_support_c.cpp' has modification time 0.00066 s in the future
+[41.292s] [ 57%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scout_mini_msgs/msg/detail/driver_state__type_support_c.cpp.o[0m
+[41.301s] [ 59%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scout_mini_msgs/msg/detail/fault_state__type_support_c.cpp.o[0m
+[41.313s] [ 60%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scout_mini_msgs/msg/detail/light_command__type_support_c.cpp.o[0m
+[41.328s] [ 61%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scout_mini_msgs/msg/detail/light_state__type_support_c.cpp.o[0m
+[41.343s] [ 63%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scout_mini_msgs/msg/detail/motor_state__type_support_c.cpp.o[0m
+[41.372s] [ 64%] [32mBuilding CXX object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scout_mini_msgs/msg/detail/robot_state__type_support_c.cpp.o[0m
+[41.466s] [ 66%] [32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scout_mini_msgs/msg/detail/driver_state__type_support.c.o[0m
+[41.522s] [ 67%] [32m[1mLinking CXX shared library libscout_mini_msgs__rosidl_typesupport_c.so[0m
+[42.100s] [ 69%] [32m[1mLinking CXX shared library libscout_mini_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[42.130s] [ 70%] [32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scout_mini_msgs/msg/detail/fault_state__type_support.c.o[0m
+[42.146s] [ 71%] [32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scout_mini_msgs/msg/detail/light_command__type_support.c.o[0m
+[42.237s] [ 73%] [32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scout_mini_msgs/msg/detail/light_state__type_support.c.o[0m
+[42.275s] [ 74%] [32m[1mLinking CXX shared library libscout_mini_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[42.351s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[42.592s] [ 74%] Built target scout_mini_msgs__rosidl_typesupport_c
+[42.639s] [ 77%] [32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scout_mini_msgs/msg/detail/robot_state__type_support.c.o[0m
+[42.641s] [ 77%] [32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scout_mini_msgs/msg/detail/motor_state__type_support.c.o[0m
+[42.965s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[42.989s] [ 78%] [32m[1mLinking CXX shared library libscout_mini_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[43.064s] [ 78%] Built target scout_mini_msgs__rosidl_typesupport_introspection_cpp
+[43.116s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[43.174s] [ 80%] [32m[1mLinking C shared library libscout_mini_msgs__rosidl_typesupport_introspection_c.so[0m
+[43.191s] [ 80%] Built target scout_mini_msgs__rosidl_typesupport_fastrtps_cpp
+[43.465s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[43.646s] [ 80%] Built target scout_mini_msgs__rosidl_typesupport_fastrtps_c
+[44.062s] [ 80%] Built target scout_mini_msgs__rosidl_typesupport_introspection_c
+[44.775s] [ 80%] Built target scout_mini_msgs
+[45.470s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[48.246s] [ 81%] Built target scout_mini_msgs__py
+[48.748s] [ 84%] [32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/rosidl_generator_py/scout_mini_msgs/msg/_fault_state_s.c.o[0m
+[48.751s] [ 84%] [32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/rosidl_generator_py/scout_mini_msgs/msg/_driver_state_s.c.o[0m
+[48.761s] [ 85%] [32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/rosidl_generator_py/scout_mini_msgs/msg/_light_command_s.c.o[0m
+[48.777s] [ 88%] [32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/rosidl_generator_py/scout_mini_msgs/msg/_light_state_s.c.o[0m
+[48.780s] [ 88%] [32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/rosidl_generator_py/scout_mini_msgs/msg/_motor_state_s.c.o[0m
+[48.794s] [ 90%] [32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_generator_py.dir/rosidl_generator_py/scout_mini_msgs/msg/_robot_state_s.c.o[0m
+[49.561s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/scout_mini_msgs/libscout_mini_msgs__rosidl_generator_py.so[0m
+[50.465s] [ 91%] Built target scout_mini_msgs__rosidl_generator_py
+[50.650s] [ 92%] [32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/scout_mini_msgs/_scout_mini_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[50.671s] [ 94%] [32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/scout_mini_msgs/_scout_mini_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[50.716s] [ 95%] [32mBuilding C object CMakeFiles/scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/scout_mini_msgs/_scout_mini_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[51.457s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[51.499s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[51.582s] [100%] [32m[1mLinking C shared library rosidl_generator_py/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[51.833s] [100%] Built target scout_mini_msgs__rosidl_typesupport_c__pyext
+[51.898s] [100%] Built target scout_mini_msgs__rosidl_typesupport_introspection_c__pyext
+[52.071s] [100%] Built target scout_mini_msgs__rosidl_typesupport_fastrtps_c__pyext
+[52.685s] Invoked command in '/apollo/ros_ws/build/scout_mini_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/build/scout_mini_msgs -- -j12 -l12
+[52.744s] Invoking command in '/apollo/ros_ws/build/scout_mini_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /apollo/ros_ws/build/scout_mini_msgs
+[52.998s] -- Install configuration: ""
+[53.016s] -- Execute custom install script
+[53.063s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/ament_index/resource_index/rosidl_interfaces/scout_mini_msgs
+[53.759s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__functions.h
+[54.016s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__struct.h
+[54.268s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__type_support.h
+[54.620s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__functions.h
+[54.900s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__struct.h
+[55.180s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__type_support.h
+[55.551s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__functions.h
+[55.818s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__struct.h
+[56.026s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__type_support.h
+[56.271s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__functions.h
+[56.544s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__struct.h
+[56.921s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__type_support.h
+[57.205s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__functions.h
+[57.497s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__struct.h
+[57.847s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__type_support.h
+[58.115s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__functions.h
+[58.369s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__struct.h
+[58.692s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__type_support.h
+[58.998s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/driver_state.h
+[59.224s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/fault_state.h
+[59.490s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/light_command.h
+[59.833s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/light_state.h
+[60.109s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/motor_state.h
+[60.317s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/robot_state.h
+[60.564s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/rosidl_generator_c__visibility_control.h
+[60.981s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/library_path.sh
+[61.226s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/library_path.dsv
+[61.442s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__rosidl_typesupport_fastrtps_c.h
+[61.563s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__rosidl_typesupport_fastrtps_c.h
+[61.722s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__rosidl_typesupport_fastrtps_c.h
+[61.905s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__rosidl_typesupport_fastrtps_c.h
+[62.065s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h
+[62.279s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__rosidl_typesupport_fastrtps_c.h
+[62.391s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[62.527s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__rosidl_typesupport_introspection_c.h
+[62.621s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__rosidl_typesupport_introspection_c.h
+[62.715s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__rosidl_typesupport_introspection_c.h
+[62.807s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__rosidl_typesupport_introspection_c.h
+[62.899s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__rosidl_typesupport_introspection_c.h
+[62.990s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__rosidl_typesupport_introspection_c.h
+[63.077s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[63.380s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__builder.hpp
+[63.469s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__struct.hpp
+[63.673s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__traits.hpp
+[63.841s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__type_support.hpp
+[64.001s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__builder.hpp
+[64.189s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__struct.hpp
+[64.411s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__traits.hpp
+[64.657s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__type_support.hpp
+[64.881s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__builder.hpp
+[65.109s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__struct.hpp
+[65.329s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__traits.hpp
+[65.557s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__type_support.hpp
+[65.807s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__builder.hpp
+[66.045s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__struct.hpp
+[66.324s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__traits.hpp
+[66.538s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__type_support.hpp
+[66.761s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__builder.hpp
+[67.093s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__struct.hpp
+[67.432s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__traits.hpp
+[67.617s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__type_support.hpp
+[67.785s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__builder.hpp
+[68.002s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__struct.hpp
+[68.156s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__traits.hpp
+[68.301s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__type_support.hpp
+[68.500s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/driver_state.hpp
+[68.648s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/fault_state.hpp
+[68.790s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/light_command.hpp
+[69.061s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/light_state.hpp
+[69.413s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/motor_state.hpp
+[69.601s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/robot_state.hpp
+[69.810s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[70.261s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__rosidl_typesupport_fastrtps_cpp.hpp
+[70.402s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__rosidl_typesupport_fastrtps_cpp.hpp
+[70.544s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__rosidl_typesupport_fastrtps_cpp.hpp
+[70.680s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__rosidl_typesupport_fastrtps_cpp.hpp
+[70.819s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[70.958s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__rosidl_typesupport_fastrtps_cpp.hpp
+[71.094s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[71.304s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/driver_state__rosidl_typesupport_introspection_cpp.hpp
+[71.455s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/fault_state__rosidl_typesupport_introspection_cpp.hpp
+[71.630s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_command__rosidl_typesupport_introspection_cpp.hpp
+[71.825s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/light_state__rosidl_typesupport_introspection_cpp.hpp
+[72.055s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp
+[72.293s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/include/scout_mini_msgs/scout_mini_msgs/msg/detail/robot_state__rosidl_typesupport_introspection_cpp.hpp
+[72.554s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/pythonpath.sh
+[72.748s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/pythonpath.dsv
+[73.072s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[73.441s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[73.757s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[73.953s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[74.451s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/__init__.py
+[74.719s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/_scout_mini_msgs_s.ep.rosidl_typesupport_c.c
+[74.942s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/_scout_mini_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[75.143s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/_scout_mini_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[75.353s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/libscout_mini_msgs__rosidl_generator_py.so
+[75.616s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/__init__.py
+[75.824s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_driver_state.py
+[76.044s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_driver_state_s.c
+[76.284s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_fault_state.py
+[76.501s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_fault_state_s.c
+[76.743s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_light_command.py
+[76.961s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_light_command_s.c
+[77.262s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_light_state.py
+[77.570s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_light_state_s.c
+[77.846s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_motor_state.py
+[78.142s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_motor_state_s.c
+[78.339s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_robot_state.py
+[78.540s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_robot_state_s.c
+[78.733s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[78.923s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[79.118s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[79.406s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[79.496s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[79.559s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/scout_mini_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[79.593s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/DriverState.idl
+[79.810s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/FaultState.idl
+[79.983s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/LightCommand.idl
+[80.161s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/LightState.idl
+[80.323s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/MotorState.idl
+[80.471s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/RobotState.idl
+[80.558s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/DriverState.msg
+[80.689s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/FaultState.msg
+[80.786s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/LightCommand.msg
+[80.918s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/LightState.msg
+[81.148s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/MotorState.msg
+[81.484s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/msg/RobotState.msg
+[81.682s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/ament_index/resource_index/package_run_dependencies/scout_mini_msgs
+[81.878s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/ament_index/resource_index/parent_prefix_path/scout_mini_msgs
+[81.969s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/ament_prefix_path.sh
+[82.062s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/ament_prefix_path.dsv
+[82.280s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/path.sh
+[82.435s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/environment/path.dsv
+[82.529s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/local_setup.bash
+[82.678s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/local_setup.sh
+[82.834s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/local_setup.zsh
+[83.019s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/local_setup.dsv
+[83.111s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.dsv
+[83.325s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/ament_index/resource_index/packages/scout_mini_msgs
+[83.597s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/rosidl_cmake-extras.cmake
+[83.704s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[83.976s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[84.168s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[84.335s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[84.510s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[84.685s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[84.870s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgsConfig.cmake
+[85.084s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/scout_mini_msgsConfig-version.cmake
+[85.375s] -- Symlinking: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/package.xml
+[85.518s] -- Installing: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_generator_c.so
+[85.568s] -- Set runtime path of "/apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_generator_c.so" to ""
+[85.576s] -- Installing: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_fastrtps_c.so
+[85.630s] -- Set runtime path of "/apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[85.638s] -- Installing: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_introspection_c.so
+[85.690s] -- Set runtime path of "/apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_introspection_c.so" to ""
+[85.702s] -- Installing: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_c.so
+[85.814s] -- Set runtime path of "/apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_c.so" to ""
+[85.839s] -- Installing: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_fastrtps_cpp.so
+[85.945s] -- Set runtime path of "/apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[85.962s] -- Installing: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_introspection_cpp.so
+[86.030s] -- Set runtime path of "/apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[86.037s] -- Installing: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_cpp.so
+[86.087s] -- Set runtime path of "/apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_typesupport_cpp.so" to ""
+[87.207s] Listing '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs'...
+[87.208s] Compiling '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/__init__.py'...
+[87.209s] Listing '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg'...
+[87.209s] Compiling '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/__init__.py'...
+[87.210s] Compiling '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_driver_state.py'...
+[87.211s] Compiling '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_fault_state.py'...
+[87.211s] Compiling '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_light_command.py'...
+[87.212s] Compiling '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_light_state.py'...
+[87.213s] Compiling '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_motor_state.py'...
+[87.213s] Compiling '/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages/scout_mini_msgs/msg/_robot_state.py'...
+[87.231s] -- Installing: /apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_generator_py.so
+[87.339s] -- Set runtime path of "/apollo/ros_ws/install/scout_mini_msgs/lib/libscout_mini_msgs__rosidl_generator_py.so" to ""
+[87.373s] -- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_generator_cExport.cmake
+[87.481s] -- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_generator_cExport-noconfig.cmake
+[87.691s] -- Installing: /apollo/ros_ws/install/scout_mini_msgs/share/scout_mini_msgs/cmake/export_scout_mini_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[87.801s] Invoked command in '/apollo/ros_ws/build/scout_mini_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /apollo/ros_ws/build/scout_mini_msgs

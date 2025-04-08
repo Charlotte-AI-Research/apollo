@@ -1,0 +1,12 @@
+gmake[2]: Warning: File 'rosidl_generator_c/scout_mini_msgs/msg/detail/driver_state__functions.c' has modification time 0.15 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'rosidl_typesupport_cpp/scout_mini_msgs/msg/fault_state__type_support.cpp' has modification time 0.3 s in the future
+gmake[2]: Warning: File 'rosidl_typesupport_introspection_cpp/scout_mini_msgs/msg/detail/driver_state__type_support.cpp' has modification time 0.11 s in the future
+gmake[2]: Warning: File 'rosidl_typesupport_fastrtps_cpp/scout_mini_msgs/msg/detail/dds_fastrtps/fault_state__type_support.cpp' has modification time 0.053 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'rosidl_typesupport_c/scout_mini_msgs/msg/fault_state__type_support.cpp' has modification time 0.00027 s in the future
+gmake[2]: Warning: File 'rosidl_typesupport_fastrtps_c/scout_mini_msgs/msg/detail/light_state__type_support_c.cpp' has modification time 0.00066 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.

@@ -253,7 +253,7 @@ PYTHON_LIBRARY_DEBUG:FILEPATH=PYTHON_LIBRARY_DEBUG-NOTFOUND
 Python3_EXECUTABLE:FILEPATH=/usr/bin/python3
 
 //Name of the computer/site where compile is being run
-SITE:STRING=eric-ROG-Zephyrus-M16-GU604VI-GU604VI
+SITE:STRING=docker-desktop
 
 //Path to a library.
 _lib:FILEPATH=/opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so

@@ -1,0 +1,554 @@
+[0.000000] (-) TimerEvent: {}
+[0.000319] (-) JobUnselected: {'identifier': 'scout_mini_base'}
+[0.000617] (-) JobUnselected: {'identifier': 'scout_mini_description'}
+[0.000749] (-) JobUnselected: {'identifier': 'scout_mini_hardware'}
+[0.001029] (-) JobUnselected: {'identifier': 'scout_mini_msgs'}
+[0.001173] (-) JobUnselected: {'identifier': 'scout_mini_ros2'}
+[0.001404] (-) JobUnselected: {'identifier': 'scout_mini_simulation'}
+[0.001688] (-) JobUnselected: {'identifier': 'task1'}
+[0.001806] (scout_object_detector) JobQueued: {'identifier': 'scout_object_detector', 'dependencies': OrderedDict()}
+[0.002003] (scout_object_detector) JobStarted: {'identifier': 'scout_object_detector'}
+[0.098837] (-) TimerEvent: {}
+[0.147116] (scout_object_detector) JobProgress: {'identifier': 'scout_object_detector', 'progress': 'cmake'}
+[0.188805] (scout_object_detector) Command: {'cmd': ['/usr/bin/cmake', '/apollo/ros_ws/src/scout_object_detector', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/scout_object_detector'], 'cwd': '/apollo/ros_ws/build/scout_object_detector', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/apollo/ros_ws/install/scout_object_detector/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/apollo/ros_ws'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-c089e138-2d8a-4c79-b8ab-17716a8ed864.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-7bef66cd-70e9-4ec0-b461-9e051d407ffa.sock'), ('COLCON_PREFIX_PATH', '/apollo/ros_ws/install:/apollo/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9937fa66-f99e-41d7-b156-a9604c782a98.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X11","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':11'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-abc4106309.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/apollo/dev_ws/install/my_package:/apollo/ros_ws/install/scout_object_detector:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/ros_ws/build/scout_object_detector'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/apollo/dev_ws/install/my_package/lib/python3.10/site-packages:/apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/apollo/ros_ws/install/scout_object_detector:/apollo/dev_ws/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.208349] (-) TimerEvent: {}
+[0.308781] (-) TimerEvent: {}
+[0.409341] (-) TimerEvent: {}
+[0.509854] (-) TimerEvent: {}
+[0.610271] (-) TimerEvent: {}
+[0.706627] (scout_object_detector) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.710328] (-) TimerEvent: {}
+[0.810670] (-) TimerEvent: {}
+[0.911093] (-) TimerEvent: {}
+[0.997468] (scout_object_detector) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.011197] (-) TimerEvent: {}
+[1.068552] (scout_object_detector) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.111287] (-) TimerEvent: {}
+[1.211779] (-) TimerEvent: {}
+[1.312281] (-) TimerEvent: {}
+[1.412753] (-) TimerEvent: {}
+[1.513107] (-) TimerEvent: {}
+[1.613460] (-) TimerEvent: {}
+[1.713874] (-) TimerEvent: {}
+[1.735716] (scout_object_detector) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.758346] (scout_object_detector) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.759508] (scout_object_detector) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.760633] (scout_object_detector) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.797146] (scout_object_detector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.813923] (-) TimerEvent: {}
+[1.914468] (-) TimerEvent: {}
+[2.014922] (-) TimerEvent: {}
+[2.115427] (-) TimerEvent: {}
+[2.215836] (-) TimerEvent: {}
+[2.316247] (-) TimerEvent: {}
+[2.416638] (-) TimerEvent: {}
+[2.483285] (scout_object_detector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.505027] (scout_object_detector) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.506258] (scout_object_detector) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.506939] (scout_object_detector) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.516668] (-) TimerEvent: {}
+[2.617073] (-) TimerEvent: {}
+[2.618688] (scout_object_detector) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.717473] (-) TimerEvent: {}
+[2.817952] (-) TimerEvent: {}
+[2.918600] (-) TimerEvent: {}
+[3.019047] (-) TimerEvent: {}
+[3.119475] (-) TimerEvent: {}
+[3.219886] (-) TimerEvent: {}
+[3.320457] (-) TimerEvent: {}
+[3.420955] (-) TimerEvent: {}
+[3.521591] (-) TimerEvent: {}
+[3.612700] (scout_object_detector) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.621664] (-) TimerEvent: {}
+[3.722067] (-) TimerEvent: {}
+[3.822559] (-) TimerEvent: {}
+[3.922927] (-) TimerEvent: {}
+[3.989588] (scout_object_detector) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.023004] (-) TimerEvent: {}
+[4.123532] (-) TimerEvent: {}
+[4.223994] (-) TimerEvent: {}
+[4.325016] (-) TimerEvent: {}
+[4.425543] (-) TimerEvent: {}
+[4.526270] (-) TimerEvent: {}
+[4.626979] (-) TimerEvent: {}
+[4.727495] (-) TimerEvent: {}
+[4.827954] (-) TimerEvent: {}
+[4.928639] (-) TimerEvent: {}
+[5.029254] (-) TimerEvent: {}
+[5.073738] (scout_object_detector) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[5.129402] (-) TimerEvent: {}
+[5.147844] (scout_object_detector) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[5.229487] (-) TimerEvent: {}
+[5.329973] (-) TimerEvent: {}
+[5.430700] (-) TimerEvent: {}
+[5.531424] (-) TimerEvent: {}
+[5.631891] (-) TimerEvent: {}
+[5.732390] (-) TimerEvent: {}
+[5.787774] (scout_object_detector) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.832470] (-) TimerEvent: {}
+[5.932979] (-) TimerEvent: {}
+[5.939968] (scout_object_detector) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.033062] (-) TimerEvent: {}
+[6.076573] (scout_object_detector) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.133139] (-) TimerEvent: {}
+[6.233601] (-) TimerEvent: {}
+[6.244610] (scout_object_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.333689] (-) TimerEvent: {}
+[6.434183] (-) TimerEvent: {}
+[6.490176] (scout_object_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.534276] (-) TimerEvent: {}
+[6.634699] (-) TimerEvent: {}
+[6.735127] (-) TimerEvent: {}
+[6.743085] (scout_object_detector) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[6.835369] (-) TimerEvent: {}
+[6.912557] (scout_object_detector) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[6.935459] (-) TimerEvent: {}
+[7.035961] (-) TimerEvent: {}
+[7.136337] (-) TimerEvent: {}
+[7.236809] (-) TimerEvent: {}
+[7.337403] (-) TimerEvent: {}
+[7.437809] (-) TimerEvent: {}
+[7.538392] (-) TimerEvent: {}
+[7.638951] (-) TimerEvent: {}
+[7.739418] (-) TimerEvent: {}
+[7.839745] (-) TimerEvent: {}
+[7.940365] (-) TimerEvent: {}
+[8.040752] (-) TimerEvent: {}
+[8.141186] (-) TimerEvent: {}
+[8.241719] (-) TimerEvent: {}
+[8.342566] (-) TimerEvent: {}
+[8.443099] (-) TimerEvent: {}
+[8.543627] (-) TimerEvent: {}
+[8.644140] (-) TimerEvent: {}
+[8.744697] (-) TimerEvent: {}
+[8.776271] (scout_object_detector) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[8.844771] (-) TimerEvent: {}
+[8.945195] (-) TimerEvent: {}
+[9.045700] (-) TimerEvent: {}
+[9.146445] (-) TimerEvent: {}
+[9.246966] (-) TimerEvent: {}
+[9.347471] (-) TimerEvent: {}
+[9.448109] (-) TimerEvent: {}
+[9.548651] (-) TimerEvent: {}
+[9.649033] (-) TimerEvent: {}
+[9.749640] (-) TimerEvent: {}
+[9.850135] (-) TimerEvent: {}
+[9.950602] (-) TimerEvent: {}
+[10.050984] (-) TimerEvent: {}
+[10.151374] (-) TimerEvent: {}
+[10.251928] (-) TimerEvent: {}
+[10.352495] (-) TimerEvent: {}
+[10.453106] (-) TimerEvent: {}
+[10.553834] (-) TimerEvent: {}
+[10.654334] (-) TimerEvent: {}
+[10.754806] (-) TimerEvent: {}
+[10.855304] (-) TimerEvent: {}
+[10.955743] (-) TimerEvent: {}
+[11.056344] (-) TimerEvent: {}
+[11.156730] (-) TimerEvent: {}
+[11.257228] (-) TimerEvent: {}
+[11.357794] (-) TimerEvent: {}
+[11.458450] (-) TimerEvent: {}
+[11.558998] (-) TimerEvent: {}
+[11.659500] (-) TimerEvent: {}
+[11.760091] (-) TimerEvent: {}
+[11.860644] (-) TimerEvent: {}
+[11.888994] (scout_object_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.960750] (-) TimerEvent: {}
+[12.061143] (-) TimerEvent: {}
+[12.161560] (-) TimerEvent: {}
+[12.261950] (-) TimerEvent: {}
+[12.362376] (-) TimerEvent: {}
+[12.463051] (-) TimerEvent: {}
+[12.563570] (-) TimerEvent: {}
+[12.663990] (-) TimerEvent: {}
+[12.764367] (-) TimerEvent: {}
+[12.864778] (-) TimerEvent: {}
+[12.912440] (scout_object_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.964964] (-) TimerEvent: {}
+[13.065563] (-) TimerEvent: {}
+[13.093863] (scout_object_detector) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[13.148027] (scout_object_detector) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[13.165611] (-) TimerEvent: {}
+[13.265995] (-) TimerEvent: {}
+[13.308979] (scout_object_detector) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[13.309758] (scout_object_detector) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[13.310459] (scout_object_detector) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[13.310998] (scout_object_detector) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[13.366086] (-) TimerEvent: {}
+[13.404933] (scout_object_detector) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[13.466200] (-) TimerEvent: {}
+[13.566723] (-) TimerEvent: {}
+[13.667338] (-) TimerEvent: {}
+[13.768076] (-) TimerEvent: {}
+[13.868588] (-) TimerEvent: {}
+[13.969207] (-) TimerEvent: {}
+[14.069641] (-) TimerEvent: {}
+[14.170170] (-) TimerEvent: {}
+[14.270644] (-) TimerEvent: {}
+[14.371155] (-) TimerEvent: {}
+[14.471595] (-) TimerEvent: {}
+[14.572042] (-) TimerEvent: {}
+[14.672483] (-) TimerEvent: {}
+[14.773077] (-) TimerEvent: {}
+[14.873493] (-) TimerEvent: {}
+[14.974060] (-) TimerEvent: {}
+[15.058021] (scout_object_detector) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.074204] (-) TimerEvent: {}
+[15.174782] (-) TimerEvent: {}
+[15.275268] (-) TimerEvent: {}
+[15.375761] (-) TimerEvent: {}
+[15.476238] (-) TimerEvent: {}
+[15.576796] (-) TimerEvent: {}
+[15.677293] (-) TimerEvent: {}
+[15.777754] (-) TimerEvent: {}
+[15.878438] (-) TimerEvent: {}
+[15.978957] (-) TimerEvent: {}
+[16.079445] (-) TimerEvent: {}
+[16.179955] (-) TimerEvent: {}
+[16.280399] (-) TimerEvent: {}
+[16.381025] (-) TimerEvent: {}
+[16.481715] (-) TimerEvent: {}
+[16.582167] (-) TimerEvent: {}
+[16.682759] (-) TimerEvent: {}
+[16.783257] (-) TimerEvent: {}
+[16.883780] (-) TimerEvent: {}
+[16.984273] (-) TimerEvent: {}
+[17.073279] (scout_object_detector) StdoutLine: {'line': b'-- Generating done\n'}
+[17.084313] (-) TimerEvent: {}
+[17.184679] (-) TimerEvent: {}
+[17.285245] (-) TimerEvent: {}
+[17.385737] (-) TimerEvent: {}
+[17.486194] (-) TimerEvent: {}
+[17.586719] (-) TimerEvent: {}
+[17.687402] (-) TimerEvent: {}
+[17.774299] (scout_object_detector) StdoutLine: {'line': b'-- Build files have been written to: /apollo/ros_ws/build/scout_object_detector\n'}
+[17.781597] (scout_object_detector) CommandEnded: {'returncode': 0}
+[17.787480] (-) TimerEvent: {}
+[17.788680] (scout_object_detector) JobProgress: {'identifier': 'scout_object_detector', 'progress': 'build'}
+[17.795876] (scout_object_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/apollo/ros_ws/build/scout_object_detector', '--', '-j12', '-l12'], 'cwd': '/apollo/ros_ws/build/scout_object_detector', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/apollo/ros_ws/install/scout_object_detector/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/apollo/ros_ws'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-c089e138-2d8a-4c79-b8ab-17716a8ed864.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-7bef66cd-70e9-4ec0-b461-9e051d407ffa.sock'), ('COLCON_PREFIX_PATH', '/apollo/ros_ws/install:/apollo/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9937fa66-f99e-41d7-b156-a9604c782a98.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X11","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':11'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-abc4106309.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/apollo/dev_ws/install/my_package:/apollo/ros_ws/install/scout_object_detector:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/ros_ws/build/scout_object_detector'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/apollo/dev_ws/install/my_package/lib/python3.10/site-packages:/apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/apollo/ros_ws/install/scout_object_detector:/apollo/dev_ws/install/my_package:/opt/ros/humble')]), 'shell': False}
+[17.887585] (-) TimerEvent: {}
+[17.988171] (-) TimerEvent: {}
+[18.081260] (scout_object_detector) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[18.088204] (-) TimerEvent: {}
+[18.134271] (scout_object_detector) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[18.141769] (scout_object_detector) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_scout_object_detector\n'}
+[18.188306] (-) TimerEvent: {}
+[18.288958] (-) TimerEvent: {}
+[18.389749] (-) TimerEvent: {}
+[18.490156] (-) TimerEvent: {}
+[18.590726] (-) TimerEvent: {}
+[18.663624] (scout_object_detector) StdoutLine: {'line': b'[  6%] Built target scout_object_detector__cpp\n'}
+[18.690845] (-) TimerEvent: {}
+[18.731014] (scout_object_detector) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[18.732560] (scout_object_detector) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[18.748444] (scout_object_detector) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/scout_object_detector__rosidl_generator_c.dir/rosidl_generator_c/scout_object_detector/msg/detail/yolo_detection__functions.c.o\x1b[0m\n'}
+[18.758165] (scout_object_detector) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[18.790986] (-) TimerEvent: {}
+[18.870852] (scout_object_detector) StdoutLine: {'line': b'running egg_info\n'}
+[18.872062] (scout_object_detector) StdoutLine: {'line': b'creating scout_object_detector.egg-info\n'}
+[18.875036] (scout_object_detector) StdoutLine: {'line': b'writing scout_object_detector.egg-info/PKG-INFO\n'}
+[18.880161] (scout_object_detector) StdoutLine: {'line': b'writing dependency_links to scout_object_detector.egg-info/dependency_links.txt\n'}
+[18.887418] (scout_object_detector) StdoutLine: {'line': b'writing top-level names to scout_object_detector.egg-info/top_level.txt\n'}
+[18.891076] (-) TimerEvent: {}
+[18.892341] (scout_object_detector) StdoutLine: {'line': b"writing manifest file 'scout_object_detector.egg-info/SOURCES.txt'\n"}
+[18.920341] (scout_object_detector) StdoutLine: {'line': b"reading manifest file 'scout_object_detector.egg-info/SOURCES.txt'\n"}
+[18.949919] (scout_object_detector) StdoutLine: {'line': b"writing manifest file 'scout_object_detector.egg-info/SOURCES.txt'\n"}
+[18.991182] (-) TimerEvent: {}
+[19.010888] (scout_object_detector) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_scout_object_detector_egg\n'}
+[19.044481] (scout_object_detector) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libscout_object_detector__rosidl_generator_c.so\x1b[0m\n'}
+[19.091312] (-) TimerEvent: {}
+[19.191836] (-) TimerEvent: {}
+[19.199874] (scout_object_detector) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/scout_object_detector__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scout_object_detector/msg/yolo_detection__type_support.cpp.o\x1b[0m\n'}
+[19.226003] (scout_object_detector) StdoutLine: {'line': b'[ 25%] Built target scout_object_detector__rosidl_generator_c\n'}
+[19.242412] (scout_object_detector) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/scout_object_detector__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scout_object_detector/msg/detail/yolo_detection__type_support.cpp.o\x1b[0m\n'}
+[19.291931] (-) TimerEvent: {}
+[19.301069] (scout_object_detector) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[19.309660] (scout_object_detector) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[19.323233] (scout_object_detector) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[19.354067] (scout_object_detector) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/scout_object_detector__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scout_object_detector/msg/detail/dds_fastrtps/yolo_detection__type_support.cpp.o\x1b[0m\n'}
+[19.392015] (-) TimerEvent: {}
+[19.492652] (-) TimerEvent: {}
+[19.593301] (-) TimerEvent: {}
+[19.694349] (-) TimerEvent: {}
+[19.795374] (-) TimerEvent: {}
+[19.801265] (scout_object_detector) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libscout_object_detector__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[19.862328] (scout_object_detector) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/scout_object_detector__rosidl_typesupport_c.dir/rosidl_typesupport_c/scout_object_detector/msg/yolo_detection__type_support.cpp.o\x1b[0m\n'}
+[19.895462] (-) TimerEvent: {}
+[19.945319] (scout_object_detector) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/scout_object_detector__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scout_object_detector/msg/detail/yolo_detection__type_support_c.cpp.o\x1b[0m\n'}
+[19.955830] (scout_object_detector) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/scout_object_detector__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scout_object_detector/msg/detail/yolo_detection__type_support.c.o\x1b[0m\n'}
+[19.975784] (scout_object_detector) StdoutLine: {'line': b'[ 54%] Built target scout_object_detector__rosidl_typesupport_cpp\n'}
+[19.995512] (-) TimerEvent: {}
+[20.073197] (scout_object_detector) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libscout_object_detector__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[20.095607] (-) TimerEvent: {}
+[20.096666] (scout_object_detector) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libscout_object_detector__rosidl_typesupport_c.so\x1b[0m\n'}
+[20.195691] (-) TimerEvent: {}
+[20.266881] (scout_object_detector) StdoutLine: {'line': b'[ 61%] Built target scout_object_detector__rosidl_typesupport_introspection_cpp\n'}
+[20.276081] (scout_object_detector) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libscout_object_detector__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[20.281652] (scout_object_detector) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libscout_object_detector__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[20.293344] (scout_object_detector) StdoutLine: {'line': b'[ 67%] Built target scout_object_detector__rosidl_typesupport_c\n'}
+[20.295759] (-) TimerEvent: {}
+[20.396253] (-) TimerEvent: {}
+[20.462504] (scout_object_detector) StdoutLine: {'line': b'[ 67%] Built target scout_object_detector__rosidl_typesupport_introspection_c\n'}
+[20.487078] (scout_object_detector) StdoutLine: {'line': b'[ 67%] Built target scout_object_detector__rosidl_typesupport_fastrtps_cpp\n'}
+[20.496318] (-) TimerEvent: {}
+[20.596979] (-) TimerEvent: {}
+[20.698083] (-) TimerEvent: {}
+[20.726214] (scout_object_detector) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libscout_object_detector__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[20.798235] (-) TimerEvent: {}
+[20.898718] (-) TimerEvent: {}
+[20.916671] (scout_object_detector) StdoutLine: {'line': b'[ 70%] Built target scout_object_detector__rosidl_typesupport_fastrtps_c\n'}
+[20.998806] (-) TimerEvent: {}
+[21.056899] (scout_object_detector) StdoutLine: {'line': b'[ 70%] Built target scout_object_detector\n'}
+[21.098923] (-) TimerEvent: {}
+[21.199349] (-) TimerEvent: {}
+[21.209127] (scout_object_detector) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[21.299436] (-) TimerEvent: {}
+[21.399894] (-) TimerEvent: {}
+[21.500280] (-) TimerEvent: {}
+[21.601026] (-) TimerEvent: {}
+[21.701849] (-) TimerEvent: {}
+[21.802462] (-) TimerEvent: {}
+[21.893077] (scout_object_detector) StdoutLine: {'line': b'[ 74%] Built target scout_object_detector__py\n'}
+[21.902540] (-) TimerEvent: {}
+[22.002990] (-) TimerEvent: {}
+[22.059822] (scout_object_detector) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/scout_object_detector__rosidl_generator_py.dir/rosidl_generator_py/scout_object_detector/msg/_yolo_detection_s.c.o\x1b[0m\n'}
+[22.103063] (-) TimerEvent: {}
+[22.203467] (-) TimerEvent: {}
+[22.303886] (-) TimerEvent: {}
+[22.404262] (-) TimerEvent: {}
+[22.461061] (scout_object_detector) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/scout_object_detector/libscout_object_detector__rosidl_generator_py.so\x1b[0m\n'}
+[22.504351] (-) TimerEvent: {}
+[22.604720] (-) TimerEvent: {}
+[22.678130] (scout_object_detector) StdoutLine: {'line': b'[ 80%] Built target scout_object_detector__rosidl_generator_py\n'}
+[22.704791] (-) TimerEvent: {}
+[22.796917] (scout_object_detector) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/scout_object_detector__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/scout_object_detector/_scout_object_detector_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[22.804880] (-) TimerEvent: {}
+[22.809641] (scout_object_detector) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/scout_object_detector__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/scout_object_detector/_scout_object_detector_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[22.823046] (scout_object_detector) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/scout_object_detector__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/scout_object_detector/_scout_object_detector_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[22.904967] (-) TimerEvent: {}
+[23.005602] (-) TimerEvent: {}
+[23.106344] (-) TimerEvent: {}
+[23.207094] (-) TimerEvent: {}
+[23.210988] (scout_object_detector) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/scout_object_detector/scout_object_detector_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[23.307208] (-) TimerEvent: {}
+[23.321019] (scout_object_detector) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/scout_object_detector/scout_object_detector_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[23.334881] (scout_object_detector) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/scout_object_detector/scout_object_detector_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[23.407325] (-) TimerEvent: {}
+[23.489152] (scout_object_detector) StdoutLine: {'line': b'[100%] Built target scout_object_detector__rosidl_typesupport_introspection_c__pyext\n'}
+[23.500840] (scout_object_detector) StdoutLine: {'line': b'[100%] Built target scout_object_detector__rosidl_typesupport_fastrtps_c__pyext\n'}
+[23.506550] (scout_object_detector) StdoutLine: {'line': b'[100%] Built target scout_object_detector__rosidl_typesupport_c__pyext\n'}
+[23.507341] (-) TimerEvent: {}
+[23.607747] (-) TimerEvent: {}
+[23.657278] (scout_object_detector) CommandEnded: {'returncode': 0}
+[23.676424] (scout_object_detector) JobProgress: {'identifier': 'scout_object_detector', 'progress': 'install'}
+[23.699783] (scout_object_detector) Command: {'cmd': ['/usr/bin/cmake', '--install', '/apollo/ros_ws/build/scout_object_detector'], 'cwd': '/apollo/ros_ws/build/scout_object_detector', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/apollo/ros_ws/install/scout_object_detector/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/apollo/ros_ws'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-c089e138-2d8a-4c79-b8ab-17716a8ed864.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-7bef66cd-70e9-4ec0-b461-9e051d407ffa.sock'), ('COLCON_PREFIX_PATH', '/apollo/ros_ws/install:/apollo/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9937fa66-f99e-41d7-b156-a9604c782a98.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X11","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':11'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-abc4106309.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/apollo/dev_ws/install/my_package:/apollo/ros_ws/install/scout_object_detector:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/ros_ws/build/scout_object_detector'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/apollo/dev_ws/install/my_package/lib/python3.10/site-packages:/apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/apollo/ros_ws/install/scout_object_detector:/apollo/dev_ws/install/my_package:/opt/ros/humble')]), 'shell': False}
+[23.707754] (-) TimerEvent: {}
+[23.723219] (scout_object_detector) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.734229] (scout_object_detector) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[23.762213] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/ament_index/resource_index/rosidl_interfaces/scout_object_detector\n'}
+[23.807870] (-) TimerEvent: {}
+[23.905421] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/detail/yolo_detection__functions.h\n'}
+[23.907917] (-) TimerEvent: {}
+[23.971685] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/detail/yolo_detection__struct.h\n'}
+[24.008030] (-) TimerEvent: {}
+[24.049265] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/detail/yolo_detection__type_support.h\n'}
+[24.108184] (-) TimerEvent: {}
+[24.117845] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/rosidl_generator_c__visibility_control.h\n'}
+[24.190753] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/yolo_detection.h\n'}
+[24.208283] (-) TimerEvent: {}
+[24.264681] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/environment/library_path.sh\n'}
+[24.308363] (-) TimerEvent: {}
+[24.324903] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/environment/library_path.dsv\n'}
+[24.408440] (-) TimerEvent: {}
+[24.434895] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/detail/yolo_detection__rosidl_typesupport_fastrtps_c.h\n'}
+[24.503295] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[24.508468] (-) TimerEvent: {}
+[24.609020] (-) TimerEvent: {}
+[24.635701] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/detail/yolo_detection__builder.hpp\n'}
+[24.705333] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/detail/yolo_detection__struct.hpp\n'}
+[24.709059] (-) TimerEvent: {}
+[24.774537] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/detail/yolo_detection__traits.hpp\n'}
+[24.809244] (-) TimerEvent: {}
+[24.848730] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/detail/yolo_detection__type_support.hpp\n'}
+[24.909363] (-) TimerEvent: {}
+[24.928281] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[24.998045] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/yolo_detection.hpp\n'}
+[25.009461] (-) TimerEvent: {}
+[25.109908] (-) TimerEvent: {}
+[25.136628] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/detail/yolo_detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[25.206134] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[25.210017] (-) TimerEvent: {}
+[25.290439] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/detail/yolo_detection__rosidl_typesupport_introspection_c.h\n'}
+[25.310103] (-) TimerEvent: {}
+[25.358390] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[25.410210] (-) TimerEvent: {}
+[25.462728] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/detail/yolo_detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[25.510285] (-) TimerEvent: {}
+[25.532247] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/environment/pythonpath.sh\n'}
+[25.592544] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/environment/pythonpath.dsv\n'}
+[25.610405] (-) TimerEvent: {}
+[25.698047] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[25.710479] (-) TimerEvent: {}
+[25.769382] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[25.810582] (-) TimerEvent: {}
+[25.843438] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[25.910665] (-) TimerEvent: {}
+[25.913660] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[26.010789] (-) TimerEvent: {}
+[26.111265] (-) TimerEvent: {}
+[26.143469] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/__init__.py\n'}
+[26.210438] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/_scout_object_detector_s.ep.rosidl_typesupport_c.c\n'}
+[26.211347] (-) TimerEvent: {}
+[26.269151] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/_scout_object_detector_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[26.311428] (-) TimerEvent: {}
+[26.348405] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/_scout_object_detector_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[26.411527] (-) TimerEvent: {}
+[26.420577] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/libscout_object_detector__rosidl_generator_py.so\n'}
+[26.510665] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/msg/__init__.py\n'}
+[26.511590] (-) TimerEvent: {}
+[26.597107] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/msg/_yolo_detection.py\n'}
+[26.611737] (-) TimerEvent: {}
+[26.677838] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/msg/_yolo_detection_s.c\n'}
+[26.711820] (-) TimerEvent: {}
+[26.750946] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/scout_object_detector_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.812072] (-) TimerEvent: {}
+[26.826993] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/scout_object_detector_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.902456] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/scout_object_detector_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.912191] (-) TimerEvent: {}
+[27.004079] (scout_object_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/scout_object_detector_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.012270] (-) TimerEvent: {}
+[27.049398] (scout_object_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/scout_object_detector_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.096185] (scout_object_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/scout_object_detector_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.108769] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/msg/YoloDetection.idl\n'}
+[27.112325] (-) TimerEvent: {}
+[27.165075] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/msg/YoloDetection.msg\n'}
+[27.212423] (-) TimerEvent: {}
+[27.234227] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/ament_index/resource_index/package_run_dependencies/scout_object_detector\n'}
+[27.312526] (-) TimerEvent: {}
+[27.314321] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/ament_index/resource_index/parent_prefix_path/scout_object_detector\n'}
+[27.381017] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/environment/ament_prefix_path.sh\n'}
+[27.412656] (-) TimerEvent: {}
+[27.427381] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/environment/ament_prefix_path.dsv\n'}
+[27.481128] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/environment/path.sh\n'}
+[27.512760] (-) TimerEvent: {}
+[27.543422] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/environment/path.dsv\n'}
+[27.603297] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/local_setup.bash\n'}
+[27.612840] (-) TimerEvent: {}
+[27.662431] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/local_setup.sh\n'}
+[27.712960] (-) TimerEvent: {}
+[27.718085] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/local_setup.zsh\n'}
+[27.773586] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/local_setup.dsv\n'}
+[27.813133] (-) TimerEvent: {}
+[27.826879] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/package.dsv\n'}
+[27.900380] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/ament_index/resource_index/packages/scout_object_detector\n'}
+[27.913199] (-) TimerEvent: {}
+[27.977952] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/rosidl_cmake-extras.cmake\n'}
+[28.013319] (-) TimerEvent: {}
+[28.039891] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[28.102482] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[28.113409] (-) TimerEvent: {}
+[28.163617] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[28.213560] (-) TimerEvent: {}
+[28.216249] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[28.267263] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[28.313638] (-) TimerEvent: {}
+[28.325852] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[28.387788] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/scout_object_detectorConfig.cmake\n'}
+[28.413690] (-) TimerEvent: {}
+[28.448770] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/scout_object_detectorConfig-version.cmake\n'}
+[28.509138] (scout_object_detector) StdoutLine: {'line': b'-- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/package.xml\n'}
+[28.513741] (-) TimerEvent: {}
+[28.574635] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/lib/libscout_object_detector__rosidl_generator_c.so\n'}
+[28.613874] (-) TimerEvent: {}
+[28.665924] (scout_object_detector) StdoutLine: {'line': b'-- Set runtime path of "/apollo/ros_ws/install/scout_object_detector/lib/libscout_object_detector__rosidl_generator_c.so" to ""\n'}
+[28.681599] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/lib/libscout_object_detector__rosidl_typesupport_fastrtps_c.so\n'}
+[28.713958] (-) TimerEvent: {}
+[28.776014] (scout_object_detector) StdoutLine: {'line': b'-- Set runtime path of "/apollo/ros_ws/install/scout_object_detector/lib/libscout_object_detector__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[28.787083] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/lib/libscout_object_detector__rosidl_typesupport_fastrtps_cpp.so\n'}
+[28.814022] (-) TimerEvent: {}
+[28.877846] (scout_object_detector) StdoutLine: {'line': b'-- Set runtime path of "/apollo/ros_ws/install/scout_object_detector/lib/libscout_object_detector__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[28.892550] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/lib/libscout_object_detector__rosidl_typesupport_introspection_c.so\n'}
+[28.914105] (-) TimerEvent: {}
+[28.961914] (scout_object_detector) StdoutLine: {'line': b'-- Set runtime path of "/apollo/ros_ws/install/scout_object_detector/lib/libscout_object_detector__rosidl_typesupport_introspection_c.so" to ""\n'}
+[28.976216] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/lib/libscout_object_detector__rosidl_typesupport_c.so\n'}
+[29.014186] (-) TimerEvent: {}
+[29.044695] (scout_object_detector) StdoutLine: {'line': b'-- Set runtime path of "/apollo/ros_ws/install/scout_object_detector/lib/libscout_object_detector__rosidl_typesupport_c.so" to ""\n'}
+[29.064391] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/lib/libscout_object_detector__rosidl_typesupport_introspection_cpp.so\n'}
+[29.114270] (-) TimerEvent: {}
+[29.157543] (scout_object_detector) StdoutLine: {'line': b'-- Set runtime path of "/apollo/ros_ws/install/scout_object_detector/lib/libscout_object_detector__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[29.172092] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/lib/libscout_object_detector__rosidl_typesupport_cpp.so\n'}
+[29.214354] (-) TimerEvent: {}
+[29.254695] (scout_object_detector) StdoutLine: {'line': b'-- Set runtime path of "/apollo/ros_ws/install/scout_object_detector/lib/libscout_object_detector__rosidl_typesupport_cpp.so" to ""\n'}
+[29.314436] (-) TimerEvent: {}
+[29.414849] (-) TimerEvent: {}
+[29.515448] (-) TimerEvent: {}
+[29.615826] (-) TimerEvent: {}
+[29.716309] (-) TimerEvent: {}
+[29.816773] (-) TimerEvent: {}
+[29.917437] (-) TimerEvent: {}
+[30.001961] (scout_object_detector) StdoutLine: {'line': b"Listing '/apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector'...\n"}
+[30.003149] (scout_object_detector) StdoutLine: {'line': b"Compiling '/apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/__init__.py'...\n"}
+[30.003975] (scout_object_detector) StdoutLine: {'line': b"Listing '/apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/msg'...\n"}
+[30.004736] (scout_object_detector) StdoutLine: {'line': b"Compiling '/apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/msg/__init__.py'...\n"}
+[30.005471] (scout_object_detector) StdoutLine: {'line': b"Compiling '/apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/msg/_yolo_detection.py'...\n"}
+[30.017553] (-) TimerEvent: {}
+[30.026221] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/lib/libscout_object_detector__rosidl_generator_py.so\n'}
+[30.117638] (-) TimerEvent: {}
+[30.119910] (scout_object_detector) StdoutLine: {'line': b'-- Set runtime path of "/apollo/ros_ws/install/scout_object_detector/lib/libscout_object_detector__rosidl_generator_py.so" to ""\n'}
+[30.146475] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/lib/scout_object_detector/object_detection_node\n'}
+[30.204799] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/export_scout_object_detector__rosidl_generator_cExport.cmake\n'}
+[30.217708] (-) TimerEvent: {}
+[30.301784] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/export_scout_object_detector__rosidl_generator_cExport-noconfig.cmake\n'}
+[30.317783] (-) TimerEvent: {}
+[30.390219] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/export_scout_object_detector__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[30.417876] (-) TimerEvent: {}
+[30.480683] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/export_scout_object_detector__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[30.517971] (-) TimerEvent: {}
+[30.577857] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/export_scout_object_detector__rosidl_generator_cppExport.cmake\n'}
+[30.618081] (-) TimerEvent: {}
+[30.664479] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/export_scout_object_detector__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[30.718248] (-) TimerEvent: {}
+[30.766515] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/export_scout_object_detector__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[30.818351] (-) TimerEvent: {}
+[30.839662] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/scout_object_detector__rosidl_typesupport_introspection_cExport.cmake\n'}
+[30.918426] (-) TimerEvent: {}
+[30.938460] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/scout_object_detector__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[31.018524] (-) TimerEvent: {}
+[31.033227] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/scout_object_detector__rosidl_typesupport_cExport.cmake\n'}
+[31.103733] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/scout_object_detector__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[31.118594] (-) TimerEvent: {}
+[31.208412] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/scout_object_detector__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[31.218661] (-) TimerEvent: {}
+[31.308394] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/scout_object_detector__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[31.318767] (-) TimerEvent: {}
+[31.389360] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/scout_object_detector__rosidl_typesupport_cppExport.cmake\n'}
+[31.418849] (-) TimerEvent: {}
+[31.487883] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/scout_object_detector__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[31.518977] (-) TimerEvent: {}
+[31.575638] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/export_scout_object_detector__rosidl_generator_pyExport.cmake\n'}
+[31.619072] (-) TimerEvent: {}
+[31.673723] (scout_object_detector) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/export_scout_object_detector__rosidl_generator_pyExport-noconfig.cmake\n'}
+[31.719257] (-) TimerEvent: {}
+[31.740526] (scout_object_detector) CommandEnded: {'returncode': 0}
+[31.819341] (-) TimerEvent: {}
+[31.919904] (-) TimerEvent: {}
+[32.020488] (-) TimerEvent: {}
+[32.120965] (-) TimerEvent: {}
+[32.246950] (-) TimerEvent: {}
+[32.347387] (-) TimerEvent: {}
+[32.453717] (-) TimerEvent: {}
+[32.554172] (-) TimerEvent: {}
+[32.654822] (-) TimerEvent: {}
+[32.755551] (-) TimerEvent: {}
+[32.856058] (-) TimerEvent: {}
+[32.956643] (-) TimerEvent: {}
+[33.057277] (-) TimerEvent: {}
+[33.166280] (-) TimerEvent: {}
+[33.291625] (-) TimerEvent: {}
+[33.392093] (-) TimerEvent: {}
+[33.492728] (-) TimerEvent: {}
+[33.593352] (-) TimerEvent: {}
+[33.694027] (-) TimerEvent: {}
+[33.722720] (scout_object_detector) JobEnded: {'identifier': 'scout_object_detector', 'rc': 0}
+[33.731785] (-) EventReactorShutdown: {}

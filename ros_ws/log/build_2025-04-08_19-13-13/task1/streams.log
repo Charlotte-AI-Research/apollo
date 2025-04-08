@@ -1,0 +1,24 @@
+[5.322s] Invoking command in '/apollo/ros_ws/build/task1': PYTHONPATH=/apollo/ros_ws/build/task1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/apollo/ros_ws/install/task1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /apollo/ros_ws/build/task1/build --no-deps symlink_data
+[7.400s] running develop
+[7.887s] running egg_info
+[7.888s] creating task1.egg-info
+[7.892s] writing task1.egg-info/PKG-INFO
+[7.902s] writing dependency_links to task1.egg-info/dependency_links.txt
+[7.909s] writing entry points to task1.egg-info/entry_points.txt
+[7.915s] writing requirements to task1.egg-info/requires.txt
+[7.919s] writing top-level names to task1.egg-info/top_level.txt
+[7.926s] writing manifest file 'task1.egg-info/SOURCES.txt'
+[8.016s] reading manifest file 'task1.egg-info/SOURCES.txt'
+[8.104s] writing manifest file 'task1.egg-info/SOURCES.txt'
+[8.143s] running build_ext
+[8.145s] Creating /apollo/ros_ws/install/task1/lib/python3.10/site-packages/task1.egg-link (link to .)
+[8.181s] Installing task1 script to /apollo/ros_ws/install/task1/lib/auto_break
+[8.208s] 
+[8.210s] Installed /apollo/ros_ws/build/task1
+[8.216s] running symlink_data
+[8.228s] creating /apollo/ros_ws/install/task1/share/ament_index
+[8.231s] creating /apollo/ros_ws/install/task1/share/ament_index/resource_index
+[8.234s] creating /apollo/ros_ws/install/task1/share/ament_index/resource_index/packages
+[8.259s] symbolically linking /apollo/ros_ws/build/task1/resource/task1 -> /apollo/ros_ws/install/task1/share/ament_index/resource_index/packages
+[8.286s] symbolically linking /apollo/ros_ws/build/task1/package.xml -> /apollo/ros_ws/install/task1/share/task1
+[8.326s] Invoked command in '/apollo/ros_ws/build/task1' returned '0': PYTHONPATH=/apollo/ros_ws/build/task1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/apollo/ros_ws/install/task1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /apollo/ros_ws/build/task1/build --no-deps symlink_data

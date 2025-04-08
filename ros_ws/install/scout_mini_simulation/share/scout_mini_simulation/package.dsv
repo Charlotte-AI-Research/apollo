@@ -4,3 +4,6 @@ source;share/scout_mini_simulation/hook/pythonpath.sh
 source;share/scout_mini_simulation/hook/ament_prefix_path.ps1
 source;share/scout_mini_simulation/hook/ament_prefix_path.dsv
 source;share/scout_mini_simulation/hook/ament_prefix_path.sh
+source;../../build/scout_mini_simulation/share/scout_mini_simulation/hook/pythonpath_develop.ps1
+source;../../build/scout_mini_simulation/share/scout_mini_simulation/hook/pythonpath_develop.dsv
+source;../../build/scout_mini_simulation/share/scout_mini_simulation/hook/pythonpath_develop.sh

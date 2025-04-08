@@ -1,0 +1,1 @@
+/apollo/ros_ws/build/scout_object_detector/ament_cmake_environment_hooks/local_setup.zsh

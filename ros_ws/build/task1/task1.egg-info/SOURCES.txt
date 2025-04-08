@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+resource/task1
+task1/__init__.py
+task1/task1.py
+task1/task2.py
+task1.egg-info/PKG-INFO
+task1.egg-info/SOURCES.txt
+task1.egg-info/dependency_links.txt
+task1.egg-info/entry_points.txt
+task1.egg-info/requires.txt
+task1.egg-info/top_level.txt
+task1.egg-info/zip-safe

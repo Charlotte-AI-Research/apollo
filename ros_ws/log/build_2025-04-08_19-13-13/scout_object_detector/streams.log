@@ -1,0 +1,163 @@
+[0.555s] Invoking command in '/apollo/ros_ws/build/scout_object_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake /apollo/ros_ws/src/scout_object_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/scout_object_detector
+[0.699s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.283s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.456s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[2.458s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[2.532s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.537s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.550s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.581s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.614s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.662s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.707s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[6.104s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[11.044s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.890s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.106s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[13.329s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[13.330s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[13.331s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[15.060s] -- Configuring done
+[18.059s] -- Generating done
+[19.216s] -- Build files have been written to: /apollo/ros_ws/build/scout_object_detector
+[19.223s] Invoked command in '/apollo/ros_ws/build/scout_object_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake /apollo/ros_ws/src/scout_object_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/scout_object_detector
+[19.239s] Invoking command in '/apollo/ros_ws/build/scout_object_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/build/scout_object_detector -- -j12 -l12
+[19.920s] [35m[1mConsolidate compiler generated dependencies of target scout_object_detector__rosidl_generator_c[0m
+[19.989s] [  0%] Built target ament_cmake_python_symlink_scout_object_detector
+[20.018s] [  3%] Built target scout_object_detector__cpp
+[20.123s] gmake[2]: Warning: File 'CMakeFiles/scout_object_detector__rosidl_generator_c.dir/compiler_depend.make' has modification time 0.074 s in the future
+[20.180s] [35m[1mConsolidate compiler generated dependencies of target scout_object_detector__rosidl_typesupport_cpp[0m
+[20.190s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[20.207s] [35m[1mConsolidate compiler generated dependencies of target scout_object_detector__rosidl_typesupport_introspection_cpp[0m
+[20.234s] [35m[1mConsolidate compiler generated dependencies of target scout_object_detector__rosidl_typesupport_fastrtps_cpp[0m
+[20.369s] [ 12%] Built target scout_object_detector__rosidl_generator_c
+[20.573s] [35m[1mConsolidate compiler generated dependencies of target scout_object_detector__rosidl_typesupport_c[0m
+[20.578s] [35m[1mConsolidate compiler generated dependencies of target scout_object_detector__rosidl_typesupport_fastrtps_c[0m
+[20.608s] [35m[1mConsolidate compiler generated dependencies of target scout_object_detector__rosidl_typesupport_introspection_c[0m
+[20.749s] gmake[2]: Warning: File 'CMakeFiles/scout_object_detector__rosidl_typesupport_c.dir/compiler_depend.make' has modification time 0.039 s in the future
+[20.808s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[20.827s] gmake[2]: Warning: File 'CMakeFiles/scout_object_detector__rosidl_typesupport_introspection_c.dir/compiler_depend.make' has modification time 0.021 s in the future
+[20.838s] [ 29%] Built target scout_object_detector__rosidl_typesupport_cpp
+[20.848s] [ 32%] Built target scout_object_detector__rosidl_typesupport_introspection_cpp
+[20.894s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[20.901s] [ 41%] Built target scout_object_detector__rosidl_typesupport_c
+[20.936s] [ 51%] Built target scout_object_detector__rosidl_typesupport_fastrtps_cpp
+[20.980s] [ 61%] Built target scout_object_detector__rosidl_typesupport_introspection_c
+[21.202s] [ 70%] Built target scout_object_detector__rosidl_typesupport_fastrtps_c
+[21.454s] [ 70%] Built target scout_object_detector
+[21.730s] [ 74%] Built target scout_object_detector__py
+[21.867s] [35m[1mConsolidate compiler generated dependencies of target scout_object_detector__rosidl_generator_py[0m
+[21.909s] running egg_info
+[21.912s] writing scout_object_detector.egg-info/PKG-INFO
+[21.921s] writing dependency_links to scout_object_detector.egg-info/dependency_links.txt
+[21.932s] writing top-level names to scout_object_detector.egg-info/top_level.txt
+[22.007s] reading manifest file 'scout_object_detector.egg-info/SOURCES.txt'
+[22.085s] writing manifest file 'scout_object_detector.egg-info/SOURCES.txt'
+[22.163s] [ 74%] Built target ament_cmake_python_build_scout_object_detector_egg
+[22.325s] [ 80%] Built target scout_object_detector__rosidl_generator_py
+[22.438s] [35m[1mConsolidate compiler generated dependencies of target scout_object_detector__rosidl_typesupport_fastrtps_c__pyext[0m
+[22.441s] [35m[1mConsolidate compiler generated dependencies of target scout_object_detector__rosidl_typesupport_c__pyext[0m
+[22.515s] [35m[1mConsolidate compiler generated dependencies of target scout_object_detector__rosidl_typesupport_introspection_c__pyext[0m
+[22.989s] [ 90%] Built target scout_object_detector__rosidl_typesupport_c__pyext
+[23.007s] [ 93%] Built target scout_object_detector__rosidl_typesupport_fastrtps_c__pyext
+[23.131s] [100%] Built target scout_object_detector__rosidl_typesupport_introspection_c__pyext
+[23.422s] Invoked command in '/apollo/ros_ws/build/scout_object_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/build/scout_object_detector -- -j12 -l12
+[23.454s] Invoking command in '/apollo/ros_ws/build/scout_object_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /apollo/ros_ws/build/scout_object_detector
+[23.513s] -- Install configuration: ""
+[23.528s] -- Execute custom install script
+[23.591s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/ament_index/resource_index/rosidl_interfaces/scout_object_detector
+[23.730s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/detail/yolo_detection__functions.h
+[23.787s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/detail/yolo_detection__struct.h
+[23.853s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/detail/yolo_detection__type_support.h
+[23.899s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/rosidl_generator_c__visibility_control.h
+[23.953s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/yolo_detection.h
+[23.973s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/environment/library_path.sh
+[24.001s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/environment/library_path.dsv
+[24.145s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/detail/yolo_detection__rosidl_typesupport_fastrtps_c.h
+[24.185s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[24.310s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/detail/yolo_detection__builder.hpp
+[24.365s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/detail/yolo_detection__struct.hpp
+[24.425s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/detail/yolo_detection__traits.hpp
+[24.503s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/detail/yolo_detection__type_support.hpp
+[24.570s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/rosidl_generator_cpp__visibility_control.hpp
+[24.621s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/yolo_detection.hpp
+[24.814s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/detail/yolo_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[24.859s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[24.956s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/detail/yolo_detection__rosidl_typesupport_introspection_c.h
+[25.002s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[25.101s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/include/scout_object_detector/scout_object_detector/msg/detail/yolo_detection__rosidl_typesupport_introspection_cpp.hpp
+[25.132s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/environment/pythonpath.sh
+[25.161s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/environment/pythonpath.dsv
+[25.250s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector-0.0.0-py3.10.egg-info/PKG-INFO
+[25.304s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector-0.0.0-py3.10.egg-info/SOURCES.txt
+[25.370s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector-0.0.0-py3.10.egg-info/dependency_links.txt
+[25.435s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector-0.0.0-py3.10.egg-info/top_level.txt
+[25.675s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/__init__.py
+[25.722s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/_scout_object_detector_s.ep.rosidl_typesupport_c.c
+[25.770s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/_scout_object_detector_s.ep.rosidl_typesupport_fastrtps_c.c
+[25.817s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/_scout_object_detector_s.ep.rosidl_typesupport_introspection_c.c
+[25.874s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/libscout_object_detector__rosidl_generator_py.so
+[25.942s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/msg/__init__.py
+[26.019s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/msg/_yolo_detection.py
+[26.083s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/msg/_yolo_detection_s.c
+[26.136s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/scout_object_detector_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[26.193s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/scout_object_detector_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[26.256s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/scout_object_detector_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[26.318s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/scout_object_detector_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[26.365s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/scout_object_detector_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[26.409s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/scout_object_detector_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[26.455s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/msg/YoloDetection.idl
+[26.494s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/msg/YoloDetection.msg
+[26.564s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/ament_index/resource_index/package_run_dependencies/scout_object_detector
+[26.632s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/ament_index/resource_index/parent_prefix_path/scout_object_detector
+[26.654s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/environment/ament_prefix_path.sh
+[26.680s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/environment/ament_prefix_path.dsv
+[26.701s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/environment/path.sh
+[26.727s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/environment/path.dsv
+[26.753s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/local_setup.bash
+[26.779s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/local_setup.sh
+[26.803s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/local_setup.zsh
+[26.830s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/local_setup.dsv
+[26.843s] -- Symlinking: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/package.dsv
+[27.057s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/ament_index/resource_index/packages/scout_object_detector
+[27.084s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/rosidl_cmake-extras.cmake
+[27.120s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.154s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.179s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/ament_cmake_export_libraries-extras.cmake
+[27.212s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/ament_cmake_export_targets-extras.cmake
+[27.250s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[27.293s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[27.325s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/scout_object_detectorConfig.cmake
+[27.364s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/scout_object_detectorConfig-version.cmake
+[27.393s] -- Up-to-date symlink: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/package.xml
+[27.450s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/lib/libscout_object_detector__rosidl_generator_c.so
+[27.566s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/lib/libscout_object_detector__rosidl_typesupport_fastrtps_c.so
+[27.677s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/lib/libscout_object_detector__rosidl_typesupport_fastrtps_cpp.so
+[27.781s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/lib/libscout_object_detector__rosidl_typesupport_introspection_c.so
+[27.903s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/lib/libscout_object_detector__rosidl_typesupport_c.so
+[28.021s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/lib/libscout_object_detector__rosidl_typesupport_introspection_cpp.so
+[28.137s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/lib/libscout_object_detector__rosidl_typesupport_cpp.so
+[29.094s] Listing '/apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector'...
+[29.096s] Compiling '/apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/__init__.py'...
+[29.097s] Listing '/apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages/scout_object_detector/msg'...
+[29.167s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/lib/libscout_object_detector__rosidl_generator_py.so
+[29.248s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/lib/scout_object_detector/object_detection_node
+[29.281s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/lib/scout_object_detector/detection_node
+[29.360s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/export_scout_object_detector__rosidl_generator_cExport.cmake
+[29.405s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/export_scout_object_detector__rosidl_generator_cExport-noconfig.cmake
+[29.486s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/export_scout_object_detector__rosidl_typesupport_fastrtps_cExport.cmake
+[29.537s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/export_scout_object_detector__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[29.616s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/export_scout_object_detector__rosidl_generator_cppExport.cmake
+[29.702s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/export_scout_object_detector__rosidl_typesupport_fastrtps_cppExport.cmake
+[29.764s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/export_scout_object_detector__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[29.844s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/scout_object_detector__rosidl_typesupport_introspection_cExport.cmake
+[29.900s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/scout_object_detector__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[29.980s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/scout_object_detector__rosidl_typesupport_cExport.cmake
+[30.029s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/scout_object_detector__rosidl_typesupport_cExport-noconfig.cmake
+[30.104s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/scout_object_detector__rosidl_typesupport_introspection_cppExport.cmake
+[30.153s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/scout_object_detector__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[30.226s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/scout_object_detector__rosidl_typesupport_cppExport.cmake
+[30.274s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/scout_object_detector__rosidl_typesupport_cppExport-noconfig.cmake
+[30.341s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/export_scout_object_detector__rosidl_generator_pyExport.cmake
+[30.386s] -- Up-to-date: /apollo/ros_ws/install/scout_object_detector/share/scout_object_detector/cmake/export_scout_object_detector__rosidl_generator_pyExport-noconfig.cmake
+[30.414s] Invoked command in '/apollo/ros_ws/build/scout_object_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /apollo/ros_ws/build/scout_object_detector

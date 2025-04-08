@@ -1,1 +1,0 @@
-/apollo/ros_ws/src/scout_mini_hardware/include/scout_mini_hardware/visibility_control.h
