@@ -1,1 +1,0 @@
-/apollo/ros_ws/src/scout_object_detector/msg/YoloDetection.msg

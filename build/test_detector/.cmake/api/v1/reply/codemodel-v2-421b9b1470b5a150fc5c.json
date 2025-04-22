@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f2446ec37bd5b6880bd5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "test_detector__py",
+					"jsonFile" : "directory-test_detector__py-6e45b2d9c3eef6c2de2f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/apollo/build/test_detector/test_detector__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "test_detector",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_test_detector_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_test_detector_egg-441ff1679b7fdd493619.json",
+					"name" : "ament_cmake_python_build_test_detector_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_test_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_test_detector-61fc9e40b62de63c4530.json",
+					"name" : "ament_cmake_python_copy_test_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_detector-e16663b9bc5a9384dd3f.json",
+					"name" : "test_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_detector__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_detector__cpp-3f6676f4d09e817d3ea6.json",
+					"name" : "test_detector__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_detector__py::@ec9cbab1cd2981f686f7",
+					"jsonFile" : "target-test_detector__py-02357a3d210e08ac6890.json",
+					"name" : "test_detector__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_detector__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_detector__rosidl_generator_c-2ce95677d7cbb5f2a1d9.json",
+					"name" : "test_detector__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_detector__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_detector__rosidl_generator_py-2711ea65cdb8f036bc6f.json",
+					"name" : "test_detector__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_detector__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_detector__rosidl_typesupport_c-7ced49e6038e4d994c9e.json",
+					"name" : "test_detector__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_detector__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_detector__rosidl_typesupport_c__pyext-0989cf7799bb9a88522c.json",
+					"name" : "test_detector__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_detector__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_detector__rosidl_typesupport_cpp-6da443aefd556a5ef052.json",
+					"name" : "test_detector__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_detector__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_detector__rosidl_typesupport_fastrtps_c-5897576ec5b61792eb79.json",
+					"name" : "test_detector__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_detector__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_detector__rosidl_typesupport_fastrtps_c__pyext-d67be5fb71aafdfb1364.json",
+					"name" : "test_detector__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_detector__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_detector__rosidl_typesupport_fastrtps_cpp-9cd7027b90fea9f81f8d.json",
+					"name" : "test_detector__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_detector__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_detector__rosidl_typesupport_introspection_c-9823adf7b6a2988fbf58.json",
+					"name" : "test_detector__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_detector__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_detector__rosidl_typesupport_introspection_c__pyext-a27c0e98bc05e3c7db58.json",
+					"name" : "test_detector__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_detector__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_detector__rosidl_typesupport_introspection_cpp-5ecd7e10d860631bacb3.json",
+					"name" : "test_detector__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_detector_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_detector_uninstall-c5233aa542c7fff47b5a.json",
+					"name" : "test_detector_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-11e27b37f19be7c03136.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/apollo/build/test_detector",
+		"source" : "/apollo/ros_ws/src/scout_object_detector"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

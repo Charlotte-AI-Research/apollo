@@ -1,0 +1,277 @@
+[0.000000] (-) TimerEvent: {}
+[0.000337] (-) JobUnselected: {'identifier': 'scout_mini_base'}
+[0.000569] (-) JobUnselected: {'identifier': 'scout_mini_description'}
+[0.000932] (-) JobUnselected: {'identifier': 'scout_mini_hardware'}
+[0.001203] (-) JobUnselected: {'identifier': 'scout_mini_msgs'}
+[0.001531] (-) JobUnselected: {'identifier': 'scout_mini_ros2'}
+[0.001723] (-) JobUnselected: {'identifier': 'scout_mini_simulation'}
+[0.001943] (-) JobUnselected: {'identifier': 'scout_object_detector'}
+[0.002085] (-) JobUnselected: {'identifier': 'task1'}
+[0.002351] (follow_human) JobQueued: {'identifier': 'follow_human', 'dependencies': OrderedDict()}
+[0.002541] (follow_human) JobStarted: {'identifier': 'follow_human'}
+[0.098574] (-) TimerEvent: {}
+[0.199925] (-) TimerEvent: {}
+[0.269472] (follow_human) JobProgress: {'identifier': 'follow_human', 'progress': 'cmake'}
+[0.300059] (-) TimerEvent: {}
+[0.314089] (follow_human) Command: {'cmd': ['/usr/bin/cmake', '/apollo/ros_ws/src/follow_human', '-DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/follow_human'], 'cwd': '/apollo/ros_ws/build/follow_human', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/4949701c880d4bdb949e3c0e6b400288da7f474b/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/apollo/ros_ws/install/scout_object_detector/lib:/apollo/ros_ws/install/scout_mini_hardware/lib:/apollo/ros_ws/install/scout_mini_msgs/lib:/apollo/ros_ws/install/follow_human/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/4949701c880d4bdb949e3c0e6b400288da7f474b/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/apollo/ros_ws/src/follow_human/follow_human'), ('TERM_PROGRAM_VERSION', '1.99.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-6fef4124-5dd1-4843-b092-e7ee8fb01f45.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/4949701c880d4bdb949e3c0e6b400288da7f474b/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/4949701c880d4bdb949e3c0e6b400288da7f474b/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-c8b70d55-9a37-40ea-af26-bf9bd816147b.sock'), ('COLCON_PREFIX_PATH', '/apollo/ros_ws/install:/apollo/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-2ee8e514-be7c-4fdf-a1da-bed5278b615e.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/4949701c880d4bdb949e3c0e6b400288da7f474b/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X4","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':4'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-abc4106309.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/apollo/ros_ws/install/task1:/apollo/ros_ws/install/scout_object_detector:/apollo/ros_ws/install/scout_mini_simulation:/apollo/ros_ws/install/scout_mini_ros2:/apollo/ros_ws/install/scout_mini_hardware:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/apollo/ros_ws/install/follow_human:/apollo/dev_ws/install/my_package:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X4'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/ros_ws/build/follow_human'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/apollo/ros_ws/install/task1/lib/python3.10/site-packages:/apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages:/apollo/ros_ws/install/scout_mini_simulation/lib/python3.10/site-packages:/apollo/ros_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:/apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages:/apollo/dev_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/apollo/ros_ws/install/scout_object_detector:/apollo/ros_ws/install/scout_mini_ros2:/apollo/ros_ws/install/scout_mini_hardware:/apollo/ros_ws/install/scout_mini_msgs:/apollo/ros_ws/install/scout_mini_description:/apollo/ros_ws/install/scout_mini_base:/apollo/ros_ws/install/follow_human:/apollo/ros_ws/install/task1:/apollo/ros_ws/install/scout_mini_simulation:/apollo/dev_ws/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.400249] (-) TimerEvent: {}
+[0.500860] (-) TimerEvent: {}
+[0.601458] (-) TimerEvent: {}
+[0.701954] (-) TimerEvent: {}
+[0.802393] (-) TimerEvent: {}
+[0.902894] (-) TimerEvent: {}
+[1.003527] (-) TimerEvent: {}
+[1.103955] (-) TimerEvent: {}
+[1.204438] (-) TimerEvent: {}
+[1.305097] (-) TimerEvent: {}
+[1.405543] (-) TimerEvent: {}
+[1.451580] (follow_human) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.505644] (-) TimerEvent: {}
+[1.606359] (-) TimerEvent: {}
+[1.706860] (-) TimerEvent: {}
+[1.807445] (-) TimerEvent: {}
+[1.908067] (-) TimerEvent: {}
+[2.008688] (-) TimerEvent: {}
+[2.041564] (follow_human) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.108844] (-) TimerEvent: {}
+[2.142620] (follow_human) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.208989] (-) TimerEvent: {}
+[2.309591] (-) TimerEvent: {}
+[2.410316] (-) TimerEvent: {}
+[2.511045] (-) TimerEvent: {}
+[2.611602] (-) TimerEvent: {}
+[2.712106] (-) TimerEvent: {}
+[2.812676] (-) TimerEvent: {}
+[2.913200] (-) TimerEvent: {}
+[3.013847] (-) TimerEvent: {}
+[3.114387] (-) TimerEvent: {}
+[3.214838] (-) TimerEvent: {}
+[3.315232] (-) TimerEvent: {}
+[3.415819] (-) TimerEvent: {}
+[3.496870] (follow_human) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.516007] (-) TimerEvent: {}
+[3.520821] (follow_human) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.521996] (follow_human) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.522700] (follow_human) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.589642] (follow_human) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.616035] (-) TimerEvent: {}
+[3.716831] (-) TimerEvent: {}
+[3.817283] (-) TimerEvent: {}
+[3.917808] (-) TimerEvent: {}
+[4.018421] (-) TimerEvent: {}
+[4.119101] (-) TimerEvent: {}
+[4.219833] (-) TimerEvent: {}
+[4.320540] (-) TimerEvent: {}
+[4.421233] (-) TimerEvent: {}
+[4.522203] (-) TimerEvent: {}
+[4.622687] (-) TimerEvent: {}
+[4.723176] (-) TimerEvent: {}
+[4.823596] (-) TimerEvent: {}
+[4.903575] (follow_human) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.923701] (-) TimerEvent: {}
+[4.924720] (follow_human) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.926116] (follow_human) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.926756] (follow_human) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.023803] (-) TimerEvent: {}
+[5.072418] (follow_human) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.123945] (-) TimerEvent: {}
+[5.224471] (-) TimerEvent: {}
+[5.324927] (-) TimerEvent: {}
+[5.425410] (-) TimerEvent: {}
+[5.526237] (-) TimerEvent: {}
+[5.626790] (-) TimerEvent: {}
+[5.727414] (-) TimerEvent: {}
+[5.828066] (-) TimerEvent: {}
+[5.928608] (-) TimerEvent: {}
+[6.029123] (-) TimerEvent: {}
+[6.129566] (-) TimerEvent: {}
+[6.230473] (-) TimerEvent: {}
+[6.331038] (-) TimerEvent: {}
+[6.431577] (-) TimerEvent: {}
+[6.532112] (-) TimerEvent: {}
+[6.632617] (-) TimerEvent: {}
+[6.691935] (follow_human) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.732697] (-) TimerEvent: {}
+[6.833277] (-) TimerEvent: {}
+[6.933710] (-) TimerEvent: {}
+[7.034261] (-) TimerEvent: {}
+[7.134815] (-) TimerEvent: {}
+[7.235457] (-) TimerEvent: {}
+[7.336136] (-) TimerEvent: {}
+[7.436623] (-) TimerEvent: {}
+[7.537362] (-) TimerEvent: {}
+[7.637889] (-) TimerEvent: {}
+[7.738429] (-) TimerEvent: {}
+[7.838990] (-) TimerEvent: {}
+[7.939505] (-) TimerEvent: {}
+[8.040011] (-) TimerEvent: {}
+[8.140420] (-) TimerEvent: {}
+[8.241008] (-) TimerEvent: {}
+[8.341493] (-) TimerEvent: {}
+[8.388916] (follow_human) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[8.441564] (-) TimerEvent: {}
+[8.471724] (follow_human) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[8.541626] (-) TimerEvent: {}
+[8.642071] (-) TimerEvent: {}
+[8.742687] (-) TimerEvent: {}
+[8.843265] (-) TimerEvent: {}
+[8.943761] (-) TimerEvent: {}
+[9.044503] (-) TimerEvent: {}
+[9.145008] (-) TimerEvent: {}
+[9.243823] (follow_human) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[9.246353] (-) TimerEvent: {}
+[9.346701] (-) TimerEvent: {}
+[9.404818] (follow_human) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[9.446814] (-) TimerEvent: {}
+[9.547448] (-) TimerEvent: {}
+[9.561651] (follow_human) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[9.647591] (-) TimerEvent: {}
+[9.748109] (-) TimerEvent: {}
+[9.761307] (follow_human) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.848248] (-) TimerEvent: {}
+[9.948711] (-) TimerEvent: {}
+[9.997731] (follow_human) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.048822] (-) TimerEvent: {}
+[10.149462] (-) TimerEvent: {}
+[10.249945] (-) TimerEvent: {}
+[10.263357] (follow_human) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[10.350036] (-) TimerEvent: {}
+[10.450577] (-) TimerEvent: {}
+[10.550988] (-) TimerEvent: {}
+[10.651457] (-) TimerEvent: {}
+[10.751881] (-) TimerEvent: {}
+[10.852471] (-) TimerEvent: {}
+[10.952898] (-) TimerEvent: {}
+[11.053424] (-) TimerEvent: {}
+[11.153861] (-) TimerEvent: {}
+[11.254329] (-) TimerEvent: {}
+[11.354736] (-) TimerEvent: {}
+[11.455248] (-) TimerEvent: {}
+[11.555797] (-) TimerEvent: {}
+[11.656444] (-) TimerEvent: {}
+[11.756871] (-) TimerEvent: {}
+[11.857432] (-) TimerEvent: {}
+[11.957934] (-) TimerEvent: {}
+[12.058512] (-) TimerEvent: {}
+[12.158926] (-) TimerEvent: {}
+[12.259341] (-) TimerEvent: {}
+[12.359758] (-) TimerEvent: {}
+[12.460257] (-) TimerEvent: {}
+[12.560735] (-) TimerEvent: {}
+[12.613615] (follow_human) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[12.660841] (-) TimerEvent: {}
+[12.761339] (-) TimerEvent: {}
+[12.862029] (-) TimerEvent: {}
+[12.962422] (-) TimerEvent: {}
+[13.062962] (-) TimerEvent: {}
+[13.163585] (-) TimerEvent: {}
+[13.264283] (-) TimerEvent: {}
+[13.364942] (-) TimerEvent: {}
+[13.465464] (-) TimerEvent: {}
+[13.566017] (-) TimerEvent: {}
+[13.666440] (-) TimerEvent: {}
+[13.767002] (-) TimerEvent: {}
+[13.867731] (-) TimerEvent: {}
+[13.968374] (-) TimerEvent: {}
+[14.068900] (-) TimerEvent: {}
+[14.169623] (-) TimerEvent: {}
+[14.270019] (-) TimerEvent: {}
+[14.370604] (-) TimerEvent: {}
+[14.471122] (-) TimerEvent: {}
+[14.571663] (-) TimerEvent: {}
+[14.672131] (-) TimerEvent: {}
+[14.772649] (-) TimerEvent: {}
+[14.873199] (-) TimerEvent: {}
+[14.973597] (-) TimerEvent: {}
+[15.074067] (-) TimerEvent: {}
+[15.174700] (-) TimerEvent: {}
+[15.275150] (-) TimerEvent: {}
+[15.375706] (-) TimerEvent: {}
+[15.476175] (-) TimerEvent: {}
+[15.576854] (-) TimerEvent: {}
+[15.677437] (-) TimerEvent: {}
+[15.778187] (-) TimerEvent: {}
+[15.878965] (-) TimerEvent: {}
+[15.979485] (-) TimerEvent: {}
+[16.080000] (-) TimerEvent: {}
+[16.180595] (-) TimerEvent: {}
+[16.281172] (-) TimerEvent: {}
+[16.381703] (-) TimerEvent: {}
+[16.482095] (-) TimerEvent: {}
+[16.524578] (follow_human) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[16.582265] (-) TimerEvent: {}
+[16.682633] (-) TimerEvent: {}
+[16.783156] (-) TimerEvent: {}
+[16.883626] (-) TimerEvent: {}
+[16.984144] (-) TimerEvent: {}
+[17.084649] (-) TimerEvent: {}
+[17.185151] (-) TimerEvent: {}
+[17.285752] (-) TimerEvent: {}
+[17.386368] (-) TimerEvent: {}
+[17.487017] (-) TimerEvent: {}
+[17.587443] (-) TimerEvent: {}
+[17.688078] (-) TimerEvent: {}
+[17.788480] (-) TimerEvent: {}
+[17.889086] (-) TimerEvent: {}
+[17.949980] (follow_human) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[17.989219] (-) TimerEvent: {}
+[18.089724] (-) TimerEvent: {}
+[18.190178] (-) TimerEvent: {}
+[18.253681] (follow_human) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[18.290235] (-) TimerEvent: {}
+[18.335394] (follow_human) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[18.390313] (-) TimerEvent: {}
+[18.490739] (-) TimerEvent: {}
+[18.591305] (-) TimerEvent: {}
+[18.691914] (-) TimerEvent: {}
+[18.741139] (follow_human) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[18.742210] (follow_human) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[18.742809] (follow_human) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[18.743398] (follow_human) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[18.792005] (-) TimerEvent: {}
+[18.892639] (-) TimerEvent: {}
+[18.928872] (follow_human) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[18.992734] (-) TimerEvent: {}
+[19.093464] (-) TimerEvent: {}
+[19.193911] (-) TimerEvent: {}
+[19.294410] (-) TimerEvent: {}
+[19.394928] (-) TimerEvent: {}
+[19.495497] (-) TimerEvent: {}
+[19.548436] (follow_human) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:122 (add_custom_target):\n'}
+[19.549738] (follow_human) StderrLine: {'line': b'  add_custom_target cannot create target\n'}
+[19.550761] (follow_human) StderrLine: {'line': b'  "ament_cmake_python_copy_follow_human" because another target with the same\n'}
+[19.551876] (follow_human) StderrLine: {'line': b'  name already exists.  The existing target is a custom target created in\n'}
+[19.552838] (follow_human) StderrLine: {'line': b'  source directory "/apollo/ros_ws/src/follow_human".  See documentation for\n'}
+[19.553745] (follow_human) StderrLine: {'line': b'  policy CMP0002 for more details.\n'}
+[19.554533] (follow_human) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[19.555331] (follow_human) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[19.556272] (follow_human) StderrLine: {'line': b'  CMakeLists.txt:20 (ament_python_install_package)\n'}
+[19.556956] (follow_human) StderrLine: {'line': b'\n'}
+[19.557690] (follow_human) StderrLine: {'line': b'\x1b[0m\n'}
+[19.558469] (follow_human) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:141 (add_custom_target):\n'}
+[19.559982] (follow_human) StderrLine: {'line': b'  add_custom_target cannot create target\n'}
+[19.561008] (follow_human) StderrLine: {'line': b'  "ament_cmake_python_build_follow_human_egg" because another target with the\n'}
+[19.561897] (follow_human) StderrLine: {'line': b'  same name already exists.  The existing target is a custom target created\n'}
+[19.562848] (follow_human) StderrLine: {'line': b'  in source directory "/apollo/ros_ws/src/follow_human".  See documentation\n'}
+[19.563734] (follow_human) StderrLine: {'line': b'  for policy CMP0002 for more details.\n'}
+[19.564697] (follow_human) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[19.565549] (follow_human) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[19.566310] (follow_human) StderrLine: {'line': b'  CMakeLists.txt:20 (ament_python_install_package)\n'}
+[19.567006] (follow_human) StderrLine: {'line': b'\n'}
+[19.567808] (follow_human) StderrLine: {'line': b'\x1b[0m\n'}
+[19.595600] (-) TimerEvent: {}
+[19.696088] (-) TimerEvent: {}
+[19.796447] (-) TimerEvent: {}
+[19.896802] (-) TimerEvent: {}
+[19.997352] (-) TimerEvent: {}
+[20.097898] (-) TimerEvent: {}
+[20.198345] (-) TimerEvent: {}
+[20.298963] (-) TimerEvent: {}
+[20.368641] (follow_human) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[20.369497] (follow_human) StdoutLine: {'line': b'See also "/apollo/ros_ws/build/follow_human/CMakeFiles/CMakeOutput.log".\n'}
+[20.385506] (follow_human) CommandEnded: {'returncode': 1}
+[20.399040] (-) TimerEvent: {}
+[20.499467] (-) TimerEvent: {}
+[20.599974] (-) TimerEvent: {}
+[20.635233] (follow_human) JobEnded: {'identifier': 'follow_human', 'rc': 1}
+[20.646665] (-) EventReactorShutdown: {}

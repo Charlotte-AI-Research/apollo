@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from follow_human/msg/DepthEstimation.msg
+// generated code does not contain a copyright notice
+
+
+module follow_human {
+  module msg {
+    struct DepthEstimation {
+      int32 id;
+
+      string class_label;
+
+      float confidence;
+
+      int32 x;
+
+      int32 y;
+
+      int32 width;
+
+      int32 height;
+
+      float depth_m;
+    };
+  };
+};

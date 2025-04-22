@@ -1,0 +1,796 @@
+[0.000000] (-) TimerEvent: {}
+[0.001081] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001463] (-) JobUnselected: {'identifier': 'scout_mini_base'}
+[0.001715] (-) JobUnselected: {'identifier': 'scout_mini_description'}
+[0.002058] (-) JobUnselected: {'identifier': 'scout_mini_hardware'}
+[0.002431] (-) JobUnselected: {'identifier': 'scout_mini_msgs'}
+[0.002885] (-) JobUnselected: {'identifier': 'scout_mini_ros2'}
+[0.003183] (-) JobUnselected: {'identifier': 'scout_mini_simulation'}
+[0.003459] (-) JobUnselected: {'identifier': 'task1'}
+[0.003766] (test_detector) JobQueued: {'identifier': 'test_detector', 'dependencies': OrderedDict()}
+[0.004125] (test_detector) JobStarted: {'identifier': 'test_detector'}
+[0.084860] (-) TimerEvent: {}
+[0.185979] (-) TimerEvent: {}
+[0.264089] (test_detector) JobProgress: {'identifier': 'test_detector', 'progress': 'cmake'}
+[0.286056] (-) TimerEvent: {}
+[0.329245] (test_detector) Command: {'cmd': ['/usr/bin/cmake', '/apollo/ros_ws/src/scout_object_detector', '-DCMAKE_INSTALL_PREFIX=/apollo/install/test_detector'], 'cwd': '/apollo/build/test_detector', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/apollo/ros_ws/install/scout_object_detector/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-c089e138-2d8a-4c79-b8ab-17716a8ed864.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-7bef66cd-70e9-4ec0-b461-9e051d407ffa.sock'), ('COLCON_PREFIX_PATH', '/apollo/ros_ws/install:/apollo/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9937fa66-f99e-41d7-b156-a9604c782a98.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X11","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':11'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-abc4106309.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/apollo/dev_ws/install/my_package:/apollo/ros_ws/install/scout_object_detector:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/build/test_detector'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/apollo/dev_ws/install/my_package/lib/python3.10/site-packages:/apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/apollo/ros_ws/install/scout_object_detector:/apollo/dev_ws/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.386187] (-) TimerEvent: {}
+[0.486795] (-) TimerEvent: {}
+[0.587524] (-) TimerEvent: {}
+[0.688074] (-) TimerEvent: {}
+[0.788746] (-) TimerEvent: {}
+[0.889515] (-) TimerEvent: {}
+[0.990125] (-) TimerEvent: {}
+[1.090730] (-) TimerEvent: {}
+[1.191334] (-) TimerEvent: {}
+[1.291872] (-) TimerEvent: {}
+[1.392496] (-) TimerEvent: {}
+[1.415029] (test_detector) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.492593] (-) TimerEvent: {}
+[1.593128] (-) TimerEvent: {}
+[1.693643] (-) TimerEvent: {}
+[1.794159] (-) TimerEvent: {}
+[1.894772] (-) TimerEvent: {}
+[1.995346] (-) TimerEvent: {}
+[2.000428] (test_detector) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.095470] (-) TimerEvent: {}
+[2.127611] (test_detector) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.195575] (-) TimerEvent: {}
+[2.296127] (-) TimerEvent: {}
+[2.396671] (-) TimerEvent: {}
+[2.497388] (-) TimerEvent: {}
+[2.597988] (-) TimerEvent: {}
+[2.698581] (-) TimerEvent: {}
+[2.799107] (-) TimerEvent: {}
+[2.899821] (-) TimerEvent: {}
+[3.000409] (-) TimerEvent: {}
+[3.101141] (-) TimerEvent: {}
+[3.201658] (-) TimerEvent: {}
+[3.302143] (-) TimerEvent: {}
+[3.402783] (-) TimerEvent: {}
+[3.503456] (-) TimerEvent: {}
+[3.595836] (test_detector) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.603549] (-) TimerEvent: {}
+[3.624282] (test_detector) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.626858] (test_detector) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.628061] (test_detector) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.693041] (test_detector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.703618] (-) TimerEvent: {}
+[3.804259] (-) TimerEvent: {}
+[3.904783] (-) TimerEvent: {}
+[4.005441] (-) TimerEvent: {}
+[4.106268] (-) TimerEvent: {}
+[4.206809] (-) TimerEvent: {}
+[4.307370] (-) TimerEvent: {}
+[4.408010] (-) TimerEvent: {}
+[4.508609] (-) TimerEvent: {}
+[4.609196] (-) TimerEvent: {}
+[4.709744] (-) TimerEvent: {}
+[4.810487] (-) TimerEvent: {}
+[4.911075] (-) TimerEvent: {}
+[5.011546] (-) TimerEvent: {}
+[5.112345] (-) TimerEvent: {}
+[5.115033] (test_detector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.144372] (test_detector) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.149104] (test_detector) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.150212] (test_detector) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.212415] (-) TimerEvent: {}
+[5.312831] (-) TimerEvent: {}
+[5.387133] (test_detector) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.412989] (-) TimerEvent: {}
+[5.513748] (-) TimerEvent: {}
+[5.614287] (-) TimerEvent: {}
+[5.714785] (-) TimerEvent: {}
+[5.815422] (-) TimerEvent: {}
+[5.916091] (-) TimerEvent: {}
+[6.016769] (-) TimerEvent: {}
+[6.117221] (-) TimerEvent: {}
+[6.217815] (-) TimerEvent: {}
+[6.318256] (-) TimerEvent: {}
+[6.418819] (-) TimerEvent: {}
+[6.519343] (-) TimerEvent: {}
+[6.619992] (-) TimerEvent: {}
+[6.720495] (-) TimerEvent: {}
+[6.820884] (-) TimerEvent: {}
+[6.921371] (-) TimerEvent: {}
+[7.021956] (-) TimerEvent: {}
+[7.122661] (-) TimerEvent: {}
+[7.223177] (-) TimerEvent: {}
+[7.323683] (-) TimerEvent: {}
+[7.424285] (-) TimerEvent: {}
+[7.524755] (-) TimerEvent: {}
+[7.586172] (test_detector) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[7.624806] (-) TimerEvent: {}
+[7.725398] (-) TimerEvent: {}
+[7.825842] (-) TimerEvent: {}
+[7.926387] (-) TimerEvent: {}
+[8.026865] (-) TimerEvent: {}
+[8.127456] (-) TimerEvent: {}
+[8.228083] (-) TimerEvent: {}
+[8.328626] (-) TimerEvent: {}
+[8.429186] (-) TimerEvent: {}
+[8.529920] (-) TimerEvent: {}
+[8.630480] (-) TimerEvent: {}
+[8.731114] (-) TimerEvent: {}
+[8.831756] (-) TimerEvent: {}
+[8.932371] (-) TimerEvent: {}
+[9.032964] (-) TimerEvent: {}
+[9.133631] (-) TimerEvent: {}
+[9.234294] (-) TimerEvent: {}
+[9.335148] (-) TimerEvent: {}
+[9.435652] (-) TimerEvent: {}
+[9.536673] (-) TimerEvent: {}
+[9.637252] (-) TimerEvent: {}
+[9.738016] (-) TimerEvent: {}
+[9.838577] (-) TimerEvent: {}
+[9.939137] (-) TimerEvent: {}
+[10.039752] (-) TimerEvent: {}
+[10.140390] (-) TimerEvent: {}
+[10.240979] (-) TimerEvent: {}
+[10.341734] (-) TimerEvent: {}
+[10.442423] (-) TimerEvent: {}
+[10.543236] (-) TimerEvent: {}
+[10.644115] (-) TimerEvent: {}
+[10.744842] (-) TimerEvent: {}
+[10.774085] (test_detector) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[10.845038] (-) TimerEvent: {}
+[10.943476] (test_detector) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[10.945361] (-) TimerEvent: {}
+[11.045736] (-) TimerEvent: {}
+[11.146176] (-) TimerEvent: {}
+[11.246628] (-) TimerEvent: {}
+[11.347199] (-) TimerEvent: {}
+[11.447659] (-) TimerEvent: {}
+[11.548231] (-) TimerEvent: {}
+[11.648787] (-) TimerEvent: {}
+[11.749230] (-) TimerEvent: {}
+[11.849699] (-) TimerEvent: {}
+[11.950120] (-) TimerEvent: {}
+[12.050634] (-) TimerEvent: {}
+[12.151337] (-) TimerEvent: {}
+[12.251861] (-) TimerEvent: {}
+[12.320602] (test_detector) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[12.351925] (-) TimerEvent: {}
+[12.452441] (-) TimerEvent: {}
+[12.553001] (-) TimerEvent: {}
+[12.618589] (test_detector) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[12.653064] (-) TimerEvent: {}
+[12.753503] (-) TimerEvent: {}
+[12.854021] (-) TimerEvent: {}
+[12.918189] (test_detector) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[12.954106] (-) TimerEvent: {}
+[13.054688] (-) TimerEvent: {}
+[13.155136] (-) TimerEvent: {}
+[13.246643] (test_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.255169] (-) TimerEvent: {}
+[13.355704] (-) TimerEvent: {}
+[13.456292] (-) TimerEvent: {}
+[13.556766] (-) TimerEvent: {}
+[13.657241] (-) TimerEvent: {}
+[13.744205] (test_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.757298] (-) TimerEvent: {}
+[13.857735] (-) TimerEvent: {}
+[13.958276] (-) TimerEvent: {}
+[14.058718] (-) TimerEvent: {}
+[14.159829] (-) TimerEvent: {}
+[14.260240] (-) TimerEvent: {}
+[14.360705] (-) TimerEvent: {}
+[14.461360] (-) TimerEvent: {}
+[14.562136] (-) TimerEvent: {}
+[14.656112] (test_detector) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[14.662205] (-) TimerEvent: {}
+[14.762922] (-) TimerEvent: {}
+[14.863534] (-) TimerEvent: {}
+[14.964145] (-) TimerEvent: {}
+[15.064636] (-) TimerEvent: {}
+[15.165264] (-) TimerEvent: {}
+[15.265863] (-) TimerEvent: {}
+[15.366407] (-) TimerEvent: {}
+[15.466943] (-) TimerEvent: {}
+[15.567634] (-) TimerEvent: {}
+[15.668073] (-) TimerEvent: {}
+[15.768421] (-) TimerEvent: {}
+[15.868901] (-) TimerEvent: {}
+[15.969527] (-) TimerEvent: {}
+[16.069886] (-) TimerEvent: {}
+[16.170459] (-) TimerEvent: {}
+[16.270998] (-) TimerEvent: {}
+[16.371414] (-) TimerEvent: {}
+[16.472052] (-) TimerEvent: {}
+[16.572571] (-) TimerEvent: {}
+[16.673060] (-) TimerEvent: {}
+[16.773540] (-) TimerEvent: {}
+[16.874126] (-) TimerEvent: {}
+[16.974701] (-) TimerEvent: {}
+[17.075206] (-) TimerEvent: {}
+[17.175847] (-) TimerEvent: {}
+[17.276241] (-) TimerEvent: {}
+[17.376718] (-) TimerEvent: {}
+[17.477260] (-) TimerEvent: {}
+[17.577704] (-) TimerEvent: {}
+[17.678220] (-) TimerEvent: {}
+[17.778843] (-) TimerEvent: {}
+[17.853577] (test_detector) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[17.878890] (-) TimerEvent: {}
+[17.979349] (-) TimerEvent: {}
+[18.079920] (-) TimerEvent: {}
+[18.180504] (-) TimerEvent: {}
+[18.281306] (-) TimerEvent: {}
+[18.381934] (-) TimerEvent: {}
+[18.482669] (-) TimerEvent: {}
+[18.583227] (-) TimerEvent: {}
+[18.683658] (-) TimerEvent: {}
+[18.784264] (-) TimerEvent: {}
+[18.884883] (-) TimerEvent: {}
+[18.985421] (-) TimerEvent: {}
+[19.085851] (-) TimerEvent: {}
+[19.186341] (-) TimerEvent: {}
+[19.286903] (-) TimerEvent: {}
+[19.387487] (-) TimerEvent: {}
+[19.488026] (-) TimerEvent: {}
+[19.588573] (-) TimerEvent: {}
+[19.689036] (-) TimerEvent: {}
+[19.789559] (-) TimerEvent: {}
+[19.890090] (-) TimerEvent: {}
+[19.990824] (-) TimerEvent: {}
+[20.091266] (-) TimerEvent: {}
+[20.191911] (-) TimerEvent: {}
+[20.292348] (-) TimerEvent: {}
+[20.393125] (-) TimerEvent: {}
+[20.493773] (-) TimerEvent: {}
+[20.594549] (-) TimerEvent: {}
+[20.695100] (-) TimerEvent: {}
+[20.795740] (-) TimerEvent: {}
+[20.896228] (-) TimerEvent: {}
+[20.996767] (-) TimerEvent: {}
+[21.097192] (-) TimerEvent: {}
+[21.197650] (-) TimerEvent: {}
+[21.298094] (-) TimerEvent: {}
+[21.398641] (-) TimerEvent: {}
+[21.499222] (-) TimerEvent: {}
+[21.599686] (-) TimerEvent: {}
+[21.700150] (-) TimerEvent: {}
+[21.800694] (-) TimerEvent: {}
+[21.901150] (-) TimerEvent: {}
+[22.001624] (-) TimerEvent: {}
+[22.102087] (-) TimerEvent: {}
+[22.202620] (-) TimerEvent: {}
+[22.303204] (-) TimerEvent: {}
+[22.403753] (-) TimerEvent: {}
+[22.504191] (-) TimerEvent: {}
+[22.604646] (-) TimerEvent: {}
+[22.684625] (test_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[22.704692] (-) TimerEvent: {}
+[22.805087] (-) TimerEvent: {}
+[22.905696] (-) TimerEvent: {}
+[23.006182] (-) TimerEvent: {}
+[23.106691] (-) TimerEvent: {}
+[23.207171] (-) TimerEvent: {}
+[23.307682] (-) TimerEvent: {}
+[23.408066] (-) TimerEvent: {}
+[23.508621] (-) TimerEvent: {}
+[23.609303] (-) TimerEvent: {}
+[23.709956] (-) TimerEvent: {}
+[23.810493] (-) TimerEvent: {}
+[23.910974] (-) TimerEvent: {}
+[24.011501] (-) TimerEvent: {}
+[24.112152] (-) TimerEvent: {}
+[24.212630] (-) TimerEvent: {}
+[24.313311] (-) TimerEvent: {}
+[24.369122] (test_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[24.413372] (-) TimerEvent: {}
+[24.513824] (-) TimerEvent: {}
+[24.614246] (-) TimerEvent: {}
+[24.660543] (test_detector) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[24.714355] (-) TimerEvent: {}
+[24.805345] (test_detector) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[24.814379] (-) TimerEvent: {}
+[24.914786] (-) TimerEvent: {}
+[25.015275] (-) TimerEvent: {}
+[25.115887] (-) TimerEvent: {}
+[25.192088] (test_detector) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[25.192896] (test_detector) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[25.193671] (test_detector) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[25.194374] (test_detector) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[25.215965] (-) TimerEvent: {}
+[25.316403] (-) TimerEvent: {}
+[25.417070] (-) TimerEvent: {}
+[25.439778] (test_detector) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[25.517165] (-) TimerEvent: {}
+[25.617708] (-) TimerEvent: {}
+[25.718307] (-) TimerEvent: {}
+[25.818948] (-) TimerEvent: {}
+[25.919336] (-) TimerEvent: {}
+[26.019820] (-) TimerEvent: {}
+[26.120477] (-) TimerEvent: {}
+[26.221056] (-) TimerEvent: {}
+[26.321630] (-) TimerEvent: {}
+[26.422270] (-) TimerEvent: {}
+[26.523306] (-) TimerEvent: {}
+[26.624040] (-) TimerEvent: {}
+[26.724518] (-) TimerEvent: {}
+[26.825128] (-) TimerEvent: {}
+[26.925846] (-) TimerEvent: {}
+[27.026508] (-) TimerEvent: {}
+[27.122547] (test_detector) StdoutLine: {'line': b'-- Configuring done\n'}
+[27.126562] (-) TimerEvent: {}
+[27.227046] (-) TimerEvent: {}
+[27.327520] (-) TimerEvent: {}
+[27.428060] (-) TimerEvent: {}
+[27.528782] (-) TimerEvent: {}
+[27.629330] (-) TimerEvent: {}
+[27.729992] (-) TimerEvent: {}
+[27.830465] (-) TimerEvent: {}
+[27.930989] (-) TimerEvent: {}
+[28.031504] (-) TimerEvent: {}
+[28.132005] (-) TimerEvent: {}
+[28.232685] (-) TimerEvent: {}
+[28.333383] (-) TimerEvent: {}
+[28.433823] (-) TimerEvent: {}
+[28.534384] (-) TimerEvent: {}
+[28.634968] (-) TimerEvent: {}
+[28.735578] (-) TimerEvent: {}
+[28.836071] (-) TimerEvent: {}
+[28.936532] (-) TimerEvent: {}
+[29.037154] (-) TimerEvent: {}
+[29.137615] (-) TimerEvent: {}
+[29.187618] (test_detector) StdoutLine: {'line': b'-- Generating done\n'}
+[29.237709] (-) TimerEvent: {}
+[29.338500] (-) TimerEvent: {}
+[29.439092] (-) TimerEvent: {}
+[29.539645] (-) TimerEvent: {}
+[29.640186] (-) TimerEvent: {}
+[29.740756] (-) TimerEvent: {}
+[29.841322] (-) TimerEvent: {}
+[29.930266] (test_detector) StdoutLine: {'line': b'-- Build files have been written to: /apollo/build/test_detector\n'}
+[29.937597] (test_detector) CommandEnded: {'returncode': 0}
+[29.941388] (-) TimerEvent: {}
+[29.943710] (test_detector) JobProgress: {'identifier': 'test_detector', 'progress': 'build'}
+[29.951134] (test_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/apollo/build/test_detector', '--', '-j12', '-l12'], 'cwd': '/apollo/build/test_detector', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/apollo/ros_ws/install/scout_object_detector/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-c089e138-2d8a-4c79-b8ab-17716a8ed864.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-7bef66cd-70e9-4ec0-b461-9e051d407ffa.sock'), ('COLCON_PREFIX_PATH', '/apollo/ros_ws/install:/apollo/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9937fa66-f99e-41d7-b156-a9604c782a98.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X11","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':11'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-abc4106309.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/apollo/dev_ws/install/my_package:/apollo/ros_ws/install/scout_object_detector:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/build/test_detector'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/apollo/dev_ws/install/my_package/lib/python3.10/site-packages:/apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/apollo/ros_ws/install/scout_object_detector:/apollo/dev_ws/install/my_package:/opt/ros/humble')]), 'shell': False}
+[30.041503] (-) TimerEvent: {}
+[30.141936] (-) TimerEvent: {}
+[30.242402] (-) TimerEvent: {}
+[30.342879] (-) TimerEvent: {}
+[30.443275] (-) TimerEvent: {}
+[30.543715] (-) TimerEvent: {}
+[30.644262] (-) TimerEvent: {}
+[30.729756] (test_detector) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[30.744336] (-) TimerEvent: {}
+[30.838946] (test_detector) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[30.844417] (-) TimerEvent: {}
+[30.915035] (test_detector) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_test_detector\n'}
+[30.944469] (-) TimerEvent: {}
+[31.044974] (-) TimerEvent: {}
+[31.145653] (-) TimerEvent: {}
+[31.246101] (-) TimerEvent: {}
+[31.346832] (-) TimerEvent: {}
+[31.447323] (-) TimerEvent: {}
+[31.547938] (-) TimerEvent: {}
+[31.648440] (-) TimerEvent: {}
+[31.749046] (-) TimerEvent: {}
+[31.775094] (test_detector) StdoutLine: {'line': b'[  6%] Built target test_detector__cpp\n'}
+[31.834407] (test_detector) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/test_detector__rosidl_generator_c.dir/rosidl_generator_c/test_detector/msg/detail/yolo_detection__functions.c.o\x1b[0m\n'}
+[31.849179] (-) TimerEvent: {}
+[31.849723] (test_detector) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[31.850913] (test_detector) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[31.865847] (test_detector) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[31.949260] (-) TimerEvent: {}
+[32.049714] (-) TimerEvent: {}
+[32.150309] (-) TimerEvent: {}
+[32.204431] (test_detector) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libtest_detector__rosidl_generator_c.so\x1b[0m\n'}
+[32.250445] (-) TimerEvent: {}
+[32.261520] (test_detector) StdoutLine: {'line': b'running egg_info\n'}
+[32.263155] (test_detector) StdoutLine: {'line': b'creating test_detector.egg-info\n'}
+[32.266258] (test_detector) StdoutLine: {'line': b'writing test_detector.egg-info/PKG-INFO\n'}
+[32.271774] (test_detector) StdoutLine: {'line': b'writing dependency_links to test_detector.egg-info/dependency_links.txt\n'}
+[32.280076] (test_detector) StdoutLine: {'line': b'writing top-level names to test_detector.egg-info/top_level.txt\n'}
+[32.285663] (test_detector) StdoutLine: {'line': b"writing manifest file 'test_detector.egg-info/SOURCES.txt'\n"}
+[32.305731] (test_detector) StdoutLine: {'line': b"reading manifest file 'test_detector.egg-info/SOURCES.txt'\n"}
+[32.336014] (test_detector) StdoutLine: {'line': b"writing manifest file 'test_detector.egg-info/SOURCES.txt'\n"}
+[32.350524] (-) TimerEvent: {}
+[32.451135] (-) TimerEvent: {}
+[32.468466] (test_detector) StdoutLine: {'line': b'[ 22%] Built target ament_cmake_python_build_test_detector_egg\n'}
+[32.551229] (-) TimerEvent: {}
+[32.623295] (test_detector) StdoutLine: {'line': b'[ 22%] Built target test_detector__rosidl_generator_c\n'}
+[32.651331] (-) TimerEvent: {}
+[32.706191] (test_detector) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[32.718925] (test_detector) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[32.724575] (test_detector) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[32.751437] (-) TimerEvent: {}
+[32.771986] (test_detector) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/test_detector__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/test_detector/msg/yolo_detection__type_support.cpp.o\x1b[0m\n'}
+[32.851515] (-) TimerEvent: {}
+[32.858924] (test_detector) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/test_detector__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test_detector/msg/detail/yolo_detection__type_support.cpp.o\x1b[0m\n'}
+[32.923949] (test_detector) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/test_detector__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_detector/msg/detail/dds_fastrtps/yolo_detection__type_support.cpp.o\x1b[0m\n'}
+[32.951605] (-) TimerEvent: {}
+[33.052135] (-) TimerEvent: {}
+[33.152671] (-) TimerEvent: {}
+[33.253264] (-) TimerEvent: {}
+[33.353768] (-) TimerEvent: {}
+[33.454386] (-) TimerEvent: {}
+[33.543425] (test_detector) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libtest_detector__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[33.554493] (-) TimerEvent: {}
+[33.655174] (-) TimerEvent: {}
+[33.745228] (test_detector) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/test_detector__rosidl_typesupport_c.dir/rosidl_typesupport_c/test_detector/msg/yolo_detection__type_support.cpp.o\x1b[0m\n'}
+[33.755273] (-) TimerEvent: {}
+[33.795422] (test_detector) StdoutLine: {'line': b'[ 51%] Built target test_detector__rosidl_typesupport_cpp\n'}
+[33.797233] (test_detector) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libtest_detector__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[33.829202] (test_detector) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/test_detector__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/test_detector/msg/detail/yolo_detection__type_support_c.cpp.o\x1b[0m\n'}
+[33.836831] (test_detector) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/test_detector__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/test_detector/msg/detail/yolo_detection__type_support.c.o\x1b[0m\n'}
+[33.855407] (-) TimerEvent: {}
+[33.955962] (-) TimerEvent: {}
+[33.992488] (test_detector) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libtest_detector__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[34.021326] (test_detector) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libtest_detector__rosidl_typesupport_c.so\x1b[0m\n'}
+[34.056065] (-) TimerEvent: {}
+[34.056682] (test_detector) StdoutLine: {'line': b'[ 64%] Built target test_detector__rosidl_typesupport_introspection_cpp\n'}
+[34.156220] (-) TimerEvent: {}
+[34.250827] (test_detector) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking C shared library libtest_detector__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[34.256303] (-) TimerEvent: {}
+[34.269262] (test_detector) StdoutLine: {'line': b'[ 67%] Built target test_detector__rosidl_typesupport_c\n'}
+[34.280911] (test_detector) StdoutLine: {'line': b'[ 67%] Built target test_detector__rosidl_typesupport_fastrtps_cpp\n'}
+[34.356397] (-) TimerEvent: {}
+[34.456914] (-) TimerEvent: {}
+[34.557467] (-) TimerEvent: {}
+[34.658036] (-) TimerEvent: {}
+[34.694444] (test_detector) StdoutLine: {'line': b'[ 67%] Built target test_detector__rosidl_typesupport_introspection_c\n'}
+[34.706251] (test_detector) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libtest_detector__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[34.758128] (-) TimerEvent: {}
+[34.858683] (-) TimerEvent: {}
+[34.959088] (-) TimerEvent: {}
+[35.059629] (-) TimerEvent: {}
+[35.160298] (-) TimerEvent: {}
+[35.260812] (-) TimerEvent: {}
+[35.289984] (test_detector) StdoutLine: {'line': b'[ 70%] Built target test_detector__rosidl_typesupport_fastrtps_c\n'}
+[35.360893] (-) TimerEvent: {}
+[35.461385] (-) TimerEvent: {}
+[35.561921] (-) TimerEvent: {}
+[35.662445] (-) TimerEvent: {}
+[35.762897] (-) TimerEvent: {}
+[35.777655] (test_detector) StdoutLine: {'line': b'[ 70%] Built target test_detector\n'}
+[35.862975] (-) TimerEvent: {}
+[35.963382] (-) TimerEvent: {}
+[36.063924] (-) TimerEvent: {}
+[36.164410] (-) TimerEvent: {}
+[36.264865] (-) TimerEvent: {}
+[36.290885] (test_detector) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[36.364969] (-) TimerEvent: {}
+[36.465729] (-) TimerEvent: {}
+[36.566235] (-) TimerEvent: {}
+[36.666743] (-) TimerEvent: {}
+[36.767216] (-) TimerEvent: {}
+[36.867713] (-) TimerEvent: {}
+[36.968143] (-) TimerEvent: {}
+[37.068692] (-) TimerEvent: {}
+[37.169202] (-) TimerEvent: {}
+[37.270124] (-) TimerEvent: {}
+[37.370790] (-) TimerEvent: {}
+[37.471420] (-) TimerEvent: {}
+[37.571912] (-) TimerEvent: {}
+[37.604021] (test_detector) StdoutLine: {'line': b'[ 74%] Built target test_detector__py\n'}
+[37.672150] (-) TimerEvent: {}
+[37.772648] (-) TimerEvent: {}
+[37.873091] (-) TimerEvent: {}
+[37.973726] (-) TimerEvent: {}
+[38.074212] (-) TimerEvent: {}
+[38.152021] (test_detector) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/test_detector__rosidl_generator_py.dir/rosidl_generator_py/test_detector/msg/_yolo_detection_s.c.o\x1b[0m\n'}
+[38.174297] (-) TimerEvent: {}
+[38.274762] (-) TimerEvent: {}
+[38.375420] (-) TimerEvent: {}
+[38.475927] (-) TimerEvent: {}
+[38.576573] (-) TimerEvent: {}
+[38.677173] (-) TimerEvent: {}
+[38.777737] (-) TimerEvent: {}
+[38.878219] (-) TimerEvent: {}
+[38.931738] (test_detector) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/test_detector/libtest_detector__rosidl_generator_py.so\x1b[0m\n'}
+[38.978325] (-) TimerEvent: {}
+[39.078981] (-) TimerEvent: {}
+[39.179556] (-) TimerEvent: {}
+[39.280316] (-) TimerEvent: {}
+[39.380808] (-) TimerEvent: {}
+[39.481332] (-) TimerEvent: {}
+[39.581915] (-) TimerEvent: {}
+[39.640301] (test_detector) StdoutLine: {'line': b'[ 80%] Built target test_detector__rosidl_generator_py\n'}
+[39.681994] (-) TimerEvent: {}
+[39.782650] (-) TimerEvent: {}
+[39.857475] (test_detector) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/test_detector__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/test_detector/_test_detector_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[39.866286] (test_detector) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/test_detector__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/test_detector/_test_detector_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[39.882783] (-) TimerEvent: {}
+[39.967586] (test_detector) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/test_detector__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/test_detector/_test_detector_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[39.982887] (-) TimerEvent: {}
+[40.083901] (-) TimerEvent: {}
+[40.184643] (-) TimerEvent: {}
+[40.285265] (-) TimerEvent: {}
+[40.386104] (-) TimerEvent: {}
+[40.486734] (-) TimerEvent: {}
+[40.550670] (test_detector) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/test_detector/test_detector_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[40.576145] (test_detector) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/test_detector/test_detector_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[40.586866] (-) TimerEvent: {}
+[40.687432] (-) TimerEvent: {}
+[40.788005] (-) TimerEvent: {}
+[40.869930] (test_detector) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/test_detector/test_detector_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[40.888202] (-) TimerEvent: {}
+[40.943346] (test_detector) StdoutLine: {'line': b'[100%] Built target test_detector__rosidl_typesupport_c__pyext\n'}
+[40.988332] (-) TimerEvent: {}
+[41.058879] (test_detector) StdoutLine: {'line': b'[100%] Built target test_detector__rosidl_typesupport_introspection_c__pyext\n'}
+[41.088433] (-) TimerEvent: {}
+[41.189083] (-) TimerEvent: {}
+[41.289819] (-) TimerEvent: {}
+[41.390421] (-) TimerEvent: {}
+[41.491066] (-) TimerEvent: {}
+[41.581686] (test_detector) StdoutLine: {'line': b'[100%] Built target test_detector__rosidl_typesupport_fastrtps_c__pyext\n'}
+[41.591151] (-) TimerEvent: {}
+[41.691747] (-) TimerEvent: {}
+[41.792416] (-) TimerEvent: {}
+[41.893021] (-) TimerEvent: {}
+[41.918196] (test_detector) CommandEnded: {'returncode': 0}
+[41.941929] (test_detector) JobProgress: {'identifier': 'test_detector', 'progress': 'install'}
+[41.993160] (-) TimerEvent: {}
+[42.093657] (-) TimerEvent: {}
+[42.122493] (test_detector) Command: {'cmd': ['/usr/bin/cmake', '--install', '/apollo/build/test_detector'], 'cwd': '/apollo/build/test_detector', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/apollo/ros_ws/install/scout_object_detector/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-c089e138-2d8a-4c79-b8ab-17716a8ed864.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-7bef66cd-70e9-4ec0-b461-9e051d407ffa.sock'), ('COLCON_PREFIX_PATH', '/apollo/ros_ws/install:/apollo/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9937fa66-f99e-41d7-b156-a9604c782a98.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/ddc367ed5c8936efe395cffeec279b04ffd7db78/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X11","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':11'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-abc4106309.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/apollo/dev_ws/install/my_package:/apollo/ros_ws/install/scout_object_detector:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/build/test_detector'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/apollo/dev_ws/install/my_package/lib/python3.10/site-packages:/apollo/ros_ws/install/scout_object_detector/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/apollo/ros_ws/install/scout_object_detector:/apollo/dev_ws/install/my_package:/opt/ros/humble')]), 'shell': False}
+[42.193710] (-) TimerEvent: {}
+[42.294270] (-) TimerEvent: {}
+[42.295280] (test_detector) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[42.341255] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/ament_index/resource_index/rosidl_interfaces/test_detector\n'}
+[42.394377] (-) TimerEvent: {}
+[42.444295] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector\n'}
+[42.475677] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg\n'}
+[42.494478] (-) TimerEvent: {}
+[42.515904] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail\n'}
+[42.573775] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__functions.c\n'}
+[42.594608] (-) TimerEvent: {}
+[42.695136] (-) TimerEvent: {}
+[42.705768] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__functions.h\n'}
+[42.795300] (-) TimerEvent: {}
+[42.843201] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__struct.h\n'}
+[42.895448] (-) TimerEvent: {}
+[42.966219] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__type_support.h\n'}
+[42.995535] (-) TimerEvent: {}
+[43.089282] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/rosidl_generator_c__visibility_control.h\n'}
+[43.095588] (-) TimerEvent: {}
+[43.190458] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/yolo_detection.h\n'}
+[43.195655] (-) TimerEvent: {}
+[43.296079] (-) TimerEvent: {}
+[43.303623] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/environment/library_path.sh\n'}
+[43.383748] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/environment/library_path.dsv\n'}
+[43.396158] (-) TimerEvent: {}
+[43.474964] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/lib/libtest_detector__rosidl_generator_c.so\n'}
+[43.496238] (-) TimerEvent: {}
+[43.588101] (test_detector) StdoutLine: {'line': b'-- Set runtime path of "/apollo/install/test_detector/lib/libtest_detector__rosidl_generator_c.so" to ""\n'}
+[43.596289] (-) TimerEvent: {}
+[43.600533] (test_detector) StdoutLine: {'line': b'-- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector\n'}
+[43.626790] (test_detector) StdoutLine: {'line': b'-- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector/msg\n'}
+[43.660381] (test_detector) StdoutLine: {'line': b'-- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail\n'}
+[43.696403] (-) TimerEvent: {}
+[43.700628] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__rosidl_typesupport_fastrtps_c.h\n'}
+[43.796512] (-) TimerEvent: {}
+[43.825002] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[43.896639] (-) TimerEvent: {}
+[43.946495] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/lib/libtest_detector__rosidl_typesupport_fastrtps_c.so\n'}
+[43.996753] (-) TimerEvent: {}
+[44.054133] (test_detector) StdoutLine: {'line': b'-- Set runtime path of "/apollo/install/test_detector/lib/libtest_detector__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[44.065600] (test_detector) StdoutLine: {'line': b'-- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector\n'}
+[44.093296] (test_detector) StdoutLine: {'line': b'-- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector/msg\n'}
+[44.096815] (-) TimerEvent: {}
+[44.127929] (test_detector) StdoutLine: {'line': b'-- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail\n'}
+[44.170338] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__builder.hpp\n'}
+[44.196932] (-) TimerEvent: {}
+[44.290792] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__struct.hpp\n'}
+[44.297005] (-) TimerEvent: {}
+[44.398195] (-) TimerEvent: {}
+[44.410034] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__traits.hpp\n'}
+[44.498334] (-) TimerEvent: {}
+[44.536806] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__type_support.hpp\n'}
+[44.598452] (-) TimerEvent: {}
+[44.685889] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[44.698549] (-) TimerEvent: {}
+[44.799429] (-) TimerEvent: {}
+[44.815324] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/yolo_detection.hpp\n'}
+[44.899526] (-) TimerEvent: {}
+[44.915101] (test_detector) StdoutLine: {'line': b'-- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector\n'}
+[44.940735] (test_detector) StdoutLine: {'line': b'-- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector/msg\n'}
+[44.972621] (test_detector) StdoutLine: {'line': b'-- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail\n'}
+[44.999654] (-) TimerEvent: {}
+[45.008330] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/dds_fastrtps\n'}
+[45.064280] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[45.099753] (-) TimerEvent: {}
+[45.151991] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[45.199870] (-) TimerEvent: {}
+[45.256262] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/lib/libtest_detector__rosidl_typesupport_fastrtps_cpp.so\n'}
+[45.299973] (-) TimerEvent: {}
+[45.363337] (test_detector) StdoutLine: {'line': b'-- Set runtime path of "/apollo/install/test_detector/lib/libtest_detector__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[45.374806] (test_detector) StdoutLine: {'line': b'-- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector\n'}
+[45.399589] (test_detector) StdoutLine: {'line': b'-- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector/msg\n'}
+[45.400375] (-) TimerEvent: {}
+[45.430544] (test_detector) StdoutLine: {'line': b'-- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail\n'}
+[45.475197] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__rosidl_typesupport_introspection_c.h\n'}
+[45.500508] (-) TimerEvent: {}
+[45.601583] (-) TimerEvent: {}
+[45.623770] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__type_support.c\n'}
+[45.701666] (-) TimerEvent: {}
+[45.772725] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[45.802288] (-) TimerEvent: {}
+[45.883774] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/lib/libtest_detector__rosidl_typesupport_introspection_c.so\n'}
+[45.902349] (-) TimerEvent: {}
+[45.995838] (test_detector) StdoutLine: {'line': b'-- Set runtime path of "/apollo/install/test_detector/lib/libtest_detector__rosidl_typesupport_introspection_c.so" to ""\n'}
+[46.002469] (-) TimerEvent: {}
+[46.019889] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/lib/libtest_detector__rosidl_typesupport_c.so\n'}
+[46.102562] (-) TimerEvent: {}
+[46.137634] (test_detector) StdoutLine: {'line': b'-- Set runtime path of "/apollo/install/test_detector/lib/libtest_detector__rosidl_typesupport_c.so" to ""\n'}
+[46.151887] (test_detector) StdoutLine: {'line': b'-- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector\n'}
+[46.182739] (test_detector) StdoutLine: {'line': b'-- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector/msg\n'}
+[46.202599] (-) TimerEvent: {}
+[46.213223] (test_detector) StdoutLine: {'line': b'-- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail\n'}
+[46.253900] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[46.302712] (-) TimerEvent: {}
+[46.358651] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__type_support.cpp\n'}
+[46.402792] (-) TimerEvent: {}
+[46.502608] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/lib/libtest_detector__rosidl_typesupport_introspection_cpp.so\n'}
+[46.503943] (-) TimerEvent: {}
+[46.604352] (-) TimerEvent: {}
+[46.636118] (test_detector) StdoutLine: {'line': b'-- Set runtime path of "/apollo/install/test_detector/lib/libtest_detector__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[46.659282] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/lib/libtest_detector__rosidl_typesupport_cpp.so\n'}
+[46.704413] (-) TimerEvent: {}
+[46.778140] (test_detector) StdoutLine: {'line': b'-- Set runtime path of "/apollo/install/test_detector/lib/libtest_detector__rosidl_typesupport_cpp.so" to ""\n'}
+[46.801617] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/environment/pythonpath.sh\n'}
+[46.804491] (-) TimerEvent: {}
+[46.903162] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/environment/pythonpath.dsv\n'}
+[46.904589] (-) TimerEvent: {}
+[46.975501] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector-0.0.0-py3.10.egg-info\n'}
+[47.004682] (-) TimerEvent: {}
+[47.026175] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[47.104789] (-) TimerEvent: {}
+[47.127967] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[47.204876] (-) TimerEvent: {}
+[47.228580] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[47.304976] (-) TimerEvent: {}
+[47.332943] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[47.405081] (-) TimerEvent: {}
+[47.432093] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector\n'}
+[47.475215] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/libtest_detector__rosidl_generator_py.so\n'}
+[47.505168] (-) TimerEvent: {}
+[47.575024] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/msg\n'}
+[47.605250] (-) TimerEvent: {}
+[47.636790] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/msg/_yolo_detection.py\n'}
+[47.705393] (-) TimerEvent: {}
+[47.748700] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/msg/_yolo_detection_s.c\n'}
+[47.805457] (-) TimerEvent: {}
+[47.862617] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/msg/__init__.py\n'}
+[47.905551] (-) TimerEvent: {}
+[47.975726] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/test_detector_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[48.005644] (-) TimerEvent: {}
+[48.097183] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/test_detector_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[48.105661] (-) TimerEvent: {}
+[48.202702] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/test_detector_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[48.205720] (-) TimerEvent: {}
+[48.304470] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/_test_detector_s.ep.rosidl_typesupport_c.c\n'}
+[48.305757] (-) TimerEvent: {}
+[48.399457] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/_test_detector_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[48.405809] (-) TimerEvent: {}
+[48.496140] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/_test_detector_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[48.505842] (-) TimerEvent: {}
+[48.593331] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/__init__.py\n'}
+[48.605926] (-) TimerEvent: {}
+[48.706299] (-) TimerEvent: {}
+[48.807032] (-) TimerEvent: {}
+[48.907467] (-) TimerEvent: {}
+[49.007982] (-) TimerEvent: {}
+[49.108531] (-) TimerEvent: {}
+[49.209136] (-) TimerEvent: {}
+[49.309704] (-) TimerEvent: {}
+[49.410269] (-) TimerEvent: {}
+[49.510975] (-) TimerEvent: {}
+[49.538625] (test_detector) StdoutLine: {'line': b"Listing '/apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector'...\n"}
+[49.539456] (test_detector) StdoutLine: {'line': b"Compiling '/apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/__init__.py'...\n"}
+[49.540105] (test_detector) StdoutLine: {'line': b"Listing '/apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/msg'...\n"}
+[49.541675] (test_detector) StdoutLine: {'line': b"Compiling '/apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/msg/__init__.py'...\n"}
+[49.542312] (test_detector) StdoutLine: {'line': b"Compiling '/apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/msg/_yolo_detection.py'...\n"}
+[49.611737] (-) TimerEvent: {}
+[49.623406] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/test_detector_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[49.711826] (-) TimerEvent: {}
+[49.794182] (test_detector) StdoutLine: {'line': b'-- Set runtime path of "/apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/test_detector_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[49.811992] (-) TimerEvent: {}
+[49.873769] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/test_detector_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[49.912064] (-) TimerEvent: {}
+[50.012587] (-) TimerEvent: {}
+[50.044608] (test_detector) StdoutLine: {'line': b'-- Set runtime path of "/apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/test_detector_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[50.112873] (-) TimerEvent: {}
+[50.127084] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/test_detector_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[50.212922] (-) TimerEvent: {}
+[50.300032] (test_detector) StdoutLine: {'line': b'-- Set runtime path of "/apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/test_detector_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[50.313010] (-) TimerEvent: {}
+[50.326312] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/lib/libtest_detector__rosidl_generator_py.so\n'}
+[50.413116] (-) TimerEvent: {}
+[50.444391] (test_detector) StdoutLine: {'line': b'-- Set runtime path of "/apollo/install/test_detector/lib/libtest_detector__rosidl_generator_py.so" to ""\n'}
+[50.482829] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/msg/YoloDetection.idl\n'}
+[50.513249] (-) TimerEvent: {}
+[50.595656] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/msg/YoloDetection.msg\n'}
+[50.613324] (-) TimerEvent: {}
+[50.713851] (-) TimerEvent: {}
+[50.718907] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/ament_index/resource_index/package_run_dependencies/test_detector\n'}
+[50.813938] (-) TimerEvent: {}
+[50.856857] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/ament_index/resource_index/parent_prefix_path/test_detector\n'}
+[50.914043] (-) TimerEvent: {}
+[50.962619] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/environment/ament_prefix_path.sh\n'}
+[51.014143] (-) TimerEvent: {}
+[51.041556] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/environment/ament_prefix_path.dsv\n'}
+[51.114243] (-) TimerEvent: {}
+[51.117026] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/environment/path.sh\n'}
+[51.190443] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/environment/path.dsv\n'}
+[51.214362] (-) TimerEvent: {}
+[51.278177] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/local_setup.bash\n'}
+[51.314455] (-) TimerEvent: {}
+[51.352672] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/local_setup.sh\n'}
+[51.414521] (-) TimerEvent: {}
+[51.423845] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/local_setup.zsh\n'}
+[51.505714] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/local_setup.dsv\n'}
+[51.514557] (-) TimerEvent: {}
+[51.582527] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/package.dsv\n'}
+[51.614618] (-) TimerEvent: {}
+[51.682955] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/ament_index/resource_index/packages/test_detector\n'}
+[51.714755] (-) TimerEvent: {}
+[51.792154] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/export_test_detector__rosidl_generator_cExport.cmake\n'}
+[51.814838] (-) TimerEvent: {}
+[51.889638] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/export_test_detector__rosidl_generator_cExport-noconfig.cmake\n'}
+[51.914883] (-) TimerEvent: {}
+[51.979146] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/export_test_detector__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[52.014970] (-) TimerEvent: {}
+[52.073696] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/export_test_detector__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[52.115079] (-) TimerEvent: {}
+[52.182721] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/export_test_detector__rosidl_generator_cppExport.cmake\n'}
+[52.215159] (-) TimerEvent: {}
+[52.288935] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/export_test_detector__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[52.315251] (-) TimerEvent: {}
+[52.391881] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/export_test_detector__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[52.415330] (-) TimerEvent: {}
+[52.495959] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/test_detector__rosidl_typesupport_introspection_cExport.cmake\n'}
+[52.515387] (-) TimerEvent: {}
+[52.577728] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/test_detector__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[52.615471] (-) TimerEvent: {}
+[52.687588] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/test_detector__rosidl_typesupport_cExport.cmake\n'}
+[52.715602] (-) TimerEvent: {}
+[52.788994] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/test_detector__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[52.815721] (-) TimerEvent: {}
+[52.894709] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/test_detector__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[52.915802] (-) TimerEvent: {}
+[53.001281] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/test_detector__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[53.015886] (-) TimerEvent: {}
+[53.106747] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/test_detector__rosidl_typesupport_cppExport.cmake\n'}
+[53.115936] (-) TimerEvent: {}
+[53.212432] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/test_detector__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[53.215998] (-) TimerEvent: {}
+[53.316365] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/export_test_detector__rosidl_generator_pyExport.cmake\n'}
+[53.317317] (-) TimerEvent: {}
+[53.403759] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/export_test_detector__rosidl_generator_pyExport-noconfig.cmake\n'}
+[53.417400] (-) TimerEvent: {}
+[53.487083] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/rosidl_cmake-extras.cmake\n'}
+[53.517519] (-) TimerEvent: {}
+[53.548544] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[53.617655] (-) TimerEvent: {}
+[53.619919] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[53.684496] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[53.717793] (-) TimerEvent: {}
+[53.760161] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[53.817891] (-) TimerEvent: {}
+[53.836916] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[53.912066] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[53.917931] (-) TimerEvent: {}
+[53.991680] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/test_detectorConfig.cmake\n'}
+[54.018007] (-) TimerEvent: {}
+[54.062422] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/cmake/test_detectorConfig-version.cmake\n'}
+[54.118134] (-) TimerEvent: {}
+[54.145095] (test_detector) StdoutLine: {'line': b'-- Installing: /apollo/install/test_detector/share/test_detector/package.xml\n'}
+[54.215874] (test_detector) CommandEnded: {'returncode': 0}
+[54.218196] (-) TimerEvent: {}
+[54.318786] (-) TimerEvent: {}
+[54.419275] (-) TimerEvent: {}
+[54.519971] (-) TimerEvent: {}
+[54.620583] (-) TimerEvent: {}
+[54.721021] (-) TimerEvent: {}
+[54.821503] (-) TimerEvent: {}
+[54.922244] (-) TimerEvent: {}
+[55.022828] (-) TimerEvent: {}
+[55.123361] (-) TimerEvent: {}
+[55.223932] (-) TimerEvent: {}
+[55.324776] (-) TimerEvent: {}
+[55.425187] (-) TimerEvent: {}
+[55.472834] (test_detector) JobEnded: {'identifier': 'test_detector', 'rc': 0}
+[55.483000] (-) EventReactorShutdown: {}

@@ -1,0 +1,504 @@
+[0.000000] (-) TimerEvent: {}
+[0.006773] (-) JobUnselected: {'identifier': 'scout_mini_base'}
+[0.007147] (-) JobUnselected: {'identifier': 'scout_mini_description'}
+[0.007387] (-) JobUnselected: {'identifier': 'scout_mini_hardware'}
+[0.007588] (-) JobUnselected: {'identifier': 'scout_mini_msgs'}
+[0.007756] (-) JobUnselected: {'identifier': 'scout_mini_ros2'}
+[0.007915] (-) JobUnselected: {'identifier': 'scout_mini_simulation'}
+[0.008159] (-) JobUnselected: {'identifier': 'scout_object_detector'}
+[0.008304] (-) JobUnselected: {'identifier': 'task1'}
+[0.008436] (follow_human) JobQueued: {'identifier': 'follow_human', 'dependencies': OrderedDict()}
+[0.008660] (follow_human) JobStarted: {'identifier': 'follow_human'}
+[0.098748] (-) TimerEvent: {}
+[0.200295] (-) TimerEvent: {}
+[0.234635] (follow_human) JobProgress: {'identifier': 'follow_human', 'progress': 'cmake'}
+[0.258972] (follow_human) JobProgress: {'identifier': 'follow_human', 'progress': 'build'}
+[0.264020] (follow_human) Command: {'cmd': ['/usr/bin/cmake', '--build', '/apollo/ros_ws/build/follow_human', '--', '-j12', '-l12'], 'cwd': '/apollo/ros_ws/build/follow_human', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/apollo/ros_ws/install/follow_human/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/17baf841131aa23349f217ca7c570c76ee87b957/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/apollo'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b352646e-ea27-4ba2-a81f-1539f464effd.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/17baf841131aa23349f217ca7c570c76ee87b957/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-c8b70d55-9a37-40ea-af26-bf9bd816147b.sock'), ('COLCON_PREFIX_PATH', '/apollo/ros_ws/install:/apollo/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-c1979759-8630-4551-8f44-8a8baf85d071.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/17baf841131aa23349f217ca7c570c76ee87b957/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X5","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':5'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-abc4106309.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/apollo/dev_ws/install/my_package:/apollo/ros_ws/install/follow_human:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X5'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/ros_ws/build/follow_human'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/apollo/dev_ws/install/my_package/lib/python3.10/site-packages:/apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/apollo/ros_ws/install/follow_human:/apollo/dev_ws/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.300408] (-) TimerEvent: {}
+[0.400965] (-) TimerEvent: {}
+[0.501475] (-) TimerEvent: {}
+[0.601929] (-) TimerEvent: {}
+[0.702522] (-) TimerEvent: {}
+[0.803283] (-) TimerEvent: {}
+[0.854210] (follow_human) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.903373] (-) TimerEvent: {}
+[1.003808] (-) TimerEvent: {}
+[1.104224] (-) TimerEvent: {}
+[1.204720] (-) TimerEvent: {}
+[1.305159] (-) TimerEvent: {}
+[1.405784] (-) TimerEvent: {}
+[1.506452] (-) TimerEvent: {}
+[1.606960] (-) TimerEvent: {}
+[1.707341] (-) TimerEvent: {}
+[1.808138] (-) TimerEvent: {}
+[1.908664] (-) TimerEvent: {}
+[2.009225] (-) TimerEvent: {}
+[2.109895] (-) TimerEvent: {}
+[2.120371] (follow_human) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[2.121758] (follow_human) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[2.181242] (follow_human) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.184617] (follow_human) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.192281] (follow_human) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.209991] (-) TimerEvent: {}
+[2.215513] (follow_human) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.238522] (follow_human) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.271660] (follow_human) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.310201] (-) TimerEvent: {}
+[2.410861] (-) TimerEvent: {}
+[2.511421] (-) TimerEvent: {}
+[2.611992] (-) TimerEvent: {}
+[2.712540] (-) TimerEvent: {}
+[2.813119] (-) TimerEvent: {}
+[2.913552] (-) TimerEvent: {}
+[3.014100] (-) TimerEvent: {}
+[3.114587] (-) TimerEvent: {}
+[3.215071] (-) TimerEvent: {}
+[3.315587] (-) TimerEvent: {}
+[3.416289] (-) TimerEvent: {}
+[3.516961] (-) TimerEvent: {}
+[3.617540] (-) TimerEvent: {}
+[3.717962] (-) TimerEvent: {}
+[3.818675] (-) TimerEvent: {}
+[3.919147] (-) TimerEvent: {}
+[4.019643] (-) TimerEvent: {}
+[4.120249] (-) TimerEvent: {}
+[4.220659] (-) TimerEvent: {}
+[4.321298] (-) TimerEvent: {}
+[4.421769] (-) TimerEvent: {}
+[4.522266] (-) TimerEvent: {}
+[4.622797] (-) TimerEvent: {}
+[4.723299] (-) TimerEvent: {}
+[4.823796] (-) TimerEvent: {}
+[4.924484] (-) TimerEvent: {}
+[5.024977] (-) TimerEvent: {}
+[5.125487] (-) TimerEvent: {}
+[5.226013] (-) TimerEvent: {}
+[5.326614] (-) TimerEvent: {}
+[5.400354] (follow_human) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.426768] (-) TimerEvent: {}
+[5.528219] (-) TimerEvent: {}
+[5.628856] (-) TimerEvent: {}
+[5.729512] (-) TimerEvent: {}
+[5.830170] (-) TimerEvent: {}
+[5.930656] (-) TimerEvent: {}
+[6.031291] (-) TimerEvent: {}
+[6.131888] (-) TimerEvent: {}
+[6.232640] (-) TimerEvent: {}
+[6.333102] (-) TimerEvent: {}
+[6.433484] (-) TimerEvent: {}
+[6.533962] (-) TimerEvent: {}
+[6.634469] (-) TimerEvent: {}
+[6.734952] (-) TimerEvent: {}
+[6.835488] (-) TimerEvent: {}
+[6.936068] (-) TimerEvent: {}
+[7.036583] (-) TimerEvent: {}
+[7.137164] (-) TimerEvent: {}
+[7.237617] (-) TimerEvent: {}
+[7.338234] (-) TimerEvent: {}
+[7.439008] (-) TimerEvent: {}
+[7.539813] (-) TimerEvent: {}
+[7.640545] (-) TimerEvent: {}
+[7.740976] (-) TimerEvent: {}
+[7.841428] (-) TimerEvent: {}
+[7.942018] (-) TimerEvent: {}
+[8.042531] (-) TimerEvent: {}
+[8.142934] (-) TimerEvent: {}
+[8.243422] (-) TimerEvent: {}
+[8.343998] (-) TimerEvent: {}
+[8.444698] (-) TimerEvent: {}
+[8.545275] (-) TimerEvent: {}
+[8.645970] (-) TimerEvent: {}
+[8.746542] (-) TimerEvent: {}
+[8.847213] (-) TimerEvent: {}
+[8.947614] (-) TimerEvent: {}
+[9.048158] (-) TimerEvent: {}
+[9.148714] (-) TimerEvent: {}
+[9.249284] (-) TimerEvent: {}
+[9.349749] (-) TimerEvent: {}
+[9.450280] (-) TimerEvent: {}
+[9.550998] (-) TimerEvent: {}
+[9.651442] (-) TimerEvent: {}
+[9.751832] (-) TimerEvent: {}
+[9.852556] (-) TimerEvent: {}
+[9.953115] (-) TimerEvent: {}
+[10.053833] (-) TimerEvent: {}
+[10.070012] (follow_human) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.153963] (-) TimerEvent: {}
+[10.254499] (-) TimerEvent: {}
+[10.355220] (-) TimerEvent: {}
+[10.455740] (-) TimerEvent: {}
+[10.556269] (-) TimerEvent: {}
+[10.656842] (-) TimerEvent: {}
+[10.757277] (-) TimerEvent: {}
+[10.857835] (-) TimerEvent: {}
+[10.958523] (-) TimerEvent: {}
+[11.059172] (-) TimerEvent: {}
+[11.159775] (-) TimerEvent: {}
+[11.260294] (-) TimerEvent: {}
+[11.360705] (-) TimerEvent: {}
+[11.461082] (-) TimerEvent: {}
+[11.561544] (-) TimerEvent: {}
+[11.640773] (follow_human) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.661643] (-) TimerEvent: {}
+[11.762168] (-) TimerEvent: {}
+[11.862569] (-) TimerEvent: {}
+[11.909526] (follow_human) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[11.962665] (-) TimerEvent: {}
+[12.063099] (-) TimerEvent: {}
+[12.160182] (follow_human) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[12.160873] (follow_human) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[12.161461] (follow_human) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[12.163116] (-) TimerEvent: {}
+[12.263641] (-) TimerEvent: {}
+[12.364107] (-) TimerEvent: {}
+[12.464639] (-) TimerEvent: {}
+[12.565290] (-) TimerEvent: {}
+[12.665956] (-) TimerEvent: {}
+[12.766532] (-) TimerEvent: {}
+[12.866993] (-) TimerEvent: {}
+[12.967502] (-) TimerEvent: {}
+[13.068112] (-) TimerEvent: {}
+[13.079890] (follow_human) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.168232] (-) TimerEvent: {}
+[13.269020] (-) TimerEvent: {}
+[13.369660] (-) TimerEvent: {}
+[13.470106] (-) TimerEvent: {}
+[13.570707] (-) TimerEvent: {}
+[13.671190] (-) TimerEvent: {}
+[13.771740] (-) TimerEvent: {}
+[13.872187] (-) TimerEvent: {}
+[13.972748] (-) TimerEvent: {}
+[14.073173] (-) TimerEvent: {}
+[14.173840] (-) TimerEvent: {}
+[14.274368] (-) TimerEvent: {}
+[14.375128] (-) TimerEvent: {}
+[14.475676] (-) TimerEvent: {}
+[14.576255] (-) TimerEvent: {}
+[14.676936] (-) TimerEvent: {}
+[14.777609] (-) TimerEvent: {}
+[14.878191] (-) TimerEvent: {}
+[14.978627] (-) TimerEvent: {}
+[15.079253] (-) TimerEvent: {}
+[15.179913] (-) TimerEvent: {}
+[15.271377] (follow_human) StdoutLine: {'line': b'-- Generating done\n'}
+[15.280013] (-) TimerEvent: {}
+[15.380454] (-) TimerEvent: {}
+[15.480917] (-) TimerEvent: {}
+[15.581392] (-) TimerEvent: {}
+[15.681883] (-) TimerEvent: {}
+[15.782529] (-) TimerEvent: {}
+[15.883019] (-) TimerEvent: {}
+[15.983501] (-) TimerEvent: {}
+[16.060618] (follow_human) StdoutLine: {'line': b'-- Build files have been written to: /apollo/ros_ws/build/follow_human\n'}
+[16.083594] (-) TimerEvent: {}
+[16.184058] (-) TimerEvent: {}
+[16.284611] (-) TimerEvent: {}
+[16.385169] (-) TimerEvent: {}
+[16.433074] (follow_human) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target follow_human__rosidl_generator_c\x1b[0m\n'}
+[16.485238] (-) TimerEvent: {}
+[16.569448] (follow_human) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/follow_human__rosidl_generator_c.dir/compiler_depend.make' has modification time 0.012 s in the future\n"}
+[16.585324] (-) TimerEvent: {}
+[16.610521] (follow_human) StdoutLine: {'line': b'[  2%] Built target follow_human__cpp\n'}
+[16.622394] (follow_human) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[16.685479] (-) TimerEvent: {}
+[16.714963] (follow_human) StdoutLine: {'line': b'[ 12%] Built target follow_human__rosidl_generator_c\n'}
+[16.744358] (follow_human) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target follow_human__rosidl_typesupport_cpp\x1b[0m\n'}
+[16.785617] (-) TimerEvent: {}
+[16.808123] (follow_human) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target follow_human__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[16.834546] (follow_human) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target follow_human__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[16.881907] (follow_human) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target follow_human__rosidl_typesupport_c\x1b[0m\n'}
+[16.885691] (-) TimerEvent: {}
+[16.902272] (follow_human) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target follow_human__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[16.946201] (follow_human) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target follow_human__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[16.985859] (-) TimerEvent: {}
+[17.086663] (-) TimerEvent: {}
+[17.187296] (-) TimerEvent: {}
+[17.204677] (follow_human) StdoutLine: {'line': b'[ 17%] Built target ament_cmake_python_copy_follow_human\n'}
+[17.215317] (follow_human) StdoutLine: {'line': b'[ 23%] Built target follow_human__rosidl_typesupport_c\n'}
+[17.274090] (follow_human) StdoutLine: {'line': b'[ 33%] Built target follow_human__rosidl_typesupport_cpp\n'}
+[17.287383] (-) TimerEvent: {}
+[17.297926] (follow_human) StdoutLine: {'line': b'[ 43%] Built target follow_human__rosidl_typesupport_introspection_c\n'}
+[17.355878] (follow_human) StdoutLine: {'line': b'[ 64%] Built target follow_human__rosidl_typesupport_introspection_cpp\n'}
+[17.357144] (follow_human) StdoutLine: {'line': b'[ 64%] Built target follow_human__rosidl_typesupport_fastrtps_cpp\n'}
+[17.387495] (-) TimerEvent: {}
+[17.488153] (-) TimerEvent: {}
+[17.511814] (follow_human) StdoutLine: {'line': b'[ 74%] Built target follow_human__rosidl_typesupport_fastrtps_c\n'}
+[17.588274] (-) TimerEvent: {}
+[17.688831] (-) TimerEvent: {}
+[17.789618] (-) TimerEvent: {}
+[17.890226] (-) TimerEvent: {}
+[17.905690] (follow_human) StdoutLine: {'line': b'[ 74%] Built target follow_human\n'}
+[17.990349] (-) TimerEvent: {}
+[18.090957] (-) TimerEvent: {}
+[18.191422] (-) TimerEvent: {}
+[18.292088] (-) TimerEvent: {}
+[18.343308] (follow_human) StdoutLine: {'line': b'[ 76%] Built target follow_human__py\n'}
+[18.392219] (-) TimerEvent: {}
+[18.492814] (-) TimerEvent: {}
+[18.574988] (follow_human) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target follow_human__rosidl_generator_py\x1b[0m\n'}
+[18.577377] (follow_human) StdoutLine: {'line': b'running egg_info\n'}
+[18.580366] (follow_human) StdoutLine: {'line': b'writing follow_human.egg-info/PKG-INFO\n'}
+[18.586024] (follow_human) StdoutLine: {'line': b'writing dependency_links to follow_human.egg-info/dependency_links.txt\n'}
+[18.592911] (-) TimerEvent: {}
+[18.593511] (follow_human) StdoutLine: {'line': b'writing top-level names to follow_human.egg-info/top_level.txt\n'}
+[18.632359] (follow_human) StdoutLine: {'line': b"reading manifest file 'follow_human.egg-info/SOURCES.txt'\n"}
+[18.670384] (follow_human) StdoutLine: {'line': b"writing manifest file 'follow_human.egg-info/SOURCES.txt'\n"}
+[18.693050] (-) TimerEvent: {}
+[18.793648] (-) TimerEvent: {}
+[18.828100] (follow_human) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/follow_human__rosidl_generator_py.dir/compiler_depend.make' has modification time 0.082 s in the future\n"}
+[18.846400] (follow_human) StdoutLine: {'line': b'[ 76%] Built target ament_cmake_python_build_follow_human_egg\n'}
+[18.879190] (follow_human) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[18.893768] (-) TimerEvent: {}
+[18.994383] (-) TimerEvent: {}
+[19.074647] (follow_human) StdoutLine: {'line': b'[ 84%] Built target follow_human__rosidl_generator_py\n'}
+[19.094499] (-) TimerEvent: {}
+[19.146732] (follow_human) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target follow_human__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[19.147675] (follow_human) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target follow_human__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[19.186452] (follow_human) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target follow_human__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[19.194568] (-) TimerEvent: {}
+[19.295144] (-) TimerEvent: {}
+[19.345159] (follow_human) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/follow_human__rosidl_typesupport_c__pyext.dir/compiler_depend.make' has modification time 0.16 s in the future\n"}
+[19.359288] (follow_human) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/follow_human__rosidl_typesupport_fastrtps_c__pyext.dir/compiler_depend.make' has modification time 0.15 s in the future\n"}
+[19.386690] (follow_human) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[19.395237] (-) TimerEvent: {}
+[19.401925] (follow_human) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[19.423344] (follow_human) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/follow_human__rosidl_typesupport_introspection_c__pyext.dir/compiler_depend.make' has modification time 0.13 s in the future\n"}
+[19.445798] (follow_human) StdoutLine: {'line': b'[ 89%] Built target follow_human__rosidl_typesupport_c__pyext\n'}
+[19.453917] (follow_human) StdoutLine: {'line': b'[ 94%] Built target follow_human__rosidl_typesupport_fastrtps_c__pyext\n'}
+[19.468730] (follow_human) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[19.495295] (-) TimerEvent: {}
+[19.595798] (-) TimerEvent: {}
+[19.626053] (follow_human) StdoutLine: {'line': b'[100%] Built target follow_human__rosidl_typesupport_introspection_c__pyext\n'}
+[19.695905] (-) TimerEvent: {}
+[19.796452] (-) TimerEvent: {}
+[19.897088] (-) TimerEvent: {}
+[19.920679] (follow_human) CommandEnded: {'returncode': 0}
+[19.940184] (follow_human) JobProgress: {'identifier': 'follow_human', 'progress': 'install'}
+[19.997175] (-) TimerEvent: {}
+[20.066376] (follow_human) Command: {'cmd': ['/usr/bin/cmake', '--install', '/apollo/ros_ws/build/follow_human'], 'cwd': '/apollo/ros_ws/build/follow_human', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/apollo/ros_ws/install/follow_human/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/17baf841131aa23349f217ca7c570c76ee87b957/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/apollo'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b352646e-ea27-4ba2-a81f-1539f464effd.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/17baf841131aa23349f217ca7c570c76ee87b957/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-c8b70d55-9a37-40ea-af26-bf9bd816147b.sock'), ('COLCON_PREFIX_PATH', '/apollo/ros_ws/install:/apollo/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-c1979759-8630-4551-8f44-8a8baf85d071.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/17baf841131aa23349f217ca7c570c76ee87b957/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X5","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':5'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-abc4106309.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/apollo/dev_ws/install/my_package:/apollo/ros_ws/install/follow_human:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X5'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/ros_ws/build/follow_human'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/apollo/dev_ws/install/my_package/lib/python3.10/site-packages:/apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/apollo/ros_ws/install/follow_human:/apollo/dev_ws/install/my_package:/opt/ros/humble')]), 'shell': False}
+[20.097249] (-) TimerEvent: {}
+[20.190268] (follow_human) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.197304] (-) TimerEvent: {}
+[20.222915] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/ament_index/resource_index/rosidl_interfaces/follow_human\n'}
+[20.243927] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human\n'}
+[20.270555] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg\n'}
+[20.297363] (-) TimerEvent: {}
+[20.305177] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/depth_estimation.h\n'}
+[20.329953] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail\n'}
+[20.372933] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__functions.c\n'}
+[20.397407] (-) TimerEvent: {}
+[20.400553] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__functions.h\n'}
+[20.426307] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__struct.h\n'}
+[20.466481] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__type_support.h\n'}
+[20.497594] (-) TimerEvent: {}
+[20.507501] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__functions.c\n'}
+[20.540741] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__functions.h\n'}
+[20.571352] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__struct.h\n'}
+[20.597631] (-) TimerEvent: {}
+[20.602562] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__type_support.h\n'}
+[20.630311] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/rosidl_generator_c__visibility_control.h\n'}
+[20.655691] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/tracked_object.h\n'}
+[20.675320] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/environment/library_path.sh\n'}
+[20.697685] (-) TimerEvent: {}
+[20.699964] (follow_human) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/environment/library_path.dsv\n'}
+[20.796943] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/lib/libfollow_human__rosidl_generator_c.so\n'}
+[20.797740] (-) TimerEvent: {}
+[20.843232] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human\n'}
+[20.859120] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg\n'}
+[20.875721] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail\n'}
+[20.897876] (-) TimerEvent: {}
+[20.924571] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__rosidl_typesupport_fastrtps_c.h\n'}
+[20.957681] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__rosidl_typesupport_fastrtps_c.h\n'}
+[20.985659] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[20.997947] (-) TimerEvent: {}
+[21.031715] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/lib/libfollow_human__rosidl_typesupport_fastrtps_c.so\n'}
+[21.075493] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human\n'}
+[21.098015] (-) TimerEvent: {}
+[21.099880] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg\n'}
+[21.120485] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/depth_estimation.hpp\n'}
+[21.135969] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail\n'}
+[21.182546] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__builder.hpp\n'}
+[21.198057] (-) TimerEvent: {}
+[21.224097] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__struct.hpp\n'}
+[21.259924] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__traits.hpp\n'}
+[21.290122] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__type_support.hpp\n'}
+[21.298120] (-) TimerEvent: {}
+[21.327474] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__builder.hpp\n'}
+[21.360024] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__struct.hpp\n'}
+[21.391151] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__traits.hpp\n'}
+[21.398183] (-) TimerEvent: {}
+[21.422603] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__type_support.hpp\n'}
+[21.448970] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[21.475620] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/tracked_object.hpp\n'}
+[21.492656] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human\n'}
+[21.498257] (-) TimerEvent: {}
+[21.519114] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg\n'}
+[21.549119] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail\n'}
+[21.584452] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/dds_fastrtps\n'}
+[21.598312] (-) TimerEvent: {}
+[21.628803] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.660080] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.691875] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[21.698383] (-) TimerEvent: {}
+[21.744574] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/lib/libfollow_human__rosidl_typesupport_fastrtps_cpp.so\n'}
+[21.787492] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human\n'}
+[21.798456] (-) TimerEvent: {}
+[21.812533] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg\n'}
+[21.842145] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail\n'}
+[21.882498] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__rosidl_typesupport_introspection_c.h\n'}
+[21.898515] (-) TimerEvent: {}
+[21.914941] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__type_support.c\n'}
+[21.951854] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__rosidl_typesupport_introspection_c.h\n'}
+[21.983750] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__type_support.c\n'}
+[21.998584] (-) TimerEvent: {}
+[22.011444] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[22.054724] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/lib/libfollow_human__rosidl_typesupport_introspection_c.so\n'}
+[22.098694] (-) TimerEvent: {}
+[22.108715] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/lib/libfollow_human__rosidl_typesupport_c.so\n'}
+[22.154435] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human\n'}
+[22.188105] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg\n'}
+[22.198743] (-) TimerEvent: {}
+[22.225545] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail\n'}
+[22.267760] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.298896] (-) TimerEvent: {}
+[22.300152] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__type_support.cpp\n'}
+[22.332942] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.365414] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__type_support.cpp\n'}
+[22.398967] (-) TimerEvent: {}
+[22.415656] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/lib/libfollow_human__rosidl_typesupport_introspection_cpp.so\n'}
+[22.481495] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/lib/libfollow_human__rosidl_typesupport_cpp.so\n'}
+[22.499015] (-) TimerEvent: {}
+[22.525818] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/environment/pythonpath.sh\n'}
+[22.550266] (follow_human) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/environment/pythonpath.dsv\n'}
+[22.599114] (-) TimerEvent: {}
+[22.627772] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human-0.0.1-py3.10.egg-info\n'}
+[22.663112] (follow_human) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[22.699190] (-) TimerEvent: {}
+[22.750649] (follow_human) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[22.799389] (-) TimerEvent: {}
+[22.863216] (follow_human) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[22.899460] (-) TimerEvent: {}
+[22.945693] (follow_human) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[22.999570] (-) TimerEvent: {}
+[23.045615] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human\n'}
+[23.082693] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/follow_human_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.099654] (-) TimerEvent: {}
+[23.114944] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/follow_human_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.142868] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/follow_human_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.171273] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/libfollow_human__rosidl_generator_py.so\n'}
+[23.197633] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/msg\n'}
+[23.199751] (-) TimerEvent: {}
+[23.243952] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/msg/_depth_estimation.py\n'}
+[23.275243] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/msg/_depth_estimation_s.c\n'}
+[23.299841] (-) TimerEvent: {}
+[23.306296] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/msg/_tracked_object.py\n'}
+[23.338191] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/msg/_tracked_object_s.c\n'}
+[23.368966] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/msg/__init__.py\n'}
+[23.395095] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/_follow_human_s.ep.rosidl_typesupport_c.c\n'}
+[23.399945] (-) TimerEvent: {}
+[23.411955] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/_follow_human_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[23.426041] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/_follow_human_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[23.454487] (follow_human) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/__init__.py\n'}
+[23.500037] (-) TimerEvent: {}
+[23.600463] (-) TimerEvent: {}
+[23.700951] (-) TimerEvent: {}
+[23.801444] (-) TimerEvent: {}
+[23.902182] (-) TimerEvent: {}
+[24.002578] (-) TimerEvent: {}
+[24.103164] (-) TimerEvent: {}
+[24.203640] (-) TimerEvent: {}
+[24.289134] (follow_human) StdoutLine: {'line': b"Listing '/apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human'...\n"}
+[24.290045] (follow_human) StdoutLine: {'line': b"Compiling '/apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/__init__.py'...\n"}
+[24.290624] (follow_human) StdoutLine: {'line': b"Listing '/apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/msg'...\n"}
+[24.303736] (-) TimerEvent: {}
+[24.340818] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/follow_human_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.403851] (-) TimerEvent: {}
+[24.456583] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/follow_human_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.503939] (-) TimerEvent: {}
+[24.585784] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/follow_human_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.604120] (-) TimerEvent: {}
+[24.704739] (-) TimerEvent: {}
+[24.710282] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/lib/libfollow_human__rosidl_generator_py.so\n'}
+[24.776651] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/msg/TrackedObject.idl\n'}
+[24.791439] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/msg/DepthEstimation.idl\n'}
+[24.804785] (-) TimerEvent: {}
+[24.823562] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/msg/TrackedObject.msg\n'}
+[24.859178] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/msg/DepthEstimation.msg\n'}
+[24.895454] (follow_human) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/follow_human/lib/follow_human/depth_estimation.py\n'}
+[24.904851] (-) TimerEvent: {}
+[24.970876] (follow_human) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/follow_human/lib/follow_human/tracking_node.py\n'}
+[25.004962] (-) TimerEvent: {}
+[25.080676] (follow_human) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/follow_human/share/ament_index/resource_index/package_run_dependencies/follow_human\n'}
+[25.104997] (-) TimerEvent: {}
+[25.205554] (-) TimerEvent: {}
+[25.208706] (follow_human) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/follow_human/share/ament_index/resource_index/parent_prefix_path/follow_human\n'}
+[25.305661] (-) TimerEvent: {}
+[25.308775] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/environment/ament_prefix_path.sh\n'}
+[25.324600] (follow_human) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/environment/ament_prefix_path.dsv\n'}
+[25.383155] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/environment/path.sh\n'}
+[25.405758] (-) TimerEvent: {}
+[25.409908] (follow_human) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/environment/path.dsv\n'}
+[25.495013] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/local_setup.bash\n'}
+[25.505832] (-) TimerEvent: {}
+[25.514288] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/local_setup.sh\n'}
+[25.528500] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/local_setup.zsh\n'}
+[25.552034] (follow_human) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/local_setup.dsv\n'}
+[25.605941] (-) TimerEvent: {}
+[25.630916] (follow_human) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/package.dsv\n'}
+[25.706051] (-) TimerEvent: {}
+[25.720663] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/ament_index/resource_index/packages/follow_human\n'}
+[25.782903] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/export_follow_human__rosidl_generator_cExport.cmake\n'}
+[25.806099] (-) TimerEvent: {}
+[25.822819] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/export_follow_human__rosidl_generator_cExport-noconfig.cmake\n'}
+[25.883047] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/export_follow_human__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[25.906203] (-) TimerEvent: {}
+[25.923678] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/export_follow_human__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[25.983862] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/export_follow_human__rosidl_generator_cppExport.cmake\n'}
+[26.006267] (-) TimerEvent: {}
+[26.036330] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/export_follow_human__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[26.074693] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/export_follow_human__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[26.106381] (-) TimerEvent: {}
+[26.130831] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/follow_human__rosidl_typesupport_introspection_cExport.cmake\n'}
+[26.166871] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/follow_human__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[26.206478] (-) TimerEvent: {}
+[26.228399] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/follow_human__rosidl_typesupport_cExport.cmake\n'}
+[26.270350] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/follow_human__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[26.306685] (-) TimerEvent: {}
+[26.327150] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/follow_human__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[26.363410] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/follow_human__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[26.406838] (-) TimerEvent: {}
+[26.417943] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/follow_human__rosidl_typesupport_cppExport.cmake\n'}
+[26.452243] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/follow_human__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[26.506970] (-) TimerEvent: {}
+[26.508745] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/export_follow_human__rosidl_generator_pyExport.cmake\n'}
+[26.545471] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/export_follow_human__rosidl_generator_pyExport-noconfig.cmake\n'}
+[26.571218] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/rosidl_cmake-extras.cmake\n'}
+[26.595922] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[26.607038] (-) TimerEvent: {}
+[26.620782] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[26.643254] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[26.671361] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[26.702305] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[26.707114] (-) TimerEvent: {}
+[26.732942] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[26.765073] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/follow_humanConfig.cmake\n'}
+[26.786349] (follow_human) StdoutLine: {'line': b'-- Up-to-date: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/follow_humanConfig-version.cmake\n'}
+[26.807162] (-) TimerEvent: {}
+[26.815201] (follow_human) StdoutLine: {'line': b'-- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/package.xml\n'}
+[26.898221] (follow_human) CommandEnded: {'returncode': 0}
+[26.907226] (-) TimerEvent: {}
+[27.007651] (-) TimerEvent: {}
+[27.108069] (-) TimerEvent: {}
+[27.208565] (-) TimerEvent: {}
+[27.309241] (-) TimerEvent: {}
+[27.409799] (-) TimerEvent: {}
+[27.510413] (-) TimerEvent: {}
+[27.610836] (-) TimerEvent: {}
+[27.711416] (-) TimerEvent: {}
+[27.811985] (-) TimerEvent: {}
+[27.912656] (-) TimerEvent: {}
+[28.013083] (-) TimerEvent: {}
+[28.113583] (-) TimerEvent: {}
+[28.214046] (-) TimerEvent: {}
+[28.300938] (follow_human) JobEnded: {'identifier': 'follow_human', 'rc': 0}
+[28.309780] (-) EventReactorShutdown: {}

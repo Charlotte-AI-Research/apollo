@@ -1,0 +1,257 @@
+[0.306s] Invoking command in '/apollo/ros_ws/build/follow_human': /usr/bin/cmake /apollo/ros_ws/src/follow_human -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/follow_human
+[1.343s] -- The C compiler identification is GNU 11.4.0
+[1.946s] -- The CXX compiler identification is GNU 11.4.0
+[2.070s] -- Detecting C compiler ABI info
+[3.344s] -- Detecting C compiler ABI info - done
+[3.367s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.368s] -- Detecting C compile features
+[3.369s] -- Detecting C compile features - done
+[3.429s] -- Detecting CXX compiler ABI info
+[4.717s] -- Detecting CXX compiler ABI info - done
+[4.743s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.744s] -- Detecting CXX compile features
+[4.746s] -- Detecting CXX compile features - done
+[4.818s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.155s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.799s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[6.806s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[6.927s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.943s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.965s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.999s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.038s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.090s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[9.347s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[13.123s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.460s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.744s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[14.752s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[15.098s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[15.099s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[15.100s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[15.100s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[15.284s] -- Found PythonExtra: .so  
+[16.664s] -- Configuring done
+[18.646s] -- Generating done
+[19.344s] -- Build files have been written to: /apollo/ros_ws/build/follow_human
+[19.350s] Invoked command in '/apollo/ros_ws/build/follow_human' returned '0': /usr/bin/cmake /apollo/ros_ws/src/follow_human -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/install/follow_human
+[19.364s] Invoking command in '/apollo/ros_ws/build/follow_human': /usr/bin/cmake --build /apollo/ros_ws/build/follow_human -- -j12 -l12
+[19.931s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[20.078s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[20.101s] [  5%] Built target ament_cmake_python_copy_follow_human
+[20.888s] [  5%] Built target follow_human__cpp
+[20.950s] [  7%] [32mBuilding C object CMakeFiles/follow_human__rosidl_generator_c.dir/rosidl_generator_c/follow_human/msg/detail/tracked_object__functions.c.o[0m
+[20.960s] [ 10%] [32mBuilding C object CMakeFiles/follow_human__rosidl_generator_c.dir/rosidl_generator_c/follow_human/msg/detail/depth_estimation__functions.c.o[0m
+[20.991s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[21.003s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[21.012s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[21.272s] running egg_info
+[21.273s] creating follow_human.egg-info
+[21.276s] writing follow_human.egg-info/PKG-INFO
+[21.280s] writing dependency_links to follow_human.egg-info/dependency_links.txt
+[21.289s] writing top-level names to follow_human.egg-info/top_level.txt
+[21.294s] writing manifest file 'follow_human.egg-info/SOURCES.txt'
+[21.314s] reading manifest file 'follow_human.egg-info/SOURCES.txt'
+[21.339s] [ 20%] [32m[1mLinking C shared library libfollow_human__rosidl_generator_c.so[0m
+[21.341s] writing manifest file 'follow_human.egg-info/SOURCES.txt'
+[21.423s] [ 20%] Built target ament_cmake_python_build_follow_human_egg
+[21.641s] [ 23%] [32mBuilding CXX object CMakeFiles/follow_human__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/follow_human/msg/tracked_object__type_support.cpp.o[0m
+[21.646s] [ 25%] [32mBuilding CXX object CMakeFiles/follow_human__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/follow_human/msg/depth_estimation__type_support.cpp.o[0m
+[21.672s] [ 25%] Built target follow_human__rosidl_generator_c
+[21.706s] [ 30%] [32mBuilding CXX object CMakeFiles/follow_human__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/follow_human/msg/detail/depth_estimation__type_support.cpp.o[0m
+[21.707s] [ 30%] [32mBuilding CXX object CMakeFiles/follow_human__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/follow_human/msg/detail/tracked_object__type_support.cpp.o[0m
+[21.766s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[21.769s] [ 35%] [32mBuilding CXX object CMakeFiles/follow_human__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/follow_human/msg/detail/dds_fastrtps/tracked_object__type_support.cpp.o[0m
+[21.792s] [ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[21.800s] [ 41%] [32mBuilding CXX object CMakeFiles/follow_human__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/follow_human/msg/detail/dds_fastrtps/depth_estimation__type_support.cpp.o[0m
+[21.836s] [ 43%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[22.383s] [ 46%] [32m[1mLinking CXX shared library libfollow_human__rosidl_typesupport_cpp.so[0m
+[22.582s] [ 48%] [32mBuilding CXX object CMakeFiles/follow_human__rosidl_typesupport_c.dir/rosidl_typesupport_c/follow_human/msg/tracked_object__type_support.cpp.o[0m
+[22.595s] [ 51%] [32mBuilding CXX object CMakeFiles/follow_human__rosidl_typesupport_c.dir/rosidl_typesupport_c/follow_human/msg/depth_estimation__type_support.cpp.o[0m
+[22.679s] [ 53%] [32mBuilding CXX object CMakeFiles/follow_human__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/follow_human/msg/detail/tracked_object__type_support_c.cpp.o[0m
+[22.706s] [ 58%] [32mBuilding CXX object CMakeFiles/follow_human__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/follow_human/msg/detail/depth_estimation__type_support_c.cpp.o[0m
+[22.709s] [ 58%] [32m[1mLinking CXX shared library libfollow_human__rosidl_typesupport_introspection_cpp.so[0m
+[22.756s] [ 58%] Built target follow_human__rosidl_typesupport_cpp
+[22.815s] [ 61%] [32mBuilding C object CMakeFiles/follow_human__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/follow_human/msg/detail/tracked_object__type_support.c.o[0m
+[22.823s] [ 64%] [32mBuilding C object CMakeFiles/follow_human__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/follow_human/msg/detail/depth_estimation__type_support.c.o[0m
+[22.909s] [ 66%] [32m[1mLinking CXX shared library libfollow_human__rosidl_typesupport_c.so[0m
+[23.047s] [ 69%] [32m[1mLinking CXX shared library libfollow_human__rosidl_typesupport_fastrtps_cpp.so[0m
+[23.122s] [ 69%] Built target follow_human__rosidl_typesupport_introspection_cpp
+[23.247s] [ 71%] [32m[1mLinking C shared library libfollow_human__rosidl_typesupport_introspection_c.so[0m
+[23.305s] [ 71%] Built target follow_human__rosidl_typesupport_c
+[23.485s] [ 71%] Built target follow_human__rosidl_typesupport_fastrtps_cpp
+[23.587s] [ 74%] [32m[1mLinking CXX shared library libfollow_human__rosidl_typesupport_fastrtps_c.so[0m
+[23.611s] [ 74%] Built target follow_human__rosidl_typesupport_introspection_c
+[24.087s] [ 74%] Built target follow_human__rosidl_typesupport_fastrtps_c
+[24.464s] [ 74%] Built target follow_human
+[24.862s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[25.875s] [ 76%] Built target follow_human__py
+[26.226s] [ 79%] [32mBuilding C object CMakeFiles/follow_human__rosidl_generator_py.dir/rosidl_generator_py/follow_human/msg/_depth_estimation_s.c.o[0m
+[26.240s] [ 82%] [32mBuilding C object CMakeFiles/follow_human__rosidl_generator_py.dir/rosidl_generator_py/follow_human/msg/_tracked_object_s.c.o[0m
+[26.839s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/follow_human/libfollow_human__rosidl_generator_py.so[0m
+[27.342s] [ 84%] Built target follow_human__rosidl_generator_py
+[27.540s] [ 87%] [32mBuilding C object CMakeFiles/follow_human__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/follow_human/_follow_human_s.ep.rosidl_typesupport_c.c.o[0m
+[27.556s] [ 89%] [32mBuilding C object CMakeFiles/follow_human__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/follow_human/_follow_human_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[27.583s] [ 92%] [32mBuilding C object CMakeFiles/follow_human__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/follow_human/_follow_human_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[28.122s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/follow_human/follow_human_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[28.165s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/follow_human/follow_human_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[28.272s] [100%] [32m[1mLinking C shared library rosidl_generator_py/follow_human/follow_human_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[28.512s] [100%] Built target follow_human__rosidl_typesupport_c__pyext
+[28.594s] [100%] Built target follow_human__rosidl_typesupport_fastrtps_c__pyext
+[28.703s] [100%] Built target follow_human__rosidl_typesupport_introspection_c__pyext
+[28.956s] Invoked command in '/apollo/ros_ws/build/follow_human' returned '0': /usr/bin/cmake --build /apollo/ros_ws/build/follow_human -- -j12 -l12
+[29.081s] Invoking command in '/apollo/ros_ws/build/follow_human': /usr/bin/cmake --install /apollo/ros_ws/build/follow_human
+[29.173s] -- Install configuration: ""
+[29.219s] -- Installing: /apollo/ros_ws/install/follow_human/share/ament_index/resource_index/rosidl_interfaces/follow_human
+[29.317s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human
+[29.350s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg
+[29.397s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/depth_estimation.h
+[29.499s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail
+[29.555s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__functions.c
+[29.677s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__functions.h
+[29.783s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__struct.h
+[29.893s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__type_support.h
+[29.996s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__functions.c
+[30.107s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__functions.h
+[30.207s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__struct.h
+[30.290s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__type_support.h
+[30.391s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/rosidl_generator_c__visibility_control.h
+[30.485s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/tracked_object.h
+[30.575s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/environment/library_path.sh
+[30.655s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/environment/library_path.dsv
+[30.736s] -- Installing: /apollo/ros_ws/install/follow_human/lib/libfollow_human__rosidl_generator_c.so
+[30.817s] -- Set runtime path of "/apollo/ros_ws/install/follow_human/lib/libfollow_human__rosidl_generator_c.so" to ""
+[30.827s] -- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human
+[30.854s] -- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg
+[30.885s] -- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail
+[30.926s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__rosidl_typesupport_fastrtps_c.h
+[31.047s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__rosidl_typesupport_fastrtps_c.h
+[31.175s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[31.268s] -- Installing: /apollo/ros_ws/install/follow_human/lib/libfollow_human__rosidl_typesupport_fastrtps_c.so
+[31.369s] -- Set runtime path of "/apollo/ros_ws/install/follow_human/lib/libfollow_human__rosidl_typesupport_fastrtps_c.so" to ""
+[31.381s] -- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human
+[31.406s] -- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg
+[31.439s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/depth_estimation.hpp
+[31.541s] -- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail
+[31.585s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__builder.hpp
+[31.692s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__struct.hpp
+[31.803s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__traits.hpp
+[31.919s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__type_support.hpp
+[32.028s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__builder.hpp
+[32.136s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__struct.hpp
+[32.245s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__traits.hpp
+[32.352s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__type_support.hpp
+[32.447s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/rosidl_generator_cpp__visibility_control.hpp
+[32.525s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/tracked_object.hpp
+[32.611s] -- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human
+[32.636s] -- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg
+[32.667s] -- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail
+[32.700s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/dds_fastrtps
+[32.765s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__rosidl_typesupport_fastrtps_cpp.hpp
+[32.880s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__rosidl_typesupport_fastrtps_cpp.hpp
+[32.989s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[33.079s] -- Installing: /apollo/ros_ws/install/follow_human/lib/libfollow_human__rosidl_typesupport_fastrtps_cpp.so
+[33.162s] -- Set runtime path of "/apollo/ros_ws/install/follow_human/lib/libfollow_human__rosidl_typesupport_fastrtps_cpp.so" to ""
+[33.173s] -- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human
+[33.197s] -- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg
+[33.213s] -- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail
+[33.242s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__rosidl_typesupport_introspection_c.h
+[33.367s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__type_support.c
+[33.477s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__rosidl_typesupport_introspection_c.h
+[33.588s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__type_support.c
+[33.700s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[33.791s] -- Installing: /apollo/ros_ws/install/follow_human/lib/libfollow_human__rosidl_typesupport_introspection_c.so
+[33.881s] -- Set runtime path of "/apollo/ros_ws/install/follow_human/lib/libfollow_human__rosidl_typesupport_introspection_c.so" to ""
+[33.896s] -- Installing: /apollo/ros_ws/install/follow_human/lib/libfollow_human__rosidl_typesupport_c.so
+[34.009s] -- Set runtime path of "/apollo/ros_ws/install/follow_human/lib/libfollow_human__rosidl_typesupport_c.so" to ""
+[34.023s] -- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human
+[34.061s] -- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg
+[34.091s] -- Up-to-date: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail
+[34.135s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__rosidl_typesupport_introspection_cpp.hpp
+[34.237s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/depth_estimation__type_support.cpp
+[34.347s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__rosidl_typesupport_introspection_cpp.hpp
+[34.455s] -- Installing: /apollo/ros_ws/install/follow_human/include/follow_human/follow_human/msg/detail/tracked_object__type_support.cpp
+[34.551s] -- Installing: /apollo/ros_ws/install/follow_human/lib/libfollow_human__rosidl_typesupport_introspection_cpp.so
+[34.624s] -- Set runtime path of "/apollo/ros_ws/install/follow_human/lib/libfollow_human__rosidl_typesupport_introspection_cpp.so" to ""
+[34.637s] -- Installing: /apollo/ros_ws/install/follow_human/lib/libfollow_human__rosidl_typesupport_cpp.so
+[34.721s] -- Set runtime path of "/apollo/ros_ws/install/follow_human/lib/libfollow_human__rosidl_typesupport_cpp.so" to ""
+[34.739s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/environment/pythonpath.sh
+[34.817s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/environment/pythonpath.dsv
+[34.867s] -- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human-0.0.1-py3.10.egg-info
+[34.917s] -- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human-0.0.1-py3.10.egg-info/dependency_links.txt
+[35.025s] -- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human-0.0.1-py3.10.egg-info/PKG-INFO
+[35.128s] -- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human-0.0.1-py3.10.egg-info/SOURCES.txt
+[35.228s] -- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human-0.0.1-py3.10.egg-info/top_level.txt
+[35.323s] -- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human
+[35.373s] -- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/follow_human_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[35.487s] -- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/follow_human_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[35.598s] -- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/follow_human_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[35.698s] -- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/libfollow_human__rosidl_generator_py.so
+[35.796s] -- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/msg
+[35.850s] -- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/msg/_depth_estimation.py
+[35.969s] -- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/msg/_depth_estimation_s.c
+[36.084s] -- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/msg/_tracked_object.py
+[36.203s] -- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/msg/_tracked_object_s.c
+[36.308s] -- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/msg/__init__.py
+[36.394s] -- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/_follow_human_s.ep.rosidl_typesupport_c.c
+[36.465s] -- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/_follow_human_s.ep.rosidl_typesupport_fastrtps_c.c
+[36.580s] -- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/_follow_human_s.ep.rosidl_typesupport_introspection_c.c
+[36.678s] -- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/__init__.py
+[37.696s] Listing '/apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human'...
+[37.697s] Compiling '/apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/__init__.py'...
+[37.698s] Listing '/apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/msg'...
+[37.699s] Compiling '/apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/msg/__init__.py'...
+[37.700s] Compiling '/apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/msg/_depth_estimation.py'...
+[37.701s] Compiling '/apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/msg/_tracked_object.py'...
+[37.769s] -- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/follow_human_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[37.927s] -- Set runtime path of "/apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/follow_human_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[38.001s] -- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/follow_human_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[38.150s] -- Set runtime path of "/apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/follow_human_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[38.221s] -- Installing: /apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/follow_human_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[38.372s] -- Set runtime path of "/apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages/follow_human/follow_human_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[38.393s] -- Installing: /apollo/ros_ws/install/follow_human/lib/libfollow_human__rosidl_generator_py.so
+[38.487s] -- Set runtime path of "/apollo/ros_ws/install/follow_human/lib/libfollow_human__rosidl_generator_py.so" to ""
+[38.521s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/msg/TrackedObject.idl
+[38.605s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/msg/DepthEstimation.idl
+[38.693s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/msg/TrackedObject.msg
+[38.785s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/msg/DepthEstimation.msg
+[38.898s] -- Installing: /apollo/ros_ws/install/follow_human/share/ament_index/resource_index/package_run_dependencies/follow_human
+[39.019s] -- Installing: /apollo/ros_ws/install/follow_human/share/ament_index/resource_index/parent_prefix_path/follow_human
+[39.122s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/environment/ament_prefix_path.sh
+[39.194s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/environment/ament_prefix_path.dsv
+[39.264s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/environment/path.sh
+[39.336s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/environment/path.dsv
+[39.412s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/local_setup.bash
+[39.487s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/local_setup.sh
+[39.564s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/local_setup.zsh
+[39.632s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/local_setup.dsv
+[39.699s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/package.dsv
+[39.788s] -- Installing: /apollo/ros_ws/install/follow_human/share/ament_index/resource_index/packages/follow_human
+[39.881s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/export_follow_human__rosidl_generator_cExport.cmake
+[39.977s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/export_follow_human__rosidl_generator_cExport-noconfig.cmake
+[40.081s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/export_follow_human__rosidl_typesupport_fastrtps_cExport.cmake
+[40.180s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/export_follow_human__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[40.279s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/export_follow_human__rosidl_generator_cppExport.cmake
+[40.353s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/export_follow_human__rosidl_typesupport_fastrtps_cppExport.cmake
+[40.455s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/export_follow_human__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[40.561s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/follow_human__rosidl_typesupport_introspection_cExport.cmake
+[40.661s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/follow_human__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[40.762s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/follow_human__rosidl_typesupport_cExport.cmake
+[40.862s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/follow_human__rosidl_typesupport_cExport-noconfig.cmake
+[40.963s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/follow_human__rosidl_typesupport_introspection_cppExport.cmake
+[41.065s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/follow_human__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[41.171s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/follow_human__rosidl_typesupport_cppExport.cmake
+[41.264s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/follow_human__rosidl_typesupport_cppExport-noconfig.cmake
+[41.363s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/export_follow_human__rosidl_generator_pyExport.cmake
+[41.456s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/export_follow_human__rosidl_generator_pyExport-noconfig.cmake
+[41.545s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/rosidl_cmake-extras.cmake
+[41.619s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/ament_cmake_export_dependencies-extras.cmake
+[41.678s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/ament_cmake_export_include_directories-extras.cmake
+[41.752s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/ament_cmake_export_libraries-extras.cmake
+[41.817s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/ament_cmake_export_targets-extras.cmake
+[41.901s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[41.984s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[42.060s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/follow_humanConfig.cmake
+[42.131s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/cmake/follow_humanConfig-version.cmake
+[42.189s] -- Installing: /apollo/ros_ws/install/follow_human/share/follow_human/package.xml
+[42.257s] Invoked command in '/apollo/ros_ws/build/follow_human' returned '0': /usr/bin/cmake --install /apollo/ros_ws/build/follow_human

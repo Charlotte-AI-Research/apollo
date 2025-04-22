@@ -1,0 +1,228 @@
+[0.342s] Invoking command in '/apollo/build/test_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake /apollo/ros_ws/src/scout_object_detector -DCMAKE_INSTALL_PREFIX=/apollo/install/test_detector
+[1.412s] -- The C compiler identification is GNU 11.4.0
+[1.997s] -- The CXX compiler identification is GNU 11.4.0
+[2.124s] -- Detecting C compiler ABI info
+[3.593s] -- Detecting C compiler ABI info - done
+[3.621s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.623s] -- Detecting C compile features
+[3.625s] -- Detecting C compile features - done
+[3.689s] -- Detecting CXX compiler ABI info
+[5.112s] -- Detecting CXX compiler ABI info - done
+[5.141s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.146s] -- Detecting CXX compile features
+[5.147s] -- Detecting CXX compile features - done
+[5.384s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.583s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[10.771s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[10.941s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[12.317s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[12.615s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[12.915s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[13.243s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.741s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.652s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[17.850s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[22.681s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[24.365s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[24.657s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[24.802s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[25.188s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[25.189s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[25.190s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[25.190s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[25.436s] -- Found PythonExtra: .so  
+[27.119s] -- Configuring done
+[29.184s] -- Generating done
+[29.927s] -- Build files have been written to: /apollo/build/test_detector
+[29.934s] Invoked command in '/apollo/build/test_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake /apollo/ros_ws/src/scout_object_detector -DCMAKE_INSTALL_PREFIX=/apollo/install/test_detector
+[29.948s] Invoking command in '/apollo/build/test_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /apollo/build/test_detector -- -j12 -l12
+[30.726s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[30.835s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[30.911s] [  6%] Built target ament_cmake_python_copy_test_detector
+[31.772s] [  6%] Built target test_detector__cpp
+[31.831s] [  9%] [32mBuilding C object CMakeFiles/test_detector__rosidl_generator_c.dir/rosidl_generator_c/test_detector/msg/detail/yolo_detection__functions.c.o[0m
+[31.846s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[31.847s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[31.862s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[32.201s] [ 22%] [32m[1mLinking C shared library libtest_detector__rosidl_generator_c.so[0m
+[32.258s] running egg_info
+[32.260s] creating test_detector.egg-info
+[32.263s] writing test_detector.egg-info/PKG-INFO
+[32.268s] writing dependency_links to test_detector.egg-info/dependency_links.txt
+[32.276s] writing top-level names to test_detector.egg-info/top_level.txt
+[32.282s] writing manifest file 'test_detector.egg-info/SOURCES.txt'
+[32.302s] reading manifest file 'test_detector.egg-info/SOURCES.txt'
+[32.332s] writing manifest file 'test_detector.egg-info/SOURCES.txt'
+[32.465s] [ 22%] Built target ament_cmake_python_build_test_detector_egg
+[32.620s] [ 22%] Built target test_detector__rosidl_generator_c
+[32.703s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[32.716s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[32.721s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[32.768s] [ 35%] [32mBuilding CXX object CMakeFiles/test_detector__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/test_detector/msg/yolo_detection__type_support.cpp.o[0m
+[32.856s] [ 38%] [32mBuilding CXX object CMakeFiles/test_detector__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test_detector/msg/detail/yolo_detection__type_support.cpp.o[0m
+[32.920s] [ 41%] [32mBuilding CXX object CMakeFiles/test_detector__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_detector/msg/detail/dds_fastrtps/yolo_detection__type_support.cpp.o[0m
+[33.540s] [ 45%] [32m[1mLinking CXX shared library libtest_detector__rosidl_typesupport_cpp.so[0m
+[33.742s] [ 48%] [32mBuilding CXX object CMakeFiles/test_detector__rosidl_typesupport_c.dir/rosidl_typesupport_c/test_detector/msg/yolo_detection__type_support.cpp.o[0m
+[33.792s] [ 51%] Built target test_detector__rosidl_typesupport_cpp
+[33.794s] [ 51%] [32m[1mLinking CXX shared library libtest_detector__rosidl_typesupport_introspection_cpp.so[0m
+[33.826s] [ 54%] [32mBuilding CXX object CMakeFiles/test_detector__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/test_detector/msg/detail/yolo_detection__type_support_c.cpp.o[0m
+[33.834s] [ 58%] [32mBuilding C object CMakeFiles/test_detector__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/test_detector/msg/detail/yolo_detection__type_support.c.o[0m
+[33.989s] [ 61%] [32m[1mLinking CXX shared library libtest_detector__rosidl_typesupport_fastrtps_cpp.so[0m
+[34.018s] [ 64%] [32m[1mLinking CXX shared library libtest_detector__rosidl_typesupport_c.so[0m
+[34.053s] [ 64%] Built target test_detector__rosidl_typesupport_introspection_cpp
+[34.247s] [ 67%] [32m[1mLinking C shared library libtest_detector__rosidl_typesupport_introspection_c.so[0m
+[34.266s] [ 67%] Built target test_detector__rosidl_typesupport_c
+[34.277s] [ 67%] Built target test_detector__rosidl_typesupport_fastrtps_cpp
+[34.691s] [ 67%] Built target test_detector__rosidl_typesupport_introspection_c
+[34.703s] [ 70%] [32m[1mLinking CXX shared library libtest_detector__rosidl_typesupport_fastrtps_c.so[0m
+[35.286s] [ 70%] Built target test_detector__rosidl_typesupport_fastrtps_c
+[35.774s] [ 70%] Built target test_detector
+[36.287s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[37.600s] [ 74%] Built target test_detector__py
+[38.148s] [ 77%] [32mBuilding C object CMakeFiles/test_detector__rosidl_generator_py.dir/rosidl_generator_py/test_detector/msg/_yolo_detection_s.c.o[0m
+[38.928s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/test_detector/libtest_detector__rosidl_generator_py.so[0m
+[39.637s] [ 80%] Built target test_detector__rosidl_generator_py
+[39.854s] [ 83%] [32mBuilding C object CMakeFiles/test_detector__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/test_detector/_test_detector_s.ep.rosidl_typesupport_c.c.o[0m
+[39.863s] [ 87%] [32mBuilding C object CMakeFiles/test_detector__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/test_detector/_test_detector_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[39.964s] [ 90%] [32mBuilding C object CMakeFiles/test_detector__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/test_detector/_test_detector_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[40.547s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/test_detector/test_detector_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[40.573s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/test_detector/test_detector_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[40.866s] [100%] [32m[1mLinking C shared library rosidl_generator_py/test_detector/test_detector_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[40.940s] [100%] Built target test_detector__rosidl_typesupport_c__pyext
+[41.056s] [100%] Built target test_detector__rosidl_typesupport_introspection_c__pyext
+[41.579s] [100%] Built target test_detector__rosidl_typesupport_fastrtps_c__pyext
+[41.915s] Invoked command in '/apollo/build/test_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /apollo/build/test_detector -- -j12 -l12
+[42.119s] Invoking command in '/apollo/build/test_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /apollo/build/test_detector
+[42.292s] -- Install configuration: ""
+[42.338s] -- Installing: /apollo/install/test_detector/share/ament_index/resource_index/rosidl_interfaces/test_detector
+[42.441s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector
+[42.472s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg
+[42.512s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail
+[42.570s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__functions.c
+[42.703s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__functions.h
+[42.840s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__struct.h
+[42.962s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__type_support.h
+[43.086s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/rosidl_generator_c__visibility_control.h
+[43.187s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/yolo_detection.h
+[43.300s] -- Installing: /apollo/install/test_detector/share/test_detector/environment/library_path.sh
+[43.380s] -- Installing: /apollo/install/test_detector/share/test_detector/environment/library_path.dsv
+[43.472s] -- Installing: /apollo/install/test_detector/lib/libtest_detector__rosidl_generator_c.so
+[43.585s] -- Set runtime path of "/apollo/install/test_detector/lib/libtest_detector__rosidl_generator_c.so" to ""
+[43.597s] -- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector
+[43.624s] -- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector/msg
+[43.657s] -- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail
+[43.697s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__rosidl_typesupport_fastrtps_c.h
+[43.822s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[43.943s] -- Installing: /apollo/install/test_detector/lib/libtest_detector__rosidl_typesupport_fastrtps_c.so
+[44.050s] -- Set runtime path of "/apollo/install/test_detector/lib/libtest_detector__rosidl_typesupport_fastrtps_c.so" to ""
+[44.062s] -- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector
+[44.090s] -- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector/msg
+[44.124s] -- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail
+[44.167s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__builder.hpp
+[44.288s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__struct.hpp
+[44.407s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__traits.hpp
+[44.534s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__type_support.hpp
+[44.682s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/rosidl_generator_cpp__visibility_control.hpp
+[44.812s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/yolo_detection.hpp
+[44.911s] -- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector
+[44.937s] -- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector/msg
+[44.969s] -- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail
+[45.005s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/dds_fastrtps
+[45.061s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[45.148s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[45.253s] -- Installing: /apollo/install/test_detector/lib/libtest_detector__rosidl_typesupport_fastrtps_cpp.so
+[45.359s] -- Set runtime path of "/apollo/install/test_detector/lib/libtest_detector__rosidl_typesupport_fastrtps_cpp.so" to ""
+[45.371s] -- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector
+[45.396s] -- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector/msg
+[45.427s] -- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail
+[45.472s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__rosidl_typesupport_introspection_c.h
+[45.620s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__type_support.c
+[45.769s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[45.880s] -- Installing: /apollo/install/test_detector/lib/libtest_detector__rosidl_typesupport_introspection_c.so
+[45.992s] -- Set runtime path of "/apollo/install/test_detector/lib/libtest_detector__rosidl_typesupport_introspection_c.so" to ""
+[46.016s] -- Installing: /apollo/install/test_detector/lib/libtest_detector__rosidl_typesupport_c.so
+[46.134s] -- Set runtime path of "/apollo/install/test_detector/lib/libtest_detector__rosidl_typesupport_c.so" to ""
+[46.148s] -- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector
+[46.179s] -- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector/msg
+[46.210s] -- Up-to-date: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail
+[46.250s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__rosidl_typesupport_introspection_cpp.hpp
+[46.355s] -- Installing: /apollo/install/test_detector/include/test_detector/test_detector/msg/detail/yolo_detection__type_support.cpp
+[46.499s] -- Installing: /apollo/install/test_detector/lib/libtest_detector__rosidl_typesupport_introspection_cpp.so
+[46.632s] -- Set runtime path of "/apollo/install/test_detector/lib/libtest_detector__rosidl_typesupport_introspection_cpp.so" to ""
+[46.656s] -- Installing: /apollo/install/test_detector/lib/libtest_detector__rosidl_typesupport_cpp.so
+[46.774s] -- Set runtime path of "/apollo/install/test_detector/lib/libtest_detector__rosidl_typesupport_cpp.so" to ""
+[46.798s] -- Installing: /apollo/install/test_detector/share/test_detector/environment/pythonpath.sh
+[46.899s] -- Installing: /apollo/install/test_detector/share/test_detector/environment/pythonpath.dsv
+[46.972s] -- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector-0.0.0-py3.10.egg-info
+[47.022s] -- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector-0.0.0-py3.10.egg-info/dependency_links.txt
+[47.124s] -- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector-0.0.0-py3.10.egg-info/PKG-INFO
+[47.225s] -- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector-0.0.0-py3.10.egg-info/SOURCES.txt
+[47.329s] -- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector-0.0.0-py3.10.egg-info/top_level.txt
+[47.428s] -- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector
+[47.471s] -- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/libtest_detector__rosidl_generator_py.so
+[47.571s] -- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/msg
+[47.633s] -- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/msg/_yolo_detection.py
+[47.745s] -- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/msg/_yolo_detection_s.c
+[47.859s] -- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/msg/__init__.py
+[47.972s] -- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/test_detector_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[48.094s] -- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/test_detector_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[48.199s] -- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/test_detector_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[48.301s] -- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/_test_detector_s.ep.rosidl_typesupport_c.c
+[48.396s] -- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/_test_detector_s.ep.rosidl_typesupport_fastrtps_c.c
+[48.492s] -- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/_test_detector_s.ep.rosidl_typesupport_introspection_c.c
+[48.590s] -- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/__init__.py
+[49.535s] Listing '/apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector'...
+[49.536s] Compiling '/apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/__init__.py'...
+[49.537s] Listing '/apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/msg'...
+[49.538s] Compiling '/apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/msg/__init__.py'...
+[49.538s] Compiling '/apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/msg/_yolo_detection.py'...
+[49.620s] -- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/test_detector_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[49.790s] -- Set runtime path of "/apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/test_detector_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[49.870s] -- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/test_detector_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[50.041s] -- Set runtime path of "/apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/test_detector_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[50.123s] -- Installing: /apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/test_detector_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[50.296s] -- Set runtime path of "/apollo/install/test_detector/local/lib/python3.10/dist-packages/test_detector/test_detector_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[50.323s] -- Installing: /apollo/install/test_detector/lib/libtest_detector__rosidl_generator_py.so
+[50.441s] -- Set runtime path of "/apollo/install/test_detector/lib/libtest_detector__rosidl_generator_py.so" to ""
+[50.479s] -- Installing: /apollo/install/test_detector/share/test_detector/msg/YoloDetection.idl
+[50.592s] -- Installing: /apollo/install/test_detector/share/test_detector/msg/YoloDetection.msg
+[50.715s] -- Installing: /apollo/install/test_detector/share/ament_index/resource_index/package_run_dependencies/test_detector
+[50.853s] -- Installing: /apollo/install/test_detector/share/ament_index/resource_index/parent_prefix_path/test_detector
+[50.959s] -- Installing: /apollo/install/test_detector/share/test_detector/environment/ament_prefix_path.sh
+[51.038s] -- Installing: /apollo/install/test_detector/share/test_detector/environment/ament_prefix_path.dsv
+[51.113s] -- Installing: /apollo/install/test_detector/share/test_detector/environment/path.sh
+[51.187s] -- Installing: /apollo/install/test_detector/share/test_detector/environment/path.dsv
+[51.274s] -- Installing: /apollo/install/test_detector/share/test_detector/local_setup.bash
+[51.349s] -- Installing: /apollo/install/test_detector/share/test_detector/local_setup.sh
+[51.420s] -- Installing: /apollo/install/test_detector/share/test_detector/local_setup.zsh
+[51.502s] -- Installing: /apollo/install/test_detector/share/test_detector/local_setup.dsv
+[51.579s] -- Installing: /apollo/install/test_detector/share/test_detector/package.dsv
+[51.679s] -- Installing: /apollo/install/test_detector/share/ament_index/resource_index/packages/test_detector
+[51.788s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/export_test_detector__rosidl_generator_cExport.cmake
+[51.886s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/export_test_detector__rosidl_generator_cExport-noconfig.cmake
+[51.975s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/export_test_detector__rosidl_typesupport_fastrtps_cExport.cmake
+[52.070s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/export_test_detector__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[52.179s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/export_test_detector__rosidl_generator_cppExport.cmake
+[52.285s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/export_test_detector__rosidl_typesupport_fastrtps_cppExport.cmake
+[52.388s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/export_test_detector__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[52.492s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/test_detector__rosidl_typesupport_introspection_cExport.cmake
+[52.574s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/test_detector__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[52.684s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/test_detector__rosidl_typesupport_cExport.cmake
+[52.785s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/test_detector__rosidl_typesupport_cExport-noconfig.cmake
+[52.891s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/test_detector__rosidl_typesupport_introspection_cppExport.cmake
+[52.998s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/test_detector__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[53.103s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/test_detector__rosidl_typesupport_cppExport.cmake
+[53.209s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/test_detector__rosidl_typesupport_cppExport-noconfig.cmake
+[53.313s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/export_test_detector__rosidl_generator_pyExport.cmake
+[53.400s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/export_test_detector__rosidl_generator_pyExport-noconfig.cmake
+[53.483s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/rosidl_cmake-extras.cmake
+[53.545s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+[53.616s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/ament_cmake_export_include_directories-extras.cmake
+[53.681s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/ament_cmake_export_libraries-extras.cmake
+[53.756s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/ament_cmake_export_targets-extras.cmake
+[53.833s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[53.908s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[53.988s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/test_detectorConfig.cmake
+[54.059s] -- Installing: /apollo/install/test_detector/share/test_detector/cmake/test_detectorConfig-version.cmake
+[54.141s] -- Installing: /apollo/install/test_detector/share/test_detector/package.xml
+[54.212s] Invoked command in '/apollo/build/test_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /apollo/build/test_detector

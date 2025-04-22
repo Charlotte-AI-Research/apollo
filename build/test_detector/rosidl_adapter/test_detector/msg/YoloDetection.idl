@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from test_detector/msg/YoloDetection.msg
+// generated code does not contain a copyright notice
+
+
+module test_detector {
+  module msg {
+    struct YoloDetection {
+      int32 class_id;
+
+      float confidence;
+
+      float xmin;
+
+      float ymin;
+
+      float xmax;
+
+      float ymax;
+    };
+  };
+};

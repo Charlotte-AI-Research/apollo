@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-136f6d37107acb742587.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "scout_object_detector__py",
+					"jsonFile" : "directory-scout_object_detector__py-5b193e1a069482f5b5cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/apollo/build/scout_object_detector/scout_object_detector__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "scout_object_detector",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_scout_object_detector_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_scout_object_detector_egg-53eaf7c4b627c09761a9.json",
+					"name" : "ament_cmake_python_build_scout_object_detector_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_scout_object_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_scout_object_detector-58bc907a3cf078aef137.json",
+					"name" : "ament_cmake_python_copy_scout_object_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector-1793eb797f37845e25f7.json",
+					"name" : "scout_object_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector__cpp-d1cb3f3d0dca13c1c1ad.json",
+					"name" : "scout_object_detector__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "scout_object_detector__py::@8bcad4ee938c16e6f787",
+					"jsonFile" : "target-scout_object_detector__py-fa9fd4075d77733e3087.json",
+					"name" : "scout_object_detector__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector__rosidl_generator_c-feeb5fa6c288db410321.json",
+					"name" : "scout_object_detector__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector__rosidl_generator_py-b44e9d04870cefa9f925.json",
+					"name" : "scout_object_detector__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector__rosidl_typesupport_c-0b8c5b36774cc8dac895.json",
+					"name" : "scout_object_detector__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector__rosidl_typesupport_c__pyext-8503ca7cd80ae368be2c.json",
+					"name" : "scout_object_detector__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector__rosidl_typesupport_cpp-a5361144bc568395fa58.json",
+					"name" : "scout_object_detector__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector__rosidl_typesupport_fastrtps_c-26bbf43d23161546754e.json",
+					"name" : "scout_object_detector__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector__rosidl_typesupport_fastrtps_c__pyext-a0d3c930a6993c62c7e1.json",
+					"name" : "scout_object_detector__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector__rosidl_typesupport_fastrtps_cpp-ae807463d274e2b77c14.json",
+					"name" : "scout_object_detector__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector__rosidl_typesupport_introspection_c-46b4df95725b53439a9d.json",
+					"name" : "scout_object_detector__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector__rosidl_typesupport_introspection_c__pyext-ea07ad964cc62262facc.json",
+					"name" : "scout_object_detector__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector__rosidl_typesupport_introspection_cpp-2dd77c051726c4ed45da.json",
+					"name" : "scout_object_detector__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector_uninstall-0cfa7a2f3b9d1c434051.json",
+					"name" : "scout_object_detector_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-da054481a33f5aa7f0d2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/apollo/build/scout_object_detector",
+		"source" : "/apollo/ros_ws/src/scout_object_detector"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

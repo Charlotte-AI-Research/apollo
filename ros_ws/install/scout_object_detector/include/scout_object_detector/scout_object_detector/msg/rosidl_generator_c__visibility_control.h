@@ -1,1 +1,0 @@
-/apollo/ros_ws/build/scout_object_detector/rosidl_generator_c/scout_object_detector/msg/rosidl_generator_c__visibility_control.h

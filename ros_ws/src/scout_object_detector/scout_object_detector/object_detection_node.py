@@ -44,16 +44,24 @@ class ObjectDetectionNode(Node):
                     boxes = result.boxes
                     for i in range(len(boxes.cls)):
                         msg = YoloDetection()
-                        class_id = int(boxes.cls[i].item())
-                        msg.class_id = class_id
-                        msg.confidence = float(boxes.conf[i].item())
-                        
-                        class_name = self.model.names[class_id]
-                        msg.class_name = class_name
-                        
+
+                        box = boxes[i]
+
+                        msg.id = int(box.cls.item())
+                        msg.class_label = self.model.names[msg.id]
+                        msg.confidence = float(box.conf.item())
+
+                        xmin, ymin, xmax, ymax = box.xyxy[0].tolist()
+                        msg.x = int(xmin)
+                        msg.y = int(ymin)
+                        msg.width = int(xmax - xmin)
+                        msg.height = int(ymax - ymin)
+
                         self.publisher.publish(msg)
+
                         self.get_logger().info(
-                            f"Published: class_name={class_name}, class_id={msg.class_id}, confidence={msg.confidence:.2f}"
+                            f"[{msg.class_label}] id={msg.id}, conf={msg.confidence:.2f}, "
+                            f"x={msg.x}, y={msg.y}, w={msg.width}, h={msg.height}"
                         )
 
             except Exception as e:

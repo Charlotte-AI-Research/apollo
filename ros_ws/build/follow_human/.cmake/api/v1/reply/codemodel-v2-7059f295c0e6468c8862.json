@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9513a39fb88b48cec16b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "follow_human__py",
+					"jsonFile" : "directory-follow_human__py-63a49cdb3b73ae9ff010.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/apollo/ros_ws/build/follow_human/follow_human__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "follow_human",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_follow_human_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_follow_human_egg-1354e342822bf12885af.json",
+					"name" : "ament_cmake_python_build_follow_human_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_follow_human::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_follow_human-7341f87cd2436ab34db3.json",
+					"name" : "ament_cmake_python_copy_follow_human",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human-d981c952516eb4099061.json",
+					"name" : "follow_human",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human__cpp-e1ab5a8cb35ac7dbbda1.json",
+					"name" : "follow_human__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "follow_human__py::@3186852c11149d56d67b",
+					"jsonFile" : "target-follow_human__py-b58e46f4320957d366d6.json",
+					"name" : "follow_human__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human__rosidl_generator_c-a03e90bf1dca34972b90.json",
+					"name" : "follow_human__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human__rosidl_generator_py-10c17b5a23500ae86c37.json",
+					"name" : "follow_human__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human__rosidl_typesupport_c-cb71e97efdfc5e40fb01.json",
+					"name" : "follow_human__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human__rosidl_typesupport_c__pyext-f2cf08aa7298977827f2.json",
+					"name" : "follow_human__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human__rosidl_typesupport_cpp-b5442a789f6b13aaff58.json",
+					"name" : "follow_human__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human__rosidl_typesupport_fastrtps_c-9c8cef277f833d0c950a.json",
+					"name" : "follow_human__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human__rosidl_typesupport_fastrtps_c__pyext-5a015b7c1071288e9d6f.json",
+					"name" : "follow_human__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human__rosidl_typesupport_fastrtps_cpp-68cc5747e7f0d841fc58.json",
+					"name" : "follow_human__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human__rosidl_typesupport_introspection_c-14d9f175db23306188a4.json",
+					"name" : "follow_human__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human__rosidl_typesupport_introspection_c__pyext-008b2c017f7e8f7e705c.json",
+					"name" : "follow_human__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human__rosidl_typesupport_introspection_cpp-39cb03d900eace23a5f9.json",
+					"name" : "follow_human__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human_uninstall-b6895fb2ba60ef18bee0.json",
+					"name" : "follow_human_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3ebbf41ca7d7270a6dd4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/apollo/ros_ws/build/follow_human",
+		"source" : "/apollo/ros_ws/src/follow_human"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

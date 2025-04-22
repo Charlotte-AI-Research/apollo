@@ -1,1 +1,0 @@
-/apollo/ros_ws/build/scout_mini_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

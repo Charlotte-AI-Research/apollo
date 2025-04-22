@@ -1,0 +1,6 @@
+setup.py
+test_detector/__init__.py
+test_detector.egg-info/PKG-INFO
+test_detector.egg-info/SOURCES.txt
+test_detector.egg-info/dependency_links.txt
+test_detector.egg-info/top_level.txt

@@ -1,6 +1,0 @@
-setup.py
-scout_mini_msgs/__init__.py
-scout_mini_msgs.egg-info/PKG-INFO
-scout_mini_msgs.egg-info/SOURCES.txt
-scout_mini_msgs.egg-info/dependency_links.txt
-scout_mini_msgs.egg-info/top_level.txt

@@ -1,0 +1,248 @@
+[0.558s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'follow_human', '--symlink-install']
+[0.559s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['follow_human'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f566e109a20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f566e28a920>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f566e28a920>>, mixin_verb=('build',))
+[0.997s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.999s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.000s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/apollo/ros_ws'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_human) by extensions ['ignore', 'ignore_ament_install']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_human) by extension 'ignore'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_human) by extension 'ignore_ament_install'
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_human) by extensions ['colcon_pkg']
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_human) by extension 'colcon_pkg'
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_human) by extensions ['colcon_meta']
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_human) by extension 'colcon_meta'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_human) by extensions ['ros']
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_human) by extension 'ros'
+[1.105s] DEBUG:colcon.colcon_core.package_identification:Package 'src/follow_human' with type 'ros.ament_cmake' and name 'follow_human'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extensions ['ignore', 'ignore_ament_install']
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extension 'ignore'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extension 'ignore_ament_install'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extensions ['colcon_pkg']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extension 'colcon_pkg'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extensions ['colcon_meta']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extension 'colcon_meta'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extensions ['ros']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extension 'ros'
+[1.137s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_mini_base' with type 'ros.ament_cmake' and name 'scout_mini_base'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extensions ['ignore', 'ignore_ament_install']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extension 'ignore'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extension 'ignore_ament_install'
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extensions ['colcon_pkg']
+[1.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extension 'colcon_pkg'
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extensions ['colcon_meta']
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extension 'colcon_meta'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extensions ['ros']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extension 'ros'
+[1.167s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_mini_description' with type 'ros.ament_cmake' and name 'scout_mini_description'
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extensions ['ignore', 'ignore_ament_install']
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extension 'ignore'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extension 'ignore_ament_install'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extensions ['colcon_pkg']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extension 'colcon_pkg'
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extensions ['colcon_meta']
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extension 'colcon_meta'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extensions ['ros']
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extension 'ros'
+[1.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_mini_hardware' with type 'ros.ament_cmake' and name 'scout_mini_hardware'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extension 'ignore'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extension 'ignore_ament_install'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extensions ['colcon_pkg']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extension 'colcon_pkg'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extensions ['colcon_meta']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extension 'colcon_meta'
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extensions ['ros']
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extension 'ros'
+[1.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_mini_msgs' with type 'ros.ament_cmake' and name 'scout_mini_msgs'
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extension 'ignore'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extension 'ignore_ament_install'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extensions ['colcon_pkg']
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extension 'colcon_pkg'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extensions ['colcon_meta']
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extension 'colcon_meta'
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extensions ['ros']
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_ros2) by extension 'ros'
+[1.263s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_mini_ros2' with type 'ros.ament_cmake' and name 'scout_mini_ros2'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_simulation) by extensions ['ignore', 'ignore_ament_install']
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_simulation) by extension 'ignore'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_simulation) by extension 'ignore_ament_install'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_simulation) by extensions ['colcon_pkg']
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_simulation) by extension 'colcon_pkg'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_simulation) by extensions ['colcon_meta']
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_simulation) by extension 'colcon_meta'
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_simulation) by extensions ['ros']
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_simulation) by extension 'ros'
+[1.296s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_mini_simulation' with type 'ros.ament_python' and name 'scout_mini_simulation'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_object_detector) by extensions ['ignore', 'ignore_ament_install']
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_object_detector) by extension 'ignore'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_object_detector) by extension 'ignore_ament_install'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_object_detector) by extensions ['colcon_pkg']
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_object_detector) by extension 'colcon_pkg'
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_object_detector) by extensions ['colcon_meta']
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_object_detector) by extension 'colcon_meta'
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_object_detector) by extensions ['ros']
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_object_detector) by extension 'ros'
+[1.325s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_object_detector' with type 'ros.ament_cmake' and name 'scout_object_detector'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1) by extensions ['ignore', 'ignore_ament_install']
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1) by extension 'ignore'
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1) by extension 'ignore_ament_install'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1) by extensions ['colcon_pkg']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1) by extension 'colcon_pkg'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1) by extensions ['colcon_meta']
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1) by extension 'colcon_meta'
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1) by extensions ['ros']
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1) by extension 'ros'
+[1.353s] DEBUG:colcon.colcon_core.package_identification:Package 'src/task1' with type 'ros.ament_python' and name 'task1'
+[1.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.532s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'scout_mini_base' in 'src/scout_mini_base'
+[1.533s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'scout_mini_description' in 'src/scout_mini_description'
+[1.533s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'scout_mini_msgs' in 'src/scout_mini_msgs'
+[1.533s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'scout_object_detector' in 'src/scout_object_detector'
+[1.533s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'task1' in 'src/task1'
+[1.534s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'scout_mini_hardware' in 'src/scout_mini_hardware'
+[1.534s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'scout_mini_simulation' in 'src/scout_mini_simulation'
+[1.534s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'scout_mini_ros2' in 'src/scout_mini_ros2'
+[1.535s] Level 5:colcon.colcon_core.verb:set package 'follow_human' build argument 'cmake_args' from command line to 'None'
+[1.535s] Level 5:colcon.colcon_core.verb:set package 'follow_human' build argument 'cmake_target' from command line to 'None'
+[1.535s] Level 5:colcon.colcon_core.verb:set package 'follow_human' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.536s] Level 5:colcon.colcon_core.verb:set package 'follow_human' build argument 'cmake_clean_cache' from command line to 'False'
+[1.536s] Level 5:colcon.colcon_core.verb:set package 'follow_human' build argument 'cmake_clean_first' from command line to 'False'
+[1.536s] Level 5:colcon.colcon_core.verb:set package 'follow_human' build argument 'cmake_force_configure' from command line to 'False'
+[1.536s] Level 5:colcon.colcon_core.verb:set package 'follow_human' build argument 'ament_cmake_args' from command line to 'None'
+[1.536s] Level 5:colcon.colcon_core.verb:set package 'follow_human' build argument 'catkin_cmake_args' from command line to 'None'
+[1.537s] Level 5:colcon.colcon_core.verb:set package 'follow_human' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.537s] DEBUG:colcon.colcon_core.verb:Building package 'follow_human' with the following arguments: {'ament_cmake_args': None, 'build_base': '/apollo/ros_ws/build/follow_human', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/apollo/ros_ws/install/follow_human', 'merge_install': False, 'path': '/apollo/ros_ws/src/follow_human', 'symlink_install': True, 'test_result_base': None}
+[1.537s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.538s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.539s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/apollo/ros_ws/src/follow_human' with build type 'ament_cmake'
+[1.539s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/apollo/ros_ws/src/follow_human'
+[1.558s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.559s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.559s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.567s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/apollo/ros_ws/install/task1' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.569s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/apollo/ros_ws/install/scout_object_detector' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.570s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/apollo/ros_ws/install/scout_mini_simulation' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.571s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/apollo/ros_ws/install/scout_mini_ros2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.572s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/apollo/ros_ws/install/scout_mini_hardware' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.573s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/apollo/ros_ws/install/scout_mini_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.574s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/apollo/ros_ws/install/scout_mini_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.576s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/apollo/ros_ws/install/scout_mini_base' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.602s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/apollo/ros_ws/install/scout_object_detector' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.603s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/apollo/ros_ws/install/scout_mini_ros2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.604s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/apollo/ros_ws/install/scout_mini_hardware' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.605s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/apollo/ros_ws/install/scout_mini_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.607s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/apollo/ros_ws/install/scout_mini_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.608s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/apollo/ros_ws/install/scout_mini_base' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/apollo/ros_ws/build/follow_human': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/ros_ws/install/task1:/apollo/ros_ws/install/scout_mini_simulation:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/build/follow_human -- -j12 -l12
+[7.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/apollo/ros_ws/build/follow_human' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/ros_ws/install/task1:/apollo/ros_ws/install/scout_mini_simulation:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/build/follow_human -- -j12 -l12
+[7.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/apollo/ros_ws/build/follow_human': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/ros_ws/install/task1:/apollo/ros_ws/install/scout_mini_simulation:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /apollo/ros_ws/build/follow_human
+[17.568s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(follow_human)
+[17.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/apollo/ros_ws/build/follow_human' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/ros_ws/install/task1:/apollo/ros_ws/install/scout_mini_simulation:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /apollo/ros_ws/build/follow_human
+[17.583s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/follow_human' for CMake module files
+[17.884s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/follow_human' for CMake config files
+[18.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('follow_human', 'cmake_prefix_path')
+[18.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/follow_human/share/follow_human/hook/cmake_prefix_path.ps1'
+[18.325s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/apollo/ros_ws/install/follow_human/share/follow_human/hook/cmake_prefix_path.dsv'
+[18.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/follow_human/share/follow_human/hook/cmake_prefix_path.sh'
+[18.360s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/follow_human/lib'
+[18.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('follow_human', 'ld_library_path_lib')
+[18.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/follow_human/share/follow_human/hook/ld_library_path_lib.ps1'
+[18.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/apollo/ros_ws/install/follow_human/share/follow_human/hook/ld_library_path_lib.dsv'
+[18.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/follow_human/share/follow_human/hook/ld_library_path_lib.sh'
+[18.412s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/follow_human/bin'
+[18.413s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/follow_human/lib/pkgconfig/follow_human.pc'
+[18.425s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/follow_human/lib/python3.10/site-packages'
+[18.427s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/follow_human/bin'
+[18.429s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/follow_human/share/follow_human/package.ps1'
+[18.443s] INFO:colcon.colcon_core.shell:Creating package descriptor '/apollo/ros_ws/install/follow_human/share/follow_human/package.dsv'
+[18.462s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/follow_human/share/follow_human/package.sh'
+[18.476s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/follow_human/share/follow_human/package.bash'
+[18.492s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/follow_human/share/follow_human/package.zsh'
+[18.505s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/apollo/ros_ws/install/follow_human/share/colcon-core/packages/follow_human)
+[18.533s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(follow_human)
+[18.533s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/follow_human' for CMake module files
+[18.851s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/follow_human' for CMake config files
+[19.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('follow_human', 'cmake_prefix_path')
+[19.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/follow_human/share/follow_human/hook/cmake_prefix_path.ps1'
+[19.246s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/apollo/ros_ws/install/follow_human/share/follow_human/hook/cmake_prefix_path.dsv'
+[19.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/follow_human/share/follow_human/hook/cmake_prefix_path.sh'
+[19.281s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/follow_human/lib'
+[19.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('follow_human', 'ld_library_path_lib')
+[19.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/follow_human/share/follow_human/hook/ld_library_path_lib.ps1'
+[19.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/apollo/ros_ws/install/follow_human/share/follow_human/hook/ld_library_path_lib.dsv'
+[19.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/apollo/ros_ws/install/follow_human/share/follow_human/hook/ld_library_path_lib.sh'
+[19.335s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/follow_human/bin'
+[19.336s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/follow_human/lib/pkgconfig/follow_human.pc'
+[19.338s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/follow_human/lib/python3.10/site-packages'
+[19.340s] Level 1:colcon.colcon_core.environment:checking '/apollo/ros_ws/install/follow_human/bin'
+[19.342s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/follow_human/share/follow_human/package.ps1'
+[19.350s] INFO:colcon.colcon_core.shell:Creating package descriptor '/apollo/ros_ws/install/follow_human/share/follow_human/package.dsv'
+[19.357s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/follow_human/share/follow_human/package.sh'
+[19.366s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/follow_human/share/follow_human/package.bash'
+[19.377s] INFO:colcon.colcon_core.shell:Creating package script '/apollo/ros_ws/install/follow_human/share/follow_human/package.zsh'
+[19.391s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/apollo/ros_ws/install/follow_human/share/colcon-core/packages/follow_human)
+[19.400s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.401s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.401s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[19.401s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.461s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[19.462s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.462s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.462s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.464s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[19.465s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.465s] INFO:colcon.colcon_core.shell:Creating prefix script '/apollo/ros_ws/install/local_setup.ps1'
+[19.473s] INFO:colcon.colcon_core.shell:Creating prefix util module '/apollo/ros_ws/install/_local_setup_util_ps1.py'
+[19.482s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/apollo/ros_ws/install/setup.ps1'
+[19.522s] INFO:colcon.colcon_core.shell:Creating prefix script '/apollo/ros_ws/install/local_setup.sh'
+[19.528s] INFO:colcon.colcon_core.shell:Creating prefix util module '/apollo/ros_ws/install/_local_setup_util_sh.py'
+[19.535s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/apollo/ros_ws/install/setup.sh'
+[19.571s] INFO:colcon.colcon_core.shell:Creating prefix script '/apollo/ros_ws/install/local_setup.bash'
+[19.577s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/apollo/ros_ws/install/setup.bash'
+[19.601s] INFO:colcon.colcon_core.shell:Creating prefix script '/apollo/ros_ws/install/local_setup.zsh'
+[19.607s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/apollo/ros_ws/install/setup.zsh'
