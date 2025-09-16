@@ -1,0 +1,29 @@
+[4.344s] Invoking command in '/apollo/intro_ws/src/apollo_intro': PYTHONPATH=/apollo/intro_ws/build/apollo_intro/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/apollo/intro_ws/install/apollo_intro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/apollo_intro build --build-base /apollo/intro_ws/build/apollo_intro/build install --record /apollo/intro_ws/build/apollo_intro/install.log --single-version-externally-managed install_data
+[6.221s] running egg_info
+[6.225s] writing ../../build/apollo_intro/apollo_intro.egg-info/PKG-INFO
+[6.231s] writing dependency_links to ../../build/apollo_intro/apollo_intro.egg-info/dependency_links.txt
+[6.239s] writing entry points to ../../build/apollo_intro/apollo_intro.egg-info/entry_points.txt
+[6.246s] writing requirements to ../../build/apollo_intro/apollo_intro.egg-info/requires.txt
+[6.251s] writing top-level names to ../../build/apollo_intro/apollo_intro.egg-info/top_level.txt
+[6.298s] reading manifest file '../../build/apollo_intro/apollo_intro.egg-info/SOURCES.txt'
+[6.361s] writing manifest file '../../build/apollo_intro/apollo_intro.egg-info/SOURCES.txt'
+[6.363s] running build
+[6.364s] running build_py
+[6.376s] copying apollo_intro/practice_task.py -> /apollo/intro_ws/build/apollo_intro/build/lib/apollo_intro
+[6.399s] copying apollo_intro/task.py -> /apollo/intro_ws/build/apollo_intro/build/lib/apollo_intro
+[6.430s] running install
+[6.431s] running install_lib
+[6.467s] copying /apollo/intro_ws/build/apollo_intro/build/lib/apollo_intro/practice_task.py -> /apollo/intro_ws/install/apollo_intro/lib/python3.10/site-packages/apollo_intro
+[6.502s] copying /apollo/intro_ws/build/apollo_intro/build/lib/apollo_intro/task.py -> /apollo/intro_ws/install/apollo_intro/lib/python3.10/site-packages/apollo_intro
+[6.572s] byte-compiling /apollo/intro_ws/install/apollo_intro/lib/python3.10/site-packages/apollo_intro/practice_task.py to practice_task.cpython-310.pyc
+[6.583s] Sorry: IndentationError: expected an indented block after function definition on line 27 (practice_task.py, line 36)
+[6.593s] byte-compiling /apollo/intro_ws/install/apollo_intro/lib/python3.10/site-packages/apollo_intro/task.py to task.cpython-310.pyc
+[6.695s] running install_data
+[6.732s] running install_egg_info
+[6.758s] removing '/apollo/intro_ws/install/apollo_intro/lib/python3.10/site-packages/apollo_intro-0.0.0-py3.10.egg-info' (and everything under it)
+[6.826s] Copying ../../build/apollo_intro/apollo_intro.egg-info to /apollo/intro_ws/install/apollo_intro/lib/python3.10/site-packages/apollo_intro-0.0.0-py3.10.egg-info
+[7.134s] running install_scripts
+[7.299s] Installing practice_task script to /apollo/intro_ws/install/apollo_intro/lib/apollo_intro
+[7.312s] Installing walkthrough script to /apollo/intro_ws/install/apollo_intro/lib/apollo_intro
+[7.325s] writing list of installed files to '/apollo/intro_ws/build/apollo_intro/install.log'
+[7.353s] Invoked command in '/apollo/intro_ws/src/apollo_intro' returned '0': PYTHONPATH=/apollo/intro_ws/build/apollo_intro/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/apollo/intro_ws/install/apollo_intro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/apollo_intro build --build-base /apollo/intro_ws/build/apollo_intro/build install --record /apollo/intro_ws/build/apollo_intro/install.log --single-version-externally-managed install_data

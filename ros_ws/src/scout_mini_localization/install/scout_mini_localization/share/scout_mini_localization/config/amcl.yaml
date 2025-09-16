@@ -1,0 +1,36 @@
+amcl:
+  ros__parameters:
+    use_sim_time: false
+
+    # Topics
+    scan_topic: scan
+    odom_frame_id: odom
+    base_frame_id: base_link
+    global_frame_id: map
+
+    # Particle filter parameters
+    min_particles: 500
+    max_particles: 2000
+    update_min_d: 0.2
+    update_min_a: 0.2
+
+    # Laser model
+    laser_max_range: 12.0
+    laser_min_range: 0.1
+    laser_z_hit: 0.95
+    laser_z_rand: 0.05
+    laser_sigma_hit: 0.2
+
+    # Odometry model (diff drive, skid-steer)
+    odom_alpha1: 0.2
+    odom_alpha2: 0.2
+    odom_alpha3: 0.2
+    odom_alpha4: 0.2
+    odom_model_type: "diff"
+
+    # Initial pose covariance
+    initial_pose_x: 0.0
+    initial_pose_y: 0.0
+    initial_pose_a: 0.0
+    set_initial_pose: false
+    always_reset_initial_pose: false

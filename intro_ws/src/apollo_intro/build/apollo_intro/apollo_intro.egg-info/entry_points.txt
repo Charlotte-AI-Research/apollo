@@ -1,0 +1,4 @@
+[console_scripts]
+practice_task = apollo_intro.task:main
+walkthrough = apollo_intro.walkthrough:main
+

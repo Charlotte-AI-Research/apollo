@@ -1,0 +1,36 @@
+[0.161s] Invoking command in '/apollo/ros_ws/src/scout_mini_localization/build/scout_mini_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake /apollo/ros_ws/src/scout_mini_localization -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/src/scout_mini_localization/install/scout_mini_localization
+[0.296s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.164s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.584s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.586s] -- Configured cppcheck include dirs: 
+[4.586s] -- Configured cppcheck exclude dirs and/or files: 
+[4.920s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.567s] -- Added test 'lint_cmake' to check CMake code style
+[5.881s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.073s] -- Added test 'uncrustify' to check C / C++ code style
+[8.073s] -- Configured uncrustify additional arguments: 
+[8.355s] -- Added test 'xmllint' to check XML markup files
+[8.460s] -- Configuring done
+[8.657s] -- Generating done
+[8.762s] -- Build files have been written to: /apollo/ros_ws/src/scout_mini_localization/build/scout_mini_localization
+[8.764s] Invoked command in '/apollo/ros_ws/src/scout_mini_localization/build/scout_mini_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake /apollo/ros_ws/src/scout_mini_localization -DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/src/scout_mini_localization/install/scout_mini_localization
+[8.778s] Invoking command in '/apollo/ros_ws/src/scout_mini_localization/build/scout_mini_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/src/scout_mini_localization/build/scout_mini_localization -- -j12 -l12
+[9.174s] Invoked command in '/apollo/ros_ws/src/scout_mini_localization/build/scout_mini_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /apollo/ros_ws/src/scout_mini_localization/build/scout_mini_localization -- -j12 -l12
+[9.261s] Invoking command in '/apollo/ros_ws/src/scout_mini_localization/build/scout_mini_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /apollo/ros_ws/src/scout_mini_localization/build/scout_mini_localization
+[9.340s] -- Install configuration: ""
+[9.371s] -- Installing: /apollo/ros_ws/src/scout_mini_localization/install/scout_mini_localization/share/ament_index/resource_index/package_run_dependencies/scout_mini_localization
+[9.442s] -- Installing: /apollo/ros_ws/src/scout_mini_localization/install/scout_mini_localization/share/ament_index/resource_index/parent_prefix_path/scout_mini_localization
+[9.503s] -- Installing: /apollo/ros_ws/src/scout_mini_localization/install/scout_mini_localization/share/scout_mini_localization/environment/ament_prefix_path.sh
+[9.545s] -- Installing: /apollo/ros_ws/src/scout_mini_localization/install/scout_mini_localization/share/scout_mini_localization/environment/ament_prefix_path.dsv
+[9.592s] -- Installing: /apollo/ros_ws/src/scout_mini_localization/install/scout_mini_localization/share/scout_mini_localization/environment/path.sh
+[9.633s] -- Installing: /apollo/ros_ws/src/scout_mini_localization/install/scout_mini_localization/share/scout_mini_localization/environment/path.dsv
+[9.682s] -- Installing: /apollo/ros_ws/src/scout_mini_localization/install/scout_mini_localization/share/scout_mini_localization/local_setup.bash
+[9.717s] -- Installing: /apollo/ros_ws/src/scout_mini_localization/install/scout_mini_localization/share/scout_mini_localization/local_setup.sh
+[9.759s] -- Installing: /apollo/ros_ws/src/scout_mini_localization/install/scout_mini_localization/share/scout_mini_localization/local_setup.zsh
+[9.800s] -- Installing: /apollo/ros_ws/src/scout_mini_localization/install/scout_mini_localization/share/scout_mini_localization/local_setup.dsv
+[9.838s] -- Installing: /apollo/ros_ws/src/scout_mini_localization/install/scout_mini_localization/share/scout_mini_localization/package.dsv
+[9.896s] -- Installing: /apollo/ros_ws/src/scout_mini_localization/install/scout_mini_localization/share/ament_index/resource_index/packages/scout_mini_localization
+[9.963s] -- Installing: /apollo/ros_ws/src/scout_mini_localization/install/scout_mini_localization/share/scout_mini_localization/cmake/scout_mini_localizationConfig.cmake
+[10.018s] -- Installing: /apollo/ros_ws/src/scout_mini_localization/install/scout_mini_localization/share/scout_mini_localization/cmake/scout_mini_localizationConfig-version.cmake
+[10.086s] -- Installing: /apollo/ros_ws/src/scout_mini_localization/install/scout_mini_localization/share/scout_mini_localization/package.xml
+[10.124s] Invoked command in '/apollo/ros_ws/src/scout_mini_localization/build/scout_mini_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/apollo/dev_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /apollo/ros_ws/src/scout_mini_localization/build/scout_mini_localization

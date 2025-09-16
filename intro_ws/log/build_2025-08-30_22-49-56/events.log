@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.000807] (apollo_intro) JobQueued: {'identifier': 'apollo_intro', 'dependencies': OrderedDict()}
+[0.001600] (apollo_intro) JobStarted: {'identifier': 'apollo_intro'}
+[0.094934] (-) TimerEvent: {}
+[0.195434] (-) TimerEvent: {}
+[0.295868] (-) TimerEvent: {}
+[0.396397] (-) TimerEvent: {}
+[0.497016] (-) TimerEvent: {}
+[0.597770] (-) TimerEvent: {}
+[0.698383] (-) TimerEvent: {}
+[0.799047] (-) TimerEvent: {}
+[0.899584] (-) TimerEvent: {}
+[1.000084] (-) TimerEvent: {}
+[1.100714] (-) TimerEvent: {}
+[1.201249] (-) TimerEvent: {}
+[1.301756] (-) TimerEvent: {}
+[1.402365] (-) TimerEvent: {}
+[1.503124] (-) TimerEvent: {}
+[1.603877] (-) TimerEvent: {}
+[1.704822] (-) TimerEvent: {}
+[1.805324] (-) TimerEvent: {}
+[1.908017] (-) TimerEvent: {}
+[2.008644] (-) TimerEvent: {}
+[2.109473] (-) TimerEvent: {}
+[2.210069] (-) TimerEvent: {}
+[2.310448] (-) TimerEvent: {}
+[2.410806] (-) TimerEvent: {}
+[2.511897] (-) TimerEvent: {}
+[2.612448] (-) TimerEvent: {}
+[2.712932] (-) TimerEvent: {}
+[2.813470] (-) TimerEvent: {}
+[2.913908] (-) TimerEvent: {}
+[3.014443] (-) TimerEvent: {}
+[3.114973] (-) TimerEvent: {}
+[3.215509] (-) TimerEvent: {}
+[3.316134] (-) TimerEvent: {}
+[3.416767] (-) TimerEvent: {}
+[3.517311] (-) TimerEvent: {}
+[3.617946] (-) TimerEvent: {}
+[3.718499] (-) TimerEvent: {}
+[3.819114] (-) TimerEvent: {}
+[3.919687] (-) TimerEvent: {}
+[4.020125] (-) TimerEvent: {}
+[4.120734] (-) TimerEvent: {}
+[4.221116] (-) TimerEvent: {}
+[4.321668] (-) TimerEvent: {}
+[4.422089] (-) TimerEvent: {}
+[4.522557] (-) TimerEvent: {}
+[4.622962] (-) TimerEvent: {}
+[4.723342] (-) TimerEvent: {}
+[4.823911] (-) TimerEvent: {}
+[4.924308] (-) TimerEvent: {}
+[4.998356] (apollo_intro) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/apollo_intro', 'build', '--build-base', '/apollo/intro_ws/build/apollo_intro/build', 'install', '--record', '/apollo/intro_ws/build/apollo_intro/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/apollo/intro_ws/src/apollo_intro', 'env': {'HOSTNAME': 'docker-desktop', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/6f17636121051a53c88d3e605c491d22af2ba755/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/apollo/ros_ws/install/follow_human/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/6f17636121051a53c88d3e605c491d22af2ba755/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'OLDPWD': '/apollo', 'TERM_PROGRAM_VERSION': '1.103.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-7e5b8e03-c32b-4dff-a5ff-0d084076086a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/6f17636121051a53c88d3e605c491d22af2ba755/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/6f17636121051a53c88d3e605c491d22af2ba755/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'vscode-wayland-c8b70d55-9a37-40ea-af26-bf9bd816147b.sock', 'COLCON_PREFIX_PATH': '/apollo/intro_ws/install:/apollo/intro_ws/src/install:/apollo/ros_ws/install:/apollo/dev_ws/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-6fef331f-c6cf-42d4-ae1d-1c626ba83bd1.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/vscode-server/bin/linux-x64/6f17636121051a53c88d3e605c491d22af2ba755/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/tmp/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X11","/home/ubuntu/.gnupg/S.gpg-agent"]', 'DISPLAY': ':11', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/1000/vscode-git-abc4106309.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/apollo/intro_ws/install/apollo_intro:/apollo/intro_ws/src/install/apollo_intro:/apollo/dev_ws/install/my_package:/apollo/ros_ws/install/follow_human:/opt/ros/humble', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X11', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/apollo/intro_ws/build/apollo_intro', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/apollo/intro_ws/build/apollo_intro/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/apollo/intro_ws/install/apollo_intro/lib/python3.10/site-packages:/apollo/intro_ws/install/apollo_intro/lib/python3.10/site-packages:/apollo/intro_ws/src/install/apollo_intro/lib/python3.10/site-packages:/apollo/dev_ws/install/my_package/lib/python3.10/site-packages:/apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/apollo/ros_ws/install/follow_human'}, 'shell': False}
+[5.024366] (-) TimerEvent: {}
+[5.124946] (-) TimerEvent: {}
+[5.225541] (-) TimerEvent: {}
+[5.325994] (-) TimerEvent: {}
+[5.426440] (-) TimerEvent: {}
+[5.526930] (-) TimerEvent: {}
+[5.627447] (-) TimerEvent: {}
+[5.727857] (-) TimerEvent: {}
+[5.828336] (-) TimerEvent: {}
+[5.929225] (-) TimerEvent: {}
+[6.029748] (-) TimerEvent: {}
+[6.130430] (-) TimerEvent: {}
+[6.230953] (-) TimerEvent: {}
+[6.331511] (-) TimerEvent: {}
+[6.431975] (-) TimerEvent: {}
+[6.532568] (-) TimerEvent: {}
+[6.633316] (-) TimerEvent: {}
+[6.733924] (-) TimerEvent: {}
+[6.762383] (apollo_intro) StdoutLine: {'line': b'running egg_info\n'}
+[6.767681] (apollo_intro) StdoutLine: {'line': b'writing ../../build/apollo_intro/apollo_intro.egg-info/PKG-INFO\n'}
+[6.774065] (apollo_intro) StdoutLine: {'line': b'writing dependency_links to ../../build/apollo_intro/apollo_intro.egg-info/dependency_links.txt\n'}
+[6.779150] (apollo_intro) StdoutLine: {'line': b'writing entry points to ../../build/apollo_intro/apollo_intro.egg-info/entry_points.txt\n'}
+[6.783730] (apollo_intro) StdoutLine: {'line': b'writing requirements to ../../build/apollo_intro/apollo_intro.egg-info/requires.txt\n'}
+[6.786675] (apollo_intro) StdoutLine: {'line': b'writing top-level names to ../../build/apollo_intro/apollo_intro.egg-info/top_level.txt\n'}
+[6.819382] (apollo_intro) StdoutLine: {'line': b"reading manifest file '../../build/apollo_intro/apollo_intro.egg-info/SOURCES.txt'\n"}
+[6.834049] (-) TimerEvent: {}
+[6.886258] (apollo_intro) StdoutLine: {'line': b"writing manifest file '../../build/apollo_intro/apollo_intro.egg-info/SOURCES.txt'\n"}
+[6.889831] (apollo_intro) StdoutLine: {'line': b'running build\n'}
+[6.890545] (apollo_intro) StdoutLine: {'line': b'running build_py\n'}
+[6.918084] (apollo_intro) StdoutLine: {'line': b'running install\n'}
+[6.918793] (apollo_intro) StdoutLine: {'line': b'running install_lib\n'}
+[6.934132] (-) TimerEvent: {}
+[7.033691] (apollo_intro) StdoutLine: {'line': b'byte-compiling /apollo/intro_ws/install/apollo_intro/lib/python3.10/site-packages/apollo_intro/practice_task.py to practice_task.cpython-310.pyc\n'}
+[7.035739] (-) TimerEvent: {}
+[7.049499] (apollo_intro) StderrLine: {'line': b'Sorry: IndentationError: expected an indented block after function definition on line 27 (practice_task.py, line 36)\n'}
+[7.104412] (apollo_intro) StdoutLine: {'line': b'running install_data\n'}
+[7.135809] (-) TimerEvent: {}
+[7.139670] (apollo_intro) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.169091] (apollo_intro) StdoutLine: {'line': b"removing '/apollo/intro_ws/install/apollo_intro/lib/python3.10/site-packages/apollo_intro-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.233600] (apollo_intro) StdoutLine: {'line': b'Copying ../../build/apollo_intro/apollo_intro.egg-info to /apollo/intro_ws/install/apollo_intro/lib/python3.10/site-packages/apollo_intro-0.0.0-py3.10.egg-info\n'}
+[7.235875] (-) TimerEvent: {}
+[7.336372] (-) TimerEvent: {}
+[7.436839] (-) TimerEvent: {}
+[7.453939] (apollo_intro) StdoutLine: {'line': b'running install_scripts\n'}
+[7.536933] (-) TimerEvent: {}
+[7.585142] (apollo_intro) StdoutLine: {'line': b'Installing practice_task script to /apollo/intro_ws/install/apollo_intro/lib/apollo_intro\n'}
+[7.593611] (apollo_intro) StdoutLine: {'line': b'Installing walkthrough script to /apollo/intro_ws/install/apollo_intro/lib/apollo_intro\n'}
+[7.602737] (apollo_intro) StdoutLine: {'line': b"writing list of installed files to '/apollo/intro_ws/build/apollo_intro/install.log'\n"}
+[7.623766] (apollo_intro) CommandEnded: {'returncode': 0}
+[7.637012] (-) TimerEvent: {}
+[7.738733] (-) TimerEvent: {}
+[7.839340] (-) TimerEvent: {}
+[7.896286] (apollo_intro) JobEnded: {'identifier': 'apollo_intro', 'rc': 0}
+[7.901704] (-) EventReactorShutdown: {}

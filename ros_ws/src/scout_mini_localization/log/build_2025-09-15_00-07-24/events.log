@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.000474] (scout_mini_localization) JobQueued: {'identifier': 'scout_mini_localization', 'dependencies': OrderedDict()}
+[0.000778] (scout_mini_localization) JobStarted: {'identifier': 'scout_mini_localization'}
+[0.097959] (-) TimerEvent: {}
+[0.163651] (scout_mini_localization) JobProgress: {'identifier': 'scout_mini_localization', 'progress': 'cmake'}
+[0.196581] (scout_mini_localization) Command: {'cmd': ['/usr/bin/cmake', '/apollo/ros_ws/src/scout_mini_localization', '-DCMAKE_INSTALL_PREFIX=/apollo/ros_ws/src/scout_mini_localization/install/scout_mini_localization'], 'cwd': '/apollo/ros_ws/src/scout_mini_localization/build/scout_mini_localization', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/apollo/ros_ws/install/follow_human/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/apollo/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.104.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-5db50da7-af6b-4a2e-9185-0779c55bea93.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-6a3ff555-4b3d-43af-8015-2a3087b22ead.sock'), ('COLCON_PREFIX_PATH', '/apollo/ros_ws/install:/apollo/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-7907cdf9-70d9-4167-a990-3184e6a94e44.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '22273'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X4","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':4'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-abc4106309.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/apollo/dev_ws/install/my_package:/apollo/ros_ws/install/follow_human:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X4'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/apollo/ros_ws/src/scout_mini_localization/build/scout_mini_localization'), ('ENABLE_IDE_INTEGRATION', 'true'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/apollo/dev_ws/install/my_package/lib/python3.10/site-packages:/apollo/ros_ws/install/follow_human/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/apollo/ros_ws/install/follow_human:/apollo/dev_ws/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.208355] (-) TimerEvent: {}
+[0.308814] (-) TimerEvent: {}
+[0.409399] (-) TimerEvent: {}
+[0.509926] (-) TimerEvent: {}
+[0.610521] (-) TimerEvent: {}
+[0.711215] (-) TimerEvent: {}
+[0.811921] (-) TimerEvent: {}
+[0.890620] (scout_mini_localization) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.912038] (-) TimerEvent: {}
+[1.012564] (-) TimerEvent: {}
+[1.113173] (-) TimerEvent: {}
+[1.213806] (-) TimerEvent: {}
+[1.293552] (scout_mini_localization) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.313932] (-) TimerEvent: {}
+[1.365287] (scout_mini_localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.414041] (-) TimerEvent: {}
+[1.514588] (-) TimerEvent: {}
+[1.615183] (-) TimerEvent: {}
+[1.715778] (-) TimerEvent: {}
+[1.816316] (-) TimerEvent: {}
+[1.916846] (-) TimerEvent: {}
+[2.017383] (-) TimerEvent: {}
+[2.117998] (-) TimerEvent: {}
+[2.218594] (-) TimerEvent: {}
+[2.319210] (-) TimerEvent: {}
+[2.357803] (scout_mini_localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.377040] (scout_mini_localization) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.378538] (scout_mini_localization) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.379542] (scout_mini_localization) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.419352] (-) TimerEvent: {}
+[2.421984] (scout_mini_localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.519499] (-) TimerEvent: {}
+[2.620150] (-) TimerEvent: {}
+[2.720760] (-) TimerEvent: {}
+[2.821261] (-) TimerEvent: {}
+[2.921912] (-) TimerEvent: {}
+[3.022558] (-) TimerEvent: {}
+[3.123264] (-) TimerEvent: {}
+[3.223915] (-) TimerEvent: {}
+[3.324527] (-) TimerEvent: {}
+[3.425282] (-) TimerEvent: {}
+[3.526100] (-) TimerEvent: {}
+[3.626662] (-) TimerEvent: {}
+[3.637253] (scout_mini_localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.659714] (scout_mini_localization) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.660656] (scout_mini_localization) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.661485] (scout_mini_localization) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.726805] (-) TimerEvent: {}
+[3.815839] (scout_mini_localization) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.826899] (-) TimerEvent: {}
+[3.927447] (-) TimerEvent: {}
+[4.028087] (-) TimerEvent: {}
+[4.128612] (-) TimerEvent: {}
+[4.229104] (-) TimerEvent: {}
+[4.329541] (-) TimerEvent: {}
+[4.430155] (-) TimerEvent: {}
+[4.530676] (-) TimerEvent: {}
+[4.631200] (-) TimerEvent: {}
+[4.731909] (-) TimerEvent: {}
+[4.833848] (-) TimerEvent: {}
+[4.934397] (-) TimerEvent: {}
+[5.034940] (-) TimerEvent: {}
+[5.135581] (-) TimerEvent: {}
+[5.236086] (-) TimerEvent: {}
+[5.336949] (-) TimerEvent: {}
+[5.408484] (scout_mini_localization) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.437125] (-) TimerEvent: {}
+[5.537716] (-) TimerEvent: {}
+[5.638343] (-) TimerEvent: {}
+[5.738992] (-) TimerEvent: {}
+[5.839541] (-) TimerEvent: {}
+[5.940252] (-) TimerEvent: {}
+[6.040777] (-) TimerEvent: {}
+[6.141512] (-) TimerEvent: {}
+[6.242235] (-) TimerEvent: {}
+[6.342620] (-) TimerEvent: {}
+[6.443362] (-) TimerEvent: {}
+[6.544047] (-) TimerEvent: {}
+[6.644604] (-) TimerEvent: {}
+[6.745341] (-) TimerEvent: {}
+[6.845892] (-) TimerEvent: {}
+[6.946503] (-) TimerEvent: {}
+[7.047177] (-) TimerEvent: {}
+[7.144637] (scout_mini_localization) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:15 (find_package):\n'}
+[7.145898] (scout_mini_localization) StderrLine: {'line': b'  By not providing "Findnav2_amcl.cmake" in CMAKE_MODULE_PATH this project\n'}
+[7.146983] (scout_mini_localization) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[7.148165] (-) TimerEvent: {}
+[7.148581] (scout_mini_localization) StderrLine: {'line': b'  "nav2_amcl", but CMake did not find one.\n'}
+[7.149656] (scout_mini_localization) StderrLine: {'line': b'\n'}
+[7.150645] (scout_mini_localization) StderrLine: {'line': b'  Could not find a package configuration file provided by "nav2_amcl" with\n'}
+[7.151799] (scout_mini_localization) StderrLine: {'line': b'  any of the following names:\n'}
+[7.152857] (scout_mini_localization) StderrLine: {'line': b'\n'}
+[7.153644] (scout_mini_localization) StderrLine: {'line': b'    nav2_amclConfig.cmake\n'}
+[7.154491] (scout_mini_localization) StderrLine: {'line': b'    nav2_amcl-config.cmake\n'}
+[7.155320] (scout_mini_localization) StderrLine: {'line': b'\n'}
+[7.156431] (scout_mini_localization) StderrLine: {'line': b'  Add the installation prefix of "nav2_amcl" to CMAKE_PREFIX_PATH or set\n'}
+[7.157298] (scout_mini_localization) StderrLine: {'line': b'  "nav2_amcl_DIR" to a directory containing one of the above files.  If\n'}
+[7.158137] (scout_mini_localization) StderrLine: {'line': b'  "nav2_amcl" provides a separate development package or SDK, be sure it has\n'}
+[7.159062] (scout_mini_localization) StderrLine: {'line': b'  been installed.\n'}
+[7.159991] (scout_mini_localization) StderrLine: {'line': b'\n'}
+[7.160983] (scout_mini_localization) StderrLine: {'line': b'\x1b[0m\n'}
+[7.161835] (scout_mini_localization) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.162714] (scout_mini_localization) StdoutLine: {'line': b'See also "/apollo/ros_ws/src/scout_mini_localization/build/scout_mini_localization/CMakeFiles/CMakeOutput.log".\n'}
+[7.165473] (scout_mini_localization) CommandEnded: {'returncode': 1}
+[7.248482] (-) TimerEvent: {}
+[7.349116] (-) TimerEvent: {}
+[7.387078] (scout_mini_localization) JobEnded: {'identifier': 'scout_mini_localization', 'rc': 1}
+[7.395167] (-) EventReactorShutdown: {}

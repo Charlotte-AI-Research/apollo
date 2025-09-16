@@ -1,0 +1,40 @@
+[3.996s] Invoking command in '/apollo/ros_ws/src/task1': PYTHONPATH=/apollo/ros_ws/src/task1/build/task1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/apollo/ros_ws/src/task1/install/task1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/task1 build --build-base /apollo/ros_ws/src/task1/build/task1/build install --record /apollo/ros_ws/src/task1/build/task1/install.log --single-version-externally-managed install_data
+[5.628s] running egg_info
+[5.631s] creating build/task1/task1.egg-info
+[5.635s] writing build/task1/task1.egg-info/PKG-INFO
+[5.641s] writing dependency_links to build/task1/task1.egg-info/dependency_links.txt
+[5.644s] writing entry points to build/task1/task1.egg-info/entry_points.txt
+[5.647s] writing requirements to build/task1/task1.egg-info/requires.txt
+[5.651s] writing top-level names to build/task1/task1.egg-info/top_level.txt
+[5.655s] writing manifest file 'build/task1/task1.egg-info/SOURCES.txt'
+[5.675s] reading manifest file 'build/task1/task1.egg-info/SOURCES.txt'
+[5.710s] writing manifest file 'build/task1/task1.egg-info/SOURCES.txt'
+[5.712s] running build
+[5.713s] running build_py
+[5.716s] creating /apollo/ros_ws/src/task1/build/task1/build
+[5.717s] creating /apollo/ros_ws/src/task1/build/task1/build/lib
+[5.718s] creating /apollo/ros_ws/src/task1/build/task1/build/lib/task1
+[5.724s] copying task1/task1.py -> /apollo/ros_ws/src/task1/build/task1/build/lib/task1
+[5.740s] copying task1/task2.py -> /apollo/ros_ws/src/task1/build/task1/build/lib/task1
+[5.754s] copying task1/__init__.py -> /apollo/ros_ws/src/task1/build/task1/build/lib/task1
+[5.828s] running install
+[5.829s] running install_lib
+[5.874s] creating /apollo/ros_ws/src/task1/install/task1/lib/python3.10/site-packages/task1
+[5.892s] copying /apollo/ros_ws/src/task1/build/task1/build/lib/task1/task1.py -> /apollo/ros_ws/src/task1/install/task1/lib/python3.10/site-packages/task1
+[5.920s] copying /apollo/ros_ws/src/task1/build/task1/build/lib/task1/task2.py -> /apollo/ros_ws/src/task1/install/task1/lib/python3.10/site-packages/task1
+[5.949s] copying /apollo/ros_ws/src/task1/build/task1/build/lib/task1/__init__.py -> /apollo/ros_ws/src/task1/install/task1/lib/python3.10/site-packages/task1
+[5.982s] byte-compiling /apollo/ros_ws/src/task1/install/task1/lib/python3.10/site-packages/task1/task1.py to task1.cpython-310.pyc
+[6.012s] byte-compiling /apollo/ros_ws/src/task1/install/task1/lib/python3.10/site-packages/task1/task2.py to task2.cpython-310.pyc
+[6.045s] byte-compiling /apollo/ros_ws/src/task1/install/task1/lib/python3.10/site-packages/task1/__init__.py to __init__.cpython-310.pyc
+[6.081s] running install_data
+[6.084s] creating /apollo/ros_ws/src/task1/install/task1/share/ament_index
+[6.086s] creating /apollo/ros_ws/src/task1/install/task1/share/ament_index/resource_index
+[6.087s] creating /apollo/ros_ws/src/task1/install/task1/share/ament_index/resource_index/packages
+[6.096s] copying resource/task1 -> /apollo/ros_ws/src/task1/install/task1/share/ament_index/resource_index/packages
+[6.110s] copying package.xml -> /apollo/ros_ws/src/task1/install/task1/share/task1
+[6.117s] running install_egg_info
+[6.136s] Copying build/task1/task1.egg-info to /apollo/ros_ws/src/task1/install/task1/lib/python3.10/site-packages/task1-0.1.0-py3.10.egg-info
+[6.327s] running install_scripts
+[6.484s] Installing task1 script to /apollo/ros_ws/src/task1/install/task1/lib/auto_break
+[6.497s] writing list of installed files to '/apollo/ros_ws/src/task1/build/task1/install.log'
+[6.517s] Invoked command in '/apollo/ros_ws/src/task1' returned '0': PYTHONPATH=/apollo/ros_ws/src/task1/build/task1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/apollo/ros_ws/src/task1/install/task1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/task1 build --build-base /apollo/ros_ws/src/task1/build/task1/build install --record /apollo/ros_ws/src/task1/build/task1/install.log --single-version-externally-managed install_data

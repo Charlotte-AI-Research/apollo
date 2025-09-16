@@ -1,0 +1,3 @@
+/usr/lib/python3.10/distutils/dist.py:274: UserWarning: Unknown distribution option: 'ententry_points'
+  warnings.warn(msg)
+Sorry: IndentationError: expected an indented block after function definition on line 27 (practice_task.py, line 36)
