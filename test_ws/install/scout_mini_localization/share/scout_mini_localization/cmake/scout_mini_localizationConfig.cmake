@@ -1,0 +1,1 @@
+/home/agilex/test_ws/build/scout_mini_localization/ament_cmake_core/scout_mini_localizationConfig.cmake

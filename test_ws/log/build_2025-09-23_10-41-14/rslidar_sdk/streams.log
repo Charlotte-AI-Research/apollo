@@ -1,0 +1,30 @@
+[0.052s] Invoking command in '/home/agilex/test_ws/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/agilex/test_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/test_ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/test_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/test_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agilex/test_ws/build/rslidar_sdk -- -j8 -l8
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target rslidar_sdk_node[0m
+[0.102s] [100%] Built target rslidar_sdk_node
+[0.111s] Invoked command in '/home/agilex/test_ws/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/home/agilex/test_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/test_ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/test_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/test_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agilex/test_ws/build/rslidar_sdk -- -j8 -l8
+[0.113s] Invoking command in '/home/agilex/test_ws/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/agilex/test_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/test_ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/test_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/test_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agilex/test_ws/build/rslidar_sdk
+[0.119s] -- Install configuration: "Release"
+[0.119s] -- Execute custom install script
+[0.119s] -- Symlinking: /home/agilex/test_ws/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node
+[0.128s] -- Symlinking: /home/agilex/test_ws/install/rslidar_sdk/share/rslidar_sdk/launch/elequent_start.py
+[0.136s] -- Symlinking: /home/agilex/test_ws/install/rslidar_sdk/share/rslidar_sdk/launch/humble_start.py
+[0.146s] -- Symlinking: /home/agilex/test_ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.launch
+[0.155s] -- Symlinking: /home/agilex/test_ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.py
+[0.163s] -- Symlinking: /home/agilex/test_ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz.rviz
+[0.171s] -- Symlinking: /home/agilex/test_ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz2.rviz
+[0.179s] -- Symlinking: /home/agilex/test_ws/install/rslidar_sdk/share/ament_index/resource_index/package_run_dependencies/rslidar_sdk
+[0.186s] -- Symlinking: /home/agilex/test_ws/install/rslidar_sdk/share/ament_index/resource_index/parent_prefix_path/rslidar_sdk
+[0.195s] -- Symlinking: /home/agilex/test_ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.sh
+[0.205s] -- Symlinking: /home/agilex/test_ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.dsv
+[0.216s] -- Symlinking: /home/agilex/test_ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.sh
+[0.228s] -- Symlinking: /home/agilex/test_ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.dsv
+[0.236s] -- Symlinking: /home/agilex/test_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.bash
+[0.243s] -- Symlinking: /home/agilex/test_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.sh
+[0.251s] -- Symlinking: /home/agilex/test_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.zsh
+[0.259s] -- Symlinking: /home/agilex/test_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.dsv
+[0.267s] -- Symlinking: /home/agilex/test_ws/install/rslidar_sdk/share/rslidar_sdk/package.dsv
+[0.274s] -- Symlinking: /home/agilex/test_ws/install/rslidar_sdk/share/ament_index/resource_index/packages/rslidar_sdk
+[0.281s] -- Symlinking: /home/agilex/test_ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig.cmake
+[0.288s] -- Symlinking: /home/agilex/test_ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig-version.cmake
+[0.296s] -- Symlinking: /home/agilex/test_ws/install/rslidar_sdk/share/rslidar_sdk/package.xml
+[0.516s] Invoked command in '/home/agilex/test_ws/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/home/agilex/test_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/test_ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/test_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/test_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agilex/test_ws/build/rslidar_sdk

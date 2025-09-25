@@ -1,0 +1,2 @@
+source;share/scout_mini_base/environment/ament_prefix_path.sh
+source;share/scout_mini_base/environment/path.sh

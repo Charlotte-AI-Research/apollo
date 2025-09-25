@@ -1,0 +1,9 @@
+<library path="scout_mini_hardware">
+  <class name="scout_mini_hardware/ScoutMiniHardware"
+         type="scout_mini_hardware::ScoutMiniHardware"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      Hardware interface for Scout Mini
+    </description>
+  </class>
+</library>

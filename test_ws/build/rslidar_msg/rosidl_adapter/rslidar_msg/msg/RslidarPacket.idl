@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rslidar_msg/msg/RslidarPacket.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module rslidar_msg {
+  module msg {
+    struct RslidarPacket {
+      std_msgs::msg::Header header;
+
+      uint8 is_difop;
+
+      uint8 is_frame_begin;
+
+      sequence<uint8> data;
+    };
+  };
+};

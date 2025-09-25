@@ -1,0 +1,38 @@
+[0.020s] Invoking command in '/home/agilex/test_ws/build/scout_mini_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agilex/test_ws/src/scout_mini_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agilex/test_ws/install/scout_mini_base
+[0.110s] -- The C compiler identification is GNU 11.4.0
+[0.218s] -- The CXX compiler identification is GNU 11.4.0
+[0.233s] -- Detecting C compiler ABI info
+[0.352s] -- Detecting C compiler ABI info - done
+[0.374s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.374s] -- Detecting C compile features
+[0.375s] -- Detecting C compile features - done
+[0.379s] -- Detecting CXX compiler ABI info
+[0.503s] -- Detecting CXX compiler ABI info - done
+[0.528s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.528s] -- Detecting CXX compile features
+[0.529s] -- Detecting CXX compile features - done
+[0.533s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.804s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.926s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.974s] -- Found ros2_control: 2.52.0 (/opt/ros/humble/share/ros2_control/cmake)
+[0.975s] -- Found ros2_controllers: 2.50.0 (/opt/ros/humble/share/ros2_controllers/cmake)
+[0.988s] -- Configuring incomplete, errors occurred!
+[0.989s] See also "/home/agilex/test_ws/build/scout_mini_base/CMakeFiles/CMakeOutput.log".
+[0.990s] [31mCMake Error at CMakeLists.txt:21 (find_package):
+[0.990s]   By not providing "Findtwist_mux.cmake" in CMAKE_MODULE_PATH this project
+[0.990s]   has asked CMake to find a package configuration file provided by
+[0.991s]   "twist_mux", but CMake did not find one.
+[0.991s] 
+[0.991s]   Could not find a package configuration file provided by "twist_mux" with
+[0.991s]   any of the following names:
+[0.991s] 
+[0.991s]     twist_muxConfig.cmake
+[0.991s]     twist_mux-config.cmake
+[0.991s] 
+[0.991s]   Add the installation prefix of "twist_mux" to CMAKE_PREFIX_PATH or set
+[0.991s]   "twist_mux_DIR" to a directory containing one of the above files.  If
+[0.991s]   "twist_mux" provides a separate development package or SDK, be sure it has
+[0.991s]   been installed.
+[0.992s] 
+[0.992s] [0m
+[1.006s] Invoked command in '/home/agilex/test_ws/build/scout_mini_base' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agilex/test_ws/src/scout_mini_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agilex/test_ws/install/scout_mini_base

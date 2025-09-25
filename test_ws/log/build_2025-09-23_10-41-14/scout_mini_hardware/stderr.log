@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:27 (find_package):
+  By not providing "Findros2_socketcan.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "ros2_socketcan", but CMake did not find one.
+
+  Could not find a package configuration file provided by "ros2_socketcan"
+  with any of the following names:
+
+    ros2_socketcanConfig.cmake
+    ros2_socketcan-config.cmake
+
+  Add the installation prefix of "ros2_socketcan" to CMAKE_PREFIX_PATH or set
+  "ros2_socketcan_DIR" to a directory containing one of the above files.  If
+  "ros2_socketcan" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m

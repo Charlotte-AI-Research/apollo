@@ -1,0 +1,51 @@
+# RoboSense LiDAR to LaserScan Converter Configuration
+#
+# This file contains parameters for converting organized PointCloud2 data
+# from RoboSense RSHELIOS-16P LiDAR to LaserScan format for AMCL localization.
+
+rslidar_to_laserscan_node:
+  ros__parameters:
+    # Topics
+    input_topic: "/rslidar_points"    # PointCloud2 input from rslidar_sdk
+    output_topic: "/scan"             # LaserScan output for AMCL
+    frame_id: "laser_link"            # Frame ID for LaserScan header
+
+    # Conversion Mode
+    # Options: "ring" or "z_slice"
+    # - "ring": Extract a specific ring from organized point cloud
+    # - "z_slice": Extract points within a Z height range
+    conversion_mode: "ring"
+
+    # Ring Extraction Parameters (used when conversion_mode = "ring")
+    # RSHELIOS-16P has 16 rings (0-15), ring 8 is approximately horizontal
+    target_ring: 8
+
+    # Z-Slice Parameters (used when conversion_mode = "z_slice")
+    # Extract points within this Z range relative to sensor frame
+    z_min: -0.02    # 2cm below sensor
+    z_max: 0.02     # 2cm above sensor
+
+    # LaserScan Output Parameters
+    angle_min: -3.141592653589793     # -π radians (-180°)
+    angle_max: 3.141592653589793      # +π radians (+180°)
+    angle_increment: 0.0              # Auto-calculate based on point cloud width (0 = auto)
+    range_min: 0.1                    # Minimum valid range (meters)
+    range_max: 30.0                   # Maximum valid range (meters)
+    scan_time: 0.1                    # Time for one complete scan (10 Hz)
+
+# Alternative configuration for Z-slice mode
+# Uncomment and modify as needed:
+#
+# rslidar_to_laserscan_node:
+#   ros__parameters:
+#     input_topic: "/rslidar_points"
+#     output_topic: "/scan"
+#     frame_id: "laser_link"
+#     conversion_mode: "z_slice"
+#     z_min: -0.05
+#     z_max: 0.05
+#     angle_min: -3.141592653589793
+#     angle_max: 3.141592653589793
+#     range_min: 0.1
+#     range_max: 30.0
+#     scan_time: 0.1

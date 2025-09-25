@@ -1,0 +1,1 @@
+/home/agilex/test_ws/src/scout_object_detector/msg/YoloDetection.msg

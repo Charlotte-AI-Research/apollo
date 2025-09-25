@@ -1,0 +1,42 @@
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/python.hpp:11[m[K,
+                 from [01m[K/home/agilex/test_ws/src/vision_opencv/cv_bridge/src/module.hpp:20[m[K,
+                 from [01m[K/home/agilex/test_ws/src/vision_opencv/cv_bridge/src/module.cpp:36[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+   13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/python.hpp:11[m[K,
+                 from [01m[K/home/agilex/test_ws/src/vision_opencv/cv_bridge/src/module.hpp:20[m[K,
+                 from [01m[K/home/agilex/test_ws/src/vision_opencv/cv_bridge/src/module_opencv3.cpp:3[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+   13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K

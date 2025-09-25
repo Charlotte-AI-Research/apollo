@@ -1,0 +1,1 @@
+/home/agilex/test_ws/build/rslidar_sdk/ament_cmake_core/rslidar_sdkConfig.cmake

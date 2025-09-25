@@ -1,0 +1,64 @@
+[0.023s] Invoking command in '/home/agilex/test_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agilex/test_ws/build/image_geometry -- -j8 -l8
+[0.094s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.113s] [ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.130s] [ 33%] [32mBuilding CXX object CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.o[0m
+[0.142s] [ 33%] Built target ament_cmake_python_symlink_image_geometry
+[0.146s] [ 44%] [32mBuilding CXX object CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.o[0m
+[1.305s] running egg_info
+[1.305s] creating image_geometry.egg-info
+[1.305s] writing image_geometry.egg-info/PKG-INFO
+[1.309s] writing dependency_links to image_geometry.egg-info/dependency_links.txt
+[1.309s] writing top-level names to image_geometry.egg-info/top_level.txt
+[1.309s] writing manifest file 'image_geometry.egg-info/SOURCES.txt'
+[1.315s] reading manifest file 'image_geometry.egg-info/SOURCES.txt'
+[1.316s] writing manifest file 'image_geometry.egg-info/SOURCES.txt'
+[1.416s] [ 44%] Built target ament_cmake_python_build_image_geometry_egg
+[2.887s] [ 55%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.011s] [ 55%] Built target gtest_main
+[6.485s] [ 66%] [32m[1mLinking CXX shared library libimage_geometry.so[0m
+[7.088s] [ 66%] Built target image_geometry
+[18.862s] [ 77%] [32m[1mLinking CXX static library libgtest.a[0m
+[19.195s] [ 77%] Built target gtest
+[19.337s] [ 88%] [32mBuilding CXX object CMakeFiles/image_geometry-utest.dir/test/utest.cpp.o[0m
+[25.636s] [100%] [32m[1mLinking CXX executable image_geometry-utest[0m
+[25.923s] [100%] Built target image_geometry-utest
+[25.937s] Invoked command in '/home/agilex/test_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agilex/test_ws/build/image_geometry -- -j8 -l8
+[25.940s] Invoking command in '/home/agilex/test_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agilex/test_ws/build/image_geometry
+[25.948s] -- Install configuration: ""
+[25.949s] -- Execute custom install script
+[25.949s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[25.959s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+[25.970s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.0.2-py3.10.egg-info/PKG-INFO
+[25.980s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.0.2-py3.10.egg-info/SOURCES.txt
+[25.990s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.0.2-py3.10.egg-info/dependency_links.txt
+[26.000s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.0.2-py3.10.egg-info/top_level.txt
+[26.010s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/__init__.py
+[26.021s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/cameramodels.py
+[26.031s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/include/image_geometry/image_geometry/pinhole_camera_model.h
+[26.041s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/include/image_geometry/image_geometry/stereo_camera_model.h
+[26.053s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/include/image_geometry/image_geometry/visibility_control.hpp
+[26.069s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[26.079s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[26.090s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[26.105s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+[26.121s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/share/image_geometry/environment/path.sh
+[26.136s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/share/image_geometry/environment/path.dsv
+[26.151s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/share/image_geometry/local_setup.bash
+[26.161s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/share/image_geometry/local_setup.sh
+[26.171s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/share/image_geometry/local_setup.zsh
+[26.181s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/share/image_geometry/local_setup.dsv
+[26.191s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/share/image_geometry/package.dsv
+[26.202s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[26.214s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_targets-extras.cmake
+[26.228s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.243s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[26.258s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[26.269s] -- Symlinking: /home/agilex/test_ws/install/image_geometry/share/image_geometry/package.xml
+[26.337s] Listing '/home/agilex/test_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry'...
+[26.337s] Compiling '/home/agilex/test_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/__init__.py'...
+[26.337s] Compiling '/home/agilex/test_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/cameramodels.py'...
+[26.342s] -- Installing: /home/agilex/test_ws/install/image_geometry/lib/libimage_geometry.so
+[26.343s] -- Set runtime path of "/home/agilex/test_ws/install/image_geometry/lib/libimage_geometry.so" to ""
+[26.343s] -- Installing: /home/agilex/test_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport.cmake
+[26.343s] -- Installing: /home/agilex/test_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport-noconfig.cmake
+[26.347s] Invoked command in '/home/agilex/test_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agilex/test_ws/build/image_geometry

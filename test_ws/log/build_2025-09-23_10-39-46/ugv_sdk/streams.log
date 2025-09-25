@@ -1,0 +1,75 @@
+[0.037s] Invoking command in '/home/agilex/test_ws/build/ugv_sdk': /usr/bin/cmake /home/agilex/test_ws/src/ugv_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/agilex/test_ws/install/ugv_sdk
+[6.051s] -- The C compiler identification is GNU 11.4.0
+[6.051s] -- The CXX compiler identification is GNU 11.4.0
+[6.051s] -- Detecting C compiler ABI info
+[6.051s] -- Detecting C compiler ABI info - done
+[6.052s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.052s] -- Detecting C compile features
+[6.052s] -- Detecting C compile features - done
+[6.052s] -- Detecting CXX compiler ABI info
+[6.052s] -- Detecting CXX compiler ABI info - done
+[6.052s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.053s] -- Detecting CXX compile features
+[6.061s] -- Detecting CXX compile features - done
+[6.061s] -- Build package with cmake
+[6.062s] -- Setting build type to 'Release' as none was specified.
+[6.062s] -- Tests will not be built
+[6.062s] -- Looking for pthread.h
+[6.062s] -- Looking for pthread.h - found
+[6.062s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.063s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.078s] -- Found Threads: TRUE  
+[6.078s] -- Project will be installed to /home/agilex/test_ws/install/ugv_sdk with 'make install'
+[6.078s] --  - To install LIB components to /home/agilex/test_ws/install/ugv_sdk/lib
+[6.078s] --  - To install BIN components to /home/agilex/test_ws/install/ugv_sdk/bin
+[6.079s] --  - To install INCLUDE components to /home/agilex/test_ws/install/ugv_sdk/include
+[6.079s] --  - To install CMAKE components to /home/agilex/test_ws/install/ugv_sdk/share/cmake/ugv_sdk
+[6.079s] -- Configuring done
+[6.079s] -- Generating done
+[6.079s] -- Build files have been written to: /home/agilex/test_ws/build/ugv_sdk
+[6.079s] [33mCMake Warning:
+[6.079s]   Manually-specified variables were not used by the project:
+[6.080s] 
+[6.080s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[6.080s]     CATKIN_SYMLINK_INSTALL
+[6.080s] 
+[6.080s] [0m
+[6.080s] Invoked command in '/home/agilex/test_ws/build/ugv_sdk' returned '0': /usr/bin/cmake /home/agilex/test_ws/src/ugv_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/agilex/test_ws/install/ugv_sdk
+[6.081s] Invoking command in '/home/agilex/test_ws/build/ugv_sdk': /usr/bin/cmake --build /home/agilex/test_ws/build/ugv_sdk -- -j8 -l8
+[6.300s] [  3%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o[0m
+[6.324s] [  7%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o[0m
+[6.339s] [ 10%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/ranger_robot.cpp.o[0m
+[6.340s] [ 14%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o[0m
+[6.343s] [ 17%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o[0m
+[6.344s] [ 21%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o[0m
+[6.347s] [ 25%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o[0m
+[6.348s] [ 28%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/titan_robot.cpp.o[0m
+[15.924s] [ 32%] [32mBuilding C object CMakeFiles/ugv_sdk.dir/src/protocol_v2/agilex_msg_parser_v2.c.o[0m
+[17.218s] [ 35%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/protocol_v2/protocol_v2_parser.cpp.o[0m
+[17.475s] [ 39%] [32mBuilding C object CMakeFiles/ugv_sdk.dir/src/protocol_v1/agilex_msg_parser_v1.c.o[0m
+[22.908s] [ 42%] [32m[1mLinking CXX static library lib/libugv_sdk.a[0m
+[22.986s] [ 42%] Built target ugv_sdk
+[23.018s] [ 46%] [32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_robot.dir/scout_robot_demo.cpp.o[0m
+[25.747s] [ 50%] [32m[1mLinking CXX executable ../../bin/demo_scout_robot[0m
+[25.861s] [ 50%] Built target demo_scout_robot
+[25.883s] [ 53%] [32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_robot_version.dir/demo_robot_version.cpp.o[0m
+[27.639s] [ 57%] [32m[1mLinking CXX executable ../../bin/demo_robot_version[0m
+[27.754s] [ 57%] Built target demo_robot_version
+[27.781s] [ 60%] [32mBuilding CXX object sample/hunter_demo/CMakeFiles/demo_hunter_robot.dir/hunter_robot_demo.cpp.o[0m
+[27.785s] [ 64%] [32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_protocol_detector.dir/demo_protocol_detector.cpp.o[0m
+[29.514s] [ 67%] [32m[1mLinking CXX executable ../../bin/demo_hunter_robot[0m
+[29.679s] [ 67%] Built target demo_hunter_robot
+[29.711s] [ 71%] [32mBuilding CXX object sample/bunker_demo/CMakeFiles/demo_bunker_robot.dir/bunker_robot_demo.cpp.o[0m
+[29.980s] [ 75%] [32m[1mLinking CXX executable ../../bin/demo_protocol_detector[0m
+[30.087s] [ 75%] Built target demo_protocol_detector
+[30.108s] [ 78%] [32mBuilding CXX object sample/ranger_demo/CMakeFiles/demo_ranger_robot.dir/ranger_robot_demo.cpp.o[0m
+[30.338s] [ 82%] [32m[1mLinking CXX executable ../../bin/demo_bunker_robot[0m
+[30.444s] [ 82%] Built target demo_bunker_robot
+[30.466s] [ 85%] [32mBuilding CXX object sample/tracer_demo/CMakeFiles/demo_tracer_robot.dir/tracer_robot_demo.cpp.o[0m
+[31.991s] [ 89%] [32m[1mLinking CXX executable ../../bin/demo_ranger_robot[0m
+[32.159s] [ 89%] Built target demo_ranger_robot
+[32.192s] [ 92%] [32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_mini_omni_robot.dir/scout_mini_omni_demo.cpp.o[0m
+[32.581s] [ 96%] [32m[1mLinking CXX executable ../../bin/demo_tracer_robot[0m
+[32.743s] [ 96%] Built target demo_tracer_robot
+[34.103s] [100%] [32m[1mLinking CXX executable ../../bin/demo_scout_mini_omni_robot[0m
+[34.216s] [100%] Built target demo_scout_mini_omni_robot

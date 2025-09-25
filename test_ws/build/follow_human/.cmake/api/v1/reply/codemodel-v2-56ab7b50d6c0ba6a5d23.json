@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fa4b761dea67cf8ce641.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "follow_human__py",
+					"jsonFile" : "directory-follow_human__py-51be5c8ef153630fa23a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/agilex/test_ws/build/follow_human/follow_human__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "follow_human",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_follow_human_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_follow_human_egg-684085334848f9372b1e.json",
+					"name" : "ament_cmake_python_build_follow_human_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_follow_human::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_follow_human-9ad5ecb1078d1f1e4e53.json",
+					"name" : "ament_cmake_python_symlink_follow_human",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human-c0b50c8ea8c30ba76e62.json",
+					"name" : "follow_human",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human__cpp-6e503a30a6378bd633b5.json",
+					"name" : "follow_human__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "follow_human__py::@3186852c11149d56d67b",
+					"jsonFile" : "target-follow_human__py-9a4e45a206c25c177889.json",
+					"name" : "follow_human__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human__rosidl_generator_c-a40ad227a671821664ca.json",
+					"name" : "follow_human__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human__rosidl_generator_py-fe577b4f4c8580aea004.json",
+					"name" : "follow_human__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human__rosidl_typesupport_c-66b8f0f7c8542678f61b.json",
+					"name" : "follow_human__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human__rosidl_typesupport_c__pyext-3fea602faa38c84094b0.json",
+					"name" : "follow_human__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human__rosidl_typesupport_cpp-00d038b4ae4616ea1cb0.json",
+					"name" : "follow_human__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human__rosidl_typesupport_fastrtps_c-382e8c9d71f498d56eca.json",
+					"name" : "follow_human__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human__rosidl_typesupport_fastrtps_c__pyext-2449f089d7c49a5ebf5f.json",
+					"name" : "follow_human__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human__rosidl_typesupport_fastrtps_cpp-94a3e96134b8cbe3072f.json",
+					"name" : "follow_human__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human__rosidl_typesupport_introspection_c-b1826200d5031e27f3f2.json",
+					"name" : "follow_human__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human__rosidl_typesupport_introspection_c__pyext-671420ee2b2b3b441b51.json",
+					"name" : "follow_human__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human__rosidl_typesupport_introspection_cpp-89b6c4deda989a1c849c.json",
+					"name" : "follow_human__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_human_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_human_uninstall-284d035a31b826e1bbab.json",
+					"name" : "follow_human_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2e683acc984c6a9ecd64.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/agilex/test_ws/build/follow_human",
+		"source" : "/home/agilex/test_ws/src/follow_human"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

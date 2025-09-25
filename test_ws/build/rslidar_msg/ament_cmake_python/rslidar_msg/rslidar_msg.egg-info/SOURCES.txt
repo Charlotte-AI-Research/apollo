@@ -1,0 +1,8 @@
+setup.py
+rslidar_msg/__init__.py
+rslidar_msg.egg-info/PKG-INFO
+rslidar_msg.egg-info/SOURCES.txt
+rslidar_msg.egg-info/dependency_links.txt
+rslidar_msg.egg-info/top_level.txt
+rslidar_msg/msg/__init__.py
+rslidar_msg/msg/_rslidar_packet.py

@@ -1,0 +1,97 @@
+[
+{
+  "directory": "/home/agilex/test_ws/build/ugv_sdk",
+  "command": "/usr/bin/c++ -DASIO_ENABLE_OLD_SERVICES -I/home/agilex/test_ws/src/ugv_sdk/include -I/home/agilex/test_ws/src/ugv_sdk/src -O3 -DNDEBUG -fPIC -std=c++11 -o CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o -c /home/agilex/test_ws/src/ugv_sdk/src/async_port/async_serial.cpp",
+  "file": "/home/agilex/test_ws/src/ugv_sdk/src/async_port/async_serial.cpp"
+},
+{
+  "directory": "/home/agilex/test_ws/build/ugv_sdk",
+  "command": "/usr/bin/c++ -DASIO_ENABLE_OLD_SERVICES -I/home/agilex/test_ws/src/ugv_sdk/include -I/home/agilex/test_ws/src/ugv_sdk/src -O3 -DNDEBUG -fPIC -std=c++11 -o CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o -c /home/agilex/test_ws/src/ugv_sdk/src/async_port/async_can.cpp",
+  "file": "/home/agilex/test_ws/src/ugv_sdk/src/async_port/async_can.cpp"
+},
+{
+  "directory": "/home/agilex/test_ws/build/ugv_sdk",
+  "command": "/usr/bin/c++ -DASIO_ENABLE_OLD_SERVICES -I/home/agilex/test_ws/src/ugv_sdk/include -I/home/agilex/test_ws/src/ugv_sdk/src -O3 -DNDEBUG -fPIC -std=c++11 -o CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o -c /home/agilex/test_ws/src/ugv_sdk/src/utilities/protocol_detector.cpp",
+  "file": "/home/agilex/test_ws/src/ugv_sdk/src/utilities/protocol_detector.cpp"
+},
+{
+  "directory": "/home/agilex/test_ws/build/ugv_sdk",
+  "command": "/usr/bin/c++ -DASIO_ENABLE_OLD_SERVICES -I/home/agilex/test_ws/src/ugv_sdk/include -I/home/agilex/test_ws/src/ugv_sdk/src -O3 -DNDEBUG -fPIC -std=c++11 -o CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o -c /home/agilex/test_ws/src/ugv_sdk/src/mobile_robot/scout_robot.cpp",
+  "file": "/home/agilex/test_ws/src/ugv_sdk/src/mobile_robot/scout_robot.cpp"
+},
+{
+  "directory": "/home/agilex/test_ws/build/ugv_sdk",
+  "command": "/usr/bin/c++ -DASIO_ENABLE_OLD_SERVICES -I/home/agilex/test_ws/src/ugv_sdk/include -I/home/agilex/test_ws/src/ugv_sdk/src -O3 -DNDEBUG -fPIC -std=c++11 -o CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o -c /home/agilex/test_ws/src/ugv_sdk/src/mobile_robot/hunter_robot.cpp",
+  "file": "/home/agilex/test_ws/src/ugv_sdk/src/mobile_robot/hunter_robot.cpp"
+},
+{
+  "directory": "/home/agilex/test_ws/build/ugv_sdk",
+  "command": "/usr/bin/c++ -DASIO_ENABLE_OLD_SERVICES -I/home/agilex/test_ws/src/ugv_sdk/include -I/home/agilex/test_ws/src/ugv_sdk/src -O3 -DNDEBUG -fPIC -std=c++11 -o CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o -c /home/agilex/test_ws/src/ugv_sdk/src/mobile_robot/bunker_robot.cpp",
+  "file": "/home/agilex/test_ws/src/ugv_sdk/src/mobile_robot/bunker_robot.cpp"
+},
+{
+  "directory": "/home/agilex/test_ws/build/ugv_sdk",
+  "command": "/usr/bin/c++ -DASIO_ENABLE_OLD_SERVICES -I/home/agilex/test_ws/src/ugv_sdk/include -I/home/agilex/test_ws/src/ugv_sdk/src -O3 -DNDEBUG -fPIC -std=c++11 -o CMakeFiles/ugv_sdk.dir/src/mobile_robot/ranger_robot.cpp.o -c /home/agilex/test_ws/src/ugv_sdk/src/mobile_robot/ranger_robot.cpp",
+  "file": "/home/agilex/test_ws/src/ugv_sdk/src/mobile_robot/ranger_robot.cpp"
+},
+{
+  "directory": "/home/agilex/test_ws/build/ugv_sdk",
+  "command": "/usr/bin/c++ -DASIO_ENABLE_OLD_SERVICES -I/home/agilex/test_ws/src/ugv_sdk/include -I/home/agilex/test_ws/src/ugv_sdk/src -O3 -DNDEBUG -fPIC -std=c++11 -o CMakeFiles/ugv_sdk.dir/src/mobile_robot/titan_robot.cpp.o -c /home/agilex/test_ws/src/ugv_sdk/src/mobile_robot/titan_robot.cpp",
+  "file": "/home/agilex/test_ws/src/ugv_sdk/src/mobile_robot/titan_robot.cpp"
+},
+{
+  "directory": "/home/agilex/test_ws/build/ugv_sdk",
+  "command": "/usr/bin/cc -DASIO_ENABLE_OLD_SERVICES -I/home/agilex/test_ws/src/ugv_sdk/include -I/home/agilex/test_ws/src/ugv_sdk/src -O3 -DNDEBUG -fPIC -o CMakeFiles/ugv_sdk.dir/src/protocol_v2/agilex_msg_parser_v2.c.o -c /home/agilex/test_ws/src/ugv_sdk/src/protocol_v2/agilex_msg_parser_v2.c",
+  "file": "/home/agilex/test_ws/src/ugv_sdk/src/protocol_v2/agilex_msg_parser_v2.c"
+},
+{
+  "directory": "/home/agilex/test_ws/build/ugv_sdk",
+  "command": "/usr/bin/c++ -DASIO_ENABLE_OLD_SERVICES -I/home/agilex/test_ws/src/ugv_sdk/include -I/home/agilex/test_ws/src/ugv_sdk/src -O3 -DNDEBUG -fPIC -std=c++11 -o CMakeFiles/ugv_sdk.dir/src/protocol_v2/protocol_v2_parser.cpp.o -c /home/agilex/test_ws/src/ugv_sdk/src/protocol_v2/protocol_v2_parser.cpp",
+  "file": "/home/agilex/test_ws/src/ugv_sdk/src/protocol_v2/protocol_v2_parser.cpp"
+},
+{
+  "directory": "/home/agilex/test_ws/build/ugv_sdk",
+  "command": "/usr/bin/cc -DASIO_ENABLE_OLD_SERVICES -I/home/agilex/test_ws/src/ugv_sdk/include -I/home/agilex/test_ws/src/ugv_sdk/src -O3 -DNDEBUG -fPIC -o CMakeFiles/ugv_sdk.dir/src/protocol_v1/agilex_msg_parser_v1.c.o -c /home/agilex/test_ws/src/ugv_sdk/src/protocol_v1/agilex_msg_parser_v1.c",
+  "file": "/home/agilex/test_ws/src/ugv_sdk/src/protocol_v1/agilex_msg_parser_v1.c"
+},
+{
+  "directory": "/home/agilex/test_ws/build/ugv_sdk/sample/scout_demo",
+  "command": "/usr/bin/c++ -DASIO_ENABLE_OLD_SERVICES -I/home/agilex/test_ws/src/ugv_sdk/include -O3 -DNDEBUG -std=c++11 -o CMakeFiles/demo_scout_robot.dir/scout_robot_demo.cpp.o -c /home/agilex/test_ws/src/ugv_sdk/sample/scout_demo/scout_robot_demo.cpp",
+  "file": "/home/agilex/test_ws/src/ugv_sdk/sample/scout_demo/scout_robot_demo.cpp"
+},
+{
+  "directory": "/home/agilex/test_ws/build/ugv_sdk/sample/scout_demo",
+  "command": "/usr/bin/c++ -DASIO_ENABLE_OLD_SERVICES -I/home/agilex/test_ws/src/ugv_sdk/include -O3 -DNDEBUG -std=c++11 -o CMakeFiles/demo_scout_mini_omni_robot.dir/scout_mini_omni_demo.cpp.o -c /home/agilex/test_ws/src/ugv_sdk/sample/scout_demo/scout_mini_omni_demo.cpp",
+  "file": "/home/agilex/test_ws/src/ugv_sdk/sample/scout_demo/scout_mini_omni_demo.cpp"
+},
+{
+  "directory": "/home/agilex/test_ws/build/ugv_sdk/sample/tracer_demo",
+  "command": "/usr/bin/c++ -DASIO_ENABLE_OLD_SERVICES -I/home/agilex/test_ws/src/ugv_sdk/include -O3 -DNDEBUG -std=c++11 -o CMakeFiles/demo_tracer_robot.dir/tracer_robot_demo.cpp.o -c /home/agilex/test_ws/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp",
+  "file": "/home/agilex/test_ws/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp"
+},
+{
+  "directory": "/home/agilex/test_ws/build/ugv_sdk/sample/ranger_demo",
+  "command": "/usr/bin/c++ -DASIO_ENABLE_OLD_SERVICES -I/home/agilex/test_ws/src/ugv_sdk/include -O3 -DNDEBUG -std=c++11 -o CMakeFiles/demo_ranger_robot.dir/ranger_robot_demo.cpp.o -c /home/agilex/test_ws/src/ugv_sdk/sample/ranger_demo/ranger_robot_demo.cpp",
+  "file": "/home/agilex/test_ws/src/ugv_sdk/sample/ranger_demo/ranger_robot_demo.cpp"
+},
+{
+  "directory": "/home/agilex/test_ws/build/ugv_sdk/sample/bunker_demo",
+  "command": "/usr/bin/c++ -DASIO_ENABLE_OLD_SERVICES -I/home/agilex/test_ws/src/ugv_sdk/include -O3 -DNDEBUG -std=c++11 -o CMakeFiles/demo_bunker_robot.dir/bunker_robot_demo.cpp.o -c /home/agilex/test_ws/src/ugv_sdk/sample/bunker_demo/bunker_robot_demo.cpp",
+  "file": "/home/agilex/test_ws/src/ugv_sdk/sample/bunker_demo/bunker_robot_demo.cpp"
+},
+{
+  "directory": "/home/agilex/test_ws/build/ugv_sdk/sample/hunter_demo",
+  "command": "/usr/bin/c++ -DASIO_ENABLE_OLD_SERVICES -I/home/agilex/test_ws/src/ugv_sdk/include -O3 -DNDEBUG -std=c++11 -o CMakeFiles/demo_hunter_robot.dir/hunter_robot_demo.cpp.o -c /home/agilex/test_ws/src/ugv_sdk/sample/hunter_demo/hunter_robot_demo.cpp",
+  "file": "/home/agilex/test_ws/src/ugv_sdk/sample/hunter_demo/hunter_robot_demo.cpp"
+},
+{
+  "directory": "/home/agilex/test_ws/build/ugv_sdk/sample/utils_demo",
+  "command": "/usr/bin/c++ -DASIO_ENABLE_OLD_SERVICES -I/home/agilex/test_ws/src/ugv_sdk/include -O3 -DNDEBUG -std=c++11 -o CMakeFiles/demo_protocol_detector.dir/demo_protocol_detector.cpp.o -c /home/agilex/test_ws/src/ugv_sdk/sample/utils_demo/demo_protocol_detector.cpp",
+  "file": "/home/agilex/test_ws/src/ugv_sdk/sample/utils_demo/demo_protocol_detector.cpp"
+},
+{
+  "directory": "/home/agilex/test_ws/build/ugv_sdk/sample/utils_demo",
+  "command": "/usr/bin/c++ -DASIO_ENABLE_OLD_SERVICES -I/home/agilex/test_ws/src/ugv_sdk/include -O3 -DNDEBUG -std=c++11 -o CMakeFiles/demo_robot_version.dir/demo_robot_version.cpp.o -c /home/agilex/test_ws/src/ugv_sdk/sample/utils_demo/demo_robot_version.cpp",
+  "file": "/home/agilex/test_ws/src/ugv_sdk/sample/utils_demo/demo_robot_version.cpp"
+}
+]

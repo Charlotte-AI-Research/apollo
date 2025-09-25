@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/demo_hunter_robot.dir/hunter_robot_demo.cpp.o -o ../../bin/demo_hunter_robot  ../../lib/libugv_sdk.a 

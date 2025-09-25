@@ -1,0 +1,4 @@
+source;share/rslidar_sdk/local_setup.bash
+source;share/rslidar_sdk/local_setup.dsv
+source;share/rslidar_sdk/local_setup.sh
+source;share/rslidar_sdk/local_setup.zsh

@@ -1,0 +1,1 @@
+/home/agilex/test_ws/build/scout_mini_msgs/rosidl_typesupport_introspection_c/scout_mini_msgs/msg/detail/light_state__rosidl_typesupport_introspection_c.h

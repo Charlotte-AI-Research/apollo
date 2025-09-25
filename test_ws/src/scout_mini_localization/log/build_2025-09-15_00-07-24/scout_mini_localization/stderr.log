@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:15 (find_package):
+  By not providing "Findnav2_amcl.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "nav2_amcl", but CMake did not find one.
+
+  Could not find a package configuration file provided by "nav2_amcl" with
+  any of the following names:
+
+    nav2_amclConfig.cmake
+    nav2_amcl-config.cmake
+
+  Add the installation prefix of "nav2_amcl" to CMAKE_PREFIX_PATH or set
+  "nav2_amcl_DIR" to a directory containing one of the above files.  If
+  "nav2_amcl" provides a separate development package or SDK, be sure it has
+  been installed.
+
+[0m

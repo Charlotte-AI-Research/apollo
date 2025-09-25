@@ -1,0 +1,94 @@
+[  4%] [32mBuilding CXX object CMakeFiles/realsense2_camera_node.dir/rclcpp_components/node_main_realsense2_camera_node.cpp.o[0m
+[  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o[0m
+[ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_sensor.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/rs_node_setup.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/parameters.cpp.o[0m
+[ 36%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 36%] Built target gtest_main
+[ 40%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_utils.cpp.o[0m
+[ 44%] [32m[1mLinking CXX executable realsense2_camera_node[0m
+[ 44%] Built target realsense2_camera_node
+[ 48%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/sensor_params.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/pointcloud_filter.cpp.o[0m
+[ 64%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 64%] Built target gtest
+[ 68%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/align_depth_filter.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/gtest_template.dir/test/gtest_template.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/profile_manager.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable gtest_template[0m
+[ 80%] Built target gtest_template
+[ 84%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/image_publisher.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/tfs.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/actions.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_param_backend.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library librealsense2_camera.so[0m
+[100%] Built target realsense2_camera
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/config/global_settings.yaml
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/lib/librealsense2_camera.so
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/include/align_depth_filter.h
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/include/base_realsense_node.h
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/include/constants.h
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/include/dynamic_params.h
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/include/gl_window.h
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/include/image_publisher.h
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/include/named_filter.h
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/include/pointcloud_filter.h
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/include/profile_manager.h
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/include/realsense_node_factory.h
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/include/ros_node_base.h
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/include/ros_param_backend.h
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/include/ros_sensor.h
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/include/ros_utils.h
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/include/sensor_params.h
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/launch/default.rviz
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_intra_process_demo_launch.py
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_launch.py
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch.py
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch_sync.py
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/examples/align_depth/README.md
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/examples/align_depth/rs_align_depth_launch.py
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/examples/d500_tables/calib_config_example.json
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/README.md
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/rs_dual_camera_launch.py
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/rviz/dual_camera_pointcloud.rviz
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_from_rosbag/README.md
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_from_rosbag/rs_launch_from_rosbag.py
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/README.md
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/config/config.yaml
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/rs_launch_get_params_from_yaml.py
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/README.md
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_d405_pointcloud_launch.py
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_d455_pointcloud_launch.py
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_pointcloud_infra_launch.py
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_pointcloud_launch.py
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rviz/pointcloud.rviz
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rviz/urdf_pointcloud.rviz
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.sh
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.dsv
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/environment/path.sh
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/environment/path.dsv
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/local_setup.bash
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/local_setup.sh
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/local_setup.zsh
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/local_setup.dsv
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/package.dsv
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/ament_index/resource_index/rclcpp_components/realsense2_camera
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake
+-- Symlinking: /home/agilex/test_ws/install/realsense2_camera/share/realsense2_camera/package.xml

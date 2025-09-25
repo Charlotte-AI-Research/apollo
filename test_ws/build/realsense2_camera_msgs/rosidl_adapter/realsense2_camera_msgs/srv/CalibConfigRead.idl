@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from realsense2_camera_msgs/srv/CalibConfigRead.srv
+// generated code does not contain a copyright notice
+
+
+module realsense2_camera_msgs {
+  module srv {
+    struct CalibConfigRead_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct CalibConfigRead_Response {
+      boolean success;
+
+      string error_message;
+
+      string calib_config;
+    };
+  };
+};

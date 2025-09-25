@@ -1,0 +1,35 @@
+[0.013s] Invoking command in '/home/agilex/test_ws/build/scout_mini_hardware': AMENT_PREFIX_PATH=/home/agilex/test_ws/install/scout_mini_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/test_ws/install/scout_mini_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/test_ws/install/scout_mini_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/test_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agilex/test_ws/src/scout_mini_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agilex/test_ws/install/scout_mini_hardware
+[0.027s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.176s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.186s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.226s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.230s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.236s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.245s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.258s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.291s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.292s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.310s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.362s] -- Found hardware_interface: 2.52.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.532s] -- Found realtime_tools: 2.14.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[0.544s] -- Found can_msgs: 2.0.0 (/opt/ros/humble/share/can_msgs/cmake)
+[0.567s] -- Configuring incomplete, errors occurred!
+[0.567s] See also "/home/agilex/test_ws/build/scout_mini_hardware/CMakeFiles/CMakeOutput.log".
+[0.568s] [31mCMake Error at CMakeLists.txt:27 (find_package):
+[0.568s]   By not providing "Findros2_socketcan.cmake" in CMAKE_MODULE_PATH this
+[0.569s]   project has asked CMake to find a package configuration file provided by
+[0.569s]   "ros2_socketcan", but CMake did not find one.
+[0.569s] 
+[0.569s]   Could not find a package configuration file provided by "ros2_socketcan"
+[0.569s]   with any of the following names:
+[0.569s] 
+[0.569s]     ros2_socketcanConfig.cmake
+[0.569s]     ros2_socketcan-config.cmake
+[0.569s] 
+[0.569s]   Add the installation prefix of "ros2_socketcan" to CMAKE_PREFIX_PATH or set
+[0.569s]   "ros2_socketcan_DIR" to a directory containing one of the above files.  If
+[0.569s]   "ros2_socketcan" provides a separate development package or SDK, be sure it
+[0.570s]   has been installed.
+[0.570s] 
+[0.570s] [0m
+[0.574s] Invoked command in '/home/agilex/test_ws/build/scout_mini_hardware' returned '1': AMENT_PREFIX_PATH=/home/agilex/test_ws/install/scout_mini_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/test_ws/install/scout_mini_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/test_ws/install/scout_mini_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/test_ws/install/scout_mini_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agilex/test_ws/src/scout_mini_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agilex/test_ws/install/scout_mini_hardware

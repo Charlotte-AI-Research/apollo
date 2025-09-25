@@ -1,0 +1,23 @@
+[0.023s] Invoking command in '/home/agilex/test_ws/build/scout_mini_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agilex/test_ws/build/scout_mini_base -- -j8 -l8
+[0.087s] Invoked command in '/home/agilex/test_ws/build/scout_mini_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agilex/test_ws/build/scout_mini_base -- -j8 -l8
+[0.106s] Invoking command in '/home/agilex/test_ws/build/scout_mini_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agilex/test_ws/build/scout_mini_base
+[0.123s] -- Install configuration: ""
+[0.125s] -- Execute custom install script
+[0.126s] -- Up-to-date symlink: /home/agilex/test_ws/install/scout_mini_base/share/scout_mini_base/config/scout_mini.yaml
+[0.126s] -- Up-to-date symlink: /home/agilex/test_ws/install/scout_mini_base/share/scout_mini_base/launch/base_launch.py
+[0.126s] -- Up-to-date symlink: /home/agilex/test_ws/install/scout_mini_base/share/ament_index/resource_index/package_run_dependencies/scout_mini_base
+[0.126s] -- Up-to-date symlink: /home/agilex/test_ws/install/scout_mini_base/share/ament_index/resource_index/parent_prefix_path/scout_mini_base
+[0.126s] -- Up-to-date symlink: /home/agilex/test_ws/install/scout_mini_base/share/scout_mini_base/environment/ament_prefix_path.sh
+[0.126s] -- Up-to-date symlink: /home/agilex/test_ws/install/scout_mini_base/share/scout_mini_base/environment/ament_prefix_path.dsv
+[0.148s] -- Up-to-date symlink: /home/agilex/test_ws/install/scout_mini_base/share/scout_mini_base/environment/path.sh
+[0.148s] -- Up-to-date symlink: /home/agilex/test_ws/install/scout_mini_base/share/scout_mini_base/environment/path.dsv
+[0.148s] -- Up-to-date symlink: /home/agilex/test_ws/install/scout_mini_base/share/scout_mini_base/local_setup.bash
+[0.148s] -- Up-to-date symlink: /home/agilex/test_ws/install/scout_mini_base/share/scout_mini_base/local_setup.sh
+[0.148s] -- Up-to-date symlink: /home/agilex/test_ws/install/scout_mini_base/share/scout_mini_base/local_setup.zsh
+[0.148s] -- Up-to-date symlink: /home/agilex/test_ws/install/scout_mini_base/share/scout_mini_base/local_setup.dsv
+[0.148s] -- Symlinking: /home/agilex/test_ws/install/scout_mini_base/share/scout_mini_base/package.dsv
+[0.181s] -- Up-to-date symlink: /home/agilex/test_ws/install/scout_mini_base/share/ament_index/resource_index/packages/scout_mini_base
+[0.182s] -- Up-to-date symlink: /home/agilex/test_ws/install/scout_mini_base/share/scout_mini_base/cmake/scout_mini_baseConfig.cmake
+[0.182s] -- Up-to-date symlink: /home/agilex/test_ws/install/scout_mini_base/share/scout_mini_base/cmake/scout_mini_baseConfig-version.cmake
+[0.182s] -- Up-to-date symlink: /home/agilex/test_ws/install/scout_mini_base/share/scout_mini_base/package.xml
+[0.184s] Invoked command in '/home/agilex/test_ws/build/scout_mini_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agilex/test_ws/build/scout_mini_base

@@ -1,0 +1,4 @@
+Invoking command in '/home/agilex/test_ws/build/scout_object_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agilex/test_ws/build/scout_object_detector -- -j8 -l8
+Invoked command in '/home/agilex/test_ws/build/scout_object_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agilex/test_ws/build/scout_object_detector -- -j8 -l8
+Invoking command in '/home/agilex/test_ws/build/scout_object_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agilex/test_ws/build/scout_object_detector
+Invoked command in '/home/agilex/test_ws/build/scout_object_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agilex/test_ws/build/scout_object_detector

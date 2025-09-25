@@ -1,0 +1,1 @@
+/home/agilex/test_ws/build/follow_human/ament_cmake_python/follow_human/follow_human.egg-info/top_level.txt

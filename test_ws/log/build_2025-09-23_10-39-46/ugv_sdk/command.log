@@ -1,0 +1,3 @@
+Invoking command in '/home/agilex/test_ws/build/ugv_sdk': /usr/bin/cmake /home/agilex/test_ws/src/ugv_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/agilex/test_ws/install/ugv_sdk
+Invoked command in '/home/agilex/test_ws/build/ugv_sdk' returned '0': /usr/bin/cmake /home/agilex/test_ws/src/ugv_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/agilex/test_ws/install/ugv_sdk
+Invoking command in '/home/agilex/test_ws/build/ugv_sdk': /usr/bin/cmake --build /home/agilex/test_ws/build/ugv_sdk -- -j8 -l8

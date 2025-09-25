@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:21 (find_package):
+  By not providing "Findtwist_mux.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "twist_mux", but CMake did not find one.
+
+  Could not find a package configuration file provided by "twist_mux" with
+  any of the following names:
+
+    twist_muxConfig.cmake
+    twist_mux-config.cmake
+
+  Add the installation prefix of "twist_mux" to CMAKE_PREFIX_PATH or set
+  "twist_mux_DIR" to a directory containing one of the above files.  If
+  "twist_mux" provides a separate development package or SDK, be sure it has
+  been installed.
+
+[0m

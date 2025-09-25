@@ -1,0 +1,1 @@
+/home/agilex/test_ws/build/scout_mini_description/ament_cmake_environment_hooks/local_setup.bash

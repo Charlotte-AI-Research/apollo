@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f2a165b6d1ef7545a103.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "scout_object_detector__py",
+					"jsonFile" : "directory-scout_object_detector__py-e7ba2856fdbcd8e86760.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/agilex/test_ws/build/scout_object_detector/scout_object_detector__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "scout_object_detector",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_scout_object_detector_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_scout_object_detector_egg-e14824a088a7d2ce90d9.json",
+					"name" : "ament_cmake_python_build_scout_object_detector_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_scout_object_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_scout_object_detector-f396be1faae56fd90980.json",
+					"name" : "ament_cmake_python_symlink_scout_object_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector-6ca75868f783cb082ba9.json",
+					"name" : "scout_object_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector__cpp-eb24adbff594e148c1a4.json",
+					"name" : "scout_object_detector__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "scout_object_detector__py::@8bcad4ee938c16e6f787",
+					"jsonFile" : "target-scout_object_detector__py-b008143c79c51d162495.json",
+					"name" : "scout_object_detector__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector__rosidl_generator_c-32adc111787b56b83a8d.json",
+					"name" : "scout_object_detector__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector__rosidl_generator_py-3168c298216a426fc5fa.json",
+					"name" : "scout_object_detector__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector__rosidl_typesupport_c-0da59d0b5f3266638c4c.json",
+					"name" : "scout_object_detector__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector__rosidl_typesupport_c__pyext-dbd129f9e2c1e6fc45b2.json",
+					"name" : "scout_object_detector__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector__rosidl_typesupport_cpp-20ad37414f71cd374cd3.json",
+					"name" : "scout_object_detector__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector__rosidl_typesupport_fastrtps_c-51788f41b0e36e05480f.json",
+					"name" : "scout_object_detector__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector__rosidl_typesupport_fastrtps_c__pyext-6bcc9aa036653a76f34f.json",
+					"name" : "scout_object_detector__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector__rosidl_typesupport_fastrtps_cpp-c9fb3c4eeff67b4ee121.json",
+					"name" : "scout_object_detector__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector__rosidl_typesupport_introspection_c-477a404d45b4e46beea4.json",
+					"name" : "scout_object_detector__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector__rosidl_typesupport_introspection_c__pyext-d118f13d91109992cb44.json",
+					"name" : "scout_object_detector__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector__rosidl_typesupport_introspection_cpp-a7c5b25f1330ac4b7865.json",
+					"name" : "scout_object_detector__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scout_object_detector_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scout_object_detector_uninstall-56fce278886c81fe862e.json",
+					"name" : "scout_object_detector_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-da054481a33f5aa7f0d2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/agilex/test_ws/build/scout_object_detector",
+		"source" : "/home/agilex/test_ws/src/scout_object_detector"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

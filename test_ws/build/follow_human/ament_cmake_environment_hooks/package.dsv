@@ -1,0 +1,4 @@
+source;share/follow_human/local_setup.bash
+source;share/follow_human/local_setup.dsv
+source;share/follow_human/local_setup.sh
+source;share/follow_human/local_setup.zsh

@@ -1,0 +1,6 @@
+{
+  "package_name": "rslidar_msg",
+  "non_idl_tuples": [
+    "/home/agilex/test_ws/src/rslidar_msg:msg/RslidarPacket.msg"
+  ]
+}

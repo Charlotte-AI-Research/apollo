@@ -1,0 +1,391 @@
+[0.108s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'scout_mini_localization']
+[0.108s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['scout_mini_localization'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x76f5f557af20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76f5f56738b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76f5f56738b0>>)
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.306s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/agilex/test_ws'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(scan_test) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(scan_test) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(scan_test) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(scan_test) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(scan_test) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(scan_test) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(scan_test) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(scan_test) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(scan_test) by extension 'ros'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(scan_test) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(scan_test) by extension 'cmake'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(scan_test) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(scan_test) by extensions ['python_setup_py']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(scan_test) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_human) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_human) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_human) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_human) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_human) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_human) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_human) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_human) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_human) by extension 'ros'
+[0.323s] DEBUG:colcon.colcon_core.package_identification:Package 'src/follow_human' with type 'ros.ament_cmake' and name 'follow_human'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ros'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ros'
+[0.345s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ros'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['cmake', 'python']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'cmake'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['python_setup_py']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python_setup_py'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_laserscan_converter) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_laserscan_converter) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_laserscan_converter) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_laserscan_converter) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_laserscan_converter) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_laserscan_converter) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_laserscan_converter) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_laserscan_converter) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_laserscan_converter) by extension 'ros'
+[0.349s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rslidar_laserscan_converter' with type 'ros.ament_cmake' and name 'rslidar_laserscan_converter'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'ros'
+[0.351s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rslidar_msg' with type 'ros.ament_cmake' and name 'rslidar_msg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'ros'
+[0.357s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rslidar_sdk' with type 'ros.ament_cmake' and name 'rslidar_sdk'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_base) by extension 'ros'
+[0.358s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_mini_base' with type 'ros.ament_cmake' and name 'scout_mini_base'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_description) by extension 'ros'
+[0.360s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_mini_description' with type 'ros.ament_cmake' and name 'scout_mini_description'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_hardware) by extension 'ros'
+[0.361s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_mini_hardware' with type 'ros.ament_cmake' and name 'scout_mini_hardware'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_localization) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_localization) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_localization) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_localization) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_localization) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_localization) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_localization) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_localization) by extension 'ros'
+[0.363s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_mini_localization' with type 'ros.ament_cmake' and name 'scout_mini_localization'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extension 'ignore'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extension 'ignore_ament_install'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extensions ['colcon_pkg']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extension 'colcon_pkg'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extensions ['colcon_meta']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extensions ['ros']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_msgs) by extension 'ros'
+[0.364s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_mini_msgs' with type 'ros.ament_cmake' and name 'scout_mini_msgs'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_object_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_object_detector) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_object_detector) by extension 'ignore_ament_install'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_object_detector) by extensions ['colcon_pkg']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_object_detector) by extension 'colcon_pkg'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_object_detector) by extensions ['colcon_meta']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_object_detector) by extension 'colcon_meta'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_object_detector) by extensions ['ros']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_object_detector) by extension 'ros'
+[0.365s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_object_detector' with type 'ros.ament_cmake' and name 'scout_object_detector'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'ros'
+[0.366s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ugv_sdk' with type 'ros.catkin' and name 'ugv_sdk'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore_ament_install'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_pkg']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_pkg'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_meta']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_meta'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ros']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ros'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['cmake', 'python']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'cmake'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['python_setup_py']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python_setup_py'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore_ament_install'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_pkg'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_meta']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ros'
+[0.368s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/cv_bridge' with type 'ros.ament_cmake' and name 'cv_bridge'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ros'
+[0.369s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/image_geometry' with type 'ros.ament_cmake' and name 'image_geometry'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ros'
+[0.371s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/opencv_tests' with type 'ros.ament_python' and name 'opencv_tests'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ros'
+[0.373s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/vision_opencv' with type 'ros.ament_cmake' and name 'vision_opencv'
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.396s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cv_bridge' in 'src/vision_opencv/cv_bridge'
+[0.396s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'image_geometry' in 'src/vision_opencv/image_geometry'
+[0.396s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'realsense2_camera_msgs' in 'src/realsense-ros/realsense2_camera_msgs'
+[0.396s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rslidar_laserscan_converter' in 'src/rslidar_laserscan_converter'
+[0.396s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rslidar_msg' in 'src/rslidar_msg'
+[0.396s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'scout_mini_base' in 'src/scout_mini_base'
+[0.396s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'scout_mini_description' in 'src/scout_mini_description'
+[0.396s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'scout_mini_msgs' in 'src/scout_mini_msgs'
+[0.396s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'scout_object_detector' in 'src/scout_object_detector'
+[0.396s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ugv_sdk' in 'src/ugv_sdk'
+[0.396s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'follow_human' in 'src/follow_human'
+[0.397s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'opencv_tests' in 'src/vision_opencv/opencv_tests'
+[0.397s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'realsense2_camera' in 'src/realsense-ros/realsense2_camera'
+[0.397s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'realsense2_description' in 'src/realsense-ros/realsense2_description'
+[0.397s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rslidar_sdk' in 'src/rslidar_sdk'
+[0.397s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'scout_mini_hardware' in 'src/scout_mini_hardware'
+[0.397s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vision_opencv' in 'src/vision_opencv/vision_opencv'
+[0.397s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.397s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.399s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 18 installed packages in /home/agilex/test_ws/install
+[0.401s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 403 installed packages in /opt/ros/humble
+[0.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_localization' build argument 'cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_localization' build argument 'cmake_target' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_localization' build argument 'cmake_clean_first' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_localization' build argument 'cmake_force_configure' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_localization' build argument 'ament_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.455s] DEBUG:colcon.colcon_core.verb:Building package 'scout_mini_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agilex/test_ws/build/scout_mini_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agilex/test_ws/install/scout_mini_localization', 'merge_install': False, 'path': '/home/agilex/test_ws/src/scout_mini_localization', 'symlink_install': False, 'test_result_base': None}
+[0.455s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.457s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.457s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/agilex/test_ws/src/scout_mini_localization' with build type 'ament_cmake'
+[0.457s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/agilex/test_ws/src/scout_mini_localization'
+[0.459s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.459s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.459s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agilex/test_ws/build/scout_mini_localization': CMAKE_PREFIX_PATH=/home/agilex/test_ws/install/rslidar_sdk:/home/agilex/test_ws/install/rslidar_msg:/home/agilex/test_ws/install/vision_opencv:/home/agilex/test_ws/install/opencv_tests:/opt/ros/humble:/home/agilex/test_ws/install/ugv_sdk:/home/agilex/test_ws/install/scout_object_detector:/home/agilex/test_ws/install/scout_mini_hardware:/home/agilex/test_ws/install/scout_mini_msgs:/home/agilex/test_ws/install/scout_mini_localization:/home/agilex/test_ws/install/scout_mini_description:/home/agilex/test_ws/install/scout_mini_base:/home/agilex/test_ws/install/rslidar_laserscan_converter:/home/agilex/test_ws/install/realsense2_description:/home/agilex/test_ws/install/realsense2_camera:/home/agilex/test_ws/install/realsense2_camera_msgs:/home/agilex/test_ws/install/image_geometry:/home/agilex/test_ws/install/follow_human:/home/agilex/test_ws/install/cv_bridge LD_LIBRARY_PATH=/home/agilex/test_ws/install/rslidar_msg/lib:/home/agilex/test_ws/install/scout_object_detector/lib:/home/agilex/test_ws/install/scout_mini_hardware/lib:/home/agilex/test_ws/install/scout_mini_msgs/lib:/home/agilex/test_ws/install/realsense2_camera/lib:/home/agilex/test_ws/install/realsense2_camera_msgs/lib:/home/agilex/test_ws/install/image_geometry/lib:/home/agilex/test_ws/install/follow_human/lib:/home/agilex/test_ws/install/cv_bridge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/agilex/test_ws/build/scout_mini_localization -- -j8 -l8
+[0.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agilex/test_ws/build/scout_mini_localization' returned '0': CMAKE_PREFIX_PATH=/home/agilex/test_ws/install/rslidar_sdk:/home/agilex/test_ws/install/rslidar_msg:/home/agilex/test_ws/install/vision_opencv:/home/agilex/test_ws/install/opencv_tests:/opt/ros/humble:/home/agilex/test_ws/install/ugv_sdk:/home/agilex/test_ws/install/scout_object_detector:/home/agilex/test_ws/install/scout_mini_hardware:/home/agilex/test_ws/install/scout_mini_msgs:/home/agilex/test_ws/install/scout_mini_localization:/home/agilex/test_ws/install/scout_mini_description:/home/agilex/test_ws/install/scout_mini_base:/home/agilex/test_ws/install/rslidar_laserscan_converter:/home/agilex/test_ws/install/realsense2_description:/home/agilex/test_ws/install/realsense2_camera:/home/agilex/test_ws/install/realsense2_camera_msgs:/home/agilex/test_ws/install/image_geometry:/home/agilex/test_ws/install/follow_human:/home/agilex/test_ws/install/cv_bridge LD_LIBRARY_PATH=/home/agilex/test_ws/install/rslidar_msg/lib:/home/agilex/test_ws/install/scout_object_detector/lib:/home/agilex/test_ws/install/scout_mini_hardware/lib:/home/agilex/test_ws/install/scout_mini_msgs/lib:/home/agilex/test_ws/install/realsense2_camera/lib:/home/agilex/test_ws/install/realsense2_camera_msgs/lib:/home/agilex/test_ws/install/image_geometry/lib:/home/agilex/test_ws/install/follow_human/lib:/home/agilex/test_ws/install/cv_bridge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/agilex/test_ws/build/scout_mini_localization -- -j8 -l8
+[0.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agilex/test_ws/build/scout_mini_localization': CMAKE_PREFIX_PATH=/home/agilex/test_ws/install/rslidar_sdk:/home/agilex/test_ws/install/rslidar_msg:/home/agilex/test_ws/install/vision_opencv:/home/agilex/test_ws/install/opencv_tests:/opt/ros/humble:/home/agilex/test_ws/install/ugv_sdk:/home/agilex/test_ws/install/scout_object_detector:/home/agilex/test_ws/install/scout_mini_hardware:/home/agilex/test_ws/install/scout_mini_msgs:/home/agilex/test_ws/install/scout_mini_localization:/home/agilex/test_ws/install/scout_mini_description:/home/agilex/test_ws/install/scout_mini_base:/home/agilex/test_ws/install/rslidar_laserscan_converter:/home/agilex/test_ws/install/realsense2_description:/home/agilex/test_ws/install/realsense2_camera:/home/agilex/test_ws/install/realsense2_camera_msgs:/home/agilex/test_ws/install/image_geometry:/home/agilex/test_ws/install/follow_human:/home/agilex/test_ws/install/cv_bridge LD_LIBRARY_PATH=/home/agilex/test_ws/install/rslidar_msg/lib:/home/agilex/test_ws/install/scout_object_detector/lib:/home/agilex/test_ws/install/scout_mini_hardware/lib:/home/agilex/test_ws/install/scout_mini_msgs/lib:/home/agilex/test_ws/install/realsense2_camera/lib:/home/agilex/test_ws/install/realsense2_camera_msgs/lib:/home/agilex/test_ws/install/image_geometry/lib:/home/agilex/test_ws/install/follow_human/lib:/home/agilex/test_ws/install/cv_bridge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/agilex/test_ws/build/scout_mini_localization
+[0.539s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_localization)
+[0.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agilex/test_ws/build/scout_mini_localization' returned '0': CMAKE_PREFIX_PATH=/home/agilex/test_ws/install/rslidar_sdk:/home/agilex/test_ws/install/rslidar_msg:/home/agilex/test_ws/install/vision_opencv:/home/agilex/test_ws/install/opencv_tests:/opt/ros/humble:/home/agilex/test_ws/install/ugv_sdk:/home/agilex/test_ws/install/scout_object_detector:/home/agilex/test_ws/install/scout_mini_hardware:/home/agilex/test_ws/install/scout_mini_msgs:/home/agilex/test_ws/install/scout_mini_localization:/home/agilex/test_ws/install/scout_mini_description:/home/agilex/test_ws/install/scout_mini_base:/home/agilex/test_ws/install/rslidar_laserscan_converter:/home/agilex/test_ws/install/realsense2_description:/home/agilex/test_ws/install/realsense2_camera:/home/agilex/test_ws/install/realsense2_camera_msgs:/home/agilex/test_ws/install/image_geometry:/home/agilex/test_ws/install/follow_human:/home/agilex/test_ws/install/cv_bridge LD_LIBRARY_PATH=/home/agilex/test_ws/install/rslidar_msg/lib:/home/agilex/test_ws/install/scout_object_detector/lib:/home/agilex/test_ws/install/scout_mini_hardware/lib:/home/agilex/test_ws/install/scout_mini_msgs/lib:/home/agilex/test_ws/install/realsense2_camera/lib:/home/agilex/test_ws/install/realsense2_camera_msgs/lib:/home/agilex/test_ws/install/image_geometry/lib:/home/agilex/test_ws/install/follow_human/lib:/home/agilex/test_ws/install/cv_bridge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/agilex/test_ws/build/scout_mini_localization
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/test_ws/install/scout_mini_localization' for CMake module files
+[0.543s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/test_ws/install/scout_mini_localization' for CMake config files
+[0.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_localization', 'cmake_prefix_path')
+[0.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/test_ws/install/scout_mini_localization/share/scout_mini_localization/hook/cmake_prefix_path.ps1'
+[0.544s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/test_ws/install/scout_mini_localization/share/scout_mini_localization/hook/cmake_prefix_path.dsv'
+[0.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/test_ws/install/scout_mini_localization/share/scout_mini_localization/hook/cmake_prefix_path.sh'
+[0.545s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/test_ws/install/scout_mini_localization/bin'
+[0.545s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/test_ws/install/scout_mini_localization/lib/pkgconfig/scout_mini_localization.pc'
+[0.546s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/test_ws/install/scout_mini_localization/lib/python3.10/site-packages'
+[0.546s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/test_ws/install/scout_mini_localization/bin'
+[0.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/test_ws/install/scout_mini_localization/share/scout_mini_localization/package.ps1'
+[0.547s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agilex/test_ws/install/scout_mini_localization/share/scout_mini_localization/package.dsv'
+[0.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/test_ws/install/scout_mini_localization/share/scout_mini_localization/package.sh'
+[0.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/test_ws/install/scout_mini_localization/share/scout_mini_localization/package.bash'
+[0.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/test_ws/install/scout_mini_localization/share/scout_mini_localization/package.zsh'
+[0.550s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agilex/test_ws/install/scout_mini_localization/share/colcon-core/packages/scout_mini_localization)
+[0.550s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_localization)
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/test_ws/install/scout_mini_localization' for CMake module files
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/test_ws/install/scout_mini_localization' for CMake config files
+[0.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_localization', 'cmake_prefix_path')
+[0.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/test_ws/install/scout_mini_localization/share/scout_mini_localization/hook/cmake_prefix_path.ps1'
+[0.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/test_ws/install/scout_mini_localization/share/scout_mini_localization/hook/cmake_prefix_path.dsv'
+[0.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/test_ws/install/scout_mini_localization/share/scout_mini_localization/hook/cmake_prefix_path.sh'
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/test_ws/install/scout_mini_localization/bin'
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/test_ws/install/scout_mini_localization/lib/pkgconfig/scout_mini_localization.pc'
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/test_ws/install/scout_mini_localization/lib/python3.10/site-packages'
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/test_ws/install/scout_mini_localization/bin'
+[0.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/test_ws/install/scout_mini_localization/share/scout_mini_localization/package.ps1'
+[0.554s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agilex/test_ws/install/scout_mini_localization/share/scout_mini_localization/package.dsv'
+[0.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/test_ws/install/scout_mini_localization/share/scout_mini_localization/package.sh'
+[0.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/test_ws/install/scout_mini_localization/share/scout_mini_localization/package.bash'
+[0.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/test_ws/install/scout_mini_localization/share/scout_mini_localization/package.zsh'
+[0.556s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agilex/test_ws/install/scout_mini_localization/share/colcon-core/packages/scout_mini_localization)
+[0.556s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.556s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.556s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.556s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.563s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.563s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.563s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.578s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.578s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/test_ws/install/local_setup.ps1'
+[0.579s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/agilex/test_ws/install/_local_setup_util_ps1.py'
+[0.581s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/test_ws/install/setup.ps1'
+[0.583s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/test_ws/install/local_setup.sh'
+[0.584s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/agilex/test_ws/install/_local_setup_util_sh.py'
+[0.584s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/test_ws/install/setup.sh'
+[0.586s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/test_ws/install/local_setup.bash'
+[0.587s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/test_ws/install/setup.bash'
+[0.589s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/test_ws/install/local_setup.zsh'
+[0.589s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/test_ws/install/setup.zsh'

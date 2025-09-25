@@ -1,0 +1,11 @@
+source;share/scout_object_detector/hook/cmake_prefix_path.ps1
+source;share/scout_object_detector/hook/cmake_prefix_path.dsv
+source;share/scout_object_detector/hook/cmake_prefix_path.sh
+source;share/scout_object_detector/hook/ld_library_path_lib.ps1
+source;share/scout_object_detector/hook/ld_library_path_lib.dsv
+source;share/scout_object_detector/hook/ld_library_path_lib.sh
+source;share/scout_object_detector/local_setup.bash
+source;share/scout_object_detector/local_setup.dsv
+source;share/scout_object_detector/local_setup.ps1
+source;share/scout_object_detector/local_setup.sh
+source;share/scout_object_detector/local_setup.zsh

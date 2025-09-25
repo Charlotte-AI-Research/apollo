@@ -1,0 +1,26 @@
+[3.308s] Invoking command in '/home/agilex/test_ws/build/opencv_tests': AMENT_PREFIX_PATH=/home/agilex/test_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/test_ws/install/cv_bridge LD_LIBRARY_PATH=/home/agilex/test_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/test_ws/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/agilex/test_ws/install/opencv_tests/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/agilex/test_ws/build/opencv_tests/build --no-deps symlink_data
+[4.984s] running develop
+[5.942s] running egg_info
+[5.942s] creating opencv_tests.egg-info
+[5.943s] writing opencv_tests.egg-info/PKG-INFO
+[5.943s] writing dependency_links to opencv_tests.egg-info/dependency_links.txt
+[5.944s] writing entry points to opencv_tests.egg-info/entry_points.txt
+[5.944s] writing requirements to opencv_tests.egg-info/requires.txt
+[5.947s] writing top-level names to opencv_tests.egg-info/top_level.txt
+[5.948s] writing manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[5.956s] reading manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[5.956s] writing manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[5.963s] running build_ext
+[5.964s] Creating /home/agilex/test_ws/install/opencv_tests/lib/python3.10/site-packages/opencv-tests.egg-link (link to .)
+[5.970s] Installing broadcast script to /home/agilex/test_ws/install/opencv_tests/lib/opencv_tests
+[5.970s] Installing rosfacedetect script to /home/agilex/test_ws/install/opencv_tests/lib/opencv_tests
+[5.970s] Installing source script to /home/agilex/test_ws/install/opencv_tests/lib/opencv_tests
+[5.976s] 
+[5.976s] Installed /home/agilex/test_ws/build/opencv_tests
+[5.977s] running symlink_data
+[5.977s] creating /home/agilex/test_ws/install/opencv_tests/share/ament_index
+[5.977s] creating /home/agilex/test_ws/install/opencv_tests/share/ament_index/resource_index
+[5.977s] creating /home/agilex/test_ws/install/opencv_tests/share/ament_index/resource_index/packages
+[5.977s] symbolically linking /home/agilex/test_ws/build/opencv_tests/resource/opencv_tests -> /home/agilex/test_ws/install/opencv_tests/share/ament_index/resource_index/packages
+[5.977s] symbolically linking /home/agilex/test_ws/build/opencv_tests/package.xml -> /home/agilex/test_ws/install/opencv_tests/share/opencv_tests
+[6.110s] Invoked command in '/home/agilex/test_ws/build/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/agilex/test_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/test_ws/install/cv_bridge LD_LIBRARY_PATH=/home/agilex/test_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/test_ws/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/agilex/test_ws/install/opencv_tests/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/agilex/test_ws/build/opencv_tests/build --no-deps symlink_data

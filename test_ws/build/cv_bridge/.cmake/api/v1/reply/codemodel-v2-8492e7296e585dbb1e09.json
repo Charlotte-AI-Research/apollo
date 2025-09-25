@@ -1,0 +1,219 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fd84fea7f64c97cd0c40.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5,
+						8
+					]
+				},
+				{
+					"build" : "python",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-python-4a35f110b54ee96d9256.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "python",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-cae705221b4cdcafd872.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				},
+				{
+					"build" : "test",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-test-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "cv_bridge",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ament_cmake_python_build_cv_bridge_egg::@e1ac5446165bc0cf31e4",
+					"jsonFile" : "target-ament_cmake_python_build_cv_bridge_egg-b496b3235f3203e93208.json",
+					"name" : "ament_cmake_python_build_cv_bridge_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ament_cmake_python_symlink_cv_bridge::@e1ac5446165bc0cf31e4",
+					"jsonFile" : "target-ament_cmake_python_symlink_cv_bridge-3aa284681415da7f610e.json",
+					"name" : "ament_cmake_python_symlink_cv_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "cv_bridge::@145eef247bfb46b6828c",
+					"jsonFile" : "target-cv_bridge-f6d7a4577f2af5b1ba0d.json",
+					"name" : "cv_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "cv_bridge-utest::@36f028580bb02cc8272a",
+					"jsonFile" : "target-cv_bridge-utest-ab90fc6547388d186005.json",
+					"name" : "cv_bridge-utest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "cv_bridge_boost::@145eef247bfb46b6828c",
+					"jsonFile" : "target-cv_bridge_boost-ba1d03a1d23f799b9a79.json",
+					"name" : "cv_bridge_boost",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cv_bridge_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cv_bridge_uninstall-5a7afb944ece8ccf8e23.json",
+					"name" : "cv_bridge_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-5c051b4684ee058b4075.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-6c368346181d6834ebbb.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e31b6a42d82873848ef2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/agilex/test_ws/build/cv_bridge",
+		"source" : "/home/agilex/test_ws/src/vision_opencv/cv_bridge"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

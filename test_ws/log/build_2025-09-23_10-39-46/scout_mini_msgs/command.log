@@ -1,0 +1,4 @@
+Invoking command in '/home/agilex/test_ws/build/scout_mini_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agilex/test_ws/build/scout_mini_msgs -- -j8 -l8
+Invoked command in '/home/agilex/test_ws/build/scout_mini_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agilex/test_ws/build/scout_mini_msgs -- -j8 -l8
+Invoking command in '/home/agilex/test_ws/build/scout_mini_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agilex/test_ws/build/scout_mini_msgs
+Invoked command in '/home/agilex/test_ws/build/scout_mini_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agilex/test_ws/build/scout_mini_msgs

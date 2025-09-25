@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "follow_human__py",
+		"source" : "/home/agilex/test_ws/build/follow_human/follow_human__py"
+	}
+}

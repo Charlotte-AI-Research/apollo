@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/demo_robot_version.dir/demo_robot_version.cpp.o -o ../../bin/demo_robot_version  ../../lib/libugv_sdk.a 

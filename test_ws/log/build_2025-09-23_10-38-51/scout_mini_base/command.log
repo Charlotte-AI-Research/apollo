@@ -1,0 +1,2 @@
+Invoking command in '/home/agilex/test_ws/build/scout_mini_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agilex/test_ws/src/scout_mini_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agilex/test_ws/install/scout_mini_base
+Invoked command in '/home/agilex/test_ws/build/scout_mini_base' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agilex/test_ws/src/scout_mini_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agilex/test_ws/install/scout_mini_base

@@ -1,0 +1,1 @@
+/home/agilex/test_ws/src/scout_mini_description/launch/rviz2_launch.py

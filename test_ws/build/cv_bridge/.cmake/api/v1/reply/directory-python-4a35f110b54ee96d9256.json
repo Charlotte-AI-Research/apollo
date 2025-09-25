@@ -1,0 +1,61 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_install",
+			"install",
+			"_ament_cmake_python_install_package",
+			"ament_python_install_package"
+		],
+		"files" : 
+		[
+			"/opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/install.cmake",
+			"/opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake",
+			"python/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 191,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"type" : "code"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "python",
+		"source" : "python"
+	}
+}

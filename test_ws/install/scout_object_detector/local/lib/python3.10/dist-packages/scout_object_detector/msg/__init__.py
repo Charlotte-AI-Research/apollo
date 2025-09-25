@@ -1,0 +1,1 @@
+/home/agilex/test_ws/build/scout_object_detector/rosidl_generator_py/scout_object_detector/msg/__init__.py

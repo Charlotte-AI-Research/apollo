@@ -1,0 +1,11 @@
+{
+  "package_name": "scout_mini_msgs",
+  "non_idl_tuples": [
+    "/home/agilex/test_ws/src/scout_mini_msgs:msg/DriverState.msg",
+    "/home/agilex/test_ws/src/scout_mini_msgs:msg/FaultState.msg",
+    "/home/agilex/test_ws/src/scout_mini_msgs:msg/LightCommand.msg",
+    "/home/agilex/test_ws/src/scout_mini_msgs:msg/LightState.msg",
+    "/home/agilex/test_ws/src/scout_mini_msgs:msg/MotorState.msg",
+    "/home/agilex/test_ws/src/scout_mini_msgs:msg/RobotState.msg"
+  ]
+}
