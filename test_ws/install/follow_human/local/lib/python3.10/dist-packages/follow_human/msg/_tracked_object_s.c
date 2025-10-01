@@ -1,1 +1,0 @@
-/home/agilex/test_ws/build/follow_human/rosidl_generator_py/follow_human/msg/_tracked_object_s.c

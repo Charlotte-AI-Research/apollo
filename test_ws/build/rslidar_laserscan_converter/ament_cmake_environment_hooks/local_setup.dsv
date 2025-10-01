@@ -1,3 +1,0 @@
-source;share/rslidar_laserscan_converter/environment/ament_prefix_path.sh
-source;share/rslidar_laserscan_converter/environment/path.sh
-source;share/rslidar_laserscan_converter/environment/pythonpath.sh

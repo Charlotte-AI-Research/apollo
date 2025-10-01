@@ -1,1 +1,0 @@
-/home/agilex/test_ws/build/realsense2_camera_msgs/rosidl_cmake/srv/CalibConfigWrite_Request.msg

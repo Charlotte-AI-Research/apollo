@@ -1,1 +1,0 @@
-/home/agilex/test_ws/build/scout_object_detector/rosidl_typesupport_introspection_c/scout_object_detector/msg/rosidl_typesupport_introspection_c__visibility_control.h

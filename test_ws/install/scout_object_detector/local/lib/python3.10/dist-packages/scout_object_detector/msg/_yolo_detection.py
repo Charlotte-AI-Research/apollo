@@ -1,1 +1,0 @@
-/home/agilex/test_ws/build/scout_object_detector/rosidl_generator_py/scout_object_detector/msg/_yolo_detection.py

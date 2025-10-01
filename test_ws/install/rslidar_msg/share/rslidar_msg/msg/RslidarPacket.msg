@@ -1,1 +1,0 @@
-/home/agilex/test_ws/src/rslidar_msg/msg/RslidarPacket.msg

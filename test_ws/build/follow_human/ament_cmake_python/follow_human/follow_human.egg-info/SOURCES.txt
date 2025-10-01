@@ -1,6 +1,0 @@
-setup.py
-follow_human/__init__.py
-follow_human.egg-info/PKG-INFO
-follow_human.egg-info/SOURCES.txt
-follow_human.egg-info/dependency_links.txt
-follow_human.egg-info/top_level.txt

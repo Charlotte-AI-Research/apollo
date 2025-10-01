@@ -1,1 +1,0 @@
-/home/agilex/test_ws/build/scout_mini_msgs/rosidl_generator_cpp/scout_mini_msgs/msg/detail/light_command__type_support.hpp

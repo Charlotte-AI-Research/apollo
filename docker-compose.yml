@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  apollo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: apollo-robotics:humble
+    container_name: apollo
+    privileged: true
+    network_mode: host
+    stdin_open: true
+    tty: true
+    environment:
+      - DISPLAY=${DISPLAY:-host.docker.internal:0}
+      - ROS_DOMAIN_ID=0
+      - QT_X11_NO_MITSHM=1
+    volumes:
+      # Mount local src directory to workspace
+      - ./src:/apollo_ws/src
+      # X11 socket for GUI applications (RViz2, etc.)
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      # Device access for hardware
+      - /dev:/dev
+    devices:
+      - /dev/bus/usb:/dev/bus/usb
+    command: /bin/bash -c "tail -f /dev/null"

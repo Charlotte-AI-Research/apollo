@@ -1,1 +1,0 @@
-/home/agilex/test_ws/src/scout_mini_base/launch/base_launch.py

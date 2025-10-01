@@ -1,1 +1,0 @@
-/home/agilex/test_ws/build/scout_object_detector/ament_cmake_core/scout_object_detectorConfig-version.cmake

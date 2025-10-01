@@ -1,5 +1,0 @@
-In file included from [01m[K/home/agilex/test_ws/src/scout_mini_hardware/include/scout_mini_hardware/scout_mini_hardware.hpp:36[m[K,
-                 from [01m[K/home/agilex/test_ws/src/scout_mini_hardware/src/scout_mini_hardware.cpp:18[m[K:
-[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.[m[K’
-   22 |   "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header."[01;36m[K)[m[K  //NOLINT
-      |                                                                                                       [01;36m[K^[m[K

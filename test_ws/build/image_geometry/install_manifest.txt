@@ -1,3 +1,0 @@
-/home/agilex/test_ws/install/image_geometry/lib/libimage_geometry.so
-/home/agilex/test_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport.cmake
-/home/agilex/test_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport-noconfig.cmake

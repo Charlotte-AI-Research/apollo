@@ -1,4 +1,0 @@
-Invoking command in '/home/agilex/test_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agilex/test_ws/build/cv_bridge -- -j8 -l8
-Invoked command in '/home/agilex/test_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agilex/test_ws/build/cv_bridge -- -j8 -l8
-Invoking command in '/home/agilex/test_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agilex/test_ws/build/cv_bridge
-Invoked command in '/home/agilex/test_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agilex/test_ws/build/cv_bridge

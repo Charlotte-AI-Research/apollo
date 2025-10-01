@@ -1,1 +1,0 @@
-/home/agilex/test_ws/build/scout_mini_base/ament_cmake_core/scout_mini_baseConfig.cmake

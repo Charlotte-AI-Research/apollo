@@ -1,1 +1,0 @@
-/home/agilex/test_ws/src/scout_mini_hardware/include/scout_mini_hardware/scout_mini_hardware.hpp

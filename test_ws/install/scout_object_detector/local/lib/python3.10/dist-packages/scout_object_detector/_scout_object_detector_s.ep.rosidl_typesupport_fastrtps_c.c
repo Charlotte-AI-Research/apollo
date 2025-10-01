@@ -1,1 +1,0 @@
-/home/agilex/test_ws/build/scout_object_detector/rosidl_generator_py/scout_object_detector/_scout_object_detector_s.ep.rosidl_typesupport_fastrtps_c.c

@@ -1,7 +1,0 @@
-{
-  "package_name": "follow_human",
-  "non_idl_tuples": [
-    "/home/agilex/test_ws/src/follow_human:msg/TrackedObject.msg",
-    "/home/agilex/test_ws/src/follow_human:msg/DepthEstimation.msg"
-  ]
-}

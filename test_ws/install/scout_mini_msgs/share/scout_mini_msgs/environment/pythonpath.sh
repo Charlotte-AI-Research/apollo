@@ -1,1 +1,0 @@
-/home/agilex/test_ws/build/scout_mini_msgs/ament_cmake_environment_hooks/pythonpath.sh

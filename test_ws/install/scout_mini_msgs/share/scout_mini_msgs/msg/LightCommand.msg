@@ -1,1 +1,0 @@
-/home/agilex/test_ws/src/scout_mini_msgs/msg/LightCommand.msg

@@ -1,1 +1,0 @@
-/home/agilex/test_ws/build/scout_object_detector/rosidl_generator_c/scout_object_detector/msg/yolo_detection.h

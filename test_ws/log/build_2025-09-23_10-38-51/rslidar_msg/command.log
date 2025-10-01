@@ -1,1 +1,0 @@
-Invoking command in '/home/agilex/test_ws/build/rslidar_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agilex/test_ws/src/rslidar_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agilex/test_ws/install/rslidar_msg

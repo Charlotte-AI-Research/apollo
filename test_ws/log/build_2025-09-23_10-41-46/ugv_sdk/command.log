@@ -1,4 +1,0 @@
-Invoking command in '/home/agilex/test_ws/build/ugv_sdk': /usr/bin/cmake --build /home/agilex/test_ws/build/ugv_sdk -- -j8 -l8
-Invoked command in '/home/agilex/test_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --build /home/agilex/test_ws/build/ugv_sdk -- -j8 -l8
-Invoking command in '/home/agilex/test_ws/build/ugv_sdk': /usr/bin/cmake --install /home/agilex/test_ws/build/ugv_sdk
-Invoked command in '/home/agilex/test_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --install /home/agilex/test_ws/build/ugv_sdk

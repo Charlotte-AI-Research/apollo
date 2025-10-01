@@ -1,1 +1,0 @@
-/home/agilex/test_ws/build/rslidar_msg/rosidl_generator_py/rslidar_msg/__init__.py

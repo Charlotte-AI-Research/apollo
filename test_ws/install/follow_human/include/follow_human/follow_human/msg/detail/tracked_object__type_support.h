@@ -1,1 +1,0 @@
-/home/agilex/test_ws/build/follow_human/rosidl_generator_c/follow_human/msg/detail/tracked_object__type_support.h

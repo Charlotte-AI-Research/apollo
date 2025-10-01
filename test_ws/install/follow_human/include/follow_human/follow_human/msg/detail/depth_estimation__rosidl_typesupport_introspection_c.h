@@ -1,1 +1,0 @@
-/home/agilex/test_ws/build/follow_human/rosidl_typesupport_introspection_c/follow_human/msg/detail/depth_estimation__rosidl_typesupport_introspection_c.h
