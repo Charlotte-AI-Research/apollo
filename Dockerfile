@@ -82,6 +82,12 @@ RUN apt-get update && apt-get install -y \
     ros-humble-vision-opencv \
     && rm -rf /var/lib/apt/lists/*
 
+# Install system dependencies for ugv_sdk and rslidar_sdk
+RUN apt-get update && apt-get install -y \
+    libasio-dev \
+    libpcap-dev \
+    && rm -rf /var/lib/apt/lists/*
+
 # Install Python ML dependencies for perception stack
 RUN pip3 install --no-cache-dir \
     torch \
