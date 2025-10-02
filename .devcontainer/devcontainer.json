@@ -4,7 +4,7 @@
   "service": "apollo",
   "workspaceFolder": "/apollo_ws",
   "shutdownAction": "stopCompose",
-  
+
   "customizations": {
     "vscode": {
       "extensions": [
@@ -19,10 +19,22 @@
       "settings": {
         "python.defaultInterpreterPath": "/usr/bin/python3",
         "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
-        "cmake.configureOnOpen": false
+        "cmake.configureOnOpen": false,
+        "terminal.integrated.profiles.linux": {
+          "bash": {
+            "path": "/bin/bash",
+            "args": [
+              "-c",
+              "source /opt/ros/humble/setup.bash && if [ -f /apollo_ws/install/setup.bash ]; then source /apollo_ws/install/setup.bash; fi && exec bash"
+            ]
+          }
+        },
+        "terminal.integrated.defaultProfile.linux": "bash"
       }
     }
   },
-  
-  "remoteUser": "root"
+
+  "remoteUser": "root",
+
+  "postCreateCommand": "echo 'Apollo workspace ready. Run: cd /apollo_ws && colcon build --symlink-install'"
 }
