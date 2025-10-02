@@ -15,6 +15,11 @@
   <depend>rviz2</depend>
   <depend>robot_state_publisher</depend>
   
+  <!-- Gazebo dependencies -->
+  <depend>gazebo_ros</depend>
+  <depend>gazebo_ros2_control</depend>
+  <depend>xacro</depend>
+  
   <export>
     <build_type>ament_cmake</build_type>
   </export>

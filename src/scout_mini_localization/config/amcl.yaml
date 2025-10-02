@@ -1,6 +1,6 @@
 amcl:
   ros__parameters:
-    use_sim_time: false
+    use_sim_time: true
 
     # Motion Model (Scout Mini is skid-steer → use DifferentialMotionModel)
     robot_model_type: "nav2_amcl::DifferentialMotionModel"
@@ -58,5 +58,5 @@ amcl:
     recovery_alpha_fast: 0.1
 
     scan_topic_qos_override:
-      reliability: "best_effot"
+      reliability: "best_effort"
       durability: "volatile"

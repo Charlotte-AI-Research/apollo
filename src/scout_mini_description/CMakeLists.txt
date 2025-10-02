@@ -14,6 +14,7 @@ find_package(urdf REQUIRED)
 find_package(rviz2 REQUIRED)
 find_package(robot_state_publisher REQUIRED)
 
+# Install directories
 install(
   DIRECTORY launch meshes rviz urdf
   DESTINATION share/${PROJECT_NAME}
