@@ -1,7 +1,94 @@
 #==============================================================================
 # TEAM 1: AMCL and Lifecycle Management
 #==============================================================================
+amcl:
+  ros__parameters:
+    use_sim_time: false
+    robot_model_type: "nav2_amcl::DifferentialMotionModel"
+    base_frame_id: "base_link"
+    odom_frame_id: "odom"
+    global_frame_id: "map"
 
+    # Scout Mini skid-steer motion model - higher values for wheel slip
+    alpha1: 0.3
+    alpha2: 0.3
+    alpha3: 0.3
+    alpha4: 0.3
+
+    # Particle filter configuration
+    max_particles: 2000
+    min_particles: 500
+    pf_err: 0.05
+    pf_z: 0.99
+
+    # Update thresholds
+    update_min_d: 0.25
+    update_min_a: 0.2
+    resample_interval: 1
+
+    # Transform publishing 
+    tf_broadcast: true
+    transform_tolerance: 1.0
+
+    # Initial pose
+    set_initial_pose: false
+    initial_pose:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      yaw: 0.0
+    initial_cov:
+      x: 0.25
+      y: 0.25
+      yaw: 0.1
+
+    # Laser model for RoboSense LiDAR
+    laser_model_type: "likelihood_field"
+    laser_likelihood_max_dist: 2.0
+    laser_max_range: 12.0
+    laser_min_range: 0.1
+    max_beams: 60
+    z_hit: 0.5
+    z_short: 0.05
+    z_max: 0.05
+    z_rand: 0.5
+    sigma_hit: 0.2
+
+    # Scan topic from Phase 2 LiDAR converter
+    scan_topic: scan
+
+map_server:
+  ros__parameters:
+    use_sim_time: false
+    yaml_filename: "/apollo_ws/src/scout_mini_localization/maps/4th_floor.yaml"
+    topic_name: "map"
+    frame_id: "map"
+
+# Main lifecycle manager for navigation components
+lifecycle_manager:
+  ros__parameters:
+    use_sim_time: false
+    autostart: true
+    node_names:
+      [
+        "controller_server",
+        "smoother_server",
+        "planner_server",
+        "behavior_server",
+        "bt_navigator",
+        "waypoint_follower",
+      ]
+    bond_timeout: 4.0
+    attempt_respawn_reconnection: true
+    bond_respawn_max_duration: 10.0
+
+# Separate lifecycle manager for localization
+lifecycle_manager_localization:
+  ros__parameters:
+    use_sim_time: false
+    autostart: true
+    node_names: ["map_server", "amcl"]
+    bond_timeout: 4.0
 #==============================================================================
 # TEAM 2: Costmaps and Planning
 #==============================================================================
