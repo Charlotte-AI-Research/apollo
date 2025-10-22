@@ -1,0 +1,6 @@
+/apollo_ws/src/build/scout_mini_msgs/rosidl_adapter/scout_mini_msgs:msg/DriverState.idl
+/apollo_ws/src/build/scout_mini_msgs/rosidl_adapter/scout_mini_msgs:msg/FaultState.idl
+/apollo_ws/src/build/scout_mini_msgs/rosidl_adapter/scout_mini_msgs:msg/LightCommand.idl
+/apollo_ws/src/build/scout_mini_msgs/rosidl_adapter/scout_mini_msgs:msg/LightState.idl
+/apollo_ws/src/build/scout_mini_msgs/rosidl_adapter/scout_mini_msgs:msg/MotorState.idl
+/apollo_ws/src/build/scout_mini_msgs/rosidl_adapter/scout_mini_msgs:msg/RobotState.idl

@@ -1,0 +1,11 @@
+{
+  "package_name": "scout_mini_msgs",
+  "non_idl_tuples": [
+    "/apollo_ws/src/scout_mini_msgs:msg/DriverState.msg",
+    "/apollo_ws/src/scout_mini_msgs:msg/FaultState.msg",
+    "/apollo_ws/src/scout_mini_msgs:msg/LightCommand.msg",
+    "/apollo_ws/src/scout_mini_msgs:msg/LightState.msg",
+    "/apollo_ws/src/scout_mini_msgs:msg/MotorState.msg",
+    "/apollo_ws/src/scout_mini_msgs:msg/RobotState.msg"
+  ]
+}

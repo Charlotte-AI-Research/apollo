@@ -1,0 +1,6 @@
+{
+  "package_name": "scout_object_detector",
+  "non_idl_tuples": [
+    "/apollo_ws/src/scout_object_detector:msg/YoloDetection.msg"
+  ]
+}

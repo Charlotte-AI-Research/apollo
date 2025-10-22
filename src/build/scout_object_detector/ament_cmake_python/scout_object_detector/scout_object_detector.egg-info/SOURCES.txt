@@ -1,0 +1,8 @@
+setup.py
+scout_object_detector/__init__.py
+scout_object_detector.egg-info/PKG-INFO
+scout_object_detector.egg-info/SOURCES.txt
+scout_object_detector.egg-info/dependency_links.txt
+scout_object_detector.egg-info/top_level.txt
+scout_object_detector/msg/__init__.py
+scout_object_detector/msg/_yolo_detection.py

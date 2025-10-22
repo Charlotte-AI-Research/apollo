@@ -1,0 +1,20 @@
+# Common parameters shared by global and local costmaps
+# NOTE: This file is for REFERENCE ONLY - actual parameters are in nav2_params.yaml
+# Keep this file for documentation purposes, but nav2_params.yaml is what will be used
+
+costmap_common:
+  # Scout Mini footprint with safety padding
+  footprint: "[[-0.356, -0.340], [0.356, -0.340], [0.356, 0.340], [-0.356, 0.340]]"
+  footprint_padding: 0.05
+
+  # Grid resolution (5cm cells - good balance of accuracy vs performance)
+  resolution: 0.05
+
+  # Transform tolerance (must match Team 1's AMCL settings)
+  transform_tolerance: 1.0
+
+  # Obstacle detection parameters from /scan topic (rslidar_laserscan_converter)
+  obstacle_max_range: 2.5 # Mark obstacles within 2.5m of robot
+  obstacle_min_range: 0.0 # No minimum range limit
+  raytrace_max_range: 3.0 # Clear free space up to 3.0m
+  raytrace_min_range: 0.0 # No minimum raytrace limit
