@@ -1,20 +1,43 @@
 #!/usr/bin/env python3
+
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument
+from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
+from launch.conditions import IfCondition
+from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
 
 def generate_launch_description():
     scout_nav_dir = FindPackageShare('scout_mini_navigation')
+    scout_localization_dir = FindPackageShare('scout_mini_localization')
 
     use_sim_time = LaunchConfiguration('use_sim_time', default='false')
+    use_rviz = LaunchConfiguration('use_rviz', default='true')
     nav2_params_file = PathJoinSubstitution([scout_nav_dir, 'config', 'nav2_params.yaml'])
+    rviz_config_file = PathJoinSubstitution([scout_nav_dir, 'rviz', 'navigation.rviz'])
 
     declare_use_sim_time_cmd = DeclareLaunchArgument(
         'use_sim_time',
         default_value='false',
         description='Use simulation time'
+    )
+
+    declare_use_rviz_cmd = DeclareLaunchArgument(
+        'use_rviz',
+        default_value='true',
+        description='Whether to launch RViz for navigation'
+    )
+
+    localization_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource([
+            scout_localization_dir,
+            '/launch/localization_launch.py'
+        ]),
+        launch_arguments={
+            'use_sim_time': use_sim_time,
+            'use_rviz': 'False',
+        }.items()
     )
 
     global_costmap_node = Node(
@@ -57,46 +80,6 @@ def generate_launch_description():
         parameters=[nav2_params_file]
     )
 
-    controller_server_node = Node(
-        package='nav2_controller',
-        executable='controller_server',
-        name='controller_server',
-        output='screen',
-        parameters=[nav2_params_file]
-    )
-
-    behavior_server_node = Node(
-        package='nav2_behaviors',
-        executable='behavior_server',
-        name='behavior_server',
-        output='screen',
-        parameters=[nav2_params_file]
-    )
-
-    bt_navigator_node = Node(
-        package='nav2_bt_navigator',
-        executable='bt_navigator',
-        name='bt_navigator',
-        output='screen',
-        parameters=[nav2_params_file]
-    )
-
-    waypoint_follower_node = Node(
-        package='nav2_waypoint_follower',
-        executable='waypoint_follower',
-        name='waypoint_follower',
-        output='screen',
-        parameters=[nav2_params_file]
-    )
-
-    velocity_smoother_node = Node(
-        package='nav2_velocity_smoother',
-        executable='velocity_smoother',
-        name='velocity_smoother',
-        output='screen',
-        parameters=[nav2_params_file]
-    )
-
     lifecycle_manager_navigation_node = Node(
         package='nav2_lifecycle_manager',
         executable='lifecycle_manager',
@@ -105,16 +88,23 @@ def generate_launch_description():
         parameters=[nav2_params_file]
     )
 
+    rviz_node = Node(
+        condition=IfCondition(use_rviz),
+        package='rviz2',
+        executable='rviz2',
+        name='rviz2_navigation',
+        output='screen',
+        arguments=['-d', rviz_config_file]
+    )
+
     return LaunchDescription([
         declare_use_sim_time_cmd,
+        declare_use_rviz_cmd,
+        localization_launch,
         global_costmap_node,
         local_costmap_node,
         planner_server_node,
         smoother_server_node,
-        controller_server_node,
-        behavior_server_node,
-        bt_navigator_node,
-        waypoint_follower_node,
-        velocity_smoother_node,
-        lifecycle_manager_navigation_node
+        lifecycle_manager_navigation_node,
+        rviz_node
     ])

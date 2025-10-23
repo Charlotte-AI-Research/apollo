@@ -1,65 +1,88 @@
+#==============================================================================
+# TEAM 1: AMCL and Lifecycle Management
+#==============================================================================
 amcl:
   ros__parameters:
-    use_sim_time: false
-
+    use_sim_time: true
     robot_model_type: "nav2_amcl::DifferentialMotionModel"
-
-    global_frame_id: "map"
-    odom_frame_id: "odom"
     base_frame_id: "base_link"
+    odom_frame_id: "odom"
+    global_frame_id: "map"
     scan_topic: "scan"
-
-    map_subscribe_transient_local: true
-
-    min_particles: 500
-    max_particles: 2000
-    pf_err: 0.05
-    pf_z: 0.99
-
+    
     alpha1: 0.3
     alpha2: 0.3
     alpha3: 0.3
     alpha4: 0.3
-    alpha5: 0.2
-
-    laser_model_type: "likelihood_field"
-    laser_max_range: 30.0
-    laser_min_range: 0.1
-    max_beams: 60
-    sigma_hit: 0.2
-    z_hit: 0.5
-    z_rand: 0.5
-    z_short: 0.05
-    z_max: 0.05
-
+    
+    max_particles: 2000
+    min_particles: 500
+    pf_err: 0.05
+    pf_z: 0.99
+    
     update_min_d: 0.25
-    update_min_a: 0.2
+    update_min_a: 0.2 
     resample_interval: 1
-
+    
     tf_broadcast: true
     transform_tolerance: 1.0
-
-    set_initial_pose: false
     
-    always_reset_initial_pose: false
-    recovery_alpha_slow: 0.001
-    recovery_alpha_fast: 0.1
+    set_initial_pose: false
+    initial_pose:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      yaw: 0.0
+    initial_cov:
+      x: 0.25
+      y: 0.25
+      yaw: 0.1
+    
+    laser_model_type: "likelihood_field"
+    laser_likelihood_max_dist: 2.0
+    laser_max_range: 12.0
+    laser_min_range: 0.1
+    max_beams: 60
+    z_hit: 0.5
+    z_short: 0.05
+    z_max: 0.05
+    z_rand: 0.5
+    sigma_hit: 0.2
 
 map_server:
   ros__parameters:
-    use_sim_time: false
-    yaml_filename: ""
+    use_sim_time: true
+    yaml_filename: "/apollo_ws/src/scout_mini_localization/maps/4th_floor.yaml"
     topic_name: "map"
     frame_id: "map"
 
-lifecycle_manager_localization:
+lifecycle_manager:
   ros__parameters:
-    use_sim_time: false
+    use_sim_time: true
     autostart: true
-    node_names: ["map_server", "amcl"]
+    node_names:
+      [
+        "controller_server",
+        "smoother_server",
+        "planner_server",
+        "behavior_server",
+        "bt_navigator",
+        "waypoint_follower",
+      ]
     bond_timeout: 4.0
     attempt_respawn_reconnection: true
     bond_respawn_max_duration: 10.0
+
+lifecycle_manager_localization:
+  ros__parameters:
+    use_sim_time: true
+    autostart: true
+    node_names: ["map_server", "amcl"]
+    bond_timeout: 4.0
+
+#==============================================================================
+# TEAM 2: Costmaps and Planning
+#==============================================================================
 
 global_costmap:
   global_costmap:
@@ -68,10 +91,13 @@ global_costmap:
       publish_frequency: 1.0
       global_frame: map
       robot_base_frame: base_link
-      use_sim_time: false
-      robot_radius: 0.3
+      use_sim_time: true
       resolution: 0.05
-      track_unknown_space: true
+      track_unknown_space: false
+      use_maximum: false
+      
+      footprint: "[[-0.356, -0.340], [0.356, -0.340], [0.356, 0.340], [-0.356, 0.340]]"
+      
       plugins: ["static_layer", "obstacle_layer", "inflation_layer"]
       
       static_layer:
@@ -88,31 +114,28 @@ global_costmap:
         footprint_clearing_enabled: true
         max_obstacle_height: 2.0
         combination_method: 1
+        
         scan:
           topic: /scan
-          max_obstacle_height: 2.0
+          obstacle_max_range: 2.5
+          obstacle_min_range: 0.0
+          raytrace_max_range: 3.0
+          raytrace_min_range: 0.0
           clearing: true
           marking: true
           data_type: "LaserScan"
-          raytrace_max_range: 3.0
-          raytrace_min_range: 0.0
-          obstacle_max_range: 2.5
-          obstacle_min_range: 0.0
+          min_obstacle_height: 0.0
+          max_obstacle_height: 2.0
       
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
-        cost_scaling_factor: 3.0
+        enabled: true
         inflation_radius: 0.55
+        cost_scaling_factor: 3.0
+        inflate_unknown: false
+        inflate_around_unknown: true
       
       always_send_full_costmap: true
-
-global_costmap_client:
-  ros__parameters:
-    use_sim_time: false
-
-global_costmap_rclcpp_node:
-  ros__parameters:
-    use_sim_time: false
 
 local_costmap:
   local_costmap:
@@ -121,69 +144,69 @@ local_costmap:
       publish_frequency: 2.0
       global_frame: odom
       robot_base_frame: base_link
-      use_sim_time: false
+      use_sim_time: true
       rolling_window: true
       width: 3
       height: 3
       resolution: 0.05
-      robot_radius: 0.3
-      plugins: ["voxel_layer", "inflation_layer"]
       
-      voxel_layer:
-        plugin: "nav2_costmap_2d::VoxelLayer"
+      footprint: "[[-0.356, -0.340], [0.356, -0.340], [0.356, 0.340], [-0.356, 0.340]]"
+      
+      plugins: ["obstacle_layer", "inflation_layer"]
+      
+      obstacle_layer:
+        plugin: "nav2_costmap_2d::ObstacleLayer"
         enabled: true
-        publish_voxel_map: true
-        origin_z: 0.0
-        z_resolution: 0.05
-        z_voxels: 16
-        max_obstacle_height: 2.0
-        mark_threshold: 0
         observation_sources: scan
+        footprint_clearing_enabled: true
+        max_obstacle_height: 2.0
+        combination_method: 1
+        
         scan:
           topic: /scan
-          max_obstacle_height: 2.0
+          obstacle_max_range: 2.5
+          obstacle_min_range: 0.0
+          raytrace_max_range: 3.0
+          raytrace_min_range: 0.0
           clearing: true
           marking: true
           data_type: "LaserScan"
-          raytrace_max_range: 3.0
-          raytrace_min_range: 0.0
-          obstacle_max_range: 2.5
-          obstacle_min_range: 0.0
+          expected_update_rate: 0.0
+          observation_persistence: 0.0
+          inf_is_valid: false
+          clear_after_reading: true
+          min_obstacle_height: 0.0
+          max_obstacle_height: 2.0
       
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
-        cost_scaling_factor: 3.0
+        enabled: true
         inflation_radius: 0.55
+        cost_scaling_factor: 3.0
       
       always_send_full_costmap: true
-
-local_costmap_client:
-  ros__parameters:
-    use_sim_time: false
-
-local_costmap_rclcpp_node:
-  ros__parameters:
-    use_sim_time: false
 
 planner_server:
   ros__parameters:
     expected_planner_frequency: 20.0
-    use_sim_time: false
     planner_plugins: ["GridBased"]
+    use_sim_time: true
     
     GridBased:
-      plugin: "nav2_navfn_planner/NavfnPlanner"
-      tolerance: 0.5
-      use_astar: false
+      plugin: "nav2_smac_planner::SmacPlannerHybrid"
+      tolerance: 0.25
+      downsample_costmap: false
       allow_unknown: true
-
-planner_server_rclcpp_node:
-  ros__parameters:
-    use_sim_time: false
+      max_planning_time: 5.0
+      motion_model_for_search: "DUBIN"
+      angle_quantization_bins: 72
+      analytic_expansion_ratio: 3.5
+      analytic_expansion_max_length: 3.0
+      minimum_turning_radius: 0.40
 
 smoother_server:
   ros__parameters:
-    use_sim_time: false
+    use_sim_time: true
     smoother_plugins: ["simple_smoother"]
     
     simple_smoother:
@@ -191,3 +214,177 @@ smoother_server:
       tolerance: 1.0e-10
       max_its: 1000
       do_refinement: true
+
+#==============================================================================
+# TEAM 3: Controllers and Behavior Trees
+# Apollo Project — Scout Mini Navigation
+# Members: Nihal, Vedanth, Arham + Dave, Jeevan
+#==============================================================================
+
+controller_server:
+  ros__parameters:
+    use_sim_time: false
+    controller_frequency: 20.0 # Control loop at 20 Hz
+    min_x_velocity_threshold: 0.001 # Minimum velocity to be considered moving
+    min_y_velocity_threshold: 0.5 # Not used for Scout Mini (no lateral)
+    min_theta_velocity_threshold: 0.001 # Minimum rotation to be considered turning
+    failure_tolerance: 0.3 # Time to wait before declaring failure
+
+    # Progress and goal checking
+    progress_checker_plugins: ["progress_checker"]
+    goal_checker_plugins: ["goal_checker"]
+    controller_plugins: ["FollowPath"]
+
+    # Progress checker - detects if robot is making progress toward goal
+    progress_checker:
+      plugin: "nav2_controller::SimpleProgressChecker"
+      required_movement_radius: 0.5 # Must move 0.5m in time window
+      movement_time_allowance: 10.0 # 10 second window for movement
+
+    # Goal checker - determines when goal is reached
+    goal_checker:
+      plugin: "nav2_controller::SimpleGoalChecker"
+      xy_goal_tolerance: 0.25 # 25cm position tolerance
+      yaw_goal_tolerance: 0.25 # ~14 degree orientation tolerance
+      stateful: true # Remember goal achievement
+
+    # Regulated Pure Pursuit Controller
+    FollowPath:
+      plugin: "nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController"
+
+      # Scout Mini velocity limits
+      desired_linear_vel: 0.5 # Preferred cruising speed
+      max_linear_accel: 2.5 # Forward acceleration limit
+      max_linear_decel: 2.5 # Braking deceleration limit
+      max_angular_accel: 3.2 # Rotational acceleration limit
+      max_angular_vel: 1.0 # Maximum rotation speed
+
+      # Pure pursuit algorithm parameters
+      lookahead_dist: 0.6 # Distance to look ahead on path
+      min_lookahead_dist: 0.3 # Minimum lookahead distance
+      max_lookahead_dist: 0.9 # Maximum lookahead distance
+      lookahead_time: 1.5 # Time-based lookahead (alternative)
+
+      # Regulation features - tuned for Scout Mini
+      use_velocity_scaled_lookahead_dist: true # Adjust lookahead based on speed for smoother turns
+      min_approach_linear_velocity: 0.05 # Slow to 5cm/s when approaching goal
+      approach_velocity_scaling_dist: 0.6 # Start slowing down 60cm from goal
+      use_collision_detection: true # Enable obstacle avoidance for safety
+      use_regulated_linear_velocity_scaling: true # Slow down for tight turns
+      regulated_linear_scaling_min_radius: 0.90 # Start slowing at 90cm curve radius
+      regulated_linear_scaling_min_speed: 0.25 # Maintain at least 25cm/s in turns
+
+      # Rotate to heading behavior (turn toward goal orientation)
+      use_rotate_to_heading: true # Align with goal orientation before completing
+      rotate_to_heading_angular_vel: 1.8 # Use 1.8 rad/s for final rotation
+      max_allowed_time_to_collision: 1.0 # 1 second safety margin for obstacles
+      use_interpolation: true # Smooth path following between waypoints
+
+      # Transform and goal handling
+      transform_tolerance: 0.1 # Transform lookup tolerance
+      allow_reversing: false # Don't allow backing up
+
+      # === TODO: Tuning Tasks ===
+      # TODO: Adjust lookahead_dist and approach scaling to smooth out turns.
+      # TODO: Tune velocity scaling and acceleration limits through sim testing.
+      # TODO: Ensure Scout Mini respects min_turning_radius: 0.40 m.
+
+#==============================================================================
+# BEHAVIOR TREE NAVIGATOR
+#==============================================================================
+
+bt_navigator:
+  ros__parameters:
+    use_sim_time: false
+    global_frame: map
+    robot_base_frame: base_link
+    odom_topic: /odom
+    bt_loop_duration: 10.0
+    default_server_timeout: 20.0
+    wait_for_service_timeout: 1000
+    action_server_result_timeout: 900.0
+    navigators: ["navigate_to_pose", "navigate_through_poses"]
+    default_nav_to_pose_bt_xml: ""
+    default_nav_through_poses_bt_xml: ""
+    plugin_lib_names:
+      - nav2_compute_path_to_pose_action_bt_node
+      - nav2_compute_path_through_poses_action_bt_node
+      - nav2_smooth_path_action_bt_node
+      - nav2_follow_path_action_bt_node
+      - nav2_spin_action_bt_node
+      - nav2_wait_action_bt_node
+      - nav2_back_up_action_bt_node
+      - nav2_clear_costmap_service_bt_node
+      - nav2_is_stuck_condition_bt_node
+      - nav2_goal_reached_condition_bt_node
+      - nav2_goal_updated_condition_bt_node
+      - nav2_is_path_valid_condition_bt_node
+      - nav2_initial_pose_received_condition_bt_node
+      - nav2_reinitialize_global_localization_service_bt_node
+      - nav2_rate_controller_bt_node
+      - nav2_distance_controller_bt_node
+      - nav2_recovery_node_bt_node
+      - nav2_pipeline_sequence_bt_node
+      - nav2_round_robin_node_bt_node
+      - nav2_transform_available_condition_bt_node
+      - nav2_time_expired_condition_bt_node
+      - nav2_distance_traveled_condition_bt_node
+      - nav2_single_trigger_bt_node
+      - nav2_navigate_to_pose_action_bt_node
+      - nav2_navigate_through_poses_action_bt_node
+
+    # === TODO: ===
+    # TODO: Add plugin libraries for any custom behavior tree nodes if you extend XML.
+    # TODO: Adjust bt_loop_duration if tree updates too slowly or too quickly.
+
+#==============================================================================
+# RECOVERY BEHAVIORS
+#==============================================================================
+
+behavior_server:
+  ros__parameters:
+    use_sim_time: false
+    behavior_plugins: ["spin", "backup", "drive_on_heading", "wait"]
+
+    spin:
+      plugin: "nav2_behaviors::Spin"
+      simulate_ahead_time: 2.0
+      max_rotational_vel: 1.0
+      min_rotational_vel: 0.4
+      rotational_acc_lim: 3.2
+
+    backup:
+      plugin: "nav2_behaviors::BackUp"
+      simulate_ahead_time: 2.0
+      backup_speed: 0.05
+      time_allowance: 15.0
+
+    drive_on_heading:
+      plugin: "nav2_behaviors::DriveOnHeading"
+      simulate_ahead_time: 2.0
+      speed: 0.04
+      time_allowance: 8.0
+
+    wait:
+      plugin: "nav2_behaviors::Wait"
+      wait_duration: 5.0
+
+#==============================================================================
+# WAYPOINT FOLLOWER (OPTIONAL)
+#==============================================================================
+
+waypoint_follower:
+  ros__parameters:
+    use_sim_time: false
+    loop_rate: 20
+    stop_on_failure: false
+    waypoint_task_executor_plugin: "wait_at_waypoint"
+
+wait_at_waypoint:
+  plugin: "nav2_waypoint_follower::WaitAtWaypoint"
+  enabled: true
+  waypoint_pause_duration: 200
+
+#==============================================================================
+# END OF TEAM 3 SECTION
+#==============================================================================
