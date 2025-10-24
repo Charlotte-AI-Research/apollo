@@ -1,9 +1,0 @@
-/apollo_ws/src/scout_mini_navigation/build/scout_mini_navigation/CMakeFiles/uninstall.dir
-/apollo_ws/src/scout_mini_navigation/build/scout_mini_navigation/CMakeFiles/scout_mini_navigation_uninstall.dir
-/apollo_ws/src/scout_mini_navigation/build/scout_mini_navigation/CMakeFiles/test.dir
-/apollo_ws/src/scout_mini_navigation/build/scout_mini_navigation/CMakeFiles/edit_cache.dir
-/apollo_ws/src/scout_mini_navigation/build/scout_mini_navigation/CMakeFiles/rebuild_cache.dir
-/apollo_ws/src/scout_mini_navigation/build/scout_mini_navigation/CMakeFiles/list_install_components.dir
-/apollo_ws/src/scout_mini_navigation/build/scout_mini_navigation/CMakeFiles/install.dir
-/apollo_ws/src/scout_mini_navigation/build/scout_mini_navigation/CMakeFiles/install/local.dir
-/apollo_ws/src/scout_mini_navigation/build/scout_mini_navigation/CMakeFiles/install/strip.dir

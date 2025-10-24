@@ -1,0 +1,19 @@
+pointcloud_to_laserscan:
+  ros__parameters:
+    target_frame: ''  # Use source frame
+    transform_tolerance: 0.1
+    min_height: -0.05  # Tight height range for horizontal slice
+    max_height: 0.05
+    angle_min: -3.14159
+    angle_max: 3.14159
+    angle_increment: 0.0087  # ~0.5 degrees
+    scan_time: 0.1
+    range_min: 0.1
+    range_max: 30.0
+    use_inf: false  # Use max_range instead of inf
+    inf_epsilon: 1.0
+    # QoS settings for scan output
+    qos_overrides:
+      /scan:
+        publisher:
+          reliability: reliable

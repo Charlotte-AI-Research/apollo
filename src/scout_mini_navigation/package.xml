@@ -3,19 +3,40 @@
 <package format="3">
   <name>scout_mini_navigation</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Scout Mini Navigation Package - Unified Nav2 configuration for Teams 2 and 3</description>
   <maintainer email="smit.r.patel5@gmail.com">root</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
-  <export>
-    <build_type>ament_cmake</build_type>
-  </export>
+  <!-- Runtime Dependencies -->
   <depend>rclpy</depend>
   <depend>geometry_msgs</depend>
 
+  <!-- Team 1 Integration -->
+  <depend>scout_mini_localization</depend>
+
+  <!-- Team 2: Costmaps and Planning -->
+  <depend>nav2_costmap_2d</depend>
+  <depend>nav2_planner</depend>
+  <depend>nav2_smoother</depend>
+
+  <!-- Team 3: Controllers and Behaviors -->
+  <depend>nav2_controller</depend>
+  <depend>nav2_behaviors</depend>
+  <depend>nav2_bt_navigator</depend>
+  <depend>nav2_waypoint_follower</depend>
+
+  <!-- Lifecycle Management -->
+  <depend>nav2_lifecycle_manager</depend>
+
+  <!-- Visualization -->
+  <depend>rviz2</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
 </package>

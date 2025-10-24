@@ -1,0 +1,69 @@
+# ROS 2 build artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+*.pyc
+
+# C++
+*.o
+*.a
+*.so
+*.dylib
+CMakeFiles/
+cmake_install.cmake
+CMakeCache.txt
+Makefile
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Backup files
+*.backup
+*.bak
+*.orig
+
+# Logs
+*.log
+
+# Bag files (ROS data recordings)
+*.bag
+*.db3
+
+# Map building artifacts
+*.pgm.tmp
+*.yaml.tmp
+
+# Temporary files
+*.tmp
+.temp/
+temp/
+
+# Colcon artifacts
+COLCON_IGNORE
+.colcon_install_layout
+
+# Documentation build
+docs/_build/
+*.pdf
+
+# Environment
+.env
+venv/
+env/
+
+# Generated files
+*.autosave

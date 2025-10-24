@@ -1,61 +1,55 @@
 amcl:
   ros__parameters:
-    use_sim_time: true
-
+    use_sim_time: false  
     robot_model_type: "nav2_amcl::DifferentialMotionModel"
-
-    # Frames
-    global_frame_id: "map"
-    odom_frame_id: "odom"
     base_frame_id: "base_link"
-    scan_topic: "scan"
+    odom_frame_id: "odom"
+    global_frame_id: "map"
 
-    map_subscribe_transient_local: true
+    # Scout Mini skid-steer motion model - higher values for wheel slip
+    alpha1: 0.3  # Rotation noise from rotation
+    alpha2: 0.3  # Rotation noise from translation
+    alpha3: 0.3  # Translation noise from translation
+    alpha4: 0.3  # Translation noise from rotation
 
+    # Particle filter configuration
+    max_particles: 2000  # Maximum particles for localization
+    min_particles: 500   # Minimum particles to maintain
+    pf_err: 0.05         # Particle filter error threshold
+    pf_z: 0.99           # Particle filter Z-value
 
-    # Particle Filter
-    min_particles: 500
-    max_particles: 2000
-    pf_err: 0.05
-    pf_z: 0.99
+    # Update thresholds (how much robot must move before updating)
+    update_min_d: 0.25   # Minimum translation (meters)
+    update_min_a: 0.2    # Minimum rotation (radians)
+    resample_interval: 1 # Resample every update
 
-    # Odometry Noise Parameters (higher values for skid-steer)
-    alpha1: 0.8   # Rotational noise from rotation
-    alpha2: 0.4   # Rotational noise from translation
-    alpha3: 0.8   # Translational noise from translation
-    alpha4: 0.4   # Translational noise from rotation
-    alpha5: 0.2   # Strafe noise (not used much for differential/skid-steer)
+    # Transform publishing 
+    tf_broadcast: true   # Publish map->odom transform
+    transform_tolerance: 1.0  # Transform timeout (seconds)
 
-    # Laser Model
+    # Initial pose (set to false, will use 2D Pose Estimate in RViz)
+    set_initial_pose: false
+    initial_pose:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      yaw: 0.0
+    initial_cov:
+      x: 0.25    # Initial pose covariance
+      y: 0.25
+      yaw: 0.1
+
+    # Laser model for RoboSense LiDAR
     laser_model_type: "likelihood_field"
-    laser_max_range: 30.0   # Match lidar specs
-    laser_min_range: 0.1
-    max_beams: 180
-    sigma_hit: 0.2
-    z_hit: 0.5
-    z_rand: 0.5
+    laser_likelihood_max_dist: 2.0  # Maximum distance to consider obstacles
+    laser_max_range: 15.0            # Maximum range of laser (meters)
+    laser_min_range: 0.1             # Minimum range of laser (meters)
+    max_beams: 60                    # Number of beams to use (reduce for performance)
+    z_hit: 0.5                       # Weight for correct measurements
+    z_short: 0.05                    # Weight for short measurements
+    z_max: 0.05                      # Weight for max range measurements
+    z_rand: 0.5                      # Weight for random measurements
+    sigma_hit: 0.2                   # Std dev of hit distribution
 
-    # Update thresholds (when to resample)
-    update_min_d: 0.25   # meters
-    update_min_a: 0.2    # radians (~11°)
-
-    # Transform publishing
-    tf_broadcast: true
-
-    # Initial pose parameters (so AMCL can start without manual intervention)
-    set_initial_pose: true
-    initial_pose_x: 0.0
-    initial_pose_y: 0.0
-    initial_pose_a: 0.0
-    initial_pose_covariance_x: 0.25
-    initial_pose_covariance_y: 0.25
-    initial_pose_covariance_yaw: 0.06853892326654787
-
-    # Recovery behavior for kidnapped-robot scenarios
-    always_reset_initial_pose: false
-    recovery_alpha_slow: 0.001
-    recovery_alpha_fast: 0.1
-
-    scan_topic_qos_override:
-      reliability: "best_effort"
-      durability: "volatile"
+    # Scan topic from rslidar_laserscan_converter
+    scan_topic: scan
