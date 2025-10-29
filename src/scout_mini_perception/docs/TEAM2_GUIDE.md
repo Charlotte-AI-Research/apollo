@@ -1,6 +1,7 @@
 # Team 2: Depth Estimation
 
-Take the target person's location from Team 1, use the depth camera to calculate how far away they are and what angle they're at, then publish this information for Team 3.
+# General Overview
+Subscribe to Team 1's target person detections and the RealSense depth camera stream. When a target is detected, extract depth values from the center region of the target's bounding box (avoiding noisy edges). Filter out invalid depth readings, calculate the median distance, and apply temporal smoothing to reduce jitter. Use camera intrinsic parameters to convert the target's pixel coordinates into a lateral angle (how far left or right of center). Publish a custom message with distance, angle, and confidence metrics that Team 3 will use for robot control.
 
 ---
 

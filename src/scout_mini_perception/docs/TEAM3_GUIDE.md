@@ -1,6 +1,7 @@
 # Team 3: Follow Controller
 
-Control the robot to follow the target person while maintaining 3 feet distance. Use distance and angle information from Team 2 to generate smooth, safe movement commands.
+# General Overview
+Implement a proportional control system that consumes distance and angle measurements from Team 2 to generate velocity commands for the robot. Maintain a state machine (SEARCHING, FOLLOWING, LOST, EMERGENCY_STOP) to handle different scenarios. Calculate linear velocity (forward/backward speed) based on distance error from the 3-foot target, and angular velocity (rotation speed) to keep the person centered in view. Apply dead zones to prevent oscillation, enforce speed limits for safety, implement emergency stop behavior when too close, and publish Twist messages to /cmd_vel to drive the robot's wheels while maintaining smooth, stable following behavior.
 
 ---
 

@@ -1,6 +1,8 @@
 # Team 1: Person Detection & Color Filtering
 
-Detect people in the camera feed, identify which person is wearing bright green, and publish the target person's location for Team 2 to use.
+# General Overview
+Detect all people visible in the camera's color image stream using YOLOv11s object detection. For each detected person, analyze their bounding box region to calculate what percentage of their pixels match a specific color (bright green). Select the person with the highest color match as the target, then publish a custom ROS2 message containing the target's bounding box coordinates, center point, color match score, and detection confidence. This information will be used by Team 2 for depth analysis.
+
 
 ---
 
